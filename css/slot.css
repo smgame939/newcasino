@@ -1,0 +1,1511 @@
+@charset "UTF-8";
+
+.logoFrame[data-v-650f0610] {
+    margin: -1px
+}
+
+[data-v-c293754c] .v_deep_slot .banner {
+    margin-top: 96px
+}
+
+[data-v-c293754c] .v_deep_slot .aniModel {
+    -webkit-animation: aniModel-c293754c 1s infinite;
+    animation: aniModel-c293754c 1s infinite
+}
+
+@keyframes aniModel-c293754c {
+    0% {
+        background-position-y: 0px
+    }
+
+    50% {
+        background-position-y: 5px
+    }
+
+    to {
+        background-position-y: 0px
+    }
+}
+
+@media (max-width: 1572px) {
+    [data-v-c293754c] .v_deep_slot .main_content_wrap {
+        width: 87%;
+        margin-left: 6%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .modelA {
+        top: 6%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .modelA {
+        top: 7%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .modelA,
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .modelA {
+        top: 5%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .modelA {
+        top: 6%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .modelA {
+        top: 7%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .modelA {
+        top: 6%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .modelA {
+        top: 5%
+    }
+}
+
+@media (max-width: 1552px) {
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .leftZone .pic {
+        padding-bottom: 52%
+    }
+}
+
+@media (max-width: 1480px) {
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .leftZone .pic {
+        padding-bottom: 54%
+    }
+}
+
+@media (max-width: 1420px) {
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul {
+        justify-content: space-between
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li {
+        width: 49%;
+        height: 180px
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li .logo {
+        background-size: cover;
+        position: absolute;
+        right: 24%;
+        top: 17%;
+        z-index: 2
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .logoA {
+        width: 8.9%;
+        padding-bottom: 8.9%;
+        right: 27%;
+        top: 21%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .logoA {
+        width: 13%;
+        padding-bottom: 7.1%;
+        right: 25%;
+        top: 24%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .logoA {
+        width: 13.2%;
+        padding-bottom: 7.8%;
+        top: 23%;
+        right: 26%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .logoA {
+        width: 8.2%;
+        right: 27%;
+        top: 23%;
+        padding-bottom: 8.1%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .logoA {
+        width: 8.3%;
+        padding-bottom: 11.9%;
+        right: 28%;
+        top: 12%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .logoA {
+        width: 19%;
+        padding-bottom: 7.5%;
+        top: 24%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .logoA {
+        width: 11%;
+        padding-bottom: 9.1%;
+        top: 20%;
+        right: 27%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .logoA {
+        width: 17%;
+        padding-bottom: 8.1%;
+        right: 23%;
+        top: 21%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .modelA {
+        padding-bottom: 31%;
+        width: 54%;
+        top: 6%;
+        left: -4%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .modelA {
+        padding-bottom: 34%;
+        width: 43%;
+        left: 6%;
+        top: 4%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .modelA {
+        padding-bottom: 33.7%;
+        width: 57%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .modelA {
+        padding-bottom: 36%;
+        width: 60%;
+        left: -5%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .modelA {
+        padding-bottom: 36%;
+        width: 48%;
+        left: 2%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .modelA {
+        padding-bottom: 36%;
+        width: 54%;
+        left: 4%;
+        top: 4%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .modelA {
+        padding-bottom: 36%;
+        width: 61%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .modelA {
+        padding-bottom: 36%;
+        width: 49%;
+        top: 2%;
+        left: 2%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li .txt {
+        left: 50%;
+        top: 54%;
+        transform: translate(-32%, -17%)
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone {
+        width: 85%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone {
+        flex-direction: column-reverse
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .rightZone ul li {
+        width: 32.8%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .slotLeft {
+        width: 100%
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .rightZone ul {
+        display: flex;
+        justify-content: space-between
+    }
+
+    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .rightZone {
+        width: 100%
+    }
+
+    [data-v-c293754c] .v_deep_slot .main_content .main_content_wrap .infoZone {
+        width: 85%
+    }
+
+    [data-v-c293754c] .v_deep_slot .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 183px
+    }
+}
+
+[data-v-c293754c] .v_deep_slot .main_content_wrap_slotGame {
+    width: 95%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA {
+    margin-top: 20px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone {
+    animation: leftIn-c293754c .4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 3%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party {
+    width: 85%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more {
+    width: 100%;
+    height: 47px;
+    margin-top: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #d5aa83;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone {
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 1;
+    padding: 12px;
+    cursor: pointer
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone .arrow-g {
+    position: relative;
+    height: 47px;
+    width: 20px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone .arrow-g span {
+    color: #6a7391;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .4s ease-out;
+    transform: translate(-50%, -50%) rotate(180deg)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrowGO .arrow-g span {
+    transform: translate(-50%, -50%) rotate(0)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone .txt {
+    color: #6a7391;
+    font-size: 18px;
+    padding: 0 9px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame {
+    height: 92px;
+    background-color: var(--main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .4s ease-out;
+    position: relative;
+    margin-right: 2.3%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame span {
+    font-size: 2.5vw;
+    background: rgb(161, 170, 195);
+    background: linear-gradient(360deg, rgb(161, 170, 195) 0%, rgb(216, 219, 239) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: .4s ease-out
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame h4 {
+    color: var(--txtColor66);
+    font-size: 14px;
+    transition: .4s ease-out;
+    white-space: normal;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame:hover span {
+    background: rgb(215, 175, 138);
+    background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame.active h4,
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame:hover h4 {
+    color: #d7af8a
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: baseline
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li {
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .4s ease-out;
+    position: relative;
+    margin-right: 1.5%;
+    width: 8.5%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span {
+    font-size: 46px;
+    background: rgb(161, 170, 195);
+    background: linear-gradient(360deg, rgb(161, 170, 195) 0%, rgb(216, 219, 239) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .4s ease-out;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconFavor {
+    font-size: 46px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconFavor,
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconALL {
+    font-size: 2.4vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconMGP {
+    font-size: 2.3vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconAG {
+    font-size: 3.3vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconHABA,
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPRG {
+    font-size: 2.9vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPG1 {
+    font-size: 3.8vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPT3 {
+    font-size: 3.4vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconIDN {
+    font-size: 2.4vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconSG {
+    font-size: 2.6vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconJILI {
+    font-size: 3.6vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconEVO {
+    font-size: 2.2vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconBBIN {
+    font-size: 1.5vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconJDB {
+    font-size: 1.7vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconTPG,
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconAMEBA {
+    font-size: 2vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li h4 {
+    color: var(--txtColor66);
+    font-size: 14px;
+    transition: .4s ease-out;
+    white-space: normal;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li:hover h4,
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li.active h4 {
+    color: var(--txtColor75)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li.active span,
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li:hover span {
+    background: rgb(215, 175, 138);
+    background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .event-tip,
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .event-tip {
+    background-color: #dc1919;
+    color: #fff;
+    padding: 4px;
+    position: relative;
+    font-size: .5vw;
+    border-radius: 3px 0 0 3px;
+    border-left: 1px solid #dc1919;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    margin: 7px 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .event-tip:before,
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .event-tip:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #dc1919;
+    position: absolute;
+    left: -12px;
+    top: 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .pic {
+    width: 3.5vw;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .innerPic {
+    width: 100%;
+    padding-bottom: 66.3%;
+    background-size: cover;
+    transition: .4s ease-out
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .4s ease-out;
+    position: relative;
+    margin-right: 1.5%;
+    width: 8.5%;
+    margin-bottom: 1%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .pic {
+    width: 3.5vw;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .innerPic {
+    width: 100%;
+    padding-bottom: 66.3%;
+    background-size: cover;
+    transition: .4s ease-out
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li.maintainGo .maintain {
+    display: flex
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .maintain {
+    display: none;
+    background-color: var(--bgColor084);
+    border: 1px solid var(--bdColor052);
+    border-radius: 10px;
+    width: 121px;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7px;
+    cursor: none
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .maintain span,
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul .active .maintain span {
+    font-size: 46px;
+    background: var(--txtColor85);
+    -webkit-background-clip: text
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .maintain h4 {
+    color: var(--txtColor85);
+    font-size: 12px;
+    font-weight: 700;
+    transform: scale(.8)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone {
+    position: relative;
+    width: 12%;
+    margin-top: 32px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone input {
+    border-bottom: 1px solid var(--bdColor03) !important;
+    color: var(--txtColor66);
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-left: 3%;
+    padding-bottom: 8px;
+    margin-bottom: 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone input::placeholder {
+    color: var(--txtColor36);
+    font-size: 14px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone .searchIcon {
+    position: absolute;
+    right: 0;
+    top: 9px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone .searchIcon span {
+    color: var(--txtColor66);
+    font-size: 1.2vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone {
+    background-color: var(--bgColor017);
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    padding-bottom: 11px;
+    animation: downIn-c293754c .4s;
+    animation-fill-mode: forwards;
+    opacity: 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone.off {
+    animation-name: none
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby {
+    padding: 28px 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li {
+    margin-bottom: 29px;
+    width: 12.5%;
+    margin-right: 12px;
+    min-height: 15.5vh;
+    position: relative
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a {
+    text-decoration: none
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: var(--bgColor017);
+    border: 1px solid var(--bdColor010);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1px;
+    overflow: hidden;
+    border-radius: 30px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .logoFrame img {
+    height: 23px;
+    width: auto
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .logoFrame {
+    clip-path: polygon(41% 0%, 100% 0%, 100% 100%, 55% 100%);
+    background-color: #000;
+    width: 115%;
+    height: 37px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 57%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .ppPro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .ppPro img {
+    width: 4.5vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic img {
+    z-index: 1;
+    position: relative;
+    transition: .3s ease-out;
+    width: 100%;
+    height: auto
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic:before {
+    content: "";
+    position: absolute;
+    width: 177px;
+    height: 177px;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .name {
+    position: relative;
+    width: 95%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .name span {
+    z-index: 1;
+    color: var(--txtColor66);
+    font-weight: bolder;
+    font-size: .9vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 196px;
+    margin-left: 26%
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgColor013_op);
+    z-index: 2;
+    position: absolute;
+    border-radius: 5px;
+    display: none;
+    transition: .4s ease-out;
+    cursor: pointer
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .imgFrame {
+    height: 24%;
+    width: 100% !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -116%);
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .imgFrame img {
+    height: auto !important;
+    width: 42% !important
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .cubeLogo .imgFrame img {
+    width: 26% !important
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .cubeLogo .imgFrame {
+    transform: translate(-50%, -138%) !important
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li:hover .pic>img {
+    transform: rotate(10deg) scale(1.1)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .gogo {
+    width: 75%;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    transition: .4s ease-out;
+    box-shadow: 6px 5px 7px var(--shadow08) .5;
+    background: rgb(242, 208, 155);
+    background: linear-gradient(90deg, rgb(242, 208, 155) 0%, rgb(219, 184, 151) 40%, rgb(142, 112, 84) 100%);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, 6%);
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .gogo span {
+    color: var(--txtColor02);
+    font-size: .8vw
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li:hover .mask {
+    display: block
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart01 {
+    position: absolute;
+    top: 4px;
+    left: -4px;
+    cursor: pointer
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart01 span {
+    transition: all .2s linear;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    color: var(--txtColor76) !important;
+    position: absolute
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart:before {
+    display: none !important
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart {
+    position: absolute;
+    top: -7px;
+    left: -15px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart label:before {
+    display: none
+}
+
+[data-v-c293754c] .v_deep_slot [class^=fa] {
+    font-style: normal
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like],
+[data-v-c293754c] .v_deep_slot input[name^=favourite] {
+    display: none
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for],
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] {
+    background-color: var(--bgColor020);
+    -webkit-border-radius: .25em;
+    -moz-border-radius: .25em;
+    border-radius: .25em;
+    color: var(--txtColor02);
+    cursor: pointer;
+    font-weight: 300;
+    margin: .35em;
+    padding: 6px 12px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] {
+    background-color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for]:hover,
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for]:focus,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:hover,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:focus {
+    background-color: var(--txtColor21);
+    outline: 0
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:hover,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:focus {
+    background-color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent {
+    background-color: transparent;
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent {
+    background-color: transparent;
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:hover,
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:focus,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:hover,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:focus {
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:hover,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:focus {
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:hover .icon-icconFavorFull,
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:focus .icon-icconFavorFull,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:hover .icon-icconFavorFull,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:focus .icon-icconFavorFull {
+    opacity: .25
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent :hover,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent :focus {
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .do,
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .done,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .do,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .done {
+    margin-left: .35em
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .done,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .done,
+[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .do,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .do {
+    display: none
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .do,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .do,
+[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .done,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .done {
+    display: inline-block
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa {
+    display: inline-block;
+    position: relative
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavor,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavor {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    font-size: 25px;
+    color: var(--txtColor76)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavorFull,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavorFull {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    font-size: 25px;
+    color: var(--txtColor76)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavorFull.fx {
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavorFull.fx {
+    color: var(--txtColor21)
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavor,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavor {
+    opacity: 0
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavorFull,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavorFull {
+    opacity: 1
+}
+
+[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavorFull.fx,
+[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavorFull.fx {
+    -moz-animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
+    -o-animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
+    -webkit-animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
+    animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
+    opacity: 0
+}
+
+@keyframes expand-c293754c {
+    0% {
+        -moz-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1)
+    }
+
+    50% {
+        -moz-transform: scale(2, 2);
+        -o-transform: scale(2, 2);
+        -webkit-transform: scale(2, 2);
+        transform: scale(2);
+        opacity: .7
+    }
+
+    to {
+        -moz-transform: scale(6, 6);
+        -o-transform: scale(6, 6);
+        -webkit-transform: scale(6, 6);
+        transform: scale(6);
+        opacity: 0
+    }
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block {
+    float: left;
+    width: 100%;
+    display: flex;
+    margin-top: 10px
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block .page-list {
+    text-align: center;
+    display: flex;
+    margin: 0 auto
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul {
+    width: auto;
+    display: inline-block !important;
+    padding: 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li {
+    background: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 0 !important;
+    width: auto !important;
+    margin-right: 2px !important
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul .prev {
+    margin-left: 0
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li a {
+    font-size: 12px;
+    color: var(--txtColor88);
+    border: 1px solid var(--bdColor058);
+    padding: 0 12px;
+    border-radius: 3px;
+    transition: .4s ease-out;
+    text-decoration: none
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li a:hover {
+    border: 1px solid var(--bdColor018)
+}
+
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul .on,
+[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li:hover a {
+    color: var(--txtColor02);
+    background: var(--bgColor121);
+    border: 1px solid var(--bdColor057)
+}
+
+[data-v-c293754c] .v_deep_slot .pager_block ul .first span,
+[data-v-c293754c] .v_deep_slot .pager_block ul .last span {
+    position: relative
+}
+
+[data-v-c293754c] .v_deep_slot .pager_block ul .first span:after {
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: var(--bdColor043);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(25px, -50%)
+}
+
+[data-v-c293754c] .v_deep_slot .pager_block ul .last span:after {
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: var(--bdColor043);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-22px, -50%)
+}
+
+[data-v-c293754c] .v_deep_slot .pager_block ul li.first:hover a,
+[data-v-c293754c] .v_deep_slot .pager_block ul li.prev:hover a,
+[data-v-c293754c] .v_deep_slot .pager_block ul li.next:hover a,
+[data-v-c293754c] .v_deep_slot .pager_block ul li.last:hover a {
+    color: var(--txtColor89) !important;
+    background: var(--bgColor092) !important;
+    border: 1px solid var(--bdColor058) !important
+}
+
+[data-v-c293754c] .v_deep_slot .activePlay {
+    -webkit-animation: activePlay-c293754c 1s infinite;
+    animation: activePlay-c293754c 1s infinite
+}
+
+@keyframes activePlay-c293754c {
+    0% {
+        transform: translate(-50%, 6%)
+    }
+
+    50% {
+        transform: translate(-50%)
+    }
+
+    to {
+        transform: translate(-50%, 6%)
+    }
+}
+
+[data-v-c293754c] .v_deep_slot .aniTab {
+    -webkit-animation: aniTab-c293754c 1s infinite;
+    animation: aniTab-c293754c 1s infinite
+}
+
+@keyframes aniTab-c293754c {
+    0% {
+        background: rgb(215, 175, 138);
+        background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transform: scale(1)
+    }
+
+    50% {
+        background: rgb(215, 175, 138);
+        background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transform: scale(1.1)
+    }
+
+    to {
+        background: rgb(215, 175, 138);
+        background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transform: scale(1)
+    }
+}
+
+@keyframes leftIn-c293754c {
+    0% {
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        transform: translate(50%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translate(0);
+        opacity: 1
+    }
+}
+
+@keyframes topIn-c293754c {
+    0% {
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes downIn-c293754c {
+    0% {
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -o-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+[data-v-c293754c] .v_deep_slot input::-webkit-calendar-picker-indicator {
+    opacity: 0
+}
+
+[data-v-c293754c] .v_deep_slot input[type=text]:not(.browser-default):focus:not([readonly]) {
+    box-shadow: none
+}
+
+.fixHeight[data-v-c293754c] {
+    min-height: 100vh
+}
+
+.gameZoneA .tabZone .MgpHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightMgpHtml0.png")
+}
+.gameZoneA .tabZone .MgpHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightMgpHtml.png")
+}
+.gameZoneA .tabZone .GFGFishSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGFGFishSlot0.png")
+}
+.gameZoneA .tabZone .GFGFishSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGFGFishSlot.png")
+}
+.gameZoneA .tabZone .EvoSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightEvoSlot0.png")
+}
+.gameZoneA .tabZone .EvoSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightEvoSlot.png")
+}
+.gameZoneA .tabZone .HabaHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightHabaHtml0.png")
+}
+.gameZoneA .tabZone .HabaHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightHabaHtml.png")
+}
+.gameZoneA .tabZone .Pg1Slot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightPg1Slot0.png")
+}
+.gameZoneA .tabZone .Pg1Slot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightPg1Slot.png")
+}
+.gameZoneA .tabZone .BbinSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightBbinSlot0.png")
+}
+.gameZoneA .tabZone .BbinSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightBbinSlot.png")
+}
+.gameZoneA .tabZone .SgHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSgHtml0.png")
+}
+.gameZoneA .tabZone .SgHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSgHtml.png")
+}
+.gameZoneA .tabZone .JiliHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightJiliHtml0.png")
+}
+.gameZoneA .tabZone .JiliHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightJiliHtml.png")
+}
+.gameZoneA .tabZone .TpgHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightTpgHtml0.png")
+}
+.gameZoneA .tabZone .TpgHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightTpgHtml.png")
+}
+.gameZoneA .tabZone .AmebaHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightAmebaHtml0.png")
+}
+.gameZoneA .tabZone .AmebaHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightAmebaHtml.png")
+}
+.gameZoneA .tabZone .CQ9Html .pic .innerPic {
+    background-image: url("../image/slot/logo/LightCQ9Html0.png")
+}
+.gameZoneA .tabZone .CQ9Html:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightCQ9Html.png")
+}
+.gameZoneA .tabZone .GPISlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGPISlot0.png")
+}
+.gameZoneA .tabZone .GPISlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGPISlot.png")
+}
+.gameZoneA .tabZone .Ox2Slot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightOx2Slot0.png")
+}
+.gameZoneA .tabZone .Ox2Slot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightOx2Slot.png")
+}
+.gameZoneA .tabZone .BNGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightBNGSlot0.png")
+}
+.gameZoneA .tabZone .BNGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightBNGSlot.png")
+}
+.gameZoneA .tabZone .DSSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightDSSlot0.png")
+}
+.gameZoneA .tabZone .DSSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightDSSlot.png")
+}
+.gameZoneA .tabZone .BPGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightBPGSlot0.png")
+}
+.gameZoneA .tabZone .BPGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightBPGSlot.png")
+}
+.gameZoneA .tabZone .FNGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightFNGSlot0.png")
+}
+.gameZoneA .tabZone .FNGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightFNGSlot.png")
+}
+.gameZoneA .tabZone .FUGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightFUGSlot0.png")
+}
+.gameZoneA .tabZone .FUGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightFUGSlot.png")
+}
+.gameZoneA .tabZone .GASlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGASlot0.png")
+}
+.gameZoneA .tabZone .GASlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGASlot.png")
+}
+.gameZoneA .tabZone .GFGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGFGSlot0.png")
+}
+.gameZoneA .tabZone .GFGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGFGSlot.png")
+}
+.gameZoneA .tabZone .GZXSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGZXSlot0.png")
+}
+.gameZoneA .tabZone .GZXSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightGZXSlot.png")
+}
+.gameZoneA .tabZone .HAKSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightHAKSlot0.png")
+}
+.gameZoneA .tabZone .HAKSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightHAKSlot.png")
+}
+.gameZoneA .tabZone .IDSSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightIDSSlot0.png")
+}
+.gameZoneA .tabZone .IDSSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightIDSSlot.png")
+}
+.gameZoneA .tabZone .KGLSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightKGLSlot0.png")
+}
+.gameZoneA .tabZone .KGLSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightKGLSlot.png")
+}
+.gameZoneA .tabZone .MAVSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightMAVSlot0.png")
+}
+.gameZoneA .tabZone .MAVSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightMAVSlot.png")
+}
+.gameZoneA .tabZone .MOBSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightMOBSlot0.png")
+}
+.gameZoneA .tabZone .MOBSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightMOBSlot.png")
+}
+.gameZoneA .tabZone .NGESlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightNGESlot0.png")
+}
+.gameZoneA .tabZone .NGESlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightNGESlot.png")
+}
+.gameZoneA .tabZone .OTSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightOTSlot0.png")
+}
+.gameZoneA .tabZone .OTSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightOTSlot.png")
+}
+.gameZoneA .tabZone .PUGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightPUGSlot0.png")
+}
+.gameZoneA .tabZone .PUGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightPUGSlot.png")
+}
+.gameZoneA .tabZone .QSSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightQSSlot0.png")
+}
+.gameZoneA .tabZone .QSSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightQSSlot.png")
+}
+.gameZoneA .tabZone .RLXSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightRLXSlot0.png")
+}
+.gameZoneA .tabZone .RLXSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightRLXSlot.png")
+}
+.gameZoneA .tabZone .RGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightRGSlot0.png")
+}
+.gameZoneA .tabZone .RGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightRGSlot.png")
+}
+.gameZoneA .tabZone .RTGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightRTGSlot0.png")
+}
+.gameZoneA .tabZone .RTGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightRTGSlot.png")
+}
+.gameZoneA .tabZone .SMSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSMSlot0.png")
+}
+.gameZoneA .tabZone .SMSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSMSlot.png")
+}
+.gameZoneA .tabZone .SHSSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSHSSlot0.png")
+}
+.gameZoneA .tabZone .SHSSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSHSSlot.png")
+}
+.gameZoneA .tabZone .TKSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightTKSlot0.png")
+}
+.gameZoneA .tabZone .TKSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightTKSlot.png")
+}
+.gameZoneA .tabZone .WAZSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightWAZSlot0.png")
+}
+.gameZoneA .tabZone .WAZSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightWAZSlot.png")
+}
+.gameZoneA .tabZone .WOOSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightWOOSlot0.png")
+}
+.gameZoneA .tabZone .WOOSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightWOOSlot.png")
+}
+.gameZoneA .tabZone .YGGSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightYGGSlot0.png")
+}
+.gameZoneA .tabZone .YGGSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightYGGSlot.png")
+}
+.gameZoneA .tabZone .FCSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightFCSlot0.png")
+}
+.gameZoneA .tabZone .FCSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightFCSlot.png")
+}
+.gameZoneA .tabZone .AdPSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightAdPSlot0.png")
+}
+.gameZoneA .tabZone .AdPSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightAdPSlot.png")
+}
+.gameZoneA .tabZone .PlayGoSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightPlayGoSlot0.png")
+}
+.gameZoneA .tabZone .PlayGoSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightPlayGoSlot.png")
+}
+.gameZoneA .tabZone .JumboSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightJumboSlot0.png")
+}
+.gameZoneA .tabZone .JumboSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightJumboSlot.png")
+}
+.gameZoneA .tabZone .SkyWindSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSkyWindSlot0.png")
+}
+.gameZoneA .tabZone .SkyWindSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightSkyWindSlot.png")
+}
+.gameZoneA .tabZone .JdbSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightJdbSlot0.png")
+}
+.gameZoneA .tabZone .JdbSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightJdbSlot.png")
+}
+.gameZoneA .tabZone .AgHtml .pic .innerPic {
+    background-image: url("../image/slot/logo/LightAgHtml0.png")
+}
+.gameZoneA .tabZone .AgHtml:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightAgHtml.png")
+}
+.gameZoneA .tabZone .NCSlot .pic .innerPic {
+    background-image: url("../image/slot/logo/LightNCSlot0.png")
+}
+.gameZoneA .tabZone .NCSlot:hover .pic .innerPic {
+    background-image: url("../image/slot/logo/LightNCSlot.png")
+}

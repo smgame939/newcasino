@@ -1,0 +1,409 @@
+@charset "UTF-8";
+
+section .wrapcasino[data-v-80df159d] {
+    position: relative
+}
+
+section .wrapcasino .wrapper[data-v-80df159d] {
+    padding: 3vw 2vw;
+    background: var(--bgColor01)
+}
+
+section .wrapcasino .casino-box[data-v-80df159d] {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+section .wrapcasino .item-box[data-v-80df159d] {
+    position: relative;
+    width: 45vw;
+    height: 47.6vw;
+    margin: 0 1.5vw 3vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px
+}
+
+section .wrapcasino .item-box .game-logo[data-v-80df159d] {
+    position: absolute;
+    top: 1.6vw;
+    right: 2.6vw;
+    width: 12vw;
+    height: 7.2vw;
+    background-position: center right;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2
+}
+
+section .wrapcasino .EvoReal .game-logo[data-v-80df159d] {
+    width: 15vw;
+    background-image: url(../assets/image/game-logoEV-78c20aeb.svg)
+}
+
+.no-webp section .wrapcasino .EvoReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/EvoReal-6dbf4b57.png)
+}
+
+.webp section .wrapcasino .EvoReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/EvoReal-a816b721.webp)
+}
+
+section .wrapcasino .AgBr .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoAG-896d917e.svg)
+}
+
+.no-webp section .wrapcasino .AgBr .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/AgBr-3deee3be.png)
+}
+
+.webp section .wrapcasino .AgBr .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/AgBr-e315da1c.webp)
+}
+
+section .wrapcasino .MgpReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoMG-2627113f.svg)
+}
+
+.no-webp section .wrapcasino .MgpReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/MgpReal-49498d0a.png)
+}
+
+.webp section .wrapcasino .MgpReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/MgpReal-8527f13e.webp)
+}
+
+section .wrapcasino .WmReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoWM-36a809dd.svg)
+}
+
+.no-webp section .wrapcasino .WmReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/WmReal-3d914552.png)
+}
+
+.webp section .wrapcasino .WmReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/WmReal-a3f71cea.webp)
+}
+
+section .wrapcasino .AllBetReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoALLBET-835ce8f4.svg)
+}
+
+.no-webp section .wrapcasino .AllBetReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/AllBetReal-64494821.png)
+}
+
+.webp section .wrapcasino .AllBetReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/AllBetReal-1350b772.webp)
+}
+
+section .wrapcasino .OgReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoOG-a1e72637.svg)
+}
+
+.no-webp section .wrapcasino .OgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/OgReal-2eba2c2c.png)
+}
+
+.webp section .wrapcasino .OgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/OgReal-9b4d332d.webp)
+}
+
+section .wrapcasino .PrgReal .game-logo[data-v-80df159d] {
+    height: 8vw;
+    background-image: url(../assets/image/game-logoPP-6c9b548e.svg)
+}
+
+.no-webp section .wrapcasino .PrgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/PrgReal-368f5fa6.png)
+}
+
+.webp section .wrapcasino .PrgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/PrgReal-beab88d3.webp)
+}
+
+section .wrapcasino .DgReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoDG-0a77f0ce.svg)
+}
+
+.no-webp section .wrapcasino .DgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/DgReal-cc531c3d.png)
+}
+
+.webp section .wrapcasino .DgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/DgReal-5a51aaf2.webp)
+}
+
+section .wrapcasino .GpiLive .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoGPI-66f8bc10.png)
+}
+
+.no-webp section .wrapcasino .GpiLive .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/GpiLive-2f6344b5.png)
+}
+
+.webp section .wrapcasino .GpiLive .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/GpiLive-60492fae.webp)
+}
+
+section .wrapcasino .BgReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoBG-85ecf359.png)
+}
+
+.no-webp section .wrapcasino .BgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/BgReal-85d36c28.png)
+}
+
+.webp section .wrapcasino .BgReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/BgReal-83de60b4.webp)
+}
+
+section .wrapcasino .Ae2Real .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoAE-f0f0ae00.png)
+}
+
+.no-webp section .wrapcasino .Ae2Real .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/Ae2Real-ed8aac05.png)
+}
+
+.webp section .wrapcasino .Ae2Real .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/Ae2Real-efc96dcd.webp)
+}
+
+section .wrapcasino .BbinReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoBbin-2342ef2c.png)
+}
+
+.no-webp section .wrapcasino .BbinReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/BbinReal-88a24b73.png)
+}
+
+.webp section .wrapcasino .BbinReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/BbinReal-be9edc03.webp)
+}
+
+section .wrapcasino .YxReal .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoYx-36659f06.png)
+}
+
+.no-webp section .wrapcasino .YxReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/YxReal-00ee5542.png)
+}
+
+.webp section .wrapcasino .YxReal .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/YxReal-9f184fe9.webp)
+}
+
+section .wrapcasino .VivoVideo .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/game-logoVivoVideo-e56d5d44.png)
+}
+
+.no-webp section .wrapcasino .VivoVideo .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/VivoVideo-c66163d5.png)
+}
+
+.webp section .wrapcasino .VivoVideo .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/VivoVideo-4b77d570.webp)
+}
+
+section .wrapcasino .TvBetLive .game-logo[data-v-80df159d] {
+    background-image: url(../assets/image/images/lobby/live/game-logoTvBetLive.png)
+}
+
+.no-webp section .wrapcasino .TvBetLive .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/images/lobby/live/TvBetLive.png)
+}
+
+.webp section .wrapcasino .TvBetLive .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/images/lobby/live/TvBetLive.webp)
+}
+
+.no-webp section .wrapcasino .ComingSoon .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/ComingSoon-43a06bf8.png)
+}
+
+.webp section .wrapcasino .ComingSoon .itme-image[data-v-80df159d] {
+    background-image: url(../assets/image/ComingSoon-c4790604.webp)
+}
+
+section .wrapcasino .event[data-v-80df159d]:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18vw;
+    height: 18vw;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    -o-background-size: contain;
+    background-size: contain;
+    background-image: url(../assets/image/tag-dailywins-855bd875.png)
+}
+
+section .wrapcasino .promotion[data-v-80df159d]:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18vw;
+    height: 18vw;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    -o-background-size: contain;
+    background-size: contain;
+    background-image: url(../assets/image/tag-promotion-d22144d2.png)
+}
+
+section .wrapcasino .item-box[data-v-80df159d]:after {
+    content: "";
+    width: 45vw;
+    height: 2vw;
+    position: absolute;
+    bottom: -1.4vw;
+    background-position: bottom center;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAAALCAMAAAAeCCVrAAAAP1BMVEUAAAA1NTU0NDQzMzMzMzMyMjIyMjIzMzM0NDQzMzM0NDQzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM/28D8AAAAFXRSTlMABAsXEwcmMh44DiJZVSxeSGxATWWo4jUVAAABl0lEQVRIx+2Ui27CMAxFk7LQlQ220f3/ty7xoze2xyIkJJjEUVsVGprrg5OUUi5T5UC8NHbMa+ON2VdOzEwszFn5FFbmKLx3fFxCBxwVfLqM/8F4Cj/NKmh0LWVhZuLE7CuigrSIItLF5qZKyamRSSdcQiU8GokwCHt9Qd8bX2N0aF/4dnek+jcF8gXGmEmvmjJOCsfQa+TCrHp1VqdJhBYSSkq91NidahZq1S9YA/3Ts7IIs2+GenJuQFnAnkKNgw1SxVgIFru0QVkIkYkmRYdGoVEpsiO+rQIh5DJTHpcJqRhKBbCCmFJquHY05GZisEcBzo0FxoTUi0aM4R0nE9ws+SgUHar5kMtIhdd6/IU0k2enWGVCcWRA+drF3XQUx2R0x3oA6hpVBZOmHHSC30MlxkEx/zniBOiZPjauAr/rojPdFHlpB1wDbx3SBxX71aRwkSo0mwnHYBF6MkB9RLo7GkSTgdID/VcJIbaqDdASQajO2wPIuhW5F59hBgxcpR68Ivkd7BE67O7khPbp+io97Tz5T/wAE2xGt0FibzMAAAAASUVORK5CYII=)
+}
+
+section .wrapcasino .item-box .itme-image[data-v-80df159d] {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid var(--borderColor20)
+}
+
+section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translate(-50%);
+    text-align: center;
+    bottom: 22%;
+    font-size: 1.2rem;
+    color: var(--txtColor32);
+    font-weight: 700
+}
+
+section .wrapcasino .item-box .btm-info[data-v-80df159d] {
+    position: absolute;
+    bottom: .4vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1.5vw;
+    background: var(--bgColor18);
+    font-size: .68rem;
+    color: var(--txtColor06);
+    border-left: 1px solid var(--borderColor20);
+    border-right: 1px solid var(--borderColor20);
+    border-radius: 0px 0px .5vw .5vw;
+    -webkit-border-radius: 0px 0px .5vw .5vw;
+    -moz-border-radius: 0px 0px .5vw .5vw;
+    -ms-border-radius: 0px 0px .5vw .5vw;
+    -o-border-radius: 0px 0px .5vw .5vw
+}
+
+section .wrapcasino .item-box .btm-info .name[data-v-80df159d] {
+    width: 63vw;
+    max-width: 63vw;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-align: left
+}
+
+section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
+    width: 42vw;
+    font-size: .65rem;
+    background: var(--btnColor11);
+    color: var(--txtColor01);
+    padding: 1vw;
+    border-radius: .4vw;
+    -webkit-border-radius: .4vw;
+    -moz-border-radius: .4vw;
+    -ms-border-radius: .4vw;
+    -o-border-radius: .4vw
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
+        font-size: 1.25rem
+    }
+
+    section .wrapcasino .item-box .btm-info[data-v-80df159d] {
+        font-size: 1.4rem
+    }
+
+    section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
+        font-size: 2.2rem
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
+        font-size: 1.6rem
+    }
+
+    section .wrapcasino .item-box .btm-info[data-v-80df159d] {
+        font-size: 1.8rem
+    }
+
+    section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
+        font-size: 2.8rem
+    }
+}

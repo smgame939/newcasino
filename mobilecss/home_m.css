@@ -1,0 +1,1143 @@
+body,
+html {
+    position: fixed;
+    height: 100%;
+    margin: 0
+}
+
+body {
+    overflow: hidden
+}
+
+section#content {
+    -webkit-overflow-scrolling: touch;
+    z-index: 1
+}
+
+#out-wrapper {
+    padding-bottom: 0;
+    height: 100%
+}
+
+#out-wrapper.fixed {
+    padding-bottom: 0;
+    height: 100%;
+    position: fixed
+}
+
+section.maingame {
+    position: fixed;
+    top: 72vw
+}
+
+section.maingame.addTop {
+    top: 85vw
+}
+
+section.maingame .maingame-box {
+    height: auto;
+    min-height: 78vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0vw 3.4vw
+}
+
+section.maingame .maingame-box ul.tab-type {
+    width: 14.6vw;
+    height: auto;
+    min-height: 80.2vw;
+    max-height: 80.2vw;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+section.maingame .maingame-box ul.tab-type li {
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    box-shadow: 0 1px 4px 0 var(--bgColor12_op)
+}
+
+section.maingame .maingame-box ul.tab-type li:last-child {
+    margin-bottom: 0
+}
+
+section.maingame .maingame-box ul.tab-type li,
+section.maingame .maingame-box ul.tab-type li a {
+    min-width: 13vw;
+    height: 13vw;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0px
+}
+
+section.maingame .maingame-box ul.tab-type li a {
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(../assets/image/maingame-icon-bg-53cc95f6.png);
+    color: var(--txtColor30)
+}
+
+section.maingame .maingame-box ul.tab-type li.active a {
+    color: var(--txtColor01);
+    box-shadow: 1px 1px 4px 0 var(--bgColor12_op);
+    background-image: url(../assets/image/maingame-icon-bg-active-9cb076d1.png)
+}
+
+section.maingame .maingame-box ul.tab-type li a .icon {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+section.maingame .maingame-box ul.tab-type li a .icon img {
+    width: 8vw;
+    height: auto;
+    margin-bottom: 0vw
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img {
+    -webkit-animation-duration: 1.2s;
+    -moz-animation-duration: 1.2s;
+    -o-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -o-animation-delay: .3s;
+    animation-delay: .3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -o-animation-name: pulse;
+    animation-name: pulse
+}
+
+section.maingame .maingame-box ul.tab-type li a .icon:nth-child(2) img {
+    margin-left: 1vw
+}
+
+section.maingame .maingame-box ul.tab-type li a .tab-name {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    white-space: initial;
+    line-height: 1
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img#gamesportIcon {
+    content: url(../assets/image/Sport-active-b4b4b71c.png)
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img#gamecasinoIcon {
+    content: url(../assets/image/Live-active-0b7141eb.png)
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img#gameslotIcon {
+    content: url(../assets/image/Slot-active-abd07236.png)
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img#gameminigameIcon {
+    content: url(../assets/image/Lottery-active-69b0952d.png)
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img#gamepokerIcon {
+    content: url(../assets/image/IdnPoker-active-73238fb4.png)
+}
+
+section.maingame .maingame-box ul.tab-type li.active a .icon img#gamevirtualIcon {
+    content: url(../assets/image/VSport-active-e9bcfbb1.png)
+}
+
+section.maingame .maingame-box .maingame-content-box {
+    width: 76.2vw;
+    height: auto;
+    min-height: auto
+}
+
+section.maingame .maingame-box .maingame-content-box .tab-maingame-content ul {
+    height: auto;
+    min-height: 78vw;
+    max-height: 78vw;
+    overflow: scroll;
+    max-height: -webkit-calc(100vh - 106.5vw - env(safe-area-inset-bottom));
+    max-height: -moz-calc(100vh - 106.5vw - env(safe-area-inset-bottom));
+    max-height: calc(100vh - 106.5vw - env(safe-area-inset-bottom))
+}
+
+section.maingame.addTop .maingame-box .maingame-content-box .tab-maingame-content ul {
+    max-height: -webkit-calc(100vh - 13vw - 53vw - 8vw - 20.5vw - 13vw);
+    max-height: -moz-calc(100vh - 13vw - 53vw - 8vw - 20.5vw - 13vw);
+    max-height: calc(100vh - 107.5vw)
+}
+
+.maingame-content-box .tab-maingame-content ul li {
+    position: relative;
+    width: 97%;
+    height: 30vw;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-background-size: 100%;
+    background-size: 100%;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    display: block;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 1px 5px #a7b5cc
+}
+
+.maingame-content-box .tab-maingame-content ul li:last-child {
+    margin-bottom: 1.5vw
+}
+
+.maingame-content-box .tab-maingame-content ul li a {
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    display: block
+}
+
+.maingame-content-box .tab-maingame-content ul li.event a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    -o-background-size: contain;
+    background-size: contain;
+    background-image: url(/assets/tag-dailywins-855bd875.png)
+}
+
+.maingame-content-box .tab-maingame-content ul li.promotion a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    -o-background-size: contain;
+    background-size: contain;
+    background-image: url(/assets/tag-promotion-d22144d2.png)
+}
+
+.maingame-content-box .tab-maingame-content ul li a span {
+    position: absolute;
+    bottom: 5vw;
+    left: 3vw;
+    font-size: .81rem;
+    text-align: center;
+    color: var(--txtColor39);
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 50vw;
+    font-weight: 600;
+    letter-spacing: -.2vw
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-LiveSport {
+    background-image: url(../image/main/navsort-m-LiveSport-fcb75dc4.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-LiveSport {
+    background-image: url(../image/main/navsort-m-LiveSport-560e0d9c.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-EuropeanSport {
+    background-image: url(../image/main/navsort-m-EuropeanSport-f0cda756.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-EuropeanSport {
+    background-image: url(../image/main/navsort-m-EuropeanSport-8e8bcb9c.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-OverseasSport {
+    background-image: url(../image/main/navsort-m-OverseasSport-fd15d541.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-OverseasSport {
+    background-image: url(../image/main/navsort-m-OverseasSport-8870ed00.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-EvoReal {
+    background-image: url(../image/main/navsort-m-EvoReal-c5ecfd4f.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-EvoReal {
+    background-image: url(../image/main/navsort-m-EvoReal-984616e9.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AgBr {
+    background-image: url(../image/main/navsort-m-AgBr-e7746069.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AgBr {
+    background-image: url(../image/main/navsort-m-AgBr-0adb8418.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MgpReal {
+    background-image: url(../image/main/navsort-m-MgpReal-752af321.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MgpReal {
+    background-image: url(../image/main/navsort-m-MgpReal-cc3dca73.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-WmReal {
+    background-image: url(../image/main/navsort-m-WmReal-d47c90eb.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-WmReal {
+    background-image: url(../image/main/navsort-m-WmReal-7536a3b1.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AllBetReal {
+    background-image: url(../image/main/navsort-m-AllBetReal-41c0c6f5.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AllBetReal {
+    background-image: url(../image/main/navsort-m-AllBetReal-c8b2c17d.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-OgReal {
+    background-image: url(../image/main/navsort-m-OgReal-203a2705.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-OgReal {
+    background-image: url(../image/main/navsort-m-OgReal-5d330e6a.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-PrgReal {
+    background-image: url(../image/main/navsort-m-PrgReal-2c3827f0.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-PrgReal {
+    background-image: url(../image/main/navsort-m-PrgReal-e9da3369.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-DgReal {
+    background-image: url(../image/main/navsort-m-DgReal-0803cde7.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-DgReal {
+    background-image: url(../image/main/navsort-m-DgReal-dc802b54.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-GpiLive {
+    background-image: url(../image/main/navsort-m-GpiLive-8aeca0a5.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-GpiLive {
+    background-image: url(../image/main/navsort-m-GpiLive-852337d9.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BgReal {
+    background-image: url(../image/main/navsort-m-BgReal-b9a1d669.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BgReal {
+    background-image: url(../image/main/navsort-m-BgReal-0cc538ce.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-Ae2Real {
+    background-image: url(../image/main/navsort-m-Ae2Real-a9265834.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-Ae2Real {
+    background-image: url(../image/main/navsort-m-Ae2Real-1124ad44.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BbinReal {
+    background-image: url(../image/main/navsort-m-BbinReal-6fdfff3e.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BbinReal {
+    background-image: url(../image/main/navsort-m-BbinReal-9e50ddb1.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-YxReal {
+    background-image: url(../image/main/navsort-m-YxReal-f72713c5.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-YxReal {
+    background-image: url(../image/main/navsort-m-YxReal-a7fa5c10.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-VivoVideo {
+    background-image: url(../image/main/navsort-m-VivoVideo-720a380c.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-VivoVideo {
+    background-image: url(../image/main/navsort-m-VivoVideo-68b0551b.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-TvBetLive {
+    background-image: url(../image/main/navsort-m-TvBetLive.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-TvBetLive {
+    background-image: url(../image/main/navsort-m-TvBetLive.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MgpHtml {
+    background-image: url(../image/main/navsort-m-MgpHtml-15751ee6.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MgpHtml {
+    background-image: url(../image/main/navsort-m-MgpHtml-7aafbdfe.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AgHtml {
+    background-image: url(../image/main/navsort-m-AgHtml-ba1ecdfd.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AgHtml {
+    background-image: url(../image/main/navsort-m-AgHtml-1d59db71.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-HabaHtml {
+    background-image: url(../image/main/navsort-m-HabaHtml-4c64192a.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-HabaHtml {
+    background-image: url(../image/main/navsort-m-HabaHtml-27ec9dd0.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-PrgHtml {
+    background-image: url(../image/main/navsort-m-PrgHtml-77f11e40.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-PrgHtml {
+    background-image: url(../image/main/navsort-m-PrgHtml-8f68f2c5.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-Pg1Slot {
+    background-image: url(../image/main/navsort-m-Pg1Slot-4b634acc.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-Pg1Slot {
+    background-image: url(../image/main/navsort-m-Pg1Slot-92d7417d.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.slotAmeba {
+    background-image: url(../image/main/slotAmeba-b8181f96.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.slotAmeba {
+    background-image: url(../image/main/slotAmeba-ba6b97de.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-SgHtml {
+    background-image: url(../image/main/navsort-m-SgHtml-08a58132.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-SgHtml {
+    background-image: url(../image/main/navsort-m-SgHtml-3fad8172.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-JiliHtml {
+    background-image: url(../image/main/navsort-m-JiliHtml-3819a3a6.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-JiliHtml {
+    background-image: url(../image/main/navsort-m-JiliHtml-ceb2b2f9.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BbinSlot {
+    background-image: url(../image/main/navsort-m-BbinSlot-e47b8691.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BbinSlot {
+    background-image: url(../image/main/navsort-m-BbinSlot-6fe0b6b7.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-EvoSlot {
+    background-image: url(../image/main/navsort-m-EvoSlot-cfe1df67.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-EvoSlot {
+    background-image: url(../image/main/navsort-m-EvoSlot-e5d5bf58.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-JdbSlot {
+    background-image: url(../image/main/navsort-m-JdbSlot-1817eb62.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-JdbSlot {
+    background-image: url(../image/main/navsort-m-JdbSlot-061b0c8f.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-TpgHtml {
+    background-image: url(../image/main/navsort-m-TpgHtml-941d6c21.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-TpgHtml {
+    background-image: url(../image/main/navsort-m-TpgHtml-a59e4547.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AmebaHtml {
+    background-image: url(../image/main/navsort-m-AmebaHtml-462f963a.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-AmebaHtml {
+    background-image: url(../image/main/navsort-m-AmebaHtml-524b8261.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-CQ9Html {
+    background-image: url(../image/main/navsort-m-CQ9Html-83b4949b.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-CQ9Html {
+    background-image: url(../image/main/navsort-m-CQ9Html-32b12a50.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-GPISlot {
+    background-image: url(../image/main/navsort-m-GPISlot-fc6ea9a4.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-GPISlot {
+    background-image: url(../image/main/navsort-m-GPISlot-38a64dae.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-FCSlot {
+    background-image: url(../image/main/navsort-m-FCSlot-4ad0cba2.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-FCSlot {
+    background-image: url(../image/main/navsort-m-FCSlot-eb0c051b.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BTGSlot {
+    background-image: url(../image/main/navsort-m-BTGSlot-6b3df18f.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BTGSlot {
+    background-image: url(../image/main/navsort-m-BTGSlot-5f5810cd.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-GFGFishSlot {
+    background-image: url(../image/main/navsort-m-GFGFishSlot-0cb3ab90.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-GFGFishSlot {
+    background-image: url(../image/main/navsort-m-GFGFishSlot-f3244216.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniPowerBall {
+    background-image: url(../image/main/navsort-m-MiniPowerBall-4338a1c7.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniPowerBall {
+    background-image: url(../image/main/navsort-m-MiniPowerBall-8949589b.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniPowerLadder {
+    background-image: url(../image/main/navsort-m-MiniPowerLadder-f4a6f47e.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniPowerLadder {
+    background-image: url(../image/main/navsort-m-MiniPowerLadder-6d569c48.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniSpeedKeno {
+    background-image: url(../image/main/navsort-m-MiniSpeedKeno-7d0a764e.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniSpeedKeno {
+    background-image: url(../image/main/navsort-m-MiniSpeedKeno-127943d3.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniKenoLadder {
+    background-image: url(../image/main/navsort-m-MiniKenoLadder-11b0f452.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-MiniKenoLadder {
+    background-image: url(../image/main/navsort-m-MiniKenoLadder-04c1033a.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnTexasPoker {
+    background-image: url(../image/main/navsort-m-IdnTexasPoker-66072a23.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnTexasPoker {
+    background-image: url(../image/main/navsort-m-IdnTexasPoker-8b61b14f.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnCemeKeliling {
+    background-image: url(../image/main/navsort-m-IdnCemeKeliling-0c21fa85.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnCemeKeliling {
+    background-image: url(../image/main/navsort-m-IdnCemeKeliling-a078398b.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-idnDominobet {
+    background-image: url(../image/main/navsort-m-idnDominobet-80a36e88.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-idnDominobet {
+    background-image: url(../image/main/navsort-m-idnDominobet-6e811d60.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnCeme {
+    background-image: url(../image/main/navsort-m-IdnCeme-81bcb8f0.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnCeme {
+    background-image: url(../image/main/navsort-m-IdnCeme-d7e184ad.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnDealerCapsa {
+    background-image: url(../image/main/navsort-m-IdnDealerCapsa-1b8ddd82.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnDealerCapsa {
+    background-image: url(../image/main/navsort-m-IdnDealerCapsa-79e2d1d6.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnSuperTen {
+    background-image: url(../image/main/navsort-m-IdnSuperTen-4244a0ae.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnSuperTen {
+    background-image: url(../image/main/navsort-m-IdnSuperTen-b78f3d50.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnPotLimitOmaha {
+    background-image: url(../image/main/navsort-m-IdnPotLimitOmaha-2720a308.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnPotLimitOmaha {
+    background-image: url(../image/main/navsort-m-IdnPotLimitOmaha-0f096423.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnBlackjack {
+    background-image: url(../image/main/navsort-m-IdnBlackjack-7f41770f.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnBlackjack {
+    background-image: url(../image/main/navsort-m-IdnBlackjack-ed0e3a44.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnSuperBull {
+    background-image: url(../image/main/navsort-m-IdnSuperBull-a3ddf598.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnSuperBull {
+    background-image: url(../image/main/navsort-m-IdnSuperBull-09feda17.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnCapsaSusun {
+    background-image: url(../image/main/navsort-m-IdnCapsaSusun-72336c71.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnCapsaSusun {
+    background-image: url(../image/main/navsort-m-IdnCapsaSusun-5ea88b2a.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnQQSpirit {
+    background-image: url(../image/main/navsort-m-IdnQQSpirit-fb7d0897.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-IdnQQSpirit {
+    background-image: url(../image/main/navsort-m-IdnQQSpirit-e3718ec9.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFEC {
+    background-image: url(../image/main/navsort-m-BetradarVFEC-29d04319.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFEC {
+    background-image: url(../image/main/navsort-m-BetradarVFEC-53749f38.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFLM {
+    background-image: url(../image/main/navsort-m-BetradarVFLM-11539f32.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFLM {
+    background-image: url(../image/main/navsort-m-BetradarVFLM-edc4f176.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFCC {
+    background-image: url(../image/main/navsort-m-BetradarVFCC-eea88d1e.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFCC {
+    background-image: url(../image/main/navsort-m-BetradarVFCC-6316ef3d.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFWC {
+    background-image: url(../image/main/navsort-m-BetradarVFNC-6130c190.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFWC {
+    background-image: url(../image/main/navsort-m-BetradarVFWC-874e3707.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFNC {
+    background-image: url(../image/main/navsort-m-BetradarVFNC-6130c190.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFNC {
+    background-image: url(../image/main/navsort-m-BetradarVFNC-7f719f86.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFAS {
+    background-image: url(../image/main/navsort-m-BetradarVFAS-95411b0e.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVFAS {
+    background-image: url(../image/main/navsort-m-BetradarVFAS-405c3663.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVBL {
+    background-image: url(../image/main/navsort-m-BetradarVBL-0035fefc.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVBL {
+    background-image: url(../image/main/navsort-m-BetradarVBL-7c79d4ce.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVHK {
+    background-image: url(../image/main/navsort-m-BetradarVHK-05ddb14a.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVHK {
+    background-image: url(../image/main/navsort-m-BetradarVHK-dcdb0992.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVDK {
+    background-image: url(../image/main/navsort-m-BetradarVDK-c242f232.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVDK {
+    background-image: url(../image/main/navsort-m-BetradarVDK-d3a8ef07.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVTI {
+    background-image: url(../image/main/navsort-m-BetradarVTI-56733c22.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVTI {
+    background-image: url(../image/main/navsort-m-BetradarVTI-b56a8f31.webp)
+}
+
+.no-webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVBI {
+    background-image: url(../image/main/navsort-m-BetradarVBI-6d61576b.png)
+}
+
+.webp .maingame-content-box .tab-maingame-content ul li.navsort-m-BetradarVBI {
+    background-image: url(../image/main/navsort-m-BetradarVBI-2a76a407.webp)
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) {
+    section.maingame .maingame-box ul.tab-type li a .tab-name {
+        transform: scale(.75);
+        -webkit-transform: scale(.75);
+        -moz-transform: scale(.75);
+        -ms-transform: scale(.75);
+        -o-transform: scale(.75)
+    }
+
+    section.pot .wrapper .main-pot .bg {
+        height: 17vw;
+        width: 46vw
+    }
+
+    section.pot .wrapper .main-pot span {
+        font-size: 1rem;
+        bottom: .5vw
+    }
+
+    .maingame-content-box .tab-maingame-content ul li a span {
+        font-size: .65rem;
+        width: 40vw
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    section.pot .wrapper .main-pot span {
+        bottom: 1.5vw
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    section.pot .wrapper .main-pot span {
+        font-size: 2.4rem;
+        bottom: 1.2vw
+    }
+
+    section.pot .wrapper .mem-btn button span {
+        font-size: 1.6rem
+    }
+
+    section.pot .wrapper .mem-btn button span.hint {
+        width: 14px;
+        height: 14px
+    }
+
+    .maingame-content-box .tab-maingame-content ul li a span {
+        font-size: 1.4rem
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    section.pot .wrapper .main-pot span {
+        font-size: 3.2rem;
+        bottom: 1.4vw
+    }
+
+    section.pot .wrapper .mem-btn button span {
+        font-size: 2rem
+    }
+
+    section.pot .wrapper .mem-btn button span.hint {
+        width: 14px;
+        height: 14px
+    }
+
+    .maingame-content-box .tab-maingame-content ul li a span {
+        font-size: 1.8rem
+    }
+}
+
+section.pot .wrapper {
+    padding: 0 3.2vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: inherit;
+    -moz-box-align: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+section.pot .wrapper .main-pot .bg {
+    width: 49vw;
+    height: 19vw;
+    background-repeat: no-repeat;
+    background-position: left center;
+    -o-background-size: contain;
+    background-size: contain;
+    position: relative;
+    background-image: url(../../../../KD001-02/assets/images/home/pot-bg.png)
+}
+
+section.pot .wrapper .main-pot span {
+    position: absolute;
+    width: 45vw;
+    bottom: 1vw;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translate(-50%);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--txtColor31)
+}
+
+section.pot .wrapper .mem-btn {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+section.pot .wrapper .mem-btn button {
+    position: relative;
+    background: none;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 1.6vw
+}
+
+section.pot .wrapper .mem-btn button:first-child {
+    margin-left: 0
+}
+
+section.pot .wrapper .mem-btn button img {
+    width: 11vw;
+    margin-bottom: 1vw
+}
+
+section.pot .wrapper .mem-btn button span {
+    font-size: .81rem;
+    text-align: center;
+    color: var(--txtColor07)
+}
+
+section.pot .wrapper .mem-btn button span.hint {
+    position: absolute;
+    top: 1.6vw;
+    right: 1vw;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--bgColor22);
+    width: 8px;
+    height: 8px
+}
+
+.app-download-bar {
+    z-index: 100;
+    height: 13vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0vw 3.4vw;
+    background: var(--bgColor08)
+}
+
+.d-content {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.d-content img {
+    width: 12vw;
+    margin: 0 1.2vw
+}
+
+.d-content .d-info h2 {
+    font-size: .83rem;
+    color: var(--txtColor19)
+}
+
+.d-content .d-info p {
+    font-size: .65rem;
+    color: var(--txtColor02)
+}
+
+.d-content span.icon-close {
+    font-size: 1.16rem;
+    color: var(--txtColor12)
+}
+
+.app-download-bar button {
+    width: 25vw;
+    padding: 1.6vw 2vw;
+    font-size: .83rem;
+    color: var(--txtColor01);
+    background: var(--bgColor_Grad09-00);
+    background: -moz-linear-gradient(left, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 100%);
+    background: -webkit-linear-gradient(left, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 100%);
+    background: -o-linear-gradient(left, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 100%);
+    background: linear-gradient(to right, var(--bgColor_Grad09-00) 0%, var(--bgColor_Grad09-01) 100%);
+    border-radius: .5vw;
+    -webkit-border-radius: .5vw;
+    -moz-border-radius: .5vw;
+    -ms-border-radius: .5vw;
+    -o-border-radius: .5vw
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        transform: scaleZ(1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        -moz-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        -moz-transform: scale3d(1, 1, 1);
+        transform: scaleZ(1)
+    }
+}
+
+[data-v-3aa23f77] .marquee {
+    width: auto;
+    white-space: nowrap
+}
+
+[data-v-3aa23f77] .marquee>span {
+    width: auto;
+    margin-left: 51px;
+    line-height: initial
+}
+
+[data-v-3aa23f77] .marquee span {
+    float: none !important
+}
+
+[data-v-3aa23f77] .marquee strong,
+[data-v-3aa23f77] .marquee strong span {
+    font-weight: 700
+}
+
+[data-v-3aa23f77] .marquee u,
+[data-v-3aa23f77] .marquee u span {
+    text-decoration: underline
+}
+
+[data-v-3aa23f77] .marquee em,
+[data-v-3aa23f77] .marquee em span {
+    font-style: italic
+}
+
+[data-v-3aa23f77] .marquee span {
+    width: 50%;
+    color: unset
+}
+
+.calcDuration[data-v-3aa23f77] {
+    visibility: hidden;
+    width: auto;
+    white-space: nowrap;
+    font-size: .81rem
+}
+
+#home-navigation .tab-type .menu-item > a[aria-label="Live"] > .icon > img {
+    content: url('../assets/image/Live.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Live"] > .icon > img {
+    content: url('../assets/image/Live-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="Slot"] > .icon > img {
+    content: url('../assets/image/Slot.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Slot"] > .icon > img {
+    content: url('../assets/image/Slot-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="Sport"] > .icon > img {
+    content: url('../assets/image/Sport.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Sport"] > .icon > img {
+    content: url('../assets/image/Sport-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="Lottery"] > .icon > img {
+    content: url('../assets/image/Lottery.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="Lottery"] > .icon > img {
+    content: url('../assets/image/Lottery-active.png');
+}
+#home-navigation .tab-type .menu-item > a[aria-label="VSport"] > .icon > img {
+    content: url('../assets/image/VSport.png');
+}
+#home-navigation .tab-type .menu-item.active > a[aria-label="VSport"] > .icon > img {
+    content: url('../assets/image/VSport-active.png');
+}

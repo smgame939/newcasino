@@ -1,0 +1,426 @@
+.miniGamePage {
+    animation: none!important
+}
+
+.miniGameZone {
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 55%;
+    transition: .4s ease-out;
+    position: relative
+}
+
+.MiniInnerBG .miniGameZone {
+    padding-bottom: 0
+}
+
+.webp .miniGameZone {
+    background-image: url(../assets/image/lobbyBG-76701a6b.webp)
+}
+
+.no-webp .miniGameZone {
+    background-image: url(../assets/image/lobbyBG-30216749.png)
+}
+
+.miniGameZone .miniGameWrapper {
+    width: 92%;
+    height: 90%;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.MiniInnerBG .miniGameWrapper {
+    height: auto;
+    margin: 80px auto 0;
+    position: relative;
+    transform: none;
+    top: unset;
+    left: unset
+}
+
+.miniGamePage .miniGameWrapper .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.miniGamePage .title .leftZone {
+    color: var(--txtColor71);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 18.5vw;
+    transform: translateZ(0);
+    margin-right: 1vw;
+}
+
+.miniGamePage .title .leftZone span.icon-iiconLogoB {
+    font-size: 2.3vw;
+    margin-right: 4px;
+}
+
+.miniGamePage .title .leftZone h4 {
+    font-size: 1.4vw;
+    margin-right: .5vw
+}
+
+.miniGamePage .title .leftZone span {
+    color: var(--txtColor65);
+    font-size: 1.4vw;
+}
+
+.miniGamePage .title .line {
+    height: 2px;
+    width: 74vw;
+    background-color: var(--bgColor085);
+    position: relative;
+}
+
+.miniGamePage .title .line:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: var(--bgColor085);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%)
+}
+
+.miniGameZone .miniGameWrapper .content {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 4vh
+}
+
+.miniGameZone .miniGameWrapper .content .leftFrame {
+    width: 55%;
+    position: relative;
+    animation: rightIn .4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    min-height: 695px
+}
+
+.miniGameZone .miniGameWrapper .content .leftZone {
+    background-image: url(../assets/image/mini_bg-a24da567.png);
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative
+}
+
+.miniGameZone .miniGameWrapper .content .leftZone .obj {
+    background-image: url(../assets/image/mini_obj-776f0885.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+    background-size: cover;
+    position: absolute
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone {
+    width: 45%
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .txt {
+    margin-bottom: 27px;
+    animation: topIn .4s;
+    animation-fill-mode: forwards;
+    opacity: 0
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .txt h2 {
+    color: var(--txtColor72);
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .txt p {
+    color: var(--txtColor66);
+    line-height: 1.6;
+    font-size: .6vw
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns {
+    animation: leftIn .4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    min-height: 560px
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li {
+    width: 48.5%;
+    height: 175px;
+    border: 1px solid var(--bdColor038);
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 1px #a7b5cc59,inset 0 0 6px 1px #ffffffbf;
+    padding-bottom: 23px;
+    margin-bottom: 21px;
+    background: var(--bgColor073);
+    background: linear-gradient(360deg,var(--bgColor074_gs) 0%,var(--bgColor074_ge) 100%);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .logo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 53%;
+    height: 0px;
+    transition: .3s ease-out;
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-68%)
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li.casino01 .logoA {
+    background-image: url(../assets/image/mini01-52d81cc7.png);
+    padding-bottom: 37%;
+    width: 44%
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li.casino02 .logoA {
+    background-image: url(../assets/image/mini02-9611905b.png);
+    padding-bottom: 39%;
+    width: 40%
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li.casino03 .logoA {
+    background-image: url(../assets/image/mini03-007edd00.png);
+    padding-bottom: 36%;
+    width: 48%
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li.casino04 .logoA {
+    background-image: url(data:image/png;base64,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);
+    padding-bottom: 31%;
+    width: 45%
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li:hover .logo {
+    background-position-y: 5px
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .txt01 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    bottom: 13px
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .txt01 h2 {
+    font-size: 1.35vw;
+    color: var(--txtColor73);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 93%;
+    text-align: center
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .txt01 span {
+    font-size: .4vw;
+    color: var(--txtColor73)
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li:hover .txt01 h2,.miniGameZone .miniGameWrapper .content .rightZone .btns ul li:hover .txt01 span {
+    color: var(--txtColor02)
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .mask {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bgColor075);
+    background: linear-gradient(0deg,var(--bgColor076_g01) 0%,var(--bgColor076_g02) 40%,var(--bgColor076_g03) 100%);
+    border-radius: 8px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: .4s ease-out
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .mask .inner {
+    width: 99%;
+    height: 99%;
+    background: var(--bgColor077);
+    background: linear-gradient(180deg,var(--bgColor078_g01) 0%,var(--bgColor078_g02) 75%,var(--bgColor078_g03) 100%);
+    border-radius: 8px;
+    z-index: 1;
+    display: none;
+    transition: .4s ease-out
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li:hover .mask,.miniGameZone .miniGameWrapper .content .rightZone .btns ul li:hover .inner,.miniGameZone .miniGameWrapper .content .rightZone .btns ul li.maintainGo .maintain {
+    display: flex
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .maintain {
+    display: none;
+    background-color: var(--bgColor084);
+    border: 1px solid var(--bdColor052);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: none
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .maintain span {
+    font-size: 5vw;
+    color: var(--txtColor85)
+}
+
+.miniGameZone .miniGameWrapper .content .rightZone .btns ul li .maintain h4 {
+    color: var(--txtColor85);
+    font-size: 1vw;
+    font-weight: 700;
+    margin-top: 3%
+}
+
+.aniLogoMini {
+    -webkit-animation: aniLogoMini 1s infinite;
+    animation: aniLogoMini 1s infinite
+}
+
+.aniLogo01 {
+    -webkit-animation: aniLogo01 2.3s infinite;
+    animation: aniLogo01 2.3s infinite
+}
+
+@keyframes aniLogoMini {
+    0% {
+        background-position-y: 0px
+    }
+
+    50% {
+        background-position-y: 5px
+    }
+
+    to {
+        background-position-y: 0px
+    }
+}
+
+@keyframes aniLogo01 {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(.98)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+@media (max-width: 1350px) {
+    .miniGameZone .miniGameWrapper .content .rightZone .btns ul li .txt01 h2 {
+        font-size:20px
+    }
+
+    .miniGameZone .miniGameWrapper .content .rightZone .btns ul li .txt01 span {
+        font-size: 12px
+    }
+
+    .miniGameZone .miniGameWrapper .content .rightZone .txt h2 {
+        font-size: 24px
+    }
+}
+
+@media (max-width: 1080px) {
+    .miniGameZone .miniGameWrapper .title .line {
+        width:73vw
+    }
+}
+
+@media (max-width: 1053px) {
+    .miniGameZone .miniGameWrapper .content .rightZone .btns ul li {
+        height:135px
+    }
+}
+
+@keyframes leftIn {
+    0% {
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        transform: translate(50%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translate(0);
+        opacity: 1
+    }
+}
+
+@keyframes rightIn {
+    0% {
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translate(-50%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translate(0);
+        opacity: 1
+    }
+}
+
+@keyframes topIn {
+    0% {
+        -webkit-transform: translateY(-300%);
+        -moz-transform: translateY(-300%);
+        -o-transform: translateY(-300%);
+        transform: translateY(-300%);
+        opacity: 0
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}

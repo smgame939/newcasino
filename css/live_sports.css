@@ -1,0 +1,4108 @@
+@charset "UTF-8";
+
+:root {
+    --spbgColor01: #8096c8;
+    --spbgColor02: #597ef8;
+    --spbgColor03: #4867c9;
+    --spbgColor04: #8096c8;
+    --spbgColor05: #ffe361;
+    --spbgColor06: #ffffff;
+    --spbgColor07: #f4f7fe;
+    --spbgColor08: #d5e0f7;
+    --spbgColor09: #f85959;
+    --spbgColor11: #7a98f9;
+    --spbgColor12: #ecf1fd;
+    --spbgColor13: #000000;
+    --spbgColor14: #0f996a;
+    --sptxtColor01: #515b7c --sptxtColor02: #597ef8;
+    --sptxtColor03: #939ab0;
+    --sptxtColor04: #ffffff;
+    --sptxtColor05: #40455a;
+    --sptxtColor06: #ff6d0c;
+    --sptxtColor07: #ffca00;
+    --sptxtColor08: #596079;
+    --sptxtColor09: #a76c04;
+    --sptxtColor10: #afbcdc;
+    --sptxtColor11: #f85959;
+    --sptxtColor12: #e93238;
+    --sptxtColor13: #3b54a6;
+    --spborderColor01: #ffffff;
+    --spborderColor02: #939ab0;
+    --spborderColor03: #d8dbe5;
+    --spshadowColor01: 0px 7px 18px 0px rgba(43, 61, 120, .16);
+    --spshadowColor02: 0px 7px 18px 0px rgba(21, 39, 99, .8);
+    --sparrowColor01: #fe7e82;
+    --sparrowColor02: #597ef8
+}
+
+.headerWrapper_sport,
+.menuWraper_sport {
+    width: 98% !important
+}
+
+.main_content_sport {
+    width: 100% !important
+}
+
+.liveSportContent {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-repeat: repeat-y;
+    position: relative;
+    margin-top: 70px;
+}
+
+.sportFrame {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between
+}
+
+.centerZone {
+    width: 72%
+}
+
+.centerZone ul li {
+    display: flex;
+    justify-content: space-between
+}
+
+.centerZone ul li:nth-child(2),
+.centerZone ul li:nth-child(3),
+.centerZone ul li:nth-child(4),
+.centerZone ul li:nth-child(5),
+.centerZone ul li:nth-child(6),
+.centerZone ul li:nth-child(7),
+.centerZone ul li:nth-child(8),
+.centerZone ul li:nth-child(9),
+.centerZone ul li:nth-child(10),
+.centerZone ul li:nth-child(11) {
+    display: none
+}
+
+.sportFrame .chooseZone {
+    width: 49.7%;
+    float: left;
+    background-color: var(--main)
+}
+
+.sportFrame .chooseFrame .chooseZone {
+    width: 49.7%
+}
+
+.sportFrame .chooseFrame .chooseZone.fullZone {
+    width: 100% !important
+}
+
+.sportFrame .chooseZoneScroll {
+    overflow-y: scroll;
+    position: relative;
+    overflow-x: clip
+}
+
+.sportFrame .chooseZoneScroll::-webkit-scrollbar {
+    width: 3px
+}
+
+.sportFrame .chooseZoneScroll::-webkit-scrollbar-track {
+    background-color: #d5e0f7
+}
+
+.sportFrame .chooseZoneScroll::-webkit-scrollbar-thumb {
+    background-color: #adb5d0;
+    transition: .2s all ease-out
+}
+
+.sportFrame .chooseZoneScroll::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0
+}
+
+.sportFrame .chooseZone .tabZone {
+    background-color: var(--bgColorSport_038) !important;
+    border: 1px solid var(--bdColorSport_012);
+    height: auto;
+    width: 100%
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame {
+    width: 100%;
+    overflow-x: auto
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar {
+    height: 5px !important
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar-track {
+    background-color: #d5e0f7 !important
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar-thumb {
+    background-color: #adb5d0 !important
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0 !important
+}
+
+.sportFrame .chooseZone .cubeZone01 {
+    width: 100%;
+    height: 780px;
+    background-color: var(--bgColorSport_038);
+    border: 1px solid var(--bdColorSport_012);
+    padding-top: 10px;
+    overflow-y: scroll;
+    position: relative
+}
+
+.sportFrame .chooseZone .cubeZone01::-webkit-scrollbar {
+    width: 3px
+}
+
+.sportFrame .chooseZone .cubeZone01::-webkit-scrollbar-track {
+    background-color: #d5e0f7
+}
+
+.sportFrame .chooseZone .cubeZone01::-webkit-scrollbar-thumb {
+    background-color: #adb5d0
+}
+
+.sportFrame .chooseZone .cubeZone01::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 {
+    width: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube02 {
+    padding-bottom: 0 !important;
+    display: none
+}
+
+.cubeOK {
+    border: 5px solid var(--bdColorSport_001) !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA {
+    position: relative;
+    width: 97%;
+    height: 110%;
+    background-color: var(--main);
+    box-shadow: 1px 3px 19px var(--shadow_02);
+    margin: 0 auto 40px;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA:last-child {
+    margin-bottom: 20px !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .active {
+    border: 1px solid var(--bdColorSport_001)
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA .title02 {
+    width: 93%;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA .title02 .time {
+    font-size: 16px;
+    color: var(--txtColorSport_037);
+    padding: 10px 18px;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_018);
+    border-radius: 5px
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA .title02 .time span {
+    color: var(--txtColorSport_09)
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA .title02 .more {
+    padding: 10px 18px;
+    font-size: 16px;
+    color: var(--txtColorSport_08);
+    background-color: var(--bdColorSport_001);
+    border-radius: 5px;
+    box-shadow: 1px 3px 19px var(--shadow_02);
+    cursor: pointer
+}
+
+.sportFrame .chooseZone .cubeZone01 .frameA .title02 .more:hover {
+    background-color: var(--bgColorSport_014) !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--bdColorSport_003);
+    border-top: 1px solid var(--bdColorSport_003);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+    box-shadow: 1px 3px 19px var(--shadow_02);
+    background: rgb(236, 241, 253);
+    background: -webkit-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: -moz-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: -o-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: linear-gradient(135deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    cursor: pointer;
+    transition: .2s ease-out
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title:hover {
+    background: var(--bgColorSport_052)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title01 {
+    justify-content: flex-end;
+    box-shadow: none !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .frameALL {
+    margin-top: 38px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .left {
+    color: var(--txtColorSport_037);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-family: NotoSansCJKkr, "sans-serif" !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .left img {
+    margin-right: 5px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .left span {
+    color: var(--txtColor49);
+    margin: 5px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .heart01 {
+    position: absolute;
+    top: 1px;
+    left: -32px;
+    cursor: pointer
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .heart01 span {
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    color: var(--btnColor09_h) !important;
+    position: absolute
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .arrowT {
+    margin-left: 9px;
+    width: 17px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    cursor: pointer
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .arrowT span {
+    color: var(--txtColorSport_05);
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transform: rotate(0)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .arrowT:hover span {
+    color: var(--txtColorSport_035)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .arrowGO span {
+    transform: rotate(180deg)
+}
+
+.sportFrame .centerZone .chooseFrame .heart label:before {
+    display: none
+}
+
+[class^=fa] {
+    font-style: normal
+}
+
+input[name^=like],
+input[name^=favourite] {
+    display: none
+}
+
+input[name^=like]+label[for],
+input[name^=favourite]+label[for] {
+    background-color: var(--bgColor020);
+    -webkit-border-radius: .25em;
+    -moz-border-radius: .25em;
+    border-radius: .25em;
+    color: var(--txtColor02);
+    cursor: pointer;
+    font-weight: 300;
+    margin: .35em;
+    padding: 0 12px
+}
+
+input[name^=favourite]+label[for] {
+    background-color: var(--txtColor21)
+}
+
+input[name^=like]+label[for]:hover,
+input[name^=like]+label[for]:focus,
+input[name^=favourite]+label[for]:hover,
+input[name^=favourite]+label[for]:focus {
+    background-color: var(--txtColor21);
+    outline: 0
+}
+
+input[name^=favourite]+label[for]:hover,
+input[name^=favourite]+label[for]:focus {
+    background-color: var(--txtColor21)
+}
+
+input[name^=like]+label[for].transparent {
+    background-color: transparent;
+    color: var(--txtColor21)
+}
+
+input[name^=favourite]+label[for].transparent {
+    background-color: transparent;
+    color: var(--txtColor21)
+}
+
+input[name^=like]+label[for].transparent:hover,
+input[name^=like]+label[for].transparent:focus,
+input[name^=favourite]+label[for].transparent:hover,
+input[name^=favourite]+label[for].transparent:focus {
+    color: var(--txtColor21)
+}
+
+input[name^=favourite]+label[for].transparent:hover,
+input[name^=favourite]+label[for].transparent:focus {
+    color: var(--txtColor21)
+}
+
+input[name^=like]+label[for].transparent:hover .fa-star,
+input[name^=like]+label[for].transparent:focus .fa-star,
+input[name^=favourite]+label[for].transparent:hover .fa-star,
+input[name^=favourite]+label[for].transparent:focus .fa-star {
+    opacity: .25
+}
+
+input[name^=favourite]+label[for].transparent :hover,
+input[name^=favourite]+label[for].transparent :focus {
+    color: var(--txtColor21)
+}
+
+input[name^=like]+label[for] .do,
+input[name^=like]+label[for] .done,
+input[name^=favourite]+label[for] .do,
+input[name^=favourite]+label[for] .done {
+    margin-left: .35em
+}
+
+input[name^=like]+label[for] .done,
+input[name^=favourite]+label[for] .done,
+input[name^=like]:checked+label[for] .do,
+input[name^=favourite]:checked+label[for] .do {
+    display: none
+}
+
+input[name^=like]+label[for] .do,
+input[name^=favourite]+label[for] .do,
+input[name^=like]:checked+label[for] .done,
+input[name^=favourite]:checked+label[for] .done {
+    display: inline-block
+}
+
+input[name^=like]+label[for] .fa,
+input[name^=favourite]+label[for] .fa {
+    display: inline-block;
+    position: relative
+}
+
+input[name^=like]+label[for] .fa .fa-star-o,
+input[name^=favourite]+label[for] .fa .fa-star-o {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    font-size: 25px;
+    color: var(--txtColor21)
+}
+
+input[name^=like]+label[for] .fa .fa-star,
+input[name^=favourite]+label[for] .fa .fa-star {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    font-size: 25px;
+    color: var(--txtColor21)
+}
+
+input[name^=like]+label[for] .fa .fa-star.fx {
+    color: var(--txtColor21)
+}
+
+input[name^=favourite]+label[for] .fa .fa-star.fx {
+    color: var(--txtColor21)
+}
+
+input[name^=like]:checked+label[for] .fa .fa-star-o,
+input[name^=favourite]:checked+label[for] .fa .fa-star-o {
+    opacity: 0
+}
+
+input[name^=like]:checked+label[for] .fa .fa-star,
+input[name^=favourite]:checked+label[for] .fa .fa-star {
+    opacity: 1
+}
+
+input[name^=like]:checked+label[for] .fa .fa-star.fx,
+input[name^=favourite]:checked+label[for] .fa .fa-star.fx {
+    -moz-animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+    -o-animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+    -webkit-animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+    animation: expand .65s cubic-bezier(.43, .475, 1, .08);
+    opacity: 0
+}
+
+@keyframes expand {
+    0% {
+        -moz-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        transform: scale(1)
+    }
+
+    50% {
+        -moz-transform: scale(2, 2);
+        -o-transform: scale(2, 2);
+        -webkit-transform: scale(2, 2);
+        transform: scale(2);
+        opacity: .7
+    }
+
+    to {
+        -moz-transform: scale(6, 6);
+        -o-transform: scale(6, 6);
+        -webkit-transform: scale(6, 6);
+        transform: scale(6);
+        opacity: 0
+    }
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .iconStar {
+    margin-right: 13px;
+    background: url(/assets/starA01.db9a3cd9.png) no-repeat;
+    width: 22px;
+    height: 21px;
+    cursor: pointer
+}
+
+.iconStar01 {
+    background: url(/assets/starA.40c6b9ec.png) no-repeat !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .time {
+    width: 150px;
+    height: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+    border: 1px solid var(--bdColor024);
+    color: var(--txtColor48);
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 5px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .moreZone01 {
+    color: var(--txtColorSport_035);
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .more {
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 9px;
+    border: 1px solid var(--bdColor058);
+    background-color: var(--bgColorSport_030);
+    color: var(--txtColorSport_020);
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 3px;
+    cursor: pointer;
+    cursor: none
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .greenBtn:hover {
+    background-color: var(--bgColorSport_014) !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .title .right .more span {
+    font-size: 14px;
+    margin-left: 4px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content {
+    padding: 30px 8px 23px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams {
+    display: flex;
+    width: 98%;
+    padding: 7px 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+    position: relative
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .bTime {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--txtColorSport_037);
+    font-size: .8vw;
+    display: none
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .obj01 {
+    position: relative;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame {
+    position: absolute;
+    left: 24px;
+    top: -16px;
+    cursor: pointer
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame span {
+    font-size: 19px;
+    position: relative
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame:hover .hint {
+    display: flex
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame .hint {
+    width: 100px;
+    height: 40px;
+    color: var(--txtColor103);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 42%);
+    position: absolute;
+    display: none;
+    z-index: 2
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame .hint:after {
+    content: "";
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: -3px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame .blueHint:after {
+    background-image: url(/assets/aarowB.e9c45b0c.png)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .hintFrame .greenHint:after {
+    background-image: url(../Sport_korea_euro/images/aarowG.png)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .heart01 {
+    position: absolute;
+    top: -17px;
+    left: 15px;
+    cursor: pointer
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .heart01 span {
+    font-size: 35px !important;
+    font-weight: 400 !important;
+    color: var(--bgColorSport_048) !important;
+    position: absolute
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .heart01 span.starFULL {
+    color: var(--btnColor09_h) !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .obj01 .live span {
+    color: var(--txtColorSport_042);
+    font-size: 35px;
+    margin-left: 5px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .obj01 .greenLine {
+    background-color: var(--bdColorSport_001)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamZone {
+    display: flex;
+    align-items: center;
+    width: 31%
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamA {
+    justify-content: flex-end
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamB {
+    justify-content: flex-start
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamZone .teamBG {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamZone .teamBG img {
+    width: auto;
+    max-width: 48px;
+    height: auto;
+    max-height: 48px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamZone .point {
+    margin-left: 35px;
+    color: var(--txtColorSport_037);
+    font-size: 36px;
+    font-family: ko-bold !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .teamB .point {
+    margin-right: 35px;
+    margin-left: 0 !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .teams .centerZone {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--txtColorSport_037);
+    font-size: 30px;
+    font-family: ko-bold !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5%;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_018);
+    border-radius: 5px;
+    color: var(--txtColorSport_038);
+    font-size: 14px;
+    cursor: pointer;
+    position: relative
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM span {
+    color: var(--txtColor126)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 1;
+    border-radius: 3px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM .block .lock {
+    width: 33px;
+    height: 33px;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_021);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sportFrame .btnZone .btnM .block .lockL {
+    top: 50%;
+    right: -86%;
+    transform: translateY(-50%)
+}
+
+.sportFrame .btnZone .btnM .block .lockLL {
+    top: 50%;
+    right: -84%;
+    transform: translateY(-50%)
+}
+
+.sportFrame .btnZone .btnM .block .lockC {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.sportFrame .btnZone .btnM .block .lockR {
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM .block .lock span {
+    color: #c9aa8d;
+    font-size: 17px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .blocking .block {
+    display: block
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .blocking .block.leftMore {
+    left: -10px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM span.percent {
+    color: var(--txtColorSport_037)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM span.percent span.greenTXT {
+    color: var(--txtColorSport_038)
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM:hover,
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .yellowChoose {
+    background-color: var(--bgColorSport_032) !important;
+    border: 1px solid var(--bdColorSport_001) !important
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content .btnZone .btnM:hover span {
+    color: #fff
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .block {
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    top: -21px;
+    display: none;
+    z-index: 1;
+    border-radius: 10px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .block .lock {
+    width: 86px;
+    height: 86px;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_021);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .block .lock span {
+    color: var(--bgColorSport_031);
+    font-size: 47px
+}
+
+.sportFrame .chooseZone .cubeZone01 .blocking .block {
+    display: block
+}
+
+.sportFrame .chooseZone .cubeZone01 .lineZone {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none
+}
+
+.sportFrame .chooseZone .cubeZone01 .lineZone .txt {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgColor046);
+    color: var(--txtColor02);
+    font-size: 12px;
+    border-bottom: 2px solid var(--bgColor052)
+}
+
+.sportFrame .chooseZone .cubeZone01 .lineZone span {
+    color: var(--txtColor26);
+    padding: 5px;
+    font-size: 17px
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content01 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    background: url(/assets/cubeBG.26fa46a4.png) no-repeat;
+    background-size: cover
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content01 .teamA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    color: var(--txtColor48);
+    font-size: 12px;
+    font-weight: 700
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content01 .vs {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--txtColor52);
+    font-size: 30px;
+    font-weight: 700
+}
+
+.sportFrame .chooseZone .cubeZone01 .cube01 .content01 .time {
+    position: absolute;
+    color: var(--txtColor50);
+    font-size: 12px;
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -34px)
+}
+
+.sportFrame .chooseFrame {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative
+}
+
+.moreZone {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1%;
+    float: left;
+    position: absolute;
+    transform: translate(-100%);
+    background-color: var(--main);
+    transition: .1s ease-out;
+    z-index: 1
+}
+
+.moreZone::-webkit-scrollbar {
+    width: 3px
+}
+
+.moreZone::-webkit-scrollbar-track {
+    background-color: #d5e0f7
+}
+
+.moreZone::-webkit-scrollbar-thumb {
+    background-color: #adb5d0
+}
+
+.moreZone::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0
+}
+
+.moreZone .frameZone .title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--bgColorSport_025) !important;
+    border: 1px solid var(--bdColorSport_012);
+    display: flex;
+    align-items: center;
+    padding: 0 22px 0 10px;
+    color: var(--txtColorSport_03);
+    font-size: 14px;
+    font-weight: 700
+}
+
+.moreZone .frameZone .title .backL {
+    cursor: pointer;
+    display: flex;
+    align-items: center
+}
+
+.moreZone .frameZone .title span {
+    color: var(--txtColorSport_05);
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.moreZone .frameZone .content {
+    width: 100%;
+    padding-bottom: 46.3%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.moreZone .frameZone .nameBall {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgColorSport_025) !important;
+    border: 1px solid var(--bdColorSport_012);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px 0 12px;
+    color: var(--txtColor02);
+    font-size: 14px
+}
+
+.moreZone .nameBall .left {
+    color: var(--txtColorSport_037);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-family: NotoSansCJKkr, "sans-serif" !important
+}
+
+.moreZone .nameBall .left span.vs {
+    color: var(--txtColorSport_05);
+    margin-left: 5px
+}
+
+.moreZone .nameBall .left img {
+    margin-right: 5px
+}
+
+.moreZone .nameBall .left span {
+    color: var(--txtColor49);
+    margin-right: 5px
+}
+
+.moreZone .nameBall .right {
+    display: flex;
+    align-items: center
+}
+
+.moreZone .nameBall .right .live {
+    width: 42px;
+    height: 32px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    cursor: pointer;
+    margin-right: 17px
+}
+
+.moreZone .nameBall .right .live span {
+    color: var(--txtColorSport_042);
+    font-size: 32px;
+    margin-left: 5px
+}
+
+.moreZone .nameBall .right .live span.active {
+    color: var(--txtColorSport_09) !important
+}
+
+.moreZone .nameBall .right .live span.icon-icon-icconPLAY01 {
+    color: var(--txtColorSport_042)
+}
+
+.moreZone .nameBall .right .greenLine {
+    background-color: var(--bdColorSport_001)
+}
+
+.moreZone .nameBall .right .arrowM {
+    margin-left: 9px;
+    width: 17px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    cursor: pointer
+}
+
+.moreZone .nameBall .right .arrowM span {
+    color: var(--txtColorSport_05);
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transform: rotate(0);
+    transition: .2s ease-out
+}
+
+.moreZone .nameBall .right .arrowM:hover span {
+    color: var(--txtColorSport_035)
+}
+
+.moreZone .nameBall .right .arrowGO span {
+    transform: rotate(180deg)
+}
+
+.moreZone .tabZone {
+    background-color: var(--bgColorSport_025) !important;
+    border: 1px solid var(--bdColorSport_012);
+    height: 43px;
+    width: 100%
+}
+
+.moreZone .tabZone ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 5px;
+    width: 130%
+}
+
+.moreZone .tabZone ul li {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+    border: 1px solid var(--bdColor076);
+    margin-right: 4px;
+    cursor: pointer;
+    padding: 0 8px
+}
+
+.moreZone .tabZone ul li:hover,
+.moreZone .tabZone ul li.active {
+    background-color: var(--bdColorSport_001)
+}
+
+.moreZone .tabZone ul li img {
+    margin-right: 5px
+}
+
+.moreZone .tabZone ul li .txt {
+    color: var(--txtColorSport_034);
+    font-size: 12px
+}
+
+.moreZone .tabZone ul li:hover .txt,
+.moreZone .tabZone ul li.active .txt {
+    color: var(--txtColorSport_08)
+}
+
+.moreZone .tabZone ul li .txt span {
+    color: var(--txtColorSport_033);
+    margin-left: 4px
+}
+
+.moreZone .tabZone ul li:hover .txt span,
+.moreZone .tabZone ul li.active .txt span {
+    color: var(--txtColorSport_026)
+}
+
+.moreZone .tabZone02 {
+    background-color: var(--main) !important;
+    height: 80px;
+    width: 100%
+}
+
+.moreZone .tabZone02 ul {
+    height: 80px !important
+}
+
+.moreZone .tabZone02 ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+    padding-left: 12px;
+    overflow-x: auto
+}
+
+.moreZone .tabZone02 ul::-webkit-scrollbar {
+    height: 8px !important
+}
+
+.moreZone .tabZone02 ul li {
+    height: 40px;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgColorSport_041);
+    border-radius: 5px;
+    margin-right: 9px;
+    cursor: pointer;
+    padding: 0 10px
+}
+
+.moreZone .tabZone02 ul li:hover,
+.moreZone .tabZone02 ul li.active {
+    background-color: var(--bdColorSport_001)
+}
+
+.moreZone .tabZone02 ul li img {
+    margin-right: 5px
+}
+
+.moreZone .tabZone02 ul li .txt {
+    color: var(--txtColor122);
+    font-size: 16px
+}
+
+.moreZone .tabZone02 ul li:hover .txt,
+.moreZone .tabZone02 ul li.active .txt {
+    color: var(--txtColorSport_08)
+}
+
+.moreZone .tabZone02 ul li .txt span {
+    color: var(--txtColorSport_033);
+    margin: 4px
+}
+
+.moreZone .tabZone02 ul li:hover .txt span,
+.moreZone .tabZone02 ul li.active .txt span {
+    color: var(--txtColorSport_026)
+}
+
+.moreZone .bFrame {
+    overflow-y: scroll;
+    height: 850px
+}
+
+.moreZone .bZone .title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--bdColorSport_003);
+    border-top: 1px solid var(--bdColorSport_003);
+    display: flex;
+    align-items: center;
+    padding: 0 17px;
+    justify-content: space-between;
+    box-shadow: 0 6px 15px var(--shadow_02);
+    background: rgb(236, 241, 253);
+    background: -webkit-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: -moz-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: -o-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: linear-gradient(135deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: .2s all ease-out
+}
+
+.moreZone .bZone .title:hover {
+    background: var(--bgColorSport_052)
+}
+
+.moreZone .bZone .title .left {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: var(--txtColorSport_03)
+}
+
+.moreZone .bZone .title .left img {
+    margin-right: 10px
+}
+
+.moreZone .bZone .title .left img.moneyICON {
+    margin-left: 7px;
+    height: 20px;
+    width: 20px
+}
+
+.moreZone .bZone .title .left .arrowT {
+    background-color: var(--bdColorSport_001);
+    margin-left: 9px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px
+}
+
+.moreZone .bZone .title .left .arrowT:hover {
+    background-color: var(--bgColorSport_014)
+}
+
+.moreZone .bZone .title .left .arrowT span {
+    color: var(--txtColorSport_08);
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(0) translateY(1px)
+}
+
+.moreZone .bZone .title .left .arrowGO span {
+    transform: rotate(180deg) translateY(1px)
+}
+
+.moreZone .bZone .title .right .arrowW {
+    margin-left: 9px;
+    width: 17px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 6px
+}
+
+.moreZone .bZone .title .right .arrowW span {
+    color: var(--txtColorSport_05);
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transform: rotate(0)
+}
+
+.moreZone .bZone .title .right .arrowW:hover span {
+    color: var(--txtColorSport_035)
+}
+
+.moreZone .bZone .title .right .arrowGO span {
+    transform: rotate(180deg)
+}
+
+.moreZone .bZone .title .right .heart01 {
+    position: relative;
+    right: 35px;
+    top: 7px;
+    cursor: pointer
+}
+
+.moreZone .bZone .title .right .heart01 span {
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    position: absolute
+}
+
+.moreZone .bZone .title .right .heart01 span.starFULL {
+    color: var(--btnColor09_h) !important
+}
+
+.moreZone .bZone .content {
+    padding-top: 16px;
+    margin-bottom: 18px
+}
+
+.moreZone .bZone .content .nameZone {
+    height: 29px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid var(--bdColorSport_018);
+    margin-bottom: 8px
+}
+
+.moreZone .bZone .content .nameZone:after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--bdColorSport_018)
+}
+
+.moreZone .bZone .content .nameZone .name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: var(--txtColorSport_037);
+    font-size: 16px
+}
+
+.moreZone .bZone .content .nameZone02:after {
+    display: none
+}
+
+.moreZone .bZone .content .nameZone02 .name {
+    width: 33%;
+    position: relative
+}
+
+.moreZone .bZone .content .nameZone02 .name:nth-child(2):before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    background-color: var(--bdColorSport_018)
+}
+
+.moreZone .bZone .content .nameZone02 .name:nth-child(2):after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+    background-color: var(--bdColorSport_018)
+}
+
+.moreZone .bZone .content .btnZone {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto 9px
+}
+
+.moreZone .bZone .content .btnZone .btnM {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_018);
+    border-radius: 5px;
+    color: var(--txtColorSport_037);
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding: 2.2%
+}
+
+.moreZone .bZone .content .btnZone .btnM:hover {
+    background-color: var(--bgColorSport_032) !important;
+    border: 1px solid var(--bdColorSport_001) !important
+}
+
+.moreZone .bZone .content .btnZone .btnM:hover span,
+.moreZone .bZone .content .btnZone .btnM:hover span.percent {
+    color: #fff
+}
+
+.moreZone .bZone .content .btnZone .btnM .left span {
+    margin-left: 7px
+}
+
+.moreZone .bZone .content .btnZone .btnM .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+    border-radius: 3px
+}
+
+.moreZone .bZone .content .btnZone .btnM .block .lock {
+    width: 30px;
+    height: 30px;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_021);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.moreZone .bZone .content .btnZone .btnM .block .lock span {
+    color: var(--bgColorSport_031);
+    font-size: 17px
+}
+
+.moreZone .bZone .content .btnZone .blocking .block {
+    display: block
+}
+
+.moreZone .bZone .content .btnZone .blocking .block.leftMore {
+    left: -15px
+}
+
+.moreZone .bZone .content .btnZone .btnM span.percent,
+.moreZone .bZone .content .btnZone .btnM span.greenTXT {
+    color: var(--txtColorSport_038)
+}
+
+.moreZone .btnZone .btnM .block .lockL {
+    top: 50%;
+    right: -90%;
+    transform: translateY(-50%)
+}
+
+.moreZone.btnZone .btnM .block .lockLL {
+    top: 50%;
+    right: -84%;
+    transform: translateY(-50%)
+}
+
+.moreZone .btnZone .btnM .block .lockC {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.moreZone .btnZone .btnM .block .lockR {
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%)
+}
+
+.btn50 {
+    width: 49.5%
+}
+
+.btn33 {
+    width: 33%;
+    justify-content: space-between !important
+}
+
+.btn40 {
+    width: 42.5%
+}
+
+.btn20 {
+    width: 12.5%;
+    justify-content: center !important
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar-track {
+    background-color: var(--bgColorSport_031)
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+    background-color: var(--bgColor014)
+}
+
+.sportFrame .chooseZone .tabZone .tabFrame::-webkit-scrollbar-thumb {
+    background-color: var(--bgColorSport_031)
+}
+
+.sportFrame .chooseZone .tabZone ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 5px;
+    width: 130%
+}
+
+.sportFrame .chooseZone .tabZone ul li {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_018);
+    margin-right: 4px;
+    cursor: pointer;
+    padding: 0 8px;
+    white-space: nowrap
+}
+
+.sportFrame .chooseZone .tabZone ul li:hover,
+.sportFrame .chooseZone .tabZone ul li.active {
+    background-color: var(--bdColorSport_001)
+}
+
+.sportFrame .chooseZone .tabZone ul li img {
+    margin-right: 5px;
+    height: 18px
+}
+
+.sportFrame .chooseZone .tabZone ul li .txt {
+    color: var(--txtColorSport_034);
+    font-size: 12px;
+    white-space: nowrap
+}
+
+.sportFrame .chooseZone .tabZone ul li:hover .txt,
+.sportFrame .chooseZone .tabZone ul li.active .txt {
+    color: var(--txtColorSport_08)
+}
+
+.sportFrame .chooseZone .tabZone ul li .txt span {
+    color: var(--txtColorSport_033);
+    margin-left: 4px
+}
+
+.sportFrame .chooseZone .tabZone ul li:hover .txt span,
+.sportFrame .chooseZone .tabZone ul li.active .txt span {
+    color: var(--txtColorSport_026)
+}
+
+.sportFrame .chooseZone .tabZone02 {
+    background-color: var(--main) !important;
+    height: 105px;
+    width: 100%
+}
+
+.sportFrame .chooseZone .tabZone02 .title {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    margin-top: 18px;
+    text-align: center
+}
+
+.sportFrame .chooseZone .tabZone02 .title:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #d5e0f7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.sportFrame .chooseZone .tabZone02 .title span {
+    color: var(--txtColorSport_05);
+    background-color: var(--bgColorSport_02);
+    z-index: 1;
+    position: relative;
+    font-size: 18px;
+    padding: 0 32px
+}
+
+.sportFrame .chooseZone .tabZone02 .tabFrame {
+    width: 100%;
+    overflow-x: auto
+}
+
+.sportFrame .chooseZone .tabZone02 .tabFrame::-webkit-scrollbar {
+    height: 5px !important
+}
+
+.sportFrame .chooseZone .tabZone02 .tabFrame::-webkit-scrollbar-track {
+    background-color: #d5e0f7 !important
+}
+
+.sportFrame .chooseZone .tabZone02 .tabFrame::-webkit-scrollbar-thumb {
+    background-color: #adb5d0 !important;
+    transition: .2s all ease-out
+}
+
+.sportFrame .chooseZone .tabZone02 ul {
+    height: 80px !important
+}
+
+.sportFrame .chooseZone .tabZone02 ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+    padding-left: 10px
+}
+
+.sportFrame .chooseZone .tabZone02 ul li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bgColorSport_041);
+    border-radius: 5px;
+    margin-right: 9px;
+    cursor: pointer;
+    white-space: nowrap;
+    min-width: 82px
+}
+
+.sportFrame .chooseZone .tabZone02 ul li:hover,
+.sportFrame .chooseZone .tabZone02 ul li.active {
+    background-color: var(--bdColorSport_001)
+}
+
+.sportFrame .chooseZone .tabZone02 ul li img {
+    margin-right: 5px
+}
+
+.sportFrame .chooseZone .tabZone02 ul li .txt {
+    color: var(--txtColor122);
+    font-size: 15px;
+    padding: 0 5px
+}
+
+.sportFrame .chooseZone .tabZone02 ul li:hover .txt,
+.sportFrame .chooseZone .tabZone02 ul li.active .txt {
+    color: var(--txtColorSport_08)
+}
+
+.sportFrame .chooseZone .tabZone02 ul li .txt span {
+    color: var(--txtColorSport_033);
+    margin: 4px
+}
+
+.sportFrame .chooseZone .tabZone02 ul li:hover .txt span,
+.sportFrame .chooseZone .tabZone02 ul li.active .txt span {
+    color: var(--txtColorSport_026)
+}
+
+.sportFrame .decideZone {
+    width: 15%;
+    float: right;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_012);
+    position: relative;
+    height: auto
+}
+
+.sportFrame .decideZone::-webkit-scrollbar {
+    width: 3px
+}
+
+.sportFrame .decideZone::-webkit-scrollbar-track {
+    background-color: #d5e0f7
+}
+
+.sportFrame .decideZone::-webkit-scrollbar-thumb {
+    background-color: #adb5d0;
+    transition: .2s all ease-out
+}
+
+.sportFrame .decideZone::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0
+}
+
+.sportFrame .decideZone .setZone {
+    background-color: var(--bgColorSport_038);
+    padding: 2px 5px
+}
+
+.sportFrame .decideZone .setZone .set01 {
+    display: flex;
+    justify-content: space-between
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone {
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .switch {
+    width: 45px;
+    height: 26px;
+    background-color: #c9aa8d;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .switch:before {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-color: var(--bgColorSport_02);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    transition: .3s all ease-out
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .switchOn {
+    background-color: #a78667
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .switchOn:before {
+    left: 71%
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .txt {
+    color: var(--txtColorSport_03);
+    white-space: nowrap;
+    font-size: 14px;
+    margin-left: 5px
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .frame {
+    position: relative
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone .frame:hover .hoverMsg {
+    display: block
+}
+
+.sportFrame .decideZone .setZone .set01 .switchZone span {
+    color: var(--txtColorSport_038);
+    font-size: 19px;
+    margin-left: 3px
+}
+
+.switchZone .frame .hoverMsg {
+    background-color: var(--main);
+    position: absolute;
+    top: 417%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 8px;
+    border-radius: 3px;
+    color: var(--txtColorSport_038);
+    line-height: 1.6;
+    box-shadow: 1px 3px 5px var(--shadow_02);
+    font-size: 12px;
+    text-align: justify;
+    width: 250px;
+    display: none
+}
+
+.switchZone .frame .hoverMsg:after {
+    content: "";
+    width: 8px;
+    height: 6px;
+    position: absolute;
+    top: -3%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 10
+}
+
+.webp .switchZone .frame .hoverMsg:after {
+    background-image: url(../LiveSport/images/arrow_msg.webp)
+}
+
+.no-webp .switchZone .frame .hoverMsg:after {
+    background-image: url(../LiveSport/images/arrow_msg.png)
+}
+
+.switchZone .frame:hover .hoverMsg {
+    display: block
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame {
+    width: 136px;
+    height: 36px;
+    background-color: var(--main);
+    border-radius: 5px;
+    margin-left: 5px;
+    position: relative
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame input {
+    padding-left: 5px;
+    line-height: 36px;
+    height: 36px;
+    color: var(--txtColorSport_09);
+    width: 100%;
+    border: 0
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame input::placeholder {
+    color: var(--txtColorSport_09);
+    font-size: 12px
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame .btnV {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px;
+    border-radius: 5px;
+    display: none
+}
+
+.sportFrame .decideZone .setZone .set01 .editSwitch .btnV {
+    display: block
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame .edit {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--txtColorSport_051)
+}
+
+.sportFrame .decideZone .setZone .set01 .editSwitch .edit {
+    display: none
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame .edit span {
+    color: var(--txtColorSport_038);
+    font-size: 21px
+}
+
+.sportFrame .decideZone .setZone .set01 .setIcon {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px
+}
+
+.sportFrame .decideZone .setZone .set01 .setIcon span {
+    color: var(--txtColorSport_038);
+    font-size: 19px
+}
+
+.sportFrame .decideZone .setZone .warning {
+    color: var(--txtColorSport_038);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+
+.sportFrame .decideZone .setZone .warning span {
+    color: var(--txtColorSport_041);
+    font-size: 19px;
+    margin-right: 5px
+}
+
+.sportFrame .decideZone .panelChange .title {
+    height: 40px;
+    width: 100%;
+    background-color: var(--bgColorSport_07);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--txtColorSport_08);
+    padding: 0 14px
+}
+
+.sportFrame .decideZone .panelChange .title .xx1 {
+    border: 2px solid var(--bdColorSport_003);
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .panelChange .title .xx1 span {
+    font-size: 12px;
+    transform: scale(.8);
+    font-weight: bolder
+}
+
+.sportFrame .decideZone .listZone .title .txt {
+    color: var(--txtColorSport_034)
+}
+
+.odds-setting-panel {
+    padding: 2vw 3vw 1vw;
+    background: var(--spbgColor07)
+}
+
+.control-box {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.switch-content {
+    width: 88vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+a.icon-setting {
+    width: 6vw;
+    color: var(--sptxtColor03);
+    font-size: 1.6rem
+}
+
+.toggle {
+    width: 28vw;
+    height: 30px;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: var(--spbgColor01);
+    border-radius: 16px;
+    width: 48px;
+    height: 26px;
+    position: relative;
+    vertical-align: middle;
+    -webkit-transition: background .25s;
+    -o-transition: background .25s;
+    -moz-transition: background .25s;
+    transition: background .25s
+}
+
+.toggle-switch:before,
+.toggle-switch:after {
+    content: ""
+}
+
+.toggle-switch:before {
+    display: block;
+    background: var(--spbgColor06);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    -webkit-transition: left .25s;
+    -o-transition: left .25s;
+    -moz-transition: left .25s;
+    transition: left .25s;
+    -ms-transition: left .25s
+}
+
+.toggle-checkbox:checked+.toggle-switch {
+    background: var(--spbgColor02)
+}
+
+.toggle-checkbox:checked+.toggle-switch:before {
+    left: 25px
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden
+}
+
+.toggle-label {
+    position: relative;
+    font-size: .86rem;
+    margin-left: 4px;
+    color: var(--sptxtColor01)
+}
+
+.stick-on {
+    width: 55vw;
+    margin-left: 2vw
+}
+
+.stick-on .on,
+.stick-on .edit {
+    padding: 2px;
+    height: 30px;
+    background: var(--spbgColor06);
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw
+}
+
+.stick-on .on>p {
+    font-size: 1rem;
+    padding-left: 6px;
+    color: var(--sptxtColor02);
+    font-weight: 700
+}
+
+.stick-on .on>span.icon-edit {
+    font-size: 1.25rem;
+    color: var(--sptxtColor03)
+}
+
+.stick-on .edit input {
+    width: 34vw;
+    border: 0px;
+    height: 30px;
+    font-size: 1rem;
+    padding-left: 6px;
+    color: var(--sptxtColor02);
+    font-weight: 700
+}
+
+.stick-on .edit input::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: var(--sptxtColor02)
+}
+
+.stick-on .edit button {
+    width: 12vw;
+    height: 26px;
+    border-radius: 1vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    -ms-border-radius: 1vw;
+    -o-border-radius: 1vw;
+    background: var(--spbgColor08);
+    color: var(--sptxtColor05);
+    font-size: .81rem
+}
+
+.alarm {
+    width: 100%;
+    margin-top: 3px;
+    color: var(--sptxtColor03)
+}
+
+.alarm>span.icon-alarm {
+    color: var(--sptxtColor06) !important
+}
+
+.odds-change-panel {
+    position: absolute;
+    z-index: 100;
+    border-top: 1px solid var(--borderColor06);
+    background: rgb(236, 241, 253);
+    background: -webkit-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 18%, rgb(239, 243, 254) 38%, rgb(239, 243, 254) 100%);
+    background: -moz-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 18%, rgb(239, 243, 254) 38%, rgb(239, 243, 254) 100%);
+    background: -o-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 18%, rgb(239, 243, 254) 38%, rgb(239, 243, 254) 100%);
+    background: linear-gradient(135deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 18%, rgb(239, 243, 254) 38%, rgb(239, 243, 254) 100%)
+}
+
+.odds-change-panel .head {
+    font-size: .86rem;
+    padding: 4px 3vw;
+    background: var(--spbgColor03);
+    color: var(--sptxtColor04);
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.odds-change-panel .head span.icon-close {
+    width: 20px;
+    height: 20px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid var(--spborderColor01);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: .72rem
+}
+
+.odds-change-panel .head span.icon-close:before {
+    transform: scale(.72);
+    -webkit-transform: scale(.72);
+    -moz-transform: scale(.72);
+    -ms-transform: scale(.72);
+    -o-transform: scale(.72)
+}
+
+.odds-change-panel .container {
+    padding: 4px 3vw;
+    color: var(--sptxtColor05)
+}
+
+.radio {
+    margin: 10px 0;
+    font-size: .86rem
+}
+
+.radio input[type=radio] {
+    position: absolute;
+    opacity: 0
+}
+
+.radio input[type=radio]+.radio-label {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 10px;
+    color: var(--txtColorSport_037);
+    font-size: 12px
+}
+
+.radio-label:after {
+    display: none
+}
+
+.radio input[type=radio]+.radio-label:before {
+    content: "";
+    background: var(--spbgColor06);
+    border-radius: 100%;
+    border: 1px solid var(--spborderColor02);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    transition: all .25s ease
+}
+
+.radio input[type=radio]:checked+.radio-label:before {
+    background-color: var(--bdColorSport_001);
+    box-shadow: inset 0 0 0 2px var(--bdColorSport_001)
+}
+
+.radio input[type=radio]:focus+.radio-label:before {
+    outline: none;
+    border-color: var(--spborderColor02)
+}
+
+.radio input[type=radio]:disabled+.radio-label:before {
+    box-shadow: inset 0 0 0 2px var(--spbgColor06)
+}
+
+.radio input[type=radio]+.radio-label:empty:before {
+    margin-right: 0
+}
+
+.sportFrame .decideZone .content .tabBar {
+    height: 40px;
+    width: 100%;
+    background-color: var(--bgColorSport_028)
+}
+
+.sportFrame .decideZone .content .tabBar .tab {
+    width: 100%;
+    height: 40px
+}
+
+.sportFrame .decideZone .content .tabBar .tab ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 40px
+}
+
+.sportFrame .decideZone .content .tabBar .tab ul li {
+    float: left;
+    width: 50%;
+    height: 40px;
+    background-color: var(--bgColorSport_042);
+    color: var(--txtColor122);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative
+}
+
+.sportFrame .decideZone .content .tabBar .tab ul li:hover span,
+.sportFrame .decideZone .content .tabBar .tab ul li.activeTab span {
+    color: var(--txtColorSport_040);
+    margin-left: 3px
+}
+
+.sportFrame .decideZone .content .tabBar .tab ul li:hover,
+.sportFrame .decideZone .content .tabBar .tab ul li.activeTab {
+    background-color: var(--bgColorSport_07);
+    color: var(--txtColorSport_08)
+}
+
+.sportFrame .decideZone .content .tabBar .tab ul li .no {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: var(--txtColor22);
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none
+}
+
+.sportFrame .decideZone .content .tabBar .icon {
+    height: 44px;
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .decideZone .content .tabBar .icon span {
+    margin-left: 13px;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .content .tabBar .icon span.icon-iconLock1 {
+    font-size: 15px
+}
+
+.sportFrame .decideZone .content .listFrame {
+    margin: 0 auto
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .deleteAll {
+    background-color: var(--bgColor117);
+    height: 38px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--txtColorSport_037);
+    padding: 0 5.5%
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .deleteAll .refreshZone {
+    display: flex;
+    align-items: center;
+    color: var(--black002);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease-out
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .deleteAll .refreshZone span {
+    margin-right: 6px;
+    font-size: 19px;
+    color: var(--txtColor123)
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .deleteAll .deleteAll01 {
+    display: flex;
+    align-items: center;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .deleteAll .xxAll {
+    margin-left: 10px;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .deleteAll .xxAll span {
+    color: var(--txtColor123);
+    font-weight: bolder;
+    font-size: 19px
+}
+
+.sportFrame .decideZone .content .listFrame .listConent {
+    padding-top: 12px
+}
+
+.sportFrame .decideZone .content .listFrame .list {
+    width: 91%;
+    position: relative;
+    background-color: var(--main);
+    margin: 0 auto 10px;
+    box-shadow: 0 0 7px var(--shadow_02);
+    border-radius: 5px
+}
+
+.sportFrame .decideZone .content .listFrame .list .left {
+    line-height: 1.7
+}
+
+.sportFrame .decideZone .content .listFrame .list .left .txtFrame {
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .decideZone .content .listFrame .list .left .txtFrame span {
+    margin-right: 4px
+}
+
+.sportFrame .decideZone .content .listFrame .list .left .obj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2px
+}
+
+.sportFrame .decideZone .content .listFrame .list .left h2 {
+    color: var(--txtColorSport_037);
+    font-size: 15px;
+    font-family: ko-bold !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 207px
+}
+
+.sportFrame .decideZone .content .listFrame .list .left h3 {
+    color: var(--txtColor122);
+    font-size: 14px
+}
+
+.sportFrame .decideZone .content .listFrame .list .left h4 {
+    color: var(--txtColorSport_039) !important;
+    font-size: 16px;
+    text-decoration: line-through
+}
+
+.sportFrame .decideZone .content .listFrame .list .xx span {
+    transform: scale(.68);
+    color: var(--txtColorSport_038)
+}
+
+.sportFrame .decideZone .content .listFrame .list .percent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    color: var(--txtColorSport_08);
+    font-size: 14px;
+    background-color: var(--bgColorSport_043);
+    width: 100%;
+    height: 36px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 5px 5px
+}
+
+.sportFrame .decideZone .content .listFrame .list .title {
+    background-color: var(--bgColorSport_043);
+    width: 100%;
+    height: 36px;
+    color: var(--txtColorSport_08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px 5px 0 0
+}
+
+.sportFrame .decideZone .content .listFrame .list .title .txtFrame {
+    font-size: 14px;
+    font-family: ko-bold !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 207px;
+    padding-bottom: 2px
+}
+
+.sportFrame .decideZone .content .listFrame .list .title .txtFrame span {
+    color: var(--txtColorSport_043);
+    font-size: 15px;
+    margin-right: 4px;
+    display: none
+}
+
+.sportFrame .decideZone .content .listFrame .blocking .title .txtFrame span {
+    display: inline-block
+}
+
+.sportFrame .decideZone .content .listFrame .list .title .xx {
+    border: 1px solid var(--bdColor058);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .content .listFrame .blocking .title .xx {
+    position: relative;
+    z-index: 1
+}
+
+.sportFrame .decideZone .content .listFrame .list .title .xx span {
+    color: var(--txtColorSport_103);
+    font-size: 12px;
+    font-weight: 700
+}
+
+.sportFrame .decideZone .content .listFrame .list .content {
+    width: 100%;
+    padding: 10px
+}
+
+.sportFrame .decideZone .content .listFrame .list .content .txtList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+
+.sportFrame .decideZone .content .listFrame .list .content .txtList .leftZone {
+    color: var(--txtColorSport_037) !important;
+    font-size: 13px
+}
+
+.sportFrame .decideZone .content .listFrame .list .content .txtList01 .leftZone {
+    color: var(--txtColor122) !important;
+    font-size: 13px
+}
+
+.sportFrame .decideZone .content .listFrame .list .content .txtList .rightZone {
+    color: var(--txtColorSport_037) !important;
+    font-size: 13px;
+    font-family: ko-bold !important
+}
+
+.sportFrame .decideZone .content .listFrame .list .content .txtList .redTxt {
+    color: var(--txtColorSport_039) !important;
+    font-size: 15px;
+    font-family: ko-bold !important;
+    text-decoration: line-through
+}
+
+.sportFrame .decideZone .content .listFrame .list .content .txtList .rightZone01 {
+    color: var(--txtColorSport_039) !important;
+    font-size: 16px;
+    font-family: ko-bold !important;
+    text-decoration: line-through
+}
+
+.sportFrame .decideZone .content .listFrame .list .percent span {
+    color: var(--txtColorSport_08);
+    font-size: 14px;
+    position: relative
+}
+
+.sportFrame .decideZone .content .listFrame .list .percent span .throughN0 {
+    position: absolute;
+    color: var(--txtColorSport_039) !important;
+    font-size: 16px;
+    font-family: ko-bold !important;
+    text-decoration: line-through;
+    top: -34px;
+    right: -1px;
+    text-align: right
+}
+
+.sportFrame .decideZone .content .listFrame .list .mask {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--bgColorSport_047);
+    border-radius: 5px;
+    display: none
+}
+
+.sportFrame .decideZone .content .listFrame .blocking .mask {
+    display: block
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--main);
+    padding-top: 10px
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone .title01 {
+    width: 95%;
+    margin: 0 auto;
+    background-color: var(--bgColorSport_034);
+    color: var(--txtColor28);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    border-top: 1px solid var(--bdColor04)
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone .info {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 12px
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone .info table td {
+    color: var(--txtColor20);
+    font-size: 14px;
+    padding: 10px 7px
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone .info01 {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    background-color: var(--btnColor08);
+    border: 1px solid var(--bdColor012)
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone .info01 table {
+    width: 95%;
+    margin: 0 auto
+}
+
+.sportFrame .decideZone .content .listFrame .listZone .upZone .info01 table td {
+    color: var(--txtColor20);
+    font-size: 14px;
+    padding: 10px 7px
+}
+
+.sportFrame .decideZone .listZone .slipZone {
+    width: 90%;
+    margin: 20px auto 0
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip {
+    position: relative;
+    background-color: var(--main);
+    margin: 0 auto 15px;
+    box-shadow: 1px 3px 19px var(--shadow_02);
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .title {
+    width: 100%;
+    height: 24px;
+    background-color: var(--bgColorSport_043) !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px 5px 0 0;
+    color: var(--txtColorSport_08);
+    padding: 9px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .title .time {
+    font-size: 12px;
+    font-family: ko-bold !important
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .title .money {
+    font-size: 14px;
+    font-family: ko-bold !important
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content {
+    position: relative;
+    padding: 1px 8px 6px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slips .content {
+    padding: 1px 8px 0
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .ballZone .percent h3.major {
+    width: 77%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .teamZone {
+    display: flex;
+    justify-content: space-between
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .teamZone .team,
+.sportFrame .decideZone .listZone .slipZone .slip .content .ballZone .txt {
+    width: 100%;
+    margin-top: 3px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .teamZone .state {
+    color: var(--txtColorSport_038);
+    font-size: 12px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .timeZone {
+    color: var(--black005);
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    border-bottom: 1px solid var(--bdColorSport_019);
+    padding-bottom: 11px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .timeZone span {
+    font-size: 17px;
+    font-weight: 100
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .timeZone .txt {
+    font-size: 12px;
+    margin-left: 5px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .ballZone {
+    color: var(--txtColor122);
+    font-size: 12px;
+    line-height: 1.8;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border-bottom: 2px dotted #d5e0f7;
+    padding-bottom: 3px;
+    margin-top: -7px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .ballZone .txt h3 {
+    font-size: 13px;
+    margin-top: -8px;
+    color: #9b9b9b
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .ballZone .percent {
+    color: var(--txtColorSport_09);
+    font-size: 14px;
+    font-family: ko-bold !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -3px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone {
+    margin-top: 7px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: end
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone .btnM {
+    color: var(--txtColorSport_08);
+    background-color: var(--bdColorSport_001);
+    border-radius: 5px;
+    padding: 7px 20px;
+    font-size: 12px;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .resultFinally {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 94%;
+    margin: 0 auto;
+    border-bottom: 2px dotted #d5e0f7;
+    padding: 8px 0;
+    color: var(--black005)
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .resultFinally span {
+    color: #9b9b9b;
+    font-size: 12px
+}
+
+.sportFrame .chooseZone {
+    width: 49.8%
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone .numberZone {
+    color: var(--black008);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 7px;
+    position: relative
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone .numberZone .number {
+    color: var(--black008);
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .ballZone .txt h2 {
+    line-height: 1.4;
+    margin-top: 5px;
+    color: #959595
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone .numberZone .number span {
+    color: var(--black008);
+    margin-left: 3px;
+    cursor: pointer
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone .numberZone .state {
+    color: var(--black005);
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .success .numberZone .state01 {
+    color: var(--txtColorSport_026) !important;
+    display: flex;
+    align-items: center;
+    animation: shineTag01 3s 1 forwards;
+    position: absolute;
+    right: 0
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .success .numberZone .state01 span {
+    margin-right: 5px;
+    color: var(--txtColorSport_026) !important
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .success .numberZone .state {
+    animation: shineTag02 3s 1 forwards
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .normal .numberZone .state01 {
+    display: none
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .cash .goCash {
+    display: block
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .content .cash .numberZone .state01 {
+    display: none
+}
+
+.sportFrame .decideZone .listZone .slipZone .slips.content {
+    padding: 1px 8px 0
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .resultFinally span,
+.sportFrame .decideZone .listZone .slipZone .slip .content .resultZone .blueTxt01 {
+    font-size: 12px;
+    line-height: 1.3;
+    display: flex
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .resultFinally span h2 {
+    color: var(--txtColorSport_09);
+    margin-left: 3px
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .copyZone {
+    background-color: #5e5e5e;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap
+}
+
+.sportFrame .decideZone .listZone .slipZone .slip .goToasts {
+    animation: toasts01 1.5s 1 forwards
+}
+
+@-webkit-keyframes shineTag01 {
+    0% {
+        opacity: 0
+    }
+
+    25% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+
+    75% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes shineTag02 {
+    0% {
+        opacity: 0
+    }
+
+    90% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes toasts {
+    0% {
+        opacity: 0;
+        top: 110%
+    }
+
+    50% {
+        opacity: 1;
+        top: 50%
+    }
+
+    to {
+        opacity: 0;
+        top: -10%
+    }
+}
+
+@-webkit-keyframes toasts01 {
+    0% {
+        opacity: 0;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0)
+    }
+
+    50% {
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(1)
+    }
+
+    to {
+        opacity: 0;
+        top: -10%;
+        transform: translate(-50%, -50%) scale(1)
+    }
+}
+
+.sportFrame .decideZone .content .moneyZone {
+    margin: 0 auto 13px;
+    box-shadow: 1px 3px 19px var(--shadow_02);
+    border-radius: 10px;
+    padding-bottom: 3px;
+    width: 91%
+}
+
+.sportFrame .decideZone .content .moneyZone .title {
+    color: var(--txtColorSport_08);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    background-color: var(--bgColorSport_043) !important;
+    border-radius: 10px 10px 0 0;
+    font-family: ko-regular !important
+}
+
+.sportFrame .decideZone .content .moneyZone .title span {
+    color: var(--txtColorSport_040);
+    font-size: 16px;
+    font-family: ko-regular !important
+}
+
+.sportFrame .decideZone .content .moneyZone .content {
+    width: 100%;
+    background-color: var(--main);
+    padding-top: 11px
+}
+
+.sportFrame .decideZone .content .moneyZone table {
+    width: 100%
+}
+
+.sportFrame .decideZone .content .moneyZone table tr td {
+    color: var(--txtColorSport_037);
+    font-size: 14px;
+    padding: 6px 9px;
+    white-space: nowrap
+}
+
+.sportFrame .decideZone .content .moneyZone table tr td a {
+    color: var(--txtColor20);
+    font-size: 14px
+}
+
+.sportFrame .decideZone .content .moneyZone table tr td a.goNotice {
+    font-size: 12px;
+    color: var(--txtColor013);
+    background-color: var(--btnColor09);
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    margin: 0 auto;
+    font-weight: 700;
+    transition: .4s ease-out
+}
+
+.sportFrame .decideZone .content .moneyZone table tr td a.goNotice:hover {
+    background-color: var(--btnColor09_h)
+}
+
+.sportFrame .decideZone .content .moneyZone table tr td span {
+    color: var(--txtColor32);
+    font-weight: 700
+}
+
+.sportFrame .decideZone .content .moneyZone .input_content {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 11px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    position: relative;
+    color: var(--txtColor010);
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_018)
+}
+
+.sportFrame .decideZone .content .moneyZone .input_content input {
+    text-align: right;
+    height: 30px
+}
+
+.sportFrame .decideZone .content .moneyZone .input_content input:focus {
+    border-bottom: none !important;
+    box-shadow: none !important
+}
+
+.sportFrame .decideZone .content .moneyZone .input_content input::placeholder {
+    color: var(--txtColorSport_039) !important;
+    font-size: 14px
+}
+
+.sportFrame .decideZone .content .moneyZone .inputFrame {
+    display: flex;
+    margin-bottom: 5px
+}
+
+.sportFrame .decideZone .content .moneyZone .inputFrame .info {
+    display: flex;
+    align-items: center;
+    width: 35%
+}
+
+.sportFrame .decideZone .content .moneyZone .inputFrame .info .icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    background: var(--bgColor010)
+}
+
+.sportFrame .decideZone .content .moneyZone .inputFrame .info .icon span {
+    color: var(--txtColor17)
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 {
+    padding: 0 8px;
+    margin-top: -15px
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .moneyBtnFrame {
+    padding-bottom: 10px
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .moneyBtns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    display: none
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .moneyBtns .btnD {
+    width: 25%;
+    height: 40px;
+    border: 1px solid var(--bdColorSport_018);
+    background-color: var(--main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--txtColorSport_037);
+    cursor: pointer;
+    transition: .4s ease-out;
+    margin-bottom: -1px;
+    margin-left: -1px
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .moneyBtns .btnD:hover,
+.sportFrame .decideZone .content .moneyZone .content01 .moneyBtns .btnM:hover,
+.sportFrame .decideZone .content .moneyZone .content01 .moneyBtns .chooseBtn {
+    background-color: var(--bdColorSport_001);
+    color: var(--txtColorSport_08)
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .hint {
+    color: var(--txtColorSport_039) !important;
+    font-size: 12px;
+    padding-bottom: 5px;
+    text-align: center
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .checkOK,
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .checkOK:hover {
+    background: var(--txtColorSport_026) !important;
+    border: 1px solid var(--txtColorSport_026)
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btnColor014);
+    color: var(--txtColorSport_08);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0s ease-out
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA span {
+    font-size: 16px;
+    margin-right: 7px
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA:nth-child(1) {
+    width: 28%
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA:nth-child(2) {
+    width: 70%;
+    background-color: var(--bdColorSport_001) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA:nth-child(2):hover {
+    background-color: var(--bgColorSport_014) !important
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnA:hover {
+    background-color: var(--btnColor014_h)
+}
+
+.sportFrame .decideZone .content .result {
+    width: 91%;
+    margin: 0 auto
+}
+
+.sportFrame .decideZone .content .btnGO {
+    background-color: var(--bdColorSport_001);
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 9px;
+    margin-top: 12px
+}
+
+.sportFrame .decideZone .content .bSuccess {
+    background-color: var(--bgColorSport_058);
+    border: 1px solid var(--bdColorSport_030);
+    color: var(--txtColorSport_125)
+}
+
+.sportFrame .decideZone .content .bFailed {
+    background-color: var(--bdColorSport_016);
+    color: var(--txtColor103)
+}
+
+.sportFrame .decideZone .content .bFailed span {
+    color: var(--txtColor103)
+}
+
+.sportFrame .decideZone .content .bLoading {
+    background-color: var(--bdColorSport_016);
+    color: var(--txtColor103)
+}
+
+.sportFrame .decideZone .content .btnGO .txt {
+    display: flex;
+    align-items: center
+}
+
+.sportFrame .decideZone .content .btnGO .txt .txtInner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 223px
+}
+
+.sportFrame .decideZone .content .btnGO span {
+    font-size: 22px;
+    margin-right: 5px
+}
+
+.sportFrame .decideZone .content .result table tr td {
+    padding: 8px 0 !important;
+    color: var(--txtColorSport_037)
+}
+
+.sportFrame .chooseZone01 {
+    float: left;
+    width: 12%;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_012);
+    overflow-y: scroll
+}
+
+.sportFrame .chooseZone01::-webkit-scrollbar {
+    width: 3px
+}
+
+.sportFrame .chooseZone01::-webkit-scrollbar-track {
+    background-color: #d5e0f7
+}
+
+.sportFrame .chooseZone01::-webkit-scrollbar-thumb {
+    background-color: #adb5d0;
+    transition: .2s all ease-out
+}
+
+.sportFrame .chooseZone01::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0
+}
+
+.sportFrame .chooseZone01 .title {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgColorSport_025) !important;
+    color: var(--txtColorSport_05);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    border: 1px solid var(--bdColorSport_012);
+    border-bottom: 1px solid var(--bgColorSport_031)
+}
+
+.sportFrame .chooseZone01 .title img {
+    margin-right: 8px
+}
+
+.sportFrame .chooseZone01 .sideMenu {
+    height: auto;
+    overflow: hidden
+}
+
+.sportFrame .chooseZone01 .goResult {
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(90deg, #c9aa8d 0%, #fff0e2 100%);
+    color: var(--txtColorSport_08);
+    text-decoration: none
+}
+
+.sportFrame .chooseZone01 .goResult span.icon-iconARupA {
+    transform: rotate(90deg);
+    transition: .2s all
+}
+
+.sportFrame .chooseZone01 .goResult:hover span.icon-iconARupA {
+    transform: rotate(90deg) translateY(-5px)
+}
+
+.chooseZone .videoZone .title {
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgColorSport_040) !important;
+    border: 1px solid var(--bdColorSport_012);
+    display: flex;
+    align-items: center;
+    padding: 0 7px 0 10px;
+    justify-content: space-between
+}
+
+.chooseZone .videoZone .title .left {
+    font-size: 14px;
+    color: var(--txtColorSport_126)
+}
+
+.chooseZone .videoZone .title .left img {
+    margin-right: 5px;
+    height: 18px;
+    vertical-align: text-top
+}
+
+.chooseZone .videoZone .title .left span {
+    color: var(--txtColor49);
+    margin-right: 5px
+}
+
+.chooseZone .videoZone .title .left span.vs {
+    color: var(--txtColorSport_05);
+    margin-left: 5px
+}
+
+.chooseZone .videoZone .title .right {
+    display: flex;
+    align-items: center
+}
+
+.chooseZone .videoZone .title .right .live span {
+    color: var(--txtColorSport_042);
+    font-size: 32px;
+    margin-left: 5px
+}
+
+.chooseZone .videoZone .title .right .live span.active {
+    color: var(--txtColorSport_09) !important
+}
+
+.chooseZone .videoZone .title .right .live span.icon-icon-icconPLAY01 {
+    color: var(--txtColorSport_042)
+}
+
+.chooseZone .videoZone .title .right .greenLine {
+    background-color: var(--bdColorSport_001)
+}
+
+.chooseZone .videoZone .title .right .arrowV {
+    margin-left: 9px;
+    width: 17px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    cursor: pointer
+}
+
+.chooseZone .videoZone .title .right .arrowV span {
+    color: var(--txtColorSport_05);
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transform: rotate(0)
+}
+
+.chooseZone .videoZone .title .right .arrowV:hover span {
+    color: var(--txtColorSport_035)
+}
+
+.chooseZone .videoZone .title .right .arrowGO span {
+    transform: rotate(180deg)
+}
+
+.chooseZone .videoZone .content {
+    width: 100%;
+    height: 20vw;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.chooseZone .videoZone .content.liveTv {
+    height: 260px !important
+}
+
+.chooseZone .mainatinGo .content {
+    display: none
+}
+
+.chooseZone .videoZone .maintainZone {
+    background-image: url(/assets/video403bg.fce8fcb5.jpg);
+    width: 100%;
+    padding-bottom: 5.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    text-align: center
+}
+
+.chooseZone .videoZone .maintainZone img {
+    width: 20vw
+}
+
+.chooseZone .videoZone .maintainZone h4,
+.liveContent .maintainZone h4 {
+    color: var(--txtColorSport_019);
+    margin-top: 2vh;
+    font-size: 1.3vw
+}
+
+.chooseZone .videoZone .maintainZone h3,
+.liveContent .maintainZone h3 {
+    color: var(--txtColorSport_03);
+    margin-top: 2vh;
+    width: 80%;
+    font-size: .8vw;
+    line-height: 1.6;
+    font-family: ko-regular !important;
+    text-align: center;
+    margin: 0 auto
+}
+
+.chooseZone .videoZone .maintainZone h3 span,
+.liveContent .maintainZone h3 span {
+    color: var(--txtColorSport_022)
+}
+
+.chooseZone .mainatinGo .maintainZone {
+    display: flex
+}
+
+.chooseZone .bZone .title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--bdColorSport_003);
+    border-top: 1px solid var(--bdColorSport_003);
+    display: flex;
+    align-items: center;
+    padding: 0 17px;
+    justify-content: space-between;
+    box-shadow: 0 6px 15px var(--shadow_02);
+    background: rgb(236, 241, 253);
+    background: -webkit-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: -moz-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: -o-linear-gradient(315deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    background: linear-gradient(135deg, rgb(236, 241, 253) 0%, rgb(255, 255, 255) 15%, rgb(239, 243, 254) 20%, rgb(239, 243, 254) 100%);
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: .2s all ease-out
+}
+
+.chooseZone .bZone .title:hover {
+    background: var(--bgColorSport_052);
+    cursor: pointer
+}
+
+.chooseZone .bZone .title .left {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: var(--txtColorSport_03)
+}
+
+.chooseZone .bZone .title .left img {
+    margin-right: 10px;
+    height: 18px
+}
+
+.chooseZone .bZone .title .left img.moneyICON {
+    margin-left: 7px;
+    height: 20px;
+    width: 20px
+}
+
+.chooseZone .bZone .title .left .arrowT {
+    background-color: var(--bdColorSport_001);
+    margin-left: 9px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px
+}
+
+.chooseZone .bZone .title .left .arrowT:hover {
+    background-color: var(--bgColorSport_014)
+}
+
+.chooseZone .bZone .title .left .arrowT span {
+    color: var(--txtColorSport_08);
+    font-size: 12px;
+    position: absolute;
+    transform: rotate(0) translateY(1px)
+}
+
+.chooseZone .bZone .title .left .arrowGO span {
+    transform: rotate(180deg) translateY(1px)
+}
+
+.chooseZone .bZone .title .right .arrowW {
+    margin-left: 9px;
+    width: 17px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 6px
+}
+
+.chooseZone .bZone .title .right .arrowW span {
+    color: var(--txtColorSport_05);
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transform: rotate(0)
+}
+
+.chooseZone .bZone .title .right .arrowW:hover span {
+    color: var(--txtColorSport_035)
+}
+
+.chooseZone .bZone .title .right .arrowGO span {
+    transform: rotate(180deg)
+}
+
+.chooseZone .bZone .title .right .heart01 {
+    position: relative;
+    top: 5px;
+    right: 30px;
+    cursor: pointer
+}
+
+.chooseZone .bZone .title .right .heart01 span {
+    transition: all .2s linear;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    color: var(--btnColor09_h) !important;
+    position: absolute
+}
+
+.chooseZone .bZone .content {
+    padding-top: 16px;
+    margin-bottom: 18px
+}
+
+.chooseZone .bZone .content .nameZone {
+    height: 29px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid var(--bdColorSport_018);
+    margin-bottom: 8px
+}
+
+.chooseZone .bZone .content .nameZone:after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: var(--bdColorSport_018)
+}
+
+.chooseZone .bZone .content .nameZone .name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: var(--txtColorSport_037);
+    font-size: 16px
+}
+
+.chooseZone .bZone .content .nameZone02:after {
+    display: none
+}
+
+.chooseZone .bZone .content .nameZone02 .name {
+    width: 33%;
+    position: relative
+}
+
+.chooseZone .bZone .content .nameZone02 .name:nth-child(2):before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    background-color: var(--bdColorSport_018)
+}
+
+.chooseZone .bZone .content .nameZone02 .name:nth-child(2):after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    bottom: -11px;
+    right: 0;
+    background-color: var(--bdColorSport_018)
+}
+
+.chooseZone .bZone .content .btnZone {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto 9px
+}
+
+.chooseZone .bZone .content .btnZone .btnM {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_018);
+    border-radius: 5px;
+    color: var(--txtColorSport_037);
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    padding: 2.2%
+}
+
+.chooseZone .bZone .content .btnZone .btnM span {
+    color: var(--txtColor126)
+}
+
+.chooseZone .bZone .content .btnZone .btnM .left span {
+    margin-left: 7px
+}
+
+.chooseZone .bZone .content .btnZone .btnM:hover {
+    background-color: var(--bgColorSport_032) !important;
+    border: 1px solid var(--bdColorSport_001) !important
+}
+
+.chooseZone .bZone .content .btnZone .btnM:hover span,
+.chooseZone .bZone .content .btnZone .btnM:hover span.percent {
+    color: #fff
+}
+
+.chooseZone .bZone .content .btnZone .btnM .block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: none;
+    z-index: 1;
+    border-radius: 3px
+}
+
+.chooseZone .bZone .content .btnZone .btnM .block.leftMore {
+    left: -15px
+}
+
+.chooseZone .bZone .content .btnZone .btnM .block .lock {
+    width: 30px;
+    height: 30px;
+    background-color: var(--main);
+    border: 1px solid var(--bdColorSport_021);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.chooseZone .bZone .content .btnZone .btnM .block .lock span {
+    color: var(--bgColorSport_031);
+    font-size: 17px
+}
+
+.chooseZone .bZone .content .btnZone .blocking .block {
+    display: block
+}
+
+.chooseZone .bZone .content .btnZone .blocking .block.pr15 {
+    padding-right: 15px
+}
+
+.chooseZone .bZone .content .btnZone .btnM span.percent {
+    color: var(--txtColorSport_038)
+}
+
+.chooseZone .bZone .content .btnZone .btnM .percent span.greenTXT {
+    color: var(--txtColorSport_038) !important
+}
+
+.ac {
+    text-align: center
+}
+
+.al {
+    text-align: left
+}
+
+.ar {
+    text-align: right
+}
+
+.redTxt,
+.redTxt01 {
+    color: var(--txtColorSport_039) !important
+}
+
+.blueTxt {
+    color: var(--txtColor42) !important
+}
+
+.blueTxt01 {
+    color: var(--txtColorSport_09) !important
+}
+
+.blueIcon {
+    color: var(--bgColorSport_046) !important
+}
+
+.blueHint {
+    background-color: var(--bgColorSport_046) !important
+}
+
+.greenIcon {
+    color: var(--txtColor44) !important
+}
+
+.greenHint {
+    background-color: var(--bgColor049) !important
+}
+
+.greenBtn {
+    background-color: var(--btnColorort_001) !important;
+    color: var(--txtColor25) !important;
+    cursor: pointer !important
+}
+
+.greenBtn:hover {
+    background-color: var(--btnColor012_h) !important
+}
+
+.greenBtn01 {
+    background-color: var(--btnColorort_005) !important;
+    color: var(--txtColorSport_08) !important;
+    cursor: pointer !important
+}
+
+.greenBtn01:hover {
+    background-color: var(--btnColorort_005_h) !important
+}
+
+.greyBtn {
+    background-color: var(--btnColor018) !important;
+    color: var(--txtColor51) !important
+}
+
+.greyBtn:hover {
+    background-color: var(--btnColor018_h) !important
+}
+
+.yellowChoose {
+    background-color: var(--bgColorSport_032) !important;
+    border: 1px solid var(--bdColorSport_001) !important
+}
+
+.yellowChoose span {
+    color: #fff !important
+}
+
+.yellowNo {
+    background-color: var(--bgColor050) !important
+}
+
+.blueNo {
+    background-color: var(--txtColor43);
+    color: var(--txtColorSport_08) !important
+}
+
+.flexShow {
+    display: flex !important;
+    transition: .2s ease-out !important
+}
+
+.moreSlide {
+    transform: translate(0);
+    width: 100%
+}
+
+.btnM.blocking .right span.percent,
+.btnM.blocking .right .greenTXT {
+    display: none !important
+}
+
+@media (max-width: 1885px) {
+    .centerZone {
+        width: 69%
+    }
+
+    .sportFrame .decideZone {
+        width: 18%
+    }
+}
+
+@media (max-width: 1571px) {
+    .sportFrame .decideZone .content .moneyZone table tr td {
+        font-size: 12px;
+        padding: 13px 7px
+    }
+}
+
+@media (max-width: 1488px) {
+    .centerZone {
+        width: 67%
+    }
+
+    .sportFrame .decideZone {
+        width: 20%
+    }
+}
+
+@media (max-width: 1384px) {
+    .centerZone {
+        width: 60%
+    }
+
+    .sportFrame .chooseFrame {
+        flex-direction: column
+    }
+
+    .sportFrame .chooseZone {
+        width: 100%
+    }
+
+    .sportFrame .chooseZone01 {
+        width: 16%
+    }
+
+    .sportFrame .decideZone {
+        width: 23%
+    }
+
+    .chooseZone .videoZone {
+        display: none
+    }
+}
+
+@media (max-width: 1250px) {
+    .sportFrame .decideZone .content .moneyZone table tr td {
+        padding: 13px 5px
+    }
+}
+
+@media (max-width: 1185px) {
+    .centerZone {
+        width: 58%
+    }
+
+    .sportFrame .decideZone {
+        width: 25%
+    }
+}
+
+@media (max-width: 1090px) {
+    .sportFrame .decideZone .content .listFrame .list .left h4 {
+        width: 103px
+    }
+
+    .sportFrame .decideZone .content .moneyZone table tr td {
+        padding: 13px 3px
+    }
+}
+
+@media (max-width: 1049px) {
+    .sportFrame .chooseZone01 {
+        width: 16%
+    }
+
+    .centerZone {
+        width: 57%
+    }
+
+    .sportFrame .decideZone {
+        width: 26%
+    }
+}
+
+@media (max-width: 1024px) {
+    .centerZone {
+        width: 56%
+    }
+
+    .sportFrame .decideZone {
+        width: 27%
+    }
+}
+
+.bZone.NoData {
+    margin-top: 30px
+}
+
+.sportFrame .decideZone .setZone .set01 .inputFrame .btnE,
+.sportFrame .decideZone .setZone .set01 .inputFrame .btnV {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6px;
+    border-radius: 5px
+}
+
+.blueLBtn {
+    background: var(--btnColor_001) !important;
+    color: var(--txtColor01_h) !important;
+    cursor: pointer
+}
+
+.blueLBtn:hover,
+.blueLBtn:focus {
+    background: var(--btnColor_001_h) !important
+}
+
+.blueLLineBtn02 {
+    color: var(--txtColor_09) !important;
+    box-sizing: border-box;
+    border: 2px solid var(--btnColor_001) !important;
+    cursor: pointer
+}
+
+.blueLLineBtn02:hover,
+.blueLLineBtn02:focus {
+    background: var(--btnColor_001) !important;
+    color: var(--txtColor_08) !important
+}
+
+.greyBtn02 {
+    background: var(--btnColor_007) !important;
+    color: var(--txtColor_037);
+    cursor: pointer
+}
+
+.sportFrame .decideZone .content .result table {
+    width: 100%
+}
+
+.sportFrame .decideZone .content .listFrame .blocking .title .xx {
+    position: relative;
+    z-index: 10
+}
+
+.btnA .loading {
+    width: 20px
+}
+
+.sportFrame .decideZone .content .listFrame .listScroll {
+    overflow-y: scroll;
+    height: 687px
+}
+
+.sportFrame .decideZone .content .listFrame .listScroll.history {
+    overflow-y: scroll;
+    height: 725px
+}
+
+.sportFrame .decideZone .content .listFrame .listScroll::-webkit-scrollbar {
+    width: 3px
+}
+
+.sportFrame .decideZone .content .listFrame .listScroll::-webkit-scrollbar-track {
+    background-color: #d5e0f7
+}
+
+.sportFrame .decideZone .content .listFrame .listScroll::-webkit-scrollbar-thumb {
+    background-color: #adb5d0
+}
+
+.sportFrame .decideZone .content .listFrame .listScroll::-webkit-scrollbar-thumb:hover {
+    background-color: #939ab0
+}
+
+.sportFrame .decideZone .content .bSuccess {
+    background-color: var(--bgColor_058);
+    border: 1px solid var(--bdColor_030);
+    color: var(--txtColor125)
+}
+
+.sportFrame .decideZone .content .bSuccess span {
+    color: var(--txtColorSport_053)
+}
+
+.sportFrame .decideZone .content .bSuccess span.icon-icconCheck01 {
+    transform: rotate(0)
+}
+
+.sportFrame .decideZone .content .bFailed {
+    background-color: var(--bgColor_053);
+    color: var(--txtColor125);
+    border: 1px solid var(--bdColor_026)
+}
+
+.sportFrame .decideZone .content .bFailed span {
+    color: var(--txtColor125)
+}
+
+.sportFrame .decideZone .content .bLoading {
+    background-color: var(--bgColor_055);
+    color: var(--txtColor125);
+    border: 1px solid var(--bdColor_028)
+}
+
+.sportFrame .decideZone .content .bLoading img {
+    width: 22px;
+    margin-right: 5px
+}
+
+.btnGO .icon-iconARdownA {
+    transform: rotate(270deg)
+}
+
+.sportLBtn01 .loading,
+.lockLoading {
+    width: 18px;
+    height: 18px
+}
+
+.subMenuBottom {
+    height: 35px;
+    width: 100%
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA.greyBtn01 {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btnColor014);
+    color: var(--txtColorSport_08);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0s ease-out
+}
+
+.sportFrame .decideZone .content .moneyZone .content01 .btnFrame .btnA.greyBtn01:hover {
+    background-color: var(--btnColor014_h)
+}
+
+.score-num-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: hidden
+}
+
+.score-num-item {
+    transition-timing-function: cubic-bezier(.93, .01, 0, 1)
+}
+
+.score-num {
+    text-align: center
+}
