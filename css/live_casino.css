@@ -1,8 +1,8 @@
-.liveCasinoPage[data-v-010c5d9e] {
+.liveCasinoPage  {
     animation: none !important
 }
 
-.casinoZone[data-v-010c5d9e] {
+.casinoZone  {
     background-size: cover;
     width: 100%;
     transition: .4s ease-out;
@@ -10,20 +10,20 @@
     padding-bottom: 20px
 }
 
-.casinoZone .casinoWrapper[data-v-010c5d9e] {
+.casinoZone .casinoWrapper  {
     width: 92%;
     height: 90%;
     padding: 5% 0 0 5.4%
 }
 
-.casinoZone .casinoWrapper .title[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .title  {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between
 }
 
-.casinoZone .casinoWrapper .title .leftZone[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .title .leftZone  {
     color: var(--txtColor71);
     font-weight: 700;
     display: flex;
@@ -34,29 +34,29 @@
     margin-right: 1vw
 }
 
-.casinoZone .casinoWrapper .title .leftZone span.icon-iiconLogoB[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .title .leftZone span.icon-iiconLogoB  {
     font-size: 2.3vw;
     margin-right: 4px
 }
 
-.casinoZone .casinoWrapper .title .leftZone h4[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .title .leftZone h4  {
     font-size: 1.4vw;
     margin-right: .5vw
 }
 
-.casinoZone .casinoWrapper .title .leftZone span[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .title .leftZone span  {
     color: var(--txtColor65);
     font-size: 1.4vw
 }
 
-.casinoZone .casinoWrapper .title .line[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .title .line  {
     height: 2px;
     width: 81vw;
     background-color: var(--bgColor085);
     position: relative
 }
 
-.casinoZone .casinoWrapper .title .line[data-v-010c5d9e]:before {
+.casinoZone .casinoWrapper .title .line :before {
     content: "";
     width: 8px;
     height: 8px;
@@ -67,14 +67,14 @@
     transform: translate(-50%, -50%)
 }
 
-.casinoZone .casinoWrapper .content[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content  {
     display: flex;
     align-items: start;
     justify-content: space-around;
     margin-top: 4vh
 }
 
-.casinoZone .casinoWrapper .content .leftFrame[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .leftFrame  {
     width: 55%;
     position: relative;
     animation: rightIn-010c5d9e .4s;
@@ -83,7 +83,7 @@
     min-height: 695px
 }
 
-.casinoZone .casinoWrapper .content .leftZone[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .leftZone  {
     background-image: url(../assets/image/liveCasino_bg-a2201df2.png);
     background-size: cover;
     width: 91%;
@@ -91,7 +91,7 @@
     position: relative
 }
 
-.casinoZone .casinoWrapper .content .leftZone .obj[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .leftZone .obj  {
     background-image: url(../assets/image/obj01-78b0d9a5.png);
     background-repeat: no-repeat;
     width: 119%;
@@ -102,11 +102,11 @@
     margin-left: -14%
 }
 
-.casinoZone .casinoWrapper .content .rightZone[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone  {
     width: 45%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .txt[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .txt  {
     margin-bottom: 27px;
     position: relative;
     z-index: 3;
@@ -117,20 +117,20 @@
     opacity: 0
 }
 
-.casinoZone .casinoWrapper .content .rightZone .txt h2[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .txt h2  {
     color: var(--txtColor72);
     font-size: 1.5vw;
     font-weight: 700;
     margin-bottom: 10px
 }
 
-.casinoZone .casinoWrapper .content .rightZone .txt p[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .txt p  {
     color: var(--txtColor66);
     line-height: 1.6;
     font-size: .6vw
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btnA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btnA  {
     background: rgb(242, 208, 155);
     background: linear-gradient(0deg, rgb(242, 208, 155) 0%, rgb(219, 184, 151) 34%, rgb(142, 112, 84) 100%);
     position: relative;
@@ -143,7 +143,7 @@
     cursor: pointer
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btnA .btnAinner[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btnA .btnAinner  {
     width: 97%;
     height: 97%;
     position: absolute;
@@ -161,11 +161,11 @@
     box-shadow: var(--shadow08) 0 0 .6em
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btnA[data-v-010c5d9e]:hover {
+.casinoZone .casinoWrapper .content .rightZone .btnA :hover {
     color: var(--txtColor02)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .obj[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .obj  {
     background-image: url(../assets/image/obj02-d0634bb1.png);
     background-repeat: no-repeat;
     width: 68%;
@@ -179,7 +179,7 @@
     transition: .4s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns  {
     z-index: 3;
     position: relative;
     animation: leftIn-010c5d9e .4s;
@@ -188,14 +188,14 @@
     min-height: 560px
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul  {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: start
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li  {
     width: 31.5%;
     height: 150px;
     border: 1px solid var(--bdColor038);
@@ -211,113 +211,113 @@
     margin-right: 1.5%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .ppPro[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .ppPro  {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 3
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .ppPro img[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .ppPro img  {
     width: 3.5vw
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .logo[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .logo  {
     position: absolute;
     right: 5%;
     top: 7%;
     z-index: 3
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .logoA  {
     background-image: url(../assets/image/casinoLogo01-c9e4680c.svg);
     width: 12%;
     padding-bottom: 12.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo01_h-7ab739c8.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .logoA  {
     background-image: url(../assets/image/casinoLogo01-c9e4680c.svg);
     width: 12%;
     padding-bottom: 12.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo01_h-7ab739c8.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr] .logoA  {
     background-image: url(../assets/image/casinoLogo02-2df8ceb6.svg);
     width: 20%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo02_h-e8c20c3b.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr] .logoA  {
     background-image: url(../assets/image/casinoLogo02-2df8ceb6.svg);
     width: 20%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo02_h-e8c20c3b.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .logoA  {
     background-image: url(../assets/image/casinoLogo03-8fbe7cc7.svg);
     width: 20.2%;
     padding-bottom: 12.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo03_h-e733419c.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .logoA  {
     background-image: url(../assets/image/casinoLogo03-8fbe7cc7.svg);
     width: 20.2%;
     padding-bottom: 12.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo03_h-e733419c.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .logoA  {
     background-image: url(../assets/image/casinoLogo04-365a07f1.svg);
     width: 11.2%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo04_h-3f385253.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .logoA  {
     background-image: url(../assets/image/casinoLogo04-365a07f1.svg);
     width: 11.2%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo04_h-3f385253.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo05-0b39efa4.svg);
     width: 11.3%;
     padding-bottom: 16.6%;
@@ -326,11 +326,11 @@
     top: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo05_h-b51a9295.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo05-0b39efa4.svg);
     width: 11.3%;
     padding-bottom: 16.6%;
@@ -339,95 +339,95 @@
     top: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo05_h-b51a9295.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal] .logoA  {
     background-image: url(../assets/image/casinoLogo06-6440e2af.svg);
     width: 29%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo06_h-99730450.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo07-663b145d.svg);
     width: 16%;
     padding-bottom: 13.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo07_h-286ef8a6.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo07-663b145d.svg);
     width: 16%;
     padding-bottom: 13.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo07_h-286ef8a6.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo08-f2b6300a.svg);
     width: 23%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo08-f2b6300a.svg);
     width: 23%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo08_h-bdd42001.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=GpiLive] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=GpiLive] .logoA  {
     background-image: url(../assets/image/casinoLogo09-4275f418.svg);
     width: 11%;
     padding-bottom: 11.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=GpiLive]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=GpiLive]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo09_h-7f005bcd.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .logoA  {
     background-image: url(../assets/image/casinoLogo010-a73a0308.svg);
     width: 11%;
     padding-bottom: 9.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo010_h-ea85af34.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .logoA  {
     background-image: url(../assets/image/casinoLogo011-9a288ed8.svg);
     width: 23.9%;
     padding-bottom: 12.1%;
     transition: .3s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo011_h-2ed63640.svg)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .logoA  {
     background-image: url(data:image/png;base64,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);
     width: 19%;
     padding-bottom: 7.1%;
@@ -437,11 +437,11 @@
     background-size: contain
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal]:hover .logoA  {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAeCAMAAAC1+tjYAAAAn1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8Kd3m4AAAANHRSTlMA++714ffytQrk1sY4DAbr58u5VZNZXUwd28Gnj3tyUEEl3tCZi4eAYSsTr52WRzUxFr1nMAND5wAAAidJREFUSMeNlOl2gjAQRidYEBFBcd9x39qq7bz/s1WYkA6E6en9I5wv3MRkJjBtb6CeJOiDSKfXWkANiCqEWjzEpWSLHESs8ylEB2p5Q8SroPvEF169DkNRNxB0m0wXCLqFqGuDwAJRTQTdXtT1QCJxJyDoPvKn5/0SCaubpA9f8j7DR4fpaIdOgYuIymmG1uqOUx5p7qRf7fLMm62ZbjRuoKHnM10TTm4lIjz1BTByfrPpxegc5Kgx082tyBTl/IAlVqSzGRqdReFz0GbJdKq9HJ7fu9pHOhOt1sO9jq5lndqd+sPBll5So5vpQ/2mreozXdunaJUPbdGLlge6Wsa53i1077+93Sh8XvbLG2OSj6UzpFkTMMT44gCq2i4++dZwe0VqOmZRmAVbALjSVPNqAbukA45PY8+vz9NK8e6yoAOhQrQ6cJCLVE0vk28kXCTRBIl5OTS6PfzTF+WLUkg0y2Fc6A7wX18DGU37ygCXHZ7lG9oXBuE4tq6V6WLhGmrU+cLCBoGg6yGiAtHXB05Cti6AtLpzlt+A8R00XC+AyPZ1yLYFWQcuFZmhRzUVgW/5YszYwV+6FSI73A014wfrj2M5mkGhS2ydafXW6eI/+zPUNt6/3eP9uhnp6AaSLpuNF5NCzZ7dBwx+Vzh2V0y1LoqxxIJtvlOOjsB0KVhNS09N9kW8tmrDRJ/AdK1qB6pCB5eE/pZ6W0KFx5eOtjxyMe5AhVThD5cppJFi9ZRrAAAAAElFTkSuQmCC)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .logoA  {
     background-image: url(../assets/image/casinoLogo013-cc0d4e86.png);
     width: 19%;
     padding-bottom: 7.1%;
@@ -451,11 +451,11 @@
     background-size: contain
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal]:hover .logoA  {
     background-image: url(../assets/image/casinoLogo013_h-94dbd2f0.png)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .logoA  {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAC8VBMVEUAAAC6wde2vdSxuNC7wdiuts7Q1Om8wtm+w9qxuNCpscq5wNe2vdTQ1OjIzeOjrMXJzuPU2OzCx924v9bR1Om4v9avts7N0eattc20u9OqssvS1uq6wde8wtmttc2pscq5wNeosMnX2u6stMzAxdy0u9K4v9astMyvts7Kz+Sss8zDyN67wdjFyuC1vNPV2OzLz+WstM3Cx93Cx92/xNuzutKiq8TFyuDN0ealrsfHzOLLz+TFyuC1vNTAxdu8wtm/xdyttc3Kz+TDyN7M0ebS1uq3vtXO0ufJzuS9w9qnsMnGy+HHzOK5wNfM0Oars8vY2++/xNu0u9Kvts7R1enM0OXFyuDY2+/O0ue4v9bHzOGmr8jY2++1vNOvt8/Axdyqs8u0u9LQ1OnBxt3JzuOpscrS1uupscqnsMiyudGjq8XM0Oa/xduyudDX2u7HzOGlrselrsezutG5wNfN0ufJzePR1emmrsfKz+SjrMXEyd+5wNfIzeLIzOKjrMWttc3N0uers8vQ1OnDyN63vtXIzeKosMnP0+ilrcbBxtywt8++w9rIzeKstMy6wdenr8ihqsPU1+zEyd/Gy+HP0+i5wNahqsPY2+/Cx93V2e22vdTLz+Swt8+0u9KpscrQ1OnAxdy6wdfAxdzU2OzR1enGy+HO0ufP0+e5wNehqsOwt8+iq8TBxtzV2O3FyuCkrMWqssrY2+/Bxt2xudC+xNrT1+vY2+/N0ebO0uewt8/HzOGxuNDEyd+zutHX2u7Kz+SqssqstMzS1uq1vNPGy+HU2OzBxtzEyd/DyN7N0ebY2++yudGvts7M0OWyudGnr8jT1+u0u9Kuts2ttc26wdeqssqvts7W2e3R1enV2Oyqs8ulrcbT1+u5wNattc2pscmzutGkrMXAxdyiq8TDyN6+w9rN0ebP0+imrsemr8fKz+XGy+Gnr8jY2++2vdS1vNPCx928wtm7wti3vtXM0OXFyuDIzeKvts6xuNDJzuOwt89DGFJ5AAAA13RSTlMABQkwLxYUDgfgMODgLRj037mwsGZdWCQfGhQK9OHg4MOejG9nZFBLPj04MykR+ff18eng4ODe2dDOsbCwsK+vko2LiHxtbFhTQCsiG/z49/X09PTy8vHt6OPg4N/c2dXQzcTEwcG9u7mwraWbmZiYmIyHhoB3dWVjXl1YRkM+LR79+/v7+vn49/b28enp6Ojo4ODc1tXV1NDPz8zDuK+qp6ehoJ6dmpKOiIB/enlvbmRcV1NSTj84KCX9+vnp4+DX09HR0MvLybq3r6SikI+HgXt6dHNpYvAhrJ4AAAVhSURBVFjDlZN1WBRBGMbfPT05FcUAQWwUwe7u7u7u7u7u7u7u7u7uRNEzzsMA4SwQ/ctvdnb3bvaOA388z83M973vuzO7A+LC91BA6hUtQiIjG7ZYcTvg0ET8F8f7t43U0bb/cSSQJPvOh7ik7cMkCbEHNGTiSKc/RsOAlHCPNLxAiFtaVJPghhSrQuJlVQrESbUCLxNAAW+4xtTfhXrRNRfFLSa4IEP3106kPgac2FLAuZ4hIf6mAb7qd12k73V2SpBSvxC57O2oOaZvp9afYqvQnrwhF3Sc3NFUkGyFgLdjr+VQl9fFw3upo8pb+P4zPml0ryEhLsZtmKzpZjjcB6mkWm26PYVwr2sMrzrSFw7UHdpS1ZaExvCPnKXVPIQP04eXO9cRrkuNzoq8mvacZvK6zFiIVP2ocEt/47fXZ+Vm6qu690tmzQmI1PilsAMi+SrXl+uVlQ0UDCfq02+fuhCo2ZV1Sg6DiHfLcE7BJHyn8uLCxD5UqWqAgMH3ZD79lygZHp6qZhnZNBSMVH8YqYBca2ioCbf4lvnzp9kwE8qoJrLFyMjzkXNjYrq6+X/3qDwtJmYbe3eluYtd2AERMq1VRcTpAUngDM+PiOiaB4zS3DWApkvUAI4vtZrvl+BMrqukUk9YlruW0NWK5iyGytgS0dElxkJHnbLR0c2HGQBTHgMLUGwTMdrKsQdA2t/cai2dVzh8lbNWq3z4OiWsN1iAYhuNKsqsiHBT+k6xTqlov9c5ClutXeTDm0qQloLSKLYqSPONUwQCiW9++1Y4B5/XWkntw3w+mmnzQbOlQQcLhwJEjha1WFbWoj2Xt1hm7TWAk4ak15WR0QGFlVlR6DHsbWSxbKwyy2LZnBIqXUjKNkOpMoXRKIzDAvSk38w67PB5N/ble6gYFlYRLECxNUKYy4DEHSrUBZFnTlgOkH9OGI0MQ45x4AEK+K6QSQioSIV8IDJ9T0y/WUkwRBBUUH3I+IMjBuykSl854AcF5GUCHzFAsWXEfDMnORTGbKpFn4Aq9Yy0Sm6mAB9aZfSA9HRTYi1Asc3HMn1ARnO9MZCSUymnGpCTFtWBtGZzVnBozllGMzFAmkpP80OtemazjxpgyNqK/GNI1UofkBZDfnI8QVtlz1xNi530VM9W6Wnl+VPbdVZq2Heg2IbAJ4rjSZ6oqHISqtOiHVQ8o7SAqdQIBE4FsuByis0HfjYOBVSnYTCkTjZbfnuALREUGttsqyUcyW+7wgIUmx/Q7p1MMSCIhvxGpO/0bh1Uir3TAh7lX0fNxiQyUAB3sa320wKkczQGsotn0gXYGUySxjT24q5+NA3m06Q0DaRxMASS6gI6keSOPSBY1sQyWADux8YG6gJixYD2sbFnJrAAuwm7/zJmpwMRTL9iwF85IF37tR5gVOLC3Ell024w/Jv8llnLpHoy/07E/NR+DoKsRiD9Xe5o4g+e+kahn9E54A0LmEfN7FAwPW6i6CuBYyykJhR6IrkKCGK9YHCOZNbU2vOyv9FoH6QPSMb7l/h6Qje7Njs0Ooba6VEbDmQJpYB0oaENcoPwHzjJLuwIOxMaOCRMquSvC5CyrWd+KXshB1kD4UEHQx2Z90wIUAi6KIgOQiDbW4GOwWrAWyXgVE9RkQ0iUo+3Iuv9HAM8Bk0X2z0k6DB0+yoy/YGBym2+soARC3TNbqynT+j5RceCURTwJRnGl9J3errws3f9WU+p3G0+B/V2KmeT4JoRM18lgJkjECe1S8XvL1Ub7jjg9d4tXgcQD8ZBXm7sg4yIH/89xT+4pPgefySQ8QOLO7kHjsd/4TdqV+/lC70+fPBauLz3rlF+iIN/ki3IQQn156QAAAAASUVORK5CYII=);
     width: 22%;
     padding-bottom: 10.1%;
@@ -465,11 +465,11 @@
     background-size: contain
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo]:hover .logoA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo]:hover .logoA  {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAApVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+4/eNVAAAANnRSTlMA4LAvBfUJ+/L46kAU3GSLzsEXnm4pD4ddf3kb1LxZJB+3mmdWOtCXUjSpSeTXysWkj0+TdGtxOiHtAAAD3UlEQVRYw6WX55rqIBCGJ5EUY+91LbGtZXfVo3P/l3YgJBkCWM6e74f6mPDCFIYBHmk+ayynUYDoRVN3MFzAP6myc1BTbVeBN1Udn9AqZ1R9Z/iljA/lNdrwXOwW4lOFXQZP1GviSzV78FD3Mr6hcv3R8mOb477RVMdqhv+BhpZXgH3HXNeH/8748DLP4mpkRcsgsKX2yrauvnPV8R+6FR1UFRw2RoAuYdEPxccr9dlp1LY6aTVFRYVYlMqKeWv2eI8cAopmSXFAHitv1yvk9Xo8rs9B0WQU5RlF/95Q6qvbL6z5LOf7WRTcPftBqW4+j3SPq+/XUZ4O2oNS7CVxzlx1wUTfuudnGeCP9qDfkEtrpAtIcGX+eZ5AQZ8t8eL2BlrIuBsSgldVVupMDvyfsa+Fbt7r65HYItY+XRQagVBNAgA2Tf61hqea85HhmIGbDeLDkH7XI54HJSDZjI+571IACr/vCCDfCGJ76SM+AWJhAQHkGqluGcanFhKgxlMLCSB1/OIpdbQaL3zM9j4BcAEzAwCsG/Lk6RWMH5QRO20BquG3AhjCgACk6o67otEvGr9P4MLiNgEG4BJAVYlXkGhlGj9Erj4BXJgSQEtDPleTh2mRJhg5TzVhChEBNPljD/GQGE8pLnbiTAFE4BHA0KST7GZufO8cyzX8SbYWATxAK6D05Saz7kO8i4LIw7JK69oxNSWVCcgmcpIgOCgyr5VuHBIB7CY0ZN1NAb0k4laAZzpxdq7wEIja3pYAGbuwD+x2KOmAyAyjh8EamDiLrhIgcfdk0I8OmBqJxERbtIAK/xpmAP/ndJcVztEBbiGVh2JO0SJcAK61U2aCUOrJlg4YwJAAnxzI4J7s0lQqIJDH0Xw1KWymBQG6CZE1uQ02gMdTm8FnGbfqdlYLylEU5ypMmri0AcbBsg0TEXZfLSgQ5wAWpWdmz9cApEES+xywE5uVnFinw8IKSF18LhZVcCQgzeD6cwAvd0EpBzjKweKtkxq/BitgVmv10xz3ZmKTyVlHytGW1SwrYE0NxaYKMDkj0tEmqKnith3ATvIwp0IjRP5qhxkhvDEb4CiebbJS5+Rv5/N1la7+aADk82laaVr0blcNDmnZMwAznmCbrNznajJ7k4XBpa/7oOPu0wOHVC5MVEdV0YqpADryVNUtjSZpW9EB8yVaGk0S03tZd0EA6oqMVpfktzRCeeDngFWkN9tvteunoQRUtu+0+8LXqOt74+D18OrCQaqbV4vAduX5z0tXCZ6IdV9e++CF2g3vdxdPUnXk/PrqS5fvmnH5jivwT1oMB+408l5e//8CDwVhrF6lxm4AAAAASUVORK5CYII=)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .model[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .model  {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -480,14 +480,14 @@
     margin: 0 auto
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .modelA  {
     background-image: url(../assets/image/casino01-07ca133b.png);
     padding-bottom: 55%;
     top: 5%;
     left: -7%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=WmReal] .modelA  {
     background-image: url(../assets/image/casino01-07ca133b.png);
     padding-bottom: 58%;
     width: 93%;
@@ -495,7 +495,7 @@
     left: 0%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AgBr] .modelA  {
     background-image: url(../assets/image/casino02-56fb87c4.png);
     padding-bottom: 55%;
     width: 83%;
@@ -503,25 +503,25 @@
     top: 7%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .modelA  {
     background-image: url(../assets/image/casino03-494b36bf.png);
     padding-bottom: 55%;
     width: 68%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .modelA  {
     background-image: url(../assets/image/casino03-494b36bf.png);
     padding-bottom: 55%;
     width: 68%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .modelA  {
     background-image: url(../assets/image/casino04-d5599c47.png);
     padding-bottom: 55%;
     width: 94%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=MgpReal] .modelA  {
     background-image: url(../assets/image/casino04-d5599c47.png);
     padding-bottom: 55%;
     width: 94%;
@@ -529,7 +529,7 @@
     left: 3%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .modelA  {
     background-image: url(../assets/image/casino05-32dac649.png);
     padding-bottom: 56%;
     width: 78%;
@@ -537,7 +537,7 @@
     top: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=PrgReal] .modelA  {
     background-image: url(../assets/image/casino05-32dac649.png);
     padding-bottom: 56%;
     width: 84%;
@@ -545,7 +545,7 @@
     top: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal] .modelA  {
     background-image: url(../assets/image/casino06-35485fad.png);
     padding-bottom: 55%;
     width: 77%;
@@ -553,7 +553,7 @@
     top: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=EvoReal] .modelA  {
     background-image: url(../assets/image/casino06-35485fad.png);
     padding-bottom: 58%;
     width: 93%;
@@ -561,14 +561,14 @@
     top: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .modelA  {
     background-image: url(../assets/image/casino07-f1005cb8.png);
     padding-bottom: 55%;
     width: 93%;
     left: 4%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=OgReal] .modelA  {
     background-image: url(../assets/image/casino07-f1005cb8.png);
     padding-bottom: 55%;
     width: 93%;
@@ -576,7 +576,7 @@
     margin-top: 2%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .modelA  {
     background-image: url(../assets/image/casino08-68f63725.png);
     padding-bottom: 55%;
     width: 73%;
@@ -584,7 +584,7 @@
     top: 12px
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=DgReal] .modelA  {
     background-image: url(../assets/image/casino08-68f63725.png);
     padding-bottom: 55%;
     width: 80%;
@@ -592,14 +592,14 @@
     top: 12px
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=AllBetReal] .modelA  {
     background-image: url(../assets/image/casino03-494b36bf.png);
     padding-bottom: 55%;
     width: 100%;
     margin-top: 3%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=GpiLive] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=GpiLive] .modelA  {
     background-image: url(../assets/image/casino09-543ebea9.png);
     padding-bottom: 57%;
     width: 90%;
@@ -607,86 +607,86 @@
     left: 2%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .modelA  {
     padding-bottom: 57%;
     width: 93%;
     margin-top: 3%;
     left: 4%
 }
 
-.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .modelA[data-v-010c5d9e] {
+.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .modelA  {
     background-image: url(../assets/image/casino010-2617000a.webp)
 }
 
-.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .modelA[data-v-010c5d9e] {
+.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BgReal] .modelA  {
     background-image: url(../assets/image/casino010-566be0f0.png)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .modelA  {
     padding-bottom: 57%;
     width: 96%;
     margin-top: 3%;
     left: 4%
 }
 
-.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .modelA[data-v-010c5d9e] {
+.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .modelA  {
     background-image: url(../assets/image/casino011-1aca0e29.webp)
 }
 
-.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .modelA[data-v-010c5d9e] {
+.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=Ae2Real] .modelA  {
     background-image: url(../assets/image/casino011-b7ba81ec.png)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .modelA  {
     padding-bottom: 49%;
     width: 91%;
     margin-top: 4%;
     left: 4%
 }
 
-.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .modelA[data-v-010c5d9e] {
+.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .modelA  {
     background-image: url(../assets/image/casino012-1581fa4b.webp)
 }
 
-.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .modelA[data-v-010c5d9e] {
+.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=BbinReal] .modelA  {
     background-image: url(../assets/image/casino012-66c597d4.png)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .modelA  {
     padding-bottom: 52%;
     width: 92%;
     margin-top: 4%;
     left: 4%
 }
 
-.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .modelA[data-v-010c5d9e] {
+.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .modelA  {
     background-image: url(../assets/image/casino013-f54237c4.webp)
 }
 
-.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .modelA[data-v-010c5d9e] {
+.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=YxReal] .modelA  {
     background-image: url(../assets/image/casino013-591ea5e2.png)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .modelA[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .modelA  {
     padding-bottom: 51%;
     width: 83%;
     left: 10%;
     top: 9%
 }
 
-.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .modelA[data-v-010c5d9e] {
+.webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .modelA  {
     background-image: url(../assets/image/casino014-f8aa1aa1.webp)
 }
 
-.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .modelA[data-v-010c5d9e] {
+.no-webp .casinoZone .casinoWrapper .content .rightZone .btns ul li[game-box=VivoVideo] .modelA  {
     background-image: url(../assets/image/casino014-54dd53f6.png)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .model[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .model  {
     background-position-y: 5px
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01  {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -696,23 +696,23 @@
     bottom: 13px
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 h2[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 h2  {
     font-size: .9vw;
     color: var(--txtColor73);
     font-family: arial
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 span[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 span  {
     font-size: .4vw;
     color: var(--txtColor73)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .txt01 h2[data-v-010c5d9e],
-.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .txt01 span[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .txt01 h2 ,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .txt01 span  {
     color: var(--txtColor02)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .mask[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .mask  {
     position: absolute;
     top: 0;
     width: 100%;
@@ -728,7 +728,7 @@
     transition: .4s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .mask .inner[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .mask .inner  {
     width: 99%;
     height: 99%;
     background: var(--bgColor077);
@@ -739,13 +739,13 @@
     transition: .4s ease-out
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .mask[data-v-010c5d9e],
-.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .inner[data-v-010c5d9e],
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.maintainGo .maintain[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .mask ,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li:hover .inner ,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.maintainGo .maintain  {
     display: flex
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain  {
     display: none;
     background-color: var(--bgColor084);
     border: 1px solid var(--bdColor052);
@@ -759,12 +759,12 @@
     flex-direction: column
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain span[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain span  {
     font-size: 4.5vw;
     color: var(--txtColor85)
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain h4[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .maintain h4  {
     color: var(--txtColor85);
     font-size: .7vw;
     font-weight: 700;
@@ -772,20 +772,20 @@
     font-family: arial
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li .come[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li .come  {
     display: none
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming  {
     cursor: auto
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .come img[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .come img  {
     width: 100%;
     height: auto
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .come[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .come  {
     display: flex !important;
     position: absolute;
     top: 50%;
@@ -794,18 +794,18 @@
     width: 85%
 }
 
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .logoA[data-v-010c5d9e],
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .modelA[data-v-010c5d9e],
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .txt01[data-v-010c5d9e],
-.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .mask[data-v-010c5d9e] {
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .logoA ,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .modelA ,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .txt01 ,
+.casinoZone .casinoWrapper .content .rightZone .btns ul li.coming .mask  {
     display: none
 }
 
-.banner[data-v-010c5d9e] {
+.banner  {
     margin-top: 86px
 }
 
-.rightContent .contents .proSlide .Slider .item .banners[data-v-010c5d9e] {
+.rightContent .contents .proSlide .Slider .item .banners  {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -814,7 +814,7 @@
     padding-bottom: 27.1%
 }
 
-.aniLogo[data-v-010c5d9e] {
+.aniLogo  {
     -webkit-animation: aniLogo-010c5d9e 1.5s infinite;
     animation: aniLogo-010c5d9e 1.5s infinite
 }
@@ -836,7 +836,7 @@
     }
 }
 
-.aniLogo01[data-v-010c5d9e] {
+.aniLogo01  {
     -webkit-animation: aniLogo01-010c5d9e 2.6s infinite;
     animation: aniLogo01-010c5d9e 2.6s infinite
 }
@@ -855,7 +855,7 @@
     }
 }
 
-.aniLogo02[data-v-010c5d9e] {
+.aniLogo02  {
     -webkit-animation: aniLogo02-010c5d9e 1s infinite;
     animation: aniLogo02-010c5d9e 1s infinite
 }
@@ -877,7 +877,7 @@
     }
 }
 
-.aniLogo03[data-v-010c5d9e] {
+.aniLogo03  {
     -webkit-animation: aniLogo03-010c5d9e 1s infinite;
     animation: aniLogo03-010c5d9e 1s infinite
 }
@@ -897,31 +897,31 @@
 }
 
 @media (max-width: 1350px) {
-    .casinoZone .casinoWrapper .content .rightZone .btns ul li[data-v-010c5d9e] {
+    .casinoZone .casinoWrapper .content .rightZone .btns ul li  {
         height: 127px
     }
 
-    .casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 span[data-v-010c5d9e] {
+    .casinoZone .casinoWrapper .content .rightZone .btns ul li .txt01 span  {
         font-size: 12px
     }
 
-    .casinoZone .casinoWrapper .content .rightZone .txt h2[data-v-010c5d9e] {
+    .casinoZone .casinoWrapper .content .rightZone .txt h2  {
         font-size: 22px
     }
 
-    .casinoZone .casinoWrapper .content .rightZone .txt p[data-v-010c5d9e] {
+    .casinoZone .casinoWrapper .content .rightZone .txt p  {
         font-size: 14px
     }
 }
 
 @media (max-width: 1200px) {
-    .casinoZone .casinoWrapper .content .rightZone .btns ul li[data-v-010c5d9e] {
+    .casinoZone .casinoWrapper .content .rightZone .btns ul li  {
         height: 115px
     }
 }
 
 @media (max-width: 963px) {
-    .casinoZone .casinoWrapper .content .rightZone .btns ul li[data-v-010c5d9e] {
+    .casinoZone .casinoWrapper .content .rightZone .btns ul li  {
         height: 100px
     }
 }
