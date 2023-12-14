@@ -1,14 +1,14 @@
-<div id="app" data-v-app="" class="webp">
+<div id="app" class="webp">
     <div>
-        <div data-v-79613b41="" class="allContent">
+        <div class="allContent">
             <?php include('inc/sidemenu.php'); ?>
 
             <!-- Content -->
-            <div data-v-79613b41="" class="rightContent homePage">
-                <div data-v-79613b41="" class="contents">
-                    <div data-v-79613b41="" class="main_content_continer">
+            <div class="rightContent homePage">
+                <div class="contents">
+                    <div class="main_content_continer">
                         <?php include('inc/header.php'); ?>
-                        <div data-v-8c6ca05e="" class="banner" style="height: auto; opacity: 1;">
+                        <div class="banner" style="height: auto; opacity: 1;">
                             <div class="swiper banner_swiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide"><a href="#"><img class="swiper-lazy" src="./image/banner/banner-01.webp" alt=""></a><!----></div>
@@ -25,11 +25,11 @@
                                 <div class="swiper-pagination"></div><!---->
                             </div>
                         </div>
-                        <div data-v-8c6ca05e="">
-                            <div data-v-8c6ca05e="" id="home" class="v_deep_home">
-                                <div data-v-8c6ca05e="" class="main_content webp">
-                                    <div data-v-8c6ca05e="" class="main_content_wrap avoidFlicker">
-                                        <div data-v-8c6ca05e="" class="casinoZone">
+                        <div>
+                            <div id="home" class="v_deep_home">
+                                <div class="main_content webp">
+                                    <div class="main_content_wrap avoidFlicker">
+                                        <div class="casinoZone">
                                             <div class="title"><span class="icon-iiconLogoB"></span>
                                                 <div class="txt"><?= $site_name ?> <h3>GAME LIST</h3>
                                                 </div>
@@ -255,7 +255,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div data-v-8c6ca05e="" class="slotZone wow fadeInUp" style="visibility: ; animation-name: none;">
+                                        <div class="slotZone wow fadeInUp" style="visibility: ; animation-name: none;">
                                             <div class="slotLeft slot01">
                                                 <div class="leftZone">
                                                     <div class="pic"></div><!---->
@@ -356,8 +356,8 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div data-v-8c6ca05e="" class="infoZone">
-                                            <div data-v-8c6ca05e="" class="info01 wow fadeInUp animated" style="visibility: ; animation-name: none;">
+                                        <div class="infoZone">
+                                            <div class="info01 wow fadeInUp animated" style="visibility: ; animation-name: none;">
                                                 <div class="title"><?= $site_name ?><span>공지</span></div>
                                                 <div class="listFrame">
                                                     <div class="list">
@@ -380,7 +380,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div data-v-8c6ca05e="" class="info01 wow fadeInUp animated" style="visibility: ; animation-name: none;">
+                                            <div class="info01 wow fadeInUp animated" style="visibility: ; animation-name: none;">
                                                 <div class="title"><?= $site_name ?><span>FAQ</span></div>
                                                 <div class="listFrame">
                                                     <div class="list">
@@ -395,7 +395,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div data-v-8c6ca05e="" class="info01 wow fadeInUp animated" style="visibility: ; animation-name: none;">
+                                            <div class="info01 wow fadeInUp animated" style="visibility: ; animation-name: none;">
                                                 <div class="title"><?= $site_name ?><span>이벤트</span></div>
                                                 <div class="listFrame">
                                                     <div class="list">

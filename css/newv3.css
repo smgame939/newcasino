@@ -29230,13 +29230,13 @@ textarea {
 }
 
 /* HOME STYLE */
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone {
+.v_deep_home .main_content_wrap .casinoZone {
     margin-top: 20px;
     border-bottom: 1px solid var(--bdColor041);
     padding-bottom: 17px;
     width: 100%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .title {
+.v_deep_home .main_content_wrap .casinoZone .title {
     color: var(--txtColor71);
     font-size: 24px;
     display: flex;
@@ -29244,27 +29244,27 @@ textarea {
     font-weight: 700;
     margin-bottom: 24px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .title span {
+.v_deep_home .main_content_wrap .casinoZone .title span {
     font-size: 49px;
     color: var(--txtColor65);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .title .txt {
+.v_deep_home .main_content_wrap .casinoZone .title .txt {
     display: flex;
     margin-top: 10px;
     font-family: arial;
     font-size: 24px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .title h3 {
+.v_deep_home .main_content_wrap .casinoZone .title h3 {
     color: var(--txtColor72);
     margin-left: 4px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul {
+.v_deep_home .main_content_wrap .casinoZone .content ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li {
+.v_deep_home .main_content_wrap .casinoZone .content ul li {
     width: 24%;
     height: 233px;
     border: 1px solid var(--bdColor038);
@@ -29279,107 +29279,107 @@ textarea {
     overflow: hidden;
     margin-right: 1%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .ppPro {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .ppPro {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 3;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .ppPro img {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .ppPro img {
     width: 6vw;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .logo {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .logo {
     background-size: cover;
     position: absolute;
     right: 3%;
     top: 4%;
     z-index: 2;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .logoA {
     background-image: url(../assets/image/casinoLogo01.svg);
     width: 12%;
     padding-bottom: 12.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino01:hover .logoA {
     background-image: url(../assets/image/casinoLogo01_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .logoA {
     background-image: url(../assets/image/casinoLogo01.svg);
     width: 12%;
     padding-bottom: 12.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="WmReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="WmReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo01_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .logoA {
     background-image: url(../assets/image/casinoLogo02.svg);
     width: 20%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino02:hover .logoA {
     background-image: url(../assets/image/casinoLogo02_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .logoA {
     background-image: url(../assets/image/casinoLogo02.svg);
     width: 20%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AgBr"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AgBr"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo02_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .modelA {
     padding-bottom: 45%;
     width: 83%;
     left: 6%;
     top: 5%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .modelA {
     background-image: url(../assets/image/casino02.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="AgBr"] .modelA {
     background-image: url(../assets/image/casino02.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .logoA {
     background-image: url(../assets/image/casinoLogo03.svg);
     width: 20.2%;
     padding-bottom: 12.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino03:hover .logoA {
     background-image: url(../assets/image/casinoLogo03_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .logoA {
     background-image: url(../assets/image/casinoLogo03.svg);
     width: 20.2%;
     padding-bottom: 12.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo03_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .logoA {
     background-image: url(../assets/image/casinoLogo04.svg);
     width: 11.2%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino04:hover .logoA {
     background-image: url(../assets/image/casinoLogo04_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .logoA {
     background-image: url(../assets/image/casinoLogo04.svg);
     width: 11.2%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo04_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .logoA {
     background-image: url(../assets/image/casinoLogo05.svg);
     width: 11.3%;
     padding-bottom: 16.6%;
@@ -29387,10 +29387,10 @@ textarea {
     right: 5%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino05:hover .logoA {
     background-image: url(../assets/image/casinoLogo05_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .logoA {
     background-image: url(../assets/image/casinoLogo05.svg);
     width: 11.3%;
     padding-bottom: 16.6%;
@@ -29398,118 +29398,118 @@ textarea {
     right: 5%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo05_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .logoA {
     background-image: url(../assets/image/casinoLogo06.svg);
     width: 29%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino06:hover .logoA {
     background-image: url(../assets/image/casinoLogo06_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .logoA {
     background-image: url(../assets/image/casinoLogo06.svg);
     width: 29%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo06_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .logoA {
     background-image: url(../assets/image/casinoLogo07.svg);
     width: 16%;
     padding-bottom: 13.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino07:hover .logoA {
     background-image: url(../assets/image/casinoLogo07_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .logoA {
     background-image: url(../assets/image/casinoLogo07.svg);
     width: 16%;
     padding-bottom: 13.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="OgReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="OgReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo07_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .logoA {
     background-image: url(../assets/image/casinoLogo08.svg);
     width: 23%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino08:hover .logoA {
     background-image: url(../assets/image/casinoLogo08_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .logoA {
     background-image: url(../assets/image/casinoLogo08.svg);
     width: 23%;
     padding-bottom: 11.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="DgReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="DgReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo08_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .logoA {
     background-image: url(../assets/image/casinoLogo09.svg);
     width: 14%;
     padding-bottom: 14.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo09_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .logoA {
     background-image: url(../assets/image/casinoLogo010.svg);
     width: 14%;
     padding-bottom: 12.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BgReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BgReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo010_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .logoA {
     background-image: url(../assets/image/casinoLogo011.svg);
     width: 28%;
     padding-bottom: 14.1%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo011_h.svg);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .logoA {
     background-image: url(data:image/png;base64,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);
     width: 22%;
     padding-bottom: 8.4%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"]:hover .logoA {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAeCAMAAAC1+tjYAAAAn1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8Kd3m4AAAANHRSTlMA++714ffytQrk1sY4DAbr58u5VZNZXUwd28Gnj3tyUEEl3tCZi4eAYSsTr52WRzUxFr1nMAND5wAAAidJREFUSMeNlOl2gjAQRidYEBFBcd9x39qq7bz/s1WYkA6E6en9I5wv3MRkJjBtb6CeJOiDSKfXWkANiCqEWjzEpWSLHESs8ylEB2p5Q8SroPvEF169DkNRNxB0m0wXCLqFqGuDwAJRTQTdXtT1QCJxJyDoPvKn5/0SCaubpA9f8j7DR4fpaIdOgYuIymmG1uqOUx5p7qRf7fLMm62ZbjRuoKHnM10TTm4lIjz1BTByfrPpxegc5Kgx082tyBTl/IAlVqSzGRqdReFz0GbJdKq9HJ7fu9pHOhOt1sO9jq5lndqd+sPBll5So5vpQ/2mreozXdunaJUPbdGLlge6Wsa53i1077+93Sh8XvbLG2OSj6UzpFkTMMT44gCq2i4++dZwe0VqOmZRmAVbALjSVPNqAbukA45PY8+vz9NK8e6yoAOhQrQ6cJCLVE0vk28kXCTRBIl5OTS6PfzTF+WLUkg0y2Fc6A7wX18DGU37ygCXHZ7lG9oXBuE4tq6V6WLhGmrU+cLCBoGg6yGiAtHXB05Cti6AtLpzlt+A8R00XC+AyPZ1yLYFWQcuFZmhRzUVgW/5YszYwV+6FSI73A014wfrj2M5mkGhS2ydafXW6eI/+zPUNt6/3eP9uhnp6AaSLpuNF5NCzZ7dBwx+Vzh2V0y1LoqxxIJtvlOOjsB0KVhNS09N9kW8tmrDRJ/AdK1qB6pCB5eE/pZ6W0KFx5eOtjxyMe5AhVThD5cppJFi9ZRrAAAAAElFTkSuQmCC);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .logoA {
     background-image: url(../assets/image/casinoLogo013.png);
     width: 22%;
     padding-bottom: 14.4%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="YxReal"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="YxReal"]:hover .logoA {
     background-image: url(../assets/image/casinoLogo013_h.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .logoA {
     background-image: url(data:image/png;base64,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);
     width: 15%;
     padding-bottom: 15.4%;
     transition: 0.3s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"]:hover .logoA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"]:hover .logoA {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAApVBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+4/eNVAAAANnRSTlMA4LAvBfUJ+/L46kAU3GSLzsEXnm4pD4ddf3kb1LxZJB+3mmdWOtCXUjSpSeTXysWkj0+TdGtxOiHtAAAD3UlEQVRYw6WX55rqIBCGJ5EUY+91LbGtZXfVo3P/l3YgJBkCWM6e74f6mPDCFIYBHmk+ayynUYDoRVN3MFzAP6myc1BTbVeBN1Udn9AqZ1R9Z/iljA/lNdrwXOwW4lOFXQZP1GviSzV78FD3Mr6hcv3R8mOb477RVMdqhv+BhpZXgH3HXNeH/8748DLP4mpkRcsgsKX2yrauvnPV8R+6FR1UFRw2RoAuYdEPxccr9dlp1LY6aTVFRYVYlMqKeWv2eI8cAopmSXFAHitv1yvk9Xo8rs9B0WQU5RlF/95Q6qvbL6z5LOf7WRTcPftBqW4+j3SPq+/XUZ4O2oNS7CVxzlx1wUTfuudnGeCP9qDfkEtrpAtIcGX+eZ5AQZ8t8eL2BlrIuBsSgldVVupMDvyfsa+Fbt7r65HYItY+XRQagVBNAgA2Tf61hqea85HhmIGbDeLDkH7XI54HJSDZjI+571IACr/vCCDfCGJ76SM+AWJhAQHkGqluGcanFhKgxlMLCSB1/OIpdbQaL3zM9j4BcAEzAwCsG/Lk6RWMH5QRO20BquG3AhjCgACk6o67otEvGr9P4MLiNgEG4BJAVYlXkGhlGj9Erj4BXJgSQEtDPleTh2mRJhg5TzVhChEBNPljD/GQGE8pLnbiTAFE4BHA0KST7GZufO8cyzX8SbYWATxAK6D05Saz7kO8i4LIw7JK69oxNSWVCcgmcpIgOCgyr5VuHBIB7CY0ZN1NAb0k4laAZzpxdq7wEIja3pYAGbuwD+x2KOmAyAyjh8EamDiLrhIgcfdk0I8OmBqJxERbtIAK/xpmAP/ndJcVztEBbiGVh2JO0SJcAK61U2aCUOrJlg4YwJAAnxzI4J7s0lQqIJDH0Xw1KWymBQG6CZE1uQ02gMdTm8FnGbfqdlYLylEU5ypMmri0AcbBsg0TEXZfLSgQ5wAWpWdmz9cApEES+xywE5uVnFinw8IKSF18LhZVcCQgzeD6cwAvd0EpBzjKweKtkxq/BitgVmv10xz3ZmKTyVlHytGW1SwrYE0NxaYKMDkj0tEmqKnith3ATvIwp0IjRP5qhxkhvDEb4CiebbJS5+Rv5/N1la7+aADk82laaVr0blcNDmnZMwAznmCbrNznajJ7k4XBpa/7oOPu0wOHVC5MVEdV0YqpADryVNUtjSZpW9EB8yVaGk0S03tZd0EA6oqMVpfktzRCeeDngFWkN9tvteunoQRUtu+0+8LXqOt74+D18OrCQaqbV4vAduX5z0tXCZ6IdV9e++CF2g3vdxdPUnXk/PrqS5fvmnH5jivwT1oMB+408l5e//8CDwVhrF6lxm4AAAAASUVORK5CYII=);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .model {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .model {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -29519,285 +29519,285 @@ textarea {
     z-index: 2;
     margin: 0 auto;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
     padding-bottom: 55%;
     top: 5%;
     left: -7%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
     background-image: url(../assets/image/casino01.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
     background-image: url(../assets/image/casino01.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .modelA {
     padding-bottom: 55%;
     top: 5%;
     left: -7%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .modelA {
     background-image: url(../assets/image/casino01.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="WmReal"] .modelA {
     background-image: url(../assets/image/casino01.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
     padding-bottom: 54%;
     width: 83%;
     left: 8%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
     background-image: url(../assets/image/casino02.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
     background-image: url(../assets/image/casino02.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
     padding-bottom: 55%;
     width: 68%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
     background-image: url(../assets/image/casino03.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
     background-image: url(../assets/image/casino03.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
     padding-bottom: 55%;
     width: 68%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
     background-image: url(../assets/image/casino03.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
     background-image: url(../assets/image/casino03.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
     padding-bottom: 55%;
     width: 94%;
     top: 3%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
     background-image: url(../assets/image/casino04.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
     background-image: url(../assets/image/casino04.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .modelA {
     padding-bottom: 48%;
     width: 83%;
     top: 6%;
     left: 6%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .modelA {
     background-image: url(../assets/image/casino04.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="MgpReal"] .modelA {
     background-image: url(../assets/image/casino04.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
     padding-bottom: 56%;
     width: 84%;
     left: 4%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
     background-image: url(../assets/image/casino05.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
     background-image: url(../assets/image/casino05.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .modelA {
     padding-bottom: 52%;
     width: 83%;
     left: 2%;
     top: 2%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .modelA {
     background-image: url(../assets/image/casino05.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="PrgReal"] .modelA {
     background-image: url(../assets/image/casino05.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
     padding-bottom: 55%;
     width: 91%;
     left: 7%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
     background-image: url(../assets/image/casino06.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
     background-image: url(../assets/image/casino06.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .modelA {
     padding-bottom: 49%;
     width: 83%;
     left: 10%;
     top: 2%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .modelA {
     background-image: url(../assets/image/casino06.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="EvoReal"] .modelA {
     background-image: url(../assets/image/casino06.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
     padding-bottom: 55%;
     width: 93%;
     left: 3%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
     background-image: url(../assets/image/casino07.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
     background-image: url(../assets/image/casino07.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .modelA {
     padding-bottom: 46%;
     width: 84%;
     left: 5%;
     top: 4%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .modelA {
     background-image: url(../assets/image/casino07.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="OgReal"] .modelA {
     background-image: url(../assets/image/casino07.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
     padding-bottom: 55%;
     width: 73%;
     left: 6%;
     top: 12px;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
     background-image: url(../assets/image/casino08.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
     background-image: url(../assets/image/casino08.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .modelA {
     padding-bottom: 51%;
     width: 73%;
     left: 8%;
     top: 12px;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .modelA {
     background-image: url(../assets/image/casino08.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="DgReal"] .modelA {
     background-image: url(../assets/image/casino08.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
     padding-bottom: 51%;
     width: 84%;
     top: 4%;
     left: 5%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
     background-image: url(../assets/image/casino03.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="AllBetReal"] .modelA {
     background-image: url(../assets/image/casino03.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
     padding-bottom: 56%;
     width: 100%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
     top: 3%;
     background-image: url(../assets/image/casino03.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
     background-image: url(../assets/image/casino03.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .modelA {
     padding-bottom: 55%;
     width: 73%;
     left: 14%;
     top: 12px;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .modelA {
     background-image: url(../assets/image/casino09.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="GpiLive"] .modelA {
     background-image: url(../assets/image/casino09.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .modelA {
     padding-bottom: 47%;
     width: 77%;
     left: 7%;
     top: 12px;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .modelA {
     background-image: url(../assets/image/casino010.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="BgReal"] .modelA {
     background-image: url(../assets/image/casino010.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .modelA {
     padding-bottom: 49%;
     width: 82%;
     left: 9%;
     top: 3%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .modelA {
     background-image: url(../assets/image/casino011.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="Ae2Real"] .modelA {
     background-image: url(../assets/image/casino011.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .modelA {
     padding-bottom: 44%;
     width: 74%;
     left: 12%;
     top: 7%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .modelA {
     background-image: url(../assets/image/casino012.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="BbinReal"] .modelA {
     background-image: url(../assets/image/casino012.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .modelA {
     padding-bottom: 46%;
     width: 81%;
     left: 9%;
     top: 7%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .modelA {
     background-image: url(../assets/image/casino013.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="YxReal"] .modelA {
     background-image: url(../assets/image/casino013.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .modelA {
+.v_deep_home .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .modelA {
     padding-bottom: 46%;
     width: 81%;
     left: 9%;
     top: 7%;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .modelA {
+.v_deep_home .webp .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .modelA {
     background-image: url(../assets/image/casino014.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .modelA {
+.v_deep_home .no-webp .main_content_wrap .casinoZone .content ul li[game-box="VivoVideo"] .modelA {
     background-image: url(../assets/image/casino014.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .come {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .come {
     display: none;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming {
     cursor: auto;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming .come img {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming .come img {
     width: 100%;
     height: auto;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming .come {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming .come {
     display: flex !important;
     position: absolute;
     top: 50%;
@@ -29805,16 +29805,16 @@ textarea {
     transform: translate(-50%, -50%);
     width: 85%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming .logoA,
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming .modelA,
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming .txt,
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.coming .mask {
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming .logoA,
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming .modelA,
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming .txt,
+.v_deep_home .main_content_wrap .casinoZone .content ul li.coming .mask {
     display: none;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li:hover .model {
+.v_deep_home .main_content_wrap .casinoZone .content ul li:hover .model {
     background-position-y: 5px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .txt {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .txt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -29823,19 +29823,19 @@ textarea {
     position: absolute;
     bottom: 18px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .txt h2 {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .txt h2 {
     font-size: 1.7vw;
     color: var(--txtColor73);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .txt span {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .txt span {
     font-size: 0.8vw;
     color: var(--txtColor73);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li:hover .txt h2,
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li:hover .txt span {
+.v_deep_home .main_content_wrap .casinoZone .content ul li:hover .txt h2,
+.v_deep_home .main_content_wrap .casinoZone .content ul li:hover .txt span {
     color: var(--txtColor02);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .mask {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .mask {
     position: absolute;
     top: 0;
     width: 100%;
@@ -29850,7 +29850,7 @@ textarea {
     display: none;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .mask .inner {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .mask .inner {
     width: 99%;
     height: 99%;
     background: var(--bgColor077);
@@ -29860,13 +29860,13 @@ textarea {
     display: none;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .mask .inner .icon-icconPlay {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .mask .inner .icon-icconPlay {
     display: none;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul .maintainGo .maintain {
+.v_deep_home .main_content_wrap .casinoZone .content ul .maintainGo .maintain {
     display: flex;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .maintain {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .maintain {
     display: none;
     background-color: var(--bgColor084);
     border: 1px solid var(--bdColor052);
@@ -29879,46 +29879,46 @@ textarea {
     justify-content: center;
     flex-direction: column;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .maintain span {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .maintain span {
     font-size: 6vw;
     color: var(--txtColor85);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .maintain h4 {
+.v_deep_home .main_content_wrap .casinoZone .content ul li .maintain h4 {
     color: var(--txtColor85);
     font-size: 1vw;
     font-weight: 700;
     margin-top: 3%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li:hover .mask,
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li:hover .inner {
+.v_deep_home .main_content_wrap .casinoZone .content ul li:hover .mask,
+.v_deep_home .main_content_wrap .casinoZone .content ul li:hover .inner {
     display: flex;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone {
+.v_deep_home .main_content_wrap .slotZone {
     padding-top: 34px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftFrame {
+.v_deep_home .main_content_wrap .slotZone .leftFrame {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-[data-v-8c6ca05e] .v_deep_home .slotShow {
+.v_deep_home .slotShow {
     display: flex !important;
 }
-[data-v-8c6ca05e] .v_deep_home .slotHide {
+.v_deep_home .slotHide {
     display: none !important;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .slotLeft {
+.v_deep_home .main_content_wrap .slotZone .slotLeft {
     width: 78%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone {
+.v_deep_home .main_content_wrap .slotZone .leftZone {
     width: 56%;
     border: 1px solid var(--bdColor038);
     border-radius: 10px;
@@ -29930,64 +29930,64 @@ textarea {
     cursor: pointer;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+.v_deep_home .main_content_wrap .slotZone .leftZone .pic {
     background-size: cover;
     width: 100%;
     padding-bottom: 54%;
     transition: 0.4s ease-out;
     position: relative;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .slot01 .leftZone .pic {
+.v_deep_home .webp .main_content_wrap .slotZone .slot01 .leftZone .pic {
     background-image: url(../assets/image/adr01-4334ebee.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .slot01 .leftZone .pic {
+.v_deep_home .no-webp .main_content_wrap .slotZone .slot01 .leftZone .pic {
     background-image: url(../assets/image/adr01-411f9777.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .slot02 .leftZone .pic {
+.v_deep_home .webp .main_content_wrap .slotZone .slot02 .leftZone .pic {
     background-image: url(../assets/image/adL02-4d26645f.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .slot02 .leftZone .pic {
+.v_deep_home .no-webp .main_content_wrap .slotZone .slot02 .leftZone .pic {
     background-image: url(../assets/image/adL02-cb995bc6.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .slot03 .leftZone .pic {
+.v_deep_home .webp .main_content_wrap .slotZone .slot03 .leftZone .pic {
     background-image: url(../assets/image/adL03-7246ed7d.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .slot03 .leftZone .pic {
+.v_deep_home .no-webp .main_content_wrap .slotZone .slot03 .leftZone .pic {
     background-image: url(../assets/image/adL03-4b76fcb2.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .slot04 .leftZone .pic {
+.v_deep_home .webp .main_content_wrap .slotZone .slot04 .leftZone .pic {
     background-image: url(../assets/image/adL06-742df3bd.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .slot04 .leftZone .pic {
+.v_deep_home .no-webp .main_content_wrap .slotZone .slot04 .leftZone .pic {
     background-image: url(../assets/image/adL06-c0ceee93.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .slot05 .leftZone .pic {
+.v_deep_home .webp .main_content_wrap .slotZone .slot05 .leftZone .pic {
     background-image: url(../assets/image/adL07-e9bdd37f.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .slot05 .leftZone .pic {
+.v_deep_home .no-webp .main_content_wrap .slotZone .slot05 .leftZone .pic {
     background-image: url(../assets/image/adL07-94cc4b69.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone:hover .pic {
+.v_deep_home .main_content_wrap .slotZone .leftZone:hover .pic {
     transform: rotate(5deg) scale(1.1);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .ppPro {
+.v_deep_home .main_content_wrap .slotZone .leftZone .ppPro {
     position: absolute;
     top: 0;
     left: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .ppPro img {
+.v_deep_home .main_content_wrap .slotZone .leftZone .ppPro img {
     width: 8vw;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .ppPro {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .ppPro {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 8;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .ppPro img {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .ppPro img {
     width: 2.78vw;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic .maintain {
+.v_deep_home .main_content_wrap .slotZone .leftZone .pic .maintain {
     display: none;
     background-color: var(--bgColor084);
     border: 1px solid var(--bdColor052);
@@ -30000,42 +30000,42 @@ textarea {
     justify-content: center;
     flex-direction: column;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic .maintain span {
+.v_deep_home .main_content_wrap .slotZone .leftZone .pic .maintain span {
     font-size: 6vw;
     color: var(--txtColor85);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic .maintain h4 {
+.v_deep_home .main_content_wrap .slotZone .leftZone .pic .maintain h4 {
     color: var(--txtColor85);
     font-size: 1vw;
     font-weight: 700;
     margin-top: 3%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .maintainGo .maintain {
+.v_deep_home .main_content_wrap .slotZone .leftZone .maintainGo .maintain {
     display: flex;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone {
+.v_deep_home .main_content_wrap .slotZone .centerZone {
     width: 35%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone .upZone {
+.v_deep_home .main_content_wrap .slotZone .centerZone .upZone {
     padding-bottom: 20px;
     border-bottom: 1px solid var(--bdColor042);
     margin-bottom: 20px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone .upZone h2 {
+.v_deep_home .main_content_wrap .slotZone .centerZone .upZone h2 {
     color: var(--txtColor72);
     font-size: 2.1vw;
     margin-bottom: 20px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone .upZone p {
+.v_deep_home .main_content_wrap .slotZone .centerZone .upZone p {
     color: var(--txtColor66);
     line-height: 1.6;
     font-size: 0.8vw;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone .downZone {
+.v_deep_home .main_content_wrap .slotZone .centerZone .downZone {
     display: flex;
     justify-content: space-between;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone .downZone a {
+.v_deep_home .main_content_wrap .slotZone .centerZone .downZone a {
     border: 1px solid var(--bdColor038);
     color: var(--txtColor66);
     font-weight: 700;
@@ -30052,15 +30052,15 @@ textarea {
     width: 30%;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .centerZone .downZone a:hover {
+.v_deep_home .main_content_wrap .slotZone .centerZone .downZone a:hover {
     font-weight: 700;
     background: #ffffff;
     background: linear-gradient(180deg, var(--bgColor080_g01) 0%, var(--bgColor080_g02) 34%, var(--bgColor080_g03) 100%);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone {
+.v_deep_home .main_content_wrap .slotZone .rightZone {
     width: 15%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li {
     width: 100%;
     border: 1px solid var(--bdColor038);
     border-radius: 10px;
@@ -30073,7 +30073,7 @@ textarea {
     overflow: hidden;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li:before {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li:before {
     content: "";
     background-color: var(--bgColor084);
     width: 100%;
@@ -30083,10 +30083,10 @@ textarea {
     opacity: 0;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover:before {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover:before {
     opacity: 1;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .pic {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .pic {
     background-size: cover;
     background-position: center;
     padding-bottom: 25%;
@@ -30095,40 +30095,40 @@ textarea {
     position: relative;
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .pic {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .pic {
     transform: rotate(5deg) scale(1.2);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s01 .pic01 {
+.v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s01 .pic01 {
     background-image: url(../assets/image/adr02-6610d7ea.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s01 .pic01 {
+.v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s01 .pic01 {
     background-image: url(../assets/image/adr02-ccbbb0b9.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s02 .pic02 {
+.v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s02 .pic02 {
     background-image: url(../assets/image/adr03-6773cae7.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s02 .pic02 {
+.v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s02 .pic02 {
     background-image: url(../assets/image/adr03-9e165699.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s03 .pic03 {
+.v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s03 .pic03 {
     background-image: url(../assets/image/adr04-df1de432.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s03 .pic03 {
+.v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s03 .pic03 {
     background-image: url(../assets/image/adr04-83b877cb.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s04 .pic04 {
+.v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s04 .pic04 {
     background-image: url(../assets/image/adr05-85f35cc8.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s04 .pic04 {
+.v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s04 .pic04 {
     background-image: url(../assets/image/adr05-25f3a5f5.png);
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s05 .pic05 {
+.v_deep_home .webp .main_content_wrap .slotZone .rightZone ul li.s05 .pic05 {
     background-image: url(../assets/image/adr06-e8aec508.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s05 .pic05 {
+.v_deep_home .no-webp .main_content_wrap .slotZone .rightZone ul li.s05 .pic05 {
     background-image: url(../assets/image/adr06-478dc13b.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .mask {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .mask {
     position: absolute;
     top: 0;
     width: 100%;
@@ -30143,7 +30143,7 @@ textarea {
     transition: 0.4s ease-out;
     opacity: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .mask .inner {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .mask .inner {
     width: 98%;
     height: 98%;
     background: var(--bgColor077);
@@ -30153,11 +30153,11 @@ textarea {
     transition: 0.4s ease-out;
     opacity: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .mask,
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .mask .inner {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .mask,
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .mask .inner {
     opacity: 1;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .txt {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .txt {
     font-size: 30px;
     color: var(--txtColor66);
     font-weight: 700;
@@ -30169,14 +30169,14 @@ textarea {
     transition: 0.4s ease-out;
     opacity: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .txt {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li:hover .txt {
     left: 18%;
     opacity: 1;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul .maintainGo .maintain {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul .maintainGo .maintain {
     display: flex;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .maintain {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .maintain {
     display: none;
     background-color: var(--bgColor084);
     border: 1px solid var(--bdColor052);
@@ -30189,23 +30189,23 @@ textarea {
     justify-content: center;
     top: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .maintain span {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .maintain span {
     font-size: 2.4vw;
     color: var(--txtColor85);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li .maintain h4 {
+.v_deep_home .main_content_wrap .slotZone .rightZone ul li .maintain h4 {
     color: var(--txtColor85);
     font-size: 0.8vw;
     font-weight: 700;
     margin-left: 3%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone {
+.v_deep_home .main_content .main_content_wrap .infoZone {
     width: 100%;
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 {
     width: 32%;
     border: 1px solid var(--bdColor038);
     background-color: var(--bgColor070);
@@ -30214,31 +30214,31 @@ textarea {
     padding: 23px;
     margin-top: 25px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01:before {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01:before {
     position: absolute;
     top: 0;
     width: 420px;
     height: 31px;
     left: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content .main_content_wrap .infoZone .info01:before {
+.v_deep_home .webp .main_content .main_content_wrap .infoZone .info01:before {
     background-image: url(../../../../KD001-02/assets/images/shared/common/infoBgTop.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content .main_content_wrap .infoZone .info01:before {
+.v_deep_home .no-webp .main_content .main_content_wrap .infoZone .info01:before {
     background-image: url(../../../../KD001-02/assets/images/shared/common/infoBgTop.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .title {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .title {
     color: var(--txtColor71);
     font-size: 18px;
     font-weight: 700;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .title span {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .title span {
     color: var(--txtColor72);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .listFrame {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .listFrame {
     overflow: hidden;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list {
     margin-top: 14px;
     animation-duration: 1s;
     background-position: -15px -13px;
@@ -30246,10 +30246,10 @@ textarea {
     animation-timing-function: step-start;
     animation-play-state: running;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list:hover {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list:hover {
     animation-play-state: paused;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA {
     width: 100%;
     display: flex;
     height: 40px;
@@ -30261,16 +30261,16 @@ textarea {
     padding: 0 9px;
     background-color: var(--bgColor070);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA:hover {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA:hover {
     background-color: var(--bgColor082);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .no {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .no {
     color: var(--txtColor16);
     font-size: 13px;
     width: 10%;
     padding-left: 1%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .no .outer {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .no .outer {
     display: flex;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     width: 25px;
@@ -30280,7 +30280,7 @@ textarea {
     font-size: 13px;
     background: var(--bgColor06);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .no .outer span {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .no .outer span {
     display: flex;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     width: 20px;
@@ -30293,13 +30293,13 @@ textarea {
     background: linear-gradient(0deg, var(--bgColor05_gs) 0%, var(--bgColor05_ge) 100%);
     color: var(--txtColor05);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .time {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .time {
     font-size: 12px;
     text-align: left;
     color: var(--txtColor66);
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
     font-size: 12px;
     text-align: left;
     color: var(--txtColor66);
@@ -30309,18 +30309,18 @@ textarea {
     white-space: nowrap;
     width: 286px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA:hover .message {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA:hover .message {
     font-size: 12px;
     padding-right: 4%;
     color: var(--txtColor02);
     transition: 0.4s ease-out;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA:hover .time {
+.v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA:hover .time {
     font-size: 12px;
     text-align: right;
     color: var(--txtColor02);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02:before {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02:before {
     content: "";
     position: absolute;
     top: 0;
@@ -30328,13 +30328,13 @@ textarea {
     height: 31px;
     left: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .webp .main_content .main_content_wrap .infoZone .info02:before {
+.v_deep_home .webp .main_content .main_content_wrap .infoZone .info02:before {
     background-image: url(../../../../KD001-02/assets/images/shared/common/infoBgTop01.webp);
 }
-[data-v-8c6ca05e] .v_deep_home .no-webp .main_content .main_content_wrap .infoZone .info02:before {
+.v_deep_home .no-webp .main_content .main_content_wrap .infoZone .info02:before {
     background-image: url(../../../../KD001-02/assets/images/shared/common/infoBgTop01.png);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .upZone .listC .attention {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .upZone .listC .attention {
     font-size: 13px;
     width: 40%;
     text-align: left;
@@ -30343,7 +30343,7 @@ textarea {
     padding-left: 2%;
     color: var(--txtColor04);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .upZone .listC .attention span {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .upZone .listC .attention span {
     display: block;
     width: 6px;
     height: 6px;
@@ -30352,38 +30352,38 @@ textarea {
     float: left;
     margin-right: 12px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .upZone .listC .time {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .upZone .listC .time {
     text-align: right;
     width: 60%;
     padding-right: 2%;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone {
     margin-top: 22px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat {
     display: flex;
     margin-top: 19px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat .chat01 {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat .chat01 {
     display: flex;
     align-items: center;
     margin-right: 48px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat .chat01 span {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat .chat01 span {
     font-size: 13px;
     margin-left: 10px;
     cursor: pointer;
     transition: 0.4s ease-out;
     color: var(--txtColor06);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat .chat01 span:hover {
+.v_deep_home .main_content .main_content_wrap .infoZone .info02 .downZone .chat .chat01 span:hover {
     color: var(--txtColor06_h);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .checkZone {
+.v_deep_home .main_content .main_content_wrap .checkZone {
     width: 100%;
     height: 646px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper {
+.v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper {
     width: 90%;
     margin: 0 auto;
     height: 646px;
@@ -30392,21 +30392,21 @@ textarea {
     justify-content: center;
     flex-direction: column;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper span {
+.v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper span {
     color: var(--txtColor79);
     font-size: 324px;
     margin-bottom: 20px;
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper h4 {
+.v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper h4 {
     font-size: 30px;
     color: var(--txtColor79);
 }
-[data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper h5 {
+.v_deep_home .main_content .main_content_wrap .checkZone .checkWrapper h5 {
     font-size: 24px;
     color: var(--txtColor79);
     margin-top: 20px;
 }
-[data-v-8c6ca05e] .v_deep_home .pointFlow {
+.v_deep_home .pointFlow {
     background-color: var(--bgColor130);
     position: fixed;
     bottom: 50px;
@@ -30420,20 +30420,20 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-[data-v-8c6ca05e] .v_deep_home .pointFlow img {
+.v_deep_home .pointFlow img {
     height: 52px;
     position: absolute;
     top: 52%;
     left: -9%;
     transform: translateY(-50%);
 }
-[data-v-8c6ca05e] .v_deep_home .pointFlow .txt {
+.v_deep_home .pointFlow .txt {
     font-size: 14px;
 }
-[data-v-8c6ca05e] .v_deep_home .pointFlow .txt span {
+.v_deep_home .pointFlow .txt span {
     color: var(--txtColor111);
 }
-[data-v-8c6ca05e] .v_deep_home .pointFlow .XX {
+.v_deep_home .pointFlow .XX {
     background: var(--bgColor131);
     width: 24px;
     height: 24px;
@@ -30444,12 +30444,12 @@ textarea {
     margin-left: 20px;
     cursor: pointer;
 }
-[data-v-8c6ca05e] .v_deep_home .pointFlow .XX span {
+.v_deep_home .pointFlow .XX span {
     color: var(--txtColor02);
     font-size: 9px;
     font-weight: 700;
 }
-[data-v-8c6ca05e] .v_deep_home .aniPointFlow {
+.v_deep_home .aniPointFlow {
     -webkit-animation: aniPointFlow-8c6ca05e 15s infinite;
     animation: aniPointFlow-8c6ca05e 15s infinite;
 }
@@ -30461,7 +30461,7 @@ textarea {
         left: -20vw;
     }
 }
-[data-v-8c6ca05e] .v_deep_home .luckyWheelFlow {
+.v_deep_home .luckyWheelFlow {
     position: fixed;
     bottom: 50px;
     cursor: pointer;
@@ -30471,7 +30471,7 @@ textarea {
     justify-content: center;
     z-index: 2;
 }
-[data-v-8c6ca05e] .v_deep_home .luckyWheelFlow .XX {
+.v_deep_home .luckyWheelFlow .XX {
     background: var(--bgColor131);
     width: 24px;
     height: 24px;
@@ -30485,12 +30485,12 @@ textarea {
     right: 0;
     top: 0;
 }
-[data-v-8c6ca05e] .v_deep_home .luckyWheelFlow .XX span {
+.v_deep_home .luckyWheelFlow .XX span {
     color: var(--txtColor02);
     font-size: 9px;
     font-weight: 700;
 }
-[data-v-8c6ca05e] .v_deep_home .aniLucky {
+.v_deep_home .aniLucky {
     -webkit-animation: aniLucky-8c6ca05e 1s infinite;
     animation: aniLucky-8c6ca05e 1s infinite;
 }
@@ -30502,7 +30502,7 @@ textarea {
         transform: rotate(720deg);
     }
 }
-[data-v-8c6ca05e] .v_deep_home .aniModel {
+.v_deep_home .aniModel {
     -webkit-animation: aniModel-8c6ca05e 1s infinite;
     animation: aniModel-8c6ca05e 1s infinite;
 }
@@ -30518,186 +30518,186 @@ textarea {
     }
 }
 @media (max-width: 1835px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 46%;
     }
 }
 @media (max-width: 1743px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 49%;
     }
 }
 @media (max-width: 1572px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
         top: 6%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
         top: 7%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA,
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA,
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
         top: 5%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
         top: 6%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
         top: 7%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
         top: 6%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
         top: 5%;
     }
 }
 @media (max-width: 1552px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 52%;
     }
 }
 @media (max-width: 1480px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 54%;
     }
 }
 @media (max-width: 1420px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap {
+    .v_deep_home .main_content_wrap {
         width: 105%;
         margin-left: 5%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul {
+    .v_deep_home .main_content_wrap .casinoZone .content ul {
         justify-content: space-between;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li {
         width: 49%;
         height: 180px;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .logo {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li .logo {
         background-size: cover;
         position: absolute;
         right: 24%;
         top: 17%;
         z-index: 2;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .logoA {
         width: 8.9%;
         padding-bottom: 8.9%;
         right: 27%;
         top: 21%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .logoA {
         width: 13%;
         padding-bottom: 7.1%;
         right: 25%;
         top: 24%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .logoA {
         width: 13.2%;
         padding-bottom: 7.8%;
         top: 23%;
         right: 26%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .logoA {
         width: 8.2%;
         right: 27%;
         top: 23%;
         padding-bottom: 8.1%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .logoA {
         width: 8.3%;
         padding-bottom: 11.9%;
         right: 28%;
         top: 12%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .logoA {
         width: 19%;
         padding-bottom: 7.5%;
         top: 24%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .logoA {
         width: 11%;
         padding-bottom: 9.1%;
         top: 20%;
         right: 27%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .logoA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .logoA {
         width: 17%;
         padding-bottom: 8.1%;
         right: 23%;
         top: 21%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
         padding-bottom: 31%;
         width: 54%;
         top: 6%;
         left: -4%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
         padding-bottom: 34%;
         width: 43%;
         left: 6%;
         top: 4%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
         padding-bottom: 33.7%;
         width: 57%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
         padding-bottom: 36%;
         width: 60%;
         left: -5%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
         padding-bottom: 36%;
         width: 48%;
         left: 2%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
         padding-bottom: 36%;
         width: 54%;
         left: 4%;
         top: 4%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
         padding-bottom: 36%;
         width: 61%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
         padding-bottom: 36%;
         width: 49%;
         top: 2%;
         left: 2%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li .txt {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li .txt {
         left: 50%;
         top: 54%;
         transform: translate(-32%, -17%);
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone {
+    .v_deep_home .main_content_wrap .casinoZone {
         width: 85%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone {
+    .v_deep_home .main_content_wrap .slotZone {
         flex-direction: column-reverse;
         width: 85%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul li {
+    .v_deep_home .main_content_wrap .slotZone .rightZone ul li {
         width: 32.8%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .slotLeft {
+    .v_deep_home .main_content_wrap .slotZone .slotLeft {
         width: 100%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone ul {
+    .v_deep_home .main_content_wrap .slotZone .rightZone ul {
         display: flex;
         justify-content: space-between;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .rightZone {
+    .v_deep_home .main_content_wrap .slotZone .rightZone {
         width: 100%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone {
+    .v_deep_home .main_content .main_content_wrap .infoZone {
         width: 85%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
+    .v_deep_home .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -30705,63 +30705,63 @@ textarea {
     }
 }
 @media (max-width: 1193px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 45%;
     }
 }
 @media (max-width: 1164px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 46%;
     }
 }
 @media (max-width: 1143px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 47%;
     }
 }
 @media (max-width: 1121px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 49%;
     }
 }
 @media (max-width: 1081px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 53%;
     }
 }
 @media (max-width: 1077px) {
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
+    .v_deep_home .main_content_wrap .slotZone .leftZone .pic {
         padding-bottom: 53%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino01 .modelA {
         top: 14%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino02 .modelA {
         top: 13%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino03 .modelA {
         top: 12%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino04 .modelA {
         top: 11%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino05 .modelA {
         width: 50%;
         top: 11%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino06 .modelA {
         top: 11%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino07 .modelA {
         top: 10%;
         left: 0%;
     }
-    [data-v-8c6ca05e] .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
+    .v_deep_home .main_content_wrap .casinoZone .content ul li.casino08 .modelA {
         top: 10%;
         left: 2%;
     }
 }
-.avoidFlicker[data-v-8c6ca05e] {
+.avoidFlicker {
     animation: defer_render-8c6ca05e 0s 0.1s forwards;
     opacity: 0;
 }
@@ -30770,7 +30770,7 @@ textarea {
         opacity: 1;
     }
 }
-.banner[data-v-8c6ca05e] {
+.banner {
     margin-top: 82px;
 }
 
