@@ -14,7 +14,6 @@ $pgName = pathinfo($currentPage, PATHINFO_FILENAME);
   <div class="scrollFrame">
     <div class="leftMenu">
       <ul>
-
         <li class="menu01">
           <a href="live_casino.php" class="<?php echo $pgName === 'live_casino' ? 'active' : '' ?>" aria-label="카지노"><span class="icon-iiconDice"></span>
             <div class="hovePic"><img src="/image/menu_casino.png" alt=""></div>
