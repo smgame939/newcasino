@@ -1,13 +1,16 @@
 <?php 
-include_once($_SERVER['DOCUMENT_ROOT']."/inc/_class_ip.php");
-include_once($_SERVER['DOCUMENT_ROOT']."/inc/database.php");
+// include_once($_SERVER['DOCUMENT_ROOT']."/inc/_class_ip.php");
+// include_once($_SERVER['DOCUMENT_ROOT']."/inc/database.php");
+
 include_once('class/mobiledetect.class.php');
 include('inc/versions.php');
 
 
 $mdetect = new MobileDetect();
-$mDB = new ClassDB();
 
+// $mDB = new ClassDB();
+
+/*
 $hd = apache_request_headers();
 $hd = array_change_key_case($hd, CASE_LOWER);
 $cfip = isset($hd['cf-connecting-ip']) ? $hd['cf-connecting-ip'] : "";
@@ -133,7 +136,10 @@ $Q_PGAE			= " LIMIT ".($PageIdx-1)*$PageSize.", ".$PageSize;
 
 
 $site_name = $SET_SITE['ss_site'];
+*/
 
+// Testing
+$is_login = true;
 
 if($mdetect->isMobile()) {   
 ?>
@@ -194,7 +200,8 @@ if($mdetect->isMobile()) {
 			<div class="rightZone">
 				<a class="moneyZone">
 					<span class="icon-icconMoneyKOREA"></span>
-					<h4><?=number_format($iu_cash,0)?></h4>
+					<!-- <h4><?=number_format($iu_cash,0)?></h4> -->
+					<h4>0</h4>
 					<span class="icon-icconLOAD"></span>
 					<div class="fundHoverFrame">
 						<div class="fundHover" style="display: none;">
@@ -209,7 +216,8 @@ if($mdetect->isMobile()) {
 				</a>
 				<a class="moneyZone">
 					<img src="assets/image/p-circle.png">
-					<h4><?=number_format($iu_point,0)?></h4>
+					<!-- <h4><?=number_format($iu_point,0)?></h4> -->
+					<h4>0</h4>
 					<button class="pointBtn">전환</button>
 				</a>
 				<a class="moneyZone">
@@ -223,7 +231,8 @@ if($mdetect->isMobile()) {
 						</a>
 					</div>
 					<a>
-						<h4><?=$iu_nick?></h4>
+						<!-- <h4><?=$iu_nick?></h4> -->
+						<h4>TestUser</h4>
 					</a>
 					<a class="btnM greyBtn _logout_">로그아웃</a>
 				</div>
