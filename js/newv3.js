@@ -32,8 +32,8 @@ $(document).ready(function () {
             spaceBetween: 30,
             effect: "fade",
             autoplay: {
-              delay: 2500,
-              disableOnInteraction: false,
+                delay: 2500,
+                disableOnInteraction: false,
             },
         });
     }
@@ -90,13 +90,13 @@ $(document).ready(function () {
         $('#bank-list-m').toggle();
     });
 
-    $(document).on('click', '#bank-list-m li.idnFrame > a', function() {
+    $(document).on('click', '#bank-list-m li.idnFrame > a', function () {
         // Get the aria-label attribute value
         var ariaLabelValue = $(this).attr('aria-label');
         $('#bank-list-m').toggle();
         $('#chooseBank_m').val(ariaLabelValue);
     });
-    $(document).on('click', '#bank-list li.idnFrame', function() {
+    $(document).on('click', '#bank-list li.idnFrame', function () {
         // Get the aria-label attribute value
         var bnkName = $(this).find('span.bnkName').text();
         $('#bank-list').toggle();
@@ -159,17 +159,17 @@ $(document).ready(function () {
 
         var tabNum = this.id.replace('tab-', '');
         var firstNavElem = $('#nav-' + tabNum + ':first');
-        
+
         scWindow.scrollTop(0);
         var firstNavPos = firstNavElem.offset().top;
         scWindow.scrollTop(firstNavPos - windowFromTop);
 
         $('[id^="tab-"]').removeClass('active');
         $(this).addClass('active');
-        
+
     });
 
-    $('.icon-left-menu').on('click', function() {
+    $('.icon-left-menu').on('click', function () {
         toggleSideMobile();
     });
 
@@ -182,84 +182,135 @@ $(document).ready(function () {
         $('nav.slide-content-left').removeClass('is-visible-left');
         $('#out-wrapper').removeClass("is-obscured-left left fixed");
     }
-  
+
     // Select the target element
     var targetElement = $('.icon-left-menu');
 
     // Attach a click event to the document
-    $('#content').on('click', function() {
+    $('#content').on('click', function () {
         hideSideMobile();
     });
-    $('#footer').on('click', function() {
+    $('#footer').on('click', function () {
         hideSideMobile();
     });
 
 
     // Slot Mobile
-    $(document).on('click', '.slot-btn', function(event) {
+    $(document).on('click', '.slot-btn', function (event) {
         event.stopPropagation();
-        
+
         var game = $(this).attr('id');
         // Use $.get() for a simpler GET request
-        $.get('/pages/slots/' + game + '.php', function(data) {
-          // Replace the content of the 'content' section with the loaded HTML
-          $('#content').html(data);
+        $.get('/pages/slots/' + game + '.php', function (data) {
+            // Replace the content of the 'content' section with the loaded HTML
+            $('#content').html(data);
         })
-        .fail(function(error) {
-          console.log('Error loading content:', error);
-        });
-      });
+            .fail(function (error) {
+                console.log('Error loading content:', error);
+            });
+    });
 
-      $(document).on('click', '#choose-provider', function(event) {
+    $(document).on('click', '#choose-provider', function (event) {
         event.stopPropagation();
-        
-        $.get('/pages/slot_m.php', function(data) {
+
+        $.get('/pages/slot_m.php', function (data) {
             var slotListContent = $(data).find('#content').html();
             $('#content').html(slotListContent);
-          })
-          .fail(function(error) {
-            console.log('Error loading content:', error);
-          });
-      });
+        })
+            .fail(function (error) {
+                console.log('Error loading content:', error);
+            });
+    });
 
     // Live Sports
     // default on page load
-    $(document).ready( function() {
+    $(document).ready(function () {
         $('#live_sp').click();
-    }); 
+    });
 
-    $(document).on('click', '#live_eu', function(event) {
+    $(document).on('click', '#live_eu', function (event) {
         event.stopPropagation();
-        
-        $.get('/pages/tab/_sports_eu_tab.php', function(data) {
-          $('#live-sports-tab').html(data);
+
+        $.get('/pages/tab/_sports_eu_tab.php', function (data) {
+            $('#live-sports-tab').html(data);
         })
-        .fail(function(error) {
-          console.log('Error loading content:', error);
-        });
+            .fail(function (error) {
+                console.log('Error loading content:', error);
+            });
         $('.live-select').removeClass('active');
         $(this).addClass('active');
-      });
-    $(document).on('click', '#live_sp', function(event) {
+    });
+    $(document).on('click', '#live_sp', function (event) {
         event.stopPropagation();
-        
-        $.get('/pages/tab/_livesports_tab.php', function(data) {
-          $('#live-sports-tab').html(data);
+
+        $.get('/pages/tab/_livesports_tab.php', function (data) {
+            $('#live-sports-tab').html(data);
         })
-        .fail(function(error) {
-          console.log('Error loading content:', error);
-        });
+            .fail(function (error) {
+                console.log('Error loading content:', error);
+            });
         $('.live-select').removeClass('active');
         $(this).addClass('active');
-      });
-     
-      $(document).on('click', '.sport-trigger', function() {
+    });
+
+    $(document).on('click', '.sport-trigger', function () {
         console.log('sport-triggered');
         $(this).parent().toggleClass('content-visible');
         $(this).siblings().toggle();
-      });
+    });
 
-    
+    //   DEPOSIT
+    $(document).ready(function () {
+        $('#_req_deposit.deposit-view').click();
+    });
+
+    $(document).on('click', '.deposit-view', function (event) {
+        event.stopPropagation();
+
+        var deposit_view = $(this).attr('id');
+        // Use $.get() for a simpler GET request
+        $.get('/pages/tab/' + deposit_view + '.php', function (data) {
+            $('#deposit-sub').html(data);
+        })
+        .fail(function (error) {
+            console.log('Error loading content:', error);
+        });
+
+        $('.deposit-view').removeClass('active');
+        $(this).addClass('active');
+    });
+    //   WITHDRAW
+    $(document).ready(function () {
+        $('#_req_withdraw.withdraw-view').click();
+    });
+
+    $(document).on('click', '.withdraw-view', function (event) {
+        event.stopPropagation();
+
+        var withdraw_view = $(this).attr('id');
+        // Use $.get() for a simpler GET request
+        $.get('/pages/tab/' + withdraw_view + '.php', function (data) {
+            $('#withdraw-sub').html(data);
+        })
+        .fail(function (error) {
+            console.log('Error loading content:', error);
+        });
+
+        $('.withdraw-view').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    // BET HISTORY
+    $(document).on('click', '.bethis-btn', function () {
+        var betname = $(this).attr('id').split('bethis_')[1];
+                
+        $('.lobbyBtns').css({'display':'none','visibility':'hidden','position':'absolute'});
+        $('.bethislist_'+betname+'.lobbyBtns').css({'display':'flex','visibility':'','position':''});
+
+        $('.bethis-btn').removeClass('active');
+        $(this).toggleClass('active');
+    });
+
 });
 
 

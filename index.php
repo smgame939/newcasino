@@ -1,4 +1,5 @@
 <?php
+
   include_once('class/mobiledetect.class.php');
   include('inc/versions.php');
   $mdetect = new MobileDetect();
@@ -20,13 +21,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <link rel="stylesheet" href="css/newv3.css?v=<?php echo $ver; ?>">
+  <link rel="stylesheet" href="css/newv3.css?v=<?=$ver?>">
   <link rel="stylesheet" href="css/swiper-sm.css"> 
   <link rel="stylesheet" href="css/swiper-bundle.css" />
   <?php if($mdetect->isMobile()) { ?>
-    <link rel="stylesheet" href="mobilecss/main.css?v=<?php echo $ver; ?>">
-    <link rel="stylesheet" href="mobilecss/home_m.css?v=<?php echo $ver; ?>">
-    <link rel="stylesheet" href="mobilecss/swiper_m.css?v=<?php echo $ver; ?>">
+    <link rel="stylesheet" href="mobilecss/main.css?v=<?=$ver?>">
+    <link rel="stylesheet" href="mobilecss/home_m.css?v=<?=$ver?>">
+    <link rel="stylesheet" href="mobilecss/swiper_m.css?v=<?=$ver?>">
   <?php } ?>
 
 </head>
@@ -47,8 +48,9 @@
   <!-- END DESKTOP -->
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>
+  <script src="js/user.js?v=<?=$ver?>"></script>
   <script src="js/swiper-bundle.js"></script>
-  <script src="js/newv3.js?v=<?php echo $ver; ?>"></script>
+  <script src="js/newv3.js?v=<?=$ver?>"></script>
   
 </body>
 

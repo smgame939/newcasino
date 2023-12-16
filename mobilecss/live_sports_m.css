@@ -12329,6 +12329,16 @@ template {
     padding: 2.6vw 0
 }
 
+.close-btn {
+    position: absolute;
+    right: 4.2vw;
+    width: auto;
+    cursor: pointer;
+    z-index: 99;
+    top: 2.2vw;
+    right: 3.2vw
+}
+
 .popup-login .model-inner {
     width: 75vw;
     max-width: 75vw;
@@ -12447,6 +12457,25 @@ template {
     margin: 2vw 0;
     height: auto;
     overflow-y: scroll
+}
+
+.login-content {
+    background: var(--bgColor_Grad06-00);
+    background: -webkit-linear-gradient(top, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+    background: -moz-linear-gradient(top, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+    background: -o-linear-gradient(top, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+    background: linear-gradient(to bottom, var(--bgColor_Grad06-00) 1%, var(--bgColor_Grad06-01) 100%);
+    padding: 8.6vw 8.8vw
+}
+
+.login-content .input-area {
+    margin: 10vw 0 0
+}
+
+.login-content button.login-button {
+    margin-bottom: 1vw;
+    background: var(--bgColor02);
+    color: var(--txtColor01)
 }
 
 .hint-small-content {
@@ -12783,6 +12812,11 @@ button.btnColor03 {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px
+}
+
+.input-area .list span {
+    position: relative;
+    color: var(--txtColor32)
 }
 
 .input-area .list span em {
@@ -13269,6 +13303,431 @@ em.success {
     }
 }
 
+.popup-signup .alarm {
+    width: 90vw;
+    padding-left: 10vw;
+    margin-top: 1vw
+}
+
+.popup-signup .titleP {
+    color: var(--txtColor40);
+    font-weight: 700;
+    font-size: 1.2rem
+}
+
+.popup-signup .title-name {
+    padding: 2.6vw 0
+}
+
+.popup-signup .input-area {
+    margin: 0 auto;
+    padding: 3.8vw 0vw
+}
+
+.popup-signup .input-area .input-list {
+    padding: 0vw 3.8vw;
+    margin-bottom: 2vw
+}
+
+.popup-signup .input-area .line {
+    width: 100%;
+    height: 1px;
+    background: var(--borderColor03);
+    margin: 4vw auto
+}
+
+.popup-signup .input-area .list {
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0
+}
+
+.popup-signup .input-area .list .icon-clean {
+    width: 8vw;
+    height: 10vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--txtColor02);
+    font-size: 1.2rem;
+    background: var(--bgColor01);
+    right: 2vw
+}
+
+.popup-signup .input-area .input-list {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.popup-signup .input-area .input-birth .list {
+    height: 10vw
+}
+
+.popup-signup .input-area .input-birth .list .license-number {
+    width: 75vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.popup-signup .input-area .input-birth .list .license-number .number-box {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.popup-signup .input-area .input-birth .list .license-number .number-box input.input-one {
+    width: 50vw;
+    height: 8vw;
+    border-radius: 2px
+}
+
+.popup-signup .input-area .input-birth .list .license-number .number-box ul.sex {
+    width: 24vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.popup-signup .input-area .input-birth .list .license-number .number-box ul.sex input[type=radio] {
+    width: auto;
+    position: absolute;
+    visibility: hidden
+}
+
+.popup-signup .input-area .input-birth .list .license-number .number-box ul.sex input[type=radio]:checked~label {
+    background: var(--btnColor11);
+    color: var(--txtColor01)
+}
+
+.popup-signup .input-area .input-birth .list .license-number .number-box ul.sex label {
+    height: 7.6vw;
+    width: 15vw;
+    margin-right: 1vw;
+    font-size: .81rem;
+    padding: 1vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--txtColor02);
+    background: var(--btnColor03);
+    font-weight: 600;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px
+}
+
+.popup-signup .input-area .input-list .list-id {
+    width: 71vw
+}
+
+.popup-signup .input-area .input-list .list-id .input,
+.popup-signup .input-area .input-list .list-id .input input {
+    width: 54vw
+}
+
+.popup-signup .input-area .list span {
+    padding: 0vw 2vw;
+    border-right: 1px solid var(--borderColor03);
+    color: var(--txtColor32)
+}
+
+.popup-signup .input-area .icon-black span,
+.popup-signup .input-area .icon-black span,
+.popup-signup .input-area .icon-black span,
+.popup-signup .input-area .icon-black span {
+    color: var(--txtColor42)
+}
+
+.signup-content {
+    background-color: var(--bgColor01)
+}
+
+.signup-content .list .checkUse {
+    width: 3.6vw;
+    height: 3.6vw;
+    margin-right: 2.6vw;
+    background-repeat: no-repeat;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center left;
+    background-image: url(../Shared/images/icconCheck01.svg)
+}
+
+.signup-content .checkOk .list .checkUse {
+    background-image: url(../Shared/images/icconCheck02.svg)
+}
+
+.signup-content .list {
+    padding: 0
+}
+
+.signup-content .list input {
+    padding: 2vw;
+    border: 0px solid var(--borderColor05)
+}
+
+.signup-content .list input.datepicker::-webkit-input-placeholder {
+    color: var(--txtColor18)
+}
+
+.signup-content .list input.datepicker:-moz-placeholder {
+    color: var(--txtColor18)
+}
+
+.signup-content .list input.datepicker:-ms-input-placeholder {
+    color: var(--txtColor18)
+}
+
+.signup-content .list input.datepicker::-moz-placeholder {
+    color: var(--txtColor18)
+}
+
+.signup-content .list input.datepicker::placeholder {
+    color: var(--txtColor18)
+}
+
+.signup-content .list input:focus {
+    border: 0px solid var(--borderColor07)
+}
+
+.signup-content .list .input {
+    width: 75vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.input-area .list .input input,
+.input-area .full-list .input input,
+.input-area .full-list input {
+    width: 75vw
+}
+
+.input-area .full-list input.bank-btn,
+.input-area .full-list input.carrier-btn {
+    background-repeat: no-repeat;
+    background-position: 69vw center;
+    -o-background-size: 3vw;
+    background-size: 3vw;
+    background-image: url(../Shared/images/select-arrow.svg)
+}
+
+.signup-content button {
+    width: 20vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--txtColor02);
+    background: var(--btnColor03);
+    height: 10vw;
+    padding: 1vw;
+    font-weight: 600;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: .93rem
+}
+
+.signup-content button.check-button {
+    font-size: .81rem
+}
+
+.signup-content .list select {
+    padding: 2vw;
+    width: 75vw;
+    border: 0px solid var(--borderColor05);
+    background-position: 69vw;
+    color: var(--txtColor18)
+}
+
+.signup-content .bgbtn-box {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 6vw;
+    padding: 0vw 3.8vw
+}
+
+.signup-content .bgbtn-box button {
+    width: 44.6vw
+}
+
+.signup-content button.signup-button {
+    background: var(--bgColor02);
+    color: var(--txtColor01)
+}
+
+.bank-content {
+    width: 98vw;
+    height: auto;
+    background: var(--bgColor06);
+    margin: 0 auto
+}
+
+.bank-content ul {
+    height: auto;
+    max-height: -webkit-calc(100vh - 20.5vw);
+    max-height: -moz-calc(100vh - 20.5vw);
+    max-height: calc(100vh - 20.5vw);
+    overflow-y: scroll;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: Wrap;
+    -ms-flex-wrap: Wrap;
+    flex-wrap: Wrap;
+    margin: 0 auto;
+    width: 96vw;
+    padding: 2vw 0 4vw
+}
+
+.bank-content ul li {
+    width: 32.333%;
+    margin: .5%
+}
+
+.bank-content ul li:last-child {
+    margin-bottom: 10vw
+}
+
+.bank-content ul li a {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    color: var(--txtColor29);
+    padding: 2vw 1.2vw;
+    font-size: .65rem;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: var(--bgColor01);
+    color: var(--txtColor02);
+    border: 1px solid var(--txtColor04);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px
+}
+
+.bank-content ul li a img {
+    width: auto;
+    height: 10vw;
+    margin: 1vw auto
+}
+
+.pop-up-content button.signupnow-button,
+.pop-up-content button.cancel-button {
+    color: var(--txtColor02);
+    background: var(--btnColor03)
+}
 
 .vertical-centered-box {
     z-index: 999
@@ -14036,8 +14495,8 @@ h1.loader {
 
 @font-face {
     font-family: icomoon;
-    src: url(../assets/icomoon.cb7dba6a.eot?ksh0f9);
-    src: url(../assets/icomoon.cb7dba6a.eot?ksh0f9#iefix) format("embedded-opentype"), url(../assets/icomoon.0dc4788a.ttf?ksh0f9) format("truetype"), url(../assets/icomoon.ad0c0556.woff?ksh0f9) format("woff"), url(../assets/icomoon.84879f5c.svg?ksh0f9#icomoon) format("svg");
+    src: url(/assets/icomoon.cb7dba6a.eot?ksh0f9);
+    src: url(/assets/icomoon.cb7dba6a.eot?ksh0f9#iefix) format("embedded-opentype"), url(/assets/icomoon.0dc4788a.ttf?ksh0f9) format("truetype"), url(/assets/icomoon.ad0c0556.woff?ksh0f9) format("woff"), url(/assets/icomoon.84879f5c.svg?ksh0f9#icomoon) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -14054,6 +14513,319 @@ h1.loader {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
+}
+
+.icon-circlecheck:before {
+    content: "\e952"
+}
+
+.icon-copy:before {
+    content: "\e953"
+}
+
+.icon-quick-betrule:before {
+    content: "\e94d"
+}
+
+.icon-flow-close:before {
+    content: "\e94a"
+}
+
+.icon-search:before {
+    content: "\e949"
+}
+
+.icon-memo-hint:before {
+    content: "\e948"
+}
+
+.icon-selectall:before {
+    content: "\e947"
+}
+
+.icon-safe:before {
+    content: "\e946"
+}
+
+.icon-live-default:before {
+    content: "\e945"
+}
+
+.icon-arrow-goback:before {
+    content: "\e944"
+}
+
+.icon-arrow-right:before {
+    content: "\e940"
+}
+
+.icon-confirm:before {
+    content: "\e941"
+}
+
+.icon-pause:before {
+    content: "\e942"
+}
+
+.icon-spinner-of-dots:before {
+    content: "\e943"
+}
+
+.icon-live-baseball:before {
+    content: "\e93a"
+}
+
+.icon-live-basketball:before {
+    content: "\e93b"
+}
+
+.icon-live-football:before {
+    content: "\e93c"
+}
+
+.icon-live-icehockey:before {
+    content: "\e93d"
+}
+
+.icon-live-tennis:before {
+    content: "\e93e"
+}
+
+.icon-live-volleyball:before {
+    content: "\e93f"
+}
+
+.icon-icconSport:before {
+    content: "\e939"
+}
+
+.icon-live:before {
+    content: "\e937"
+}
+
+.icon-padlock:before {
+    content: "\e938"
+}
+
+.icon-edit:before {
+    content: "\e935"
+}
+
+.icon-setting:before {
+    content: "\e936"
+}
+
+.icon-icconALLnew:before {
+    content: "\e900"
+}
+
+.icon-icconVR:before {
+    content: "\e901"
+}
+
+.icon-icconDbonus:before {
+    content: "\e902"
+}
+
+.icon-alarm:before {
+    content: "\e903"
+}
+
+.icon-appdownload:before {
+    content: "\e904"
+}
+
+.icon-arrow-back:before {
+    content: "\e905"
+}
+
+.icon-arrow-down:before {
+    content: "\e906"
+}
+
+.icon-arrow-top:before {
+    content: "\e907"
+}
+
+.icon-balance:before {
+    content: "\e908"
+}
+
+.icon-bank-s:before {
+    content: "\e909"
+}
+
+.icon-bank:before {
+    content: "\e90a"
+}
+
+.icon-betlist:before {
+    content: "\e90b"
+}
+
+.icon-betrule:before {
+    content: "\e90c"
+}
+
+.icon-calculator:before {
+    content: "\e90d"
+}
+
+.icon-calendar:before {
+    content: "\e90e"
+}
+
+.icon-carrier:before {
+    content: "\e90f"
+}
+
+.icon-check-code:before {
+    content: "\e910"
+}
+
+.icon-check:before {
+    content: "\e911"
+}
+
+.icon-clean:before {
+    content: "\e912"
+}
+
+.icon-close:before {
+    content: "\e913"
+}
+
+.icon-coupung:before {
+    content: "\e914"
+}
+
+.icon-customer:before {
+    content: "\e915"
+}
+
+.icon-delet:before {
+    content: "\e916"
+}
+
+.icon-deposit:before {
+    content: "\e917"
+}
+
+.icon-event:before {
+    content: "\e918"
+}
+
+.icon-gender:before {
+    content: "\e919"
+}
+
+.icon-history:before {
+    content: "\e91a"
+}
+
+.icon-home:before {
+    content: "\e91b"
+}
+
+.icon-icconVip:before {
+    content: "\e91c"
+}
+
+.icon-id:before {
+    content: "\e91d"
+}
+
+.icon-iiconDice:before {
+    content: "\e91e"
+}
+
+.icon-iiconGame:before {
+    content: "\e91f"
+}
+
+.icon-iiconPoker:before {
+    content: "\e920"
+}
+
+.icon-iiconSlote:before {
+    content: "\e921"
+}
+
+.icon-inbox:before {
+    content: "\e922"
+}
+
+.icon-information:before {
+    content: "\e923"
+}
+
+.icon-login:before {
+    content: "\e924"
+}
+
+.icon-mail-read-no:before {
+    content: "\e925"
+}
+
+.icon-mail-read:before {
+    content: "\e926"
+}
+
+.icon-money:before {
+    content: "\e927"
+}
+
+.icon-mypage:before {
+    content: "\e928"
+}
+
+.icon-nav:before {
+    content: "\e929"
+}
+
+.icon-nav2:before {
+    content: "\e92a"
+}
+
+.icon-notice:before {
+    content: "\e92b"
+}
+
+.icon-phone:before {
+    content: "\e92c"
+}
+
+.icon-pw:before {
+    content: "\e92d"
+}
+
+.icon-recommend:before {
+    content: "\e92e"
+}
+
+.icon-referrer:before {
+    content: "\e92f"
+}
+
+.icon-remove:before {
+    content: "\e930"
+}
+
+.icon-select-arrow:before {
+    content: "\e931";
+    color: #555
+}
+
+.icon-star-o:before {
+    content: "\e932"
+}
+
+.icon-star:before {
+    content: "\e933"
+}
+
+.icon-withdraw:before {
+    content: "\e934"
 }
 
 header {
@@ -14641,7 +15413,7 @@ nav {
     -webkit-overflow-scrolling: touch;
     background-position: top right;
     background-repeat: repeat-y;
-    /* background-image: url(../Shared/images/LeftMenu/left-menu-shadow.png); */
+    background-image: url(../Shared/images/LeftMenu/left-menu-shadow.png);
     background-color: var(--bgColor06);
     -webkit-transition: all .05s cubic-bezier(.35, .38, .07, .83);
     -o-transition: all .05s cubic-bezier(.35, .38, .07, .83);
@@ -14733,18 +15505,63 @@ nav {
     -o-transform: translateX(0vw)
 }
 
+.slide-content-left ul.main-menu {
+    z-index: 100;
+    box-shadow: 0 0 2px var(--bgColor07_op)
+}
+
+.slide-content-left ul.main-menu li {
+    width: 43.6vw;
+    height: 11vw;
+    margin: 1vw auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(../Shared/images/LeftMenu/left-menu-bg.png);
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
 .slide-content-left ul.main-other-menu li {
     width: 43.6vw;
     height: 10vw;
     border-bottom: 1px solid var(--borderColor03)
 }
 
+.slide-content-left ul.main-other-menu li a {
+    height: 10vw;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
 
 .slide-content-left ul.main-other-menu li a span {
     color: var(--txtColor14);
     font-size: 1.2rem;
     font-weight: 400;
     margin: 0 2vw 0 4vw
+}
+
+.slide-content-left ul.main-other-menu li a div {
+    font-size: .72rem;
+    color: var(--txtColor33);
+    font-weight: 600
 }
 
 .slide-content-left ul.main-other-menu li a div span {
@@ -18242,6 +19059,10 @@ ul.total-panel.three-list li .play-type span {
 
 .popup-betcart {
     background: var(--spbgColor06)
+}
+
+.close-btn {
+    position: fixed
 }
 
 .head-top {
@@ -22861,7 +23682,7 @@ div#tab10 .head-panel .info.team-name {
 .result-filter .select-group select {
     width: 100%;
     background-position: right center;
-    background-image: url(../assets/image/select-arrow-feed5d73.svg)
+    background-image: url(/assets/select-arrow.268c1e38.svg)
 }
 
 .result-filter button.submit {
@@ -22893,944 +23714,944 @@ div#tab10 .head-panel .info.team-name {
 .no-webp .sp-tab-undefined,
 .no-webp .sp-tab-pistolshooting,
 .no-webp ul.tab-type li a .sp-tab-default {
-    background-image: url(../assets/image/sp-tab-default.c811c802.png)
+    background-image: url(/assets/sp-tab-default.c811c802.png)
 }
 
 .webp .sp-tab-default,
 .webp .sp-tab-undefined,
 .webp .sp-tab-pistolshooting,
 .webp ul.tab-type li a .sp-tab-default {
-    background-image: url(../assets/image/sp-tab-default.f10503b7.webp)
+    background-image: url(/assets/sp-tab-default.f10503b7.webp)
 }
 
 .no-webp ul.tab-type li a .tab-logo.sp-tab-favorite {
-    background-image: url(../assets/image/sp-tab-favorite.b094e4ac.png);
+    background-image: url(/assets/sp-tab-favorite.b094e4ac.png);
     margin-top: 3px
 }
 
 .webp ul.tab-type li a .tab-logo.sp-tab-favorite {
-    background-image: url(../assets/image/sp-tab-favorite.25619187.webp);
+    background-image: url(/assets/sp-tab-favorite.25619187.webp);
     margin-top: 3px
 }
 
 .no-webp ul.tab-type li a .tab-logo.sp-tab-all {
-    background-image: url(../assets/image/sp-tab-all.a1b1bdf4.png)
+    background-image: url(/assets/sp-tab-all.a1b1bdf4.png)
 }
 
 .webp ul.tab-type li a .tab-logo.sp-tab-all {
-    background-image: url(../assets/image/sp-tab-all.89e1b288.webp)
+    background-image: url(/assets/sp-tab-all.89e1b288.webp)
 }
 
 .no-webp .sp-tab-league,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-league {
-    background-image: url(../assets/image/sp-tab-league.d84ef4ce.png)
+    background-image: url(/assets/sp-tab-league.d84ef4ce.png)
 }
 
 .webp .sp-tab-league,
 .webp ul.tab-type li a .tab-logo.sp-tab-league {
-    background-image: url(../assets/image/sp-tab-league.5795e5c1.webp)
+    background-image: url(/assets/sp-tab-league.5795e5c1.webp)
 }
 
 .no-webp .sp-tab-soccer,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-soccer {
-    background-image: url(../assets/image/sp-tab-soccer.8c53d431.png)
+    background-image: url(/assets/sp-tab-soccer.8c53d431.png)
 }
 
 .webp .sp-tab-soccer,
 .webp ul.tab-type li a .tab-logo.sp-tab-soccer {
-    background-image: url(../assets/image/sp-tab-soccer.0415cdc5.webp)
+    background-image: url(/assets/sp-tab-soccer.0415cdc5.webp)
 }
 
 .no-webp .sp-tab-basketball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-basketball {
-    background-image: url(../assets/image/sp-tab-basketball.0f570f29.png)
+    background-image: url(/assets/sp-tab-basketball.0f570f29.png)
 }
 
 .webp .sp-tab-basketball,
 .webp ul.tab-type li a .tab-logo.sp-tab-basketball {
-    background-image: url(../assets/image/sp-tab-basketball.61ffcfb5.webp)
+    background-image: url(/assets/sp-tab-basketball.61ffcfb5.webp)
 }
 
 .no-webp .sp-tab-baseball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-baseball {
-    background-image: url(../assets/image/sp-tab-baseball.3042cdad.png)
+    background-image: url(/assets/sp-tab-baseball.3042cdad.png)
 }
 
 .webp .sp-tab-baseball,
 .webp ul.tab-type li a .tab-logo.sp-tab-baseball {
-    background-image: url(../assets/image/sp-tab-baseball.418e84b8.webp)
+    background-image: url(/assets/sp-tab-baseball.418e84b8.webp)
 }
 
 .no-webp .sp-tab-volleyball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-volleyball {
-    background-image: url(../assets/image/sp-tab-volleyball.6d6d5160.png)
+    background-image: url(/assets/sp-tab-volleyball.6d6d5160.png)
 }
 
 .webp .sp-tab-volleyball,
 .webp ul.tab-type li a .tab-logo.sp-tab-volleyball {
-    background-image: url(../assets/image/sp-tab-volleyball.4217b0ee.webp)
+    background-image: url(/assets/sp-tab-volleyball.4217b0ee.webp)
 }
 
 .no-webp .sp-tab-icehockey,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-icehockey {
-    background-image: url(../assets/image/sp-tab-icehockey.e3f15224.png)
+    background-image: url(/assets/sp-tab-icehockey.e3f15224.png)
 }
 
 .webp .sp-tab-icehockey,
 .webp ul.tab-type li a .tab-logo.sp-tab-icehockey {
-    background-image: url(../assets/image/sp-tab-icehockey.0d753f8e.webp)
+    background-image: url(/assets/sp-tab-icehockey.0d753f8e.webp)
 }
 
 .no-webp .sp-tab-tennis,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-tennis {
-    background-image: url(../assets/image/sp-tab-tennis.f662002f.png)
+    background-image: url(/assets/sp-tab-tennis.f662002f.png)
 }
 
 .webp .sp-tab-tennis,
 .webp ul.tab-type li a .tab-logo.sp-tab-tennis {
-    background-image: url(../assets/image/sp-tab-tennis.fce6baf2.webp)
+    background-image: url(/assets/sp-tab-tennis.fce6baf2.webp)
 }
 
 .no-webp .sp-tab-australianfootball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-australianfootball {
-    background-image: url(../assets/image/sp-tab-australianfootball.e4fc2485.png)
+    background-image: url(/assets/sp-tab-australianfootball.e4fc2485.png)
 }
 
 .webp .sp-tab-australianfootball,
 .webp ul.tab-type li a .tab-logo.sp-tab-australianfootball {
-    background-image: url(../assets/image/sp-tab-australianfootball.ea84a346.webp)
+    background-image: url(/assets/sp-tab-australianfootball.ea84a346.webp)
 }
 
 .no-webp .sp-tab-biathlon,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-biathlon {
-    background-image: url(../assets/image/sp-tab-biathlon.9e03cf59.png)
+    background-image: url(/assets/sp-tab-biathlon.9e03cf59.png)
 }
 
 .webp .sp-tab-biathlon,
 .webp ul.tab-type li a .tab-logo.sp-tab-biathlon {
-    background-image: url(../assets/image/sp-tab-biathlon.f9f31a33.webp)
+    background-image: url(/assets/sp-tab-biathlon.f9f31a33.webp)
 }
 
 .no-webp .sp-tab-americanfootball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-americanfootball {
-    background-image: url(../assets/image/sp-tab-americanfootball.46b230a7.png)
+    background-image: url(/assets/sp-tab-americanfootball.46b230a7.png)
 }
 
 .webp .sp-tab-americanfootball,
 .webp ul.tab-type li a .tab-logo.sp-tab-americanfootball {
-    background-image: url(../assets/image/sp-tab-americanfootball.3c3597a7.webp)
+    background-image: url(/assets/sp-tab-americanfootball.3c3597a7.webp)
 }
 
 .no-webp .sp-tab-beachfootball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-beachfootball {
-    background-image: url(../assets/image/sp-tab-beachfootball.d958a570.png)
+    background-image: url(/assets/sp-tab-beachfootball.d958a570.png)
 }
 
 .webp .sp-tab-beachfootball,
 .webp ul.tab-type li a .tab-logo.sp-tab-beachfootball {
-    background-image: url(../assets/image/sp-tab-beachfootball.81f14fe4.webp)
+    background-image: url(/assets/sp-tab-beachfootball.81f14fe4.webp)
 }
 
 .no-webp .sp-tab-beachvolleyball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-beachvolleyball {
-    background-image: url(../assets/image/sp-tab-beachvolleyball.92db0f1d.png)
+    background-image: url(/assets/sp-tab-beachvolleyball.92db0f1d.png)
 }
 
 .webp .sp-tab-beachvolleyball,
 .webp ul.tab-type li a .tab-logo.sp-tab-beachvolleyball {
-    background-image: url(../assets/image/sp-tab-beachvolleyball.c38aff1e.webp)
+    background-image: url(/assets/sp-tab-beachvolleyball.c38aff1e.webp)
 }
 
 .no-webp .sp-tab-bowls,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-bowls {
-    background-image: url(../assets/image/sp-tab-bowls.bb3a36e1.png)
+    background-image: url(/assets/sp-tab-bowls.bb3a36e1.png)
 }
 
 .webp .sp-tab-bowls,
 .webp ul.tab-type li a .tab-logo.sp-tab-bowls {
-    background-image: url(../assets/image/sp-tab-bowls.9dea81fb.webp)
+    background-image: url(/assets/sp-tab-bowls.9dea81fb.webp)
 }
 
 .no-webp .sp-tab-boxing,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-boxing {
-    background-image: url(../assets/image/sp-tab-boxing.240b04db.png)
+    background-image: url(/assets/sp-tab-boxing.240b04db.png)
 }
 
 .webp .sp-tab-boxing,
 .webp ul.tab-type li a .tab-logo.sp-tab-boxing {
-    background-image: url(../assets/image/sp-tab-boxing.d822cd33.webp)
+    background-image: url(/assets/sp-tab-boxing.d822cd33.webp)
 }
 
 .no-webp .sp-tab-chess,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-chess {
-    background-image: url(../assets/image/sp-tab-chess.b31cba22.png)
+    background-image: url(/assets/sp-tab-chess.b31cba22.png)
 }
 
 .webp .sp-tab-chess,
 .webp ul.tab-type li a .tab-logo.sp-tab-chess {
-    background-image: url(../assets/image/sp-tab-chess.da6065fe.webp)
+    background-image: url(/assets/sp-tab-chess.da6065fe.webp)
 }
 
 .no-webp .sp-tab-cricket,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-cricket {
-    background-image: url(../assets/image/sp-tab-cricket.fca83d09.png)
+    background-image: url(/assets/sp-tab-cricket.fca83d09.png)
 }
 
 .webp .sp-tab-cricket,
 .webp ul.tab-type li a .tab-logo.sp-tab-cricket {
-    background-image: url(../assets/image/sp-tab-cricket.9984c600.webp)
+    background-image: url(/assets/sp-tab-cricket.9984c600.webp)
 }
 
 .no-webp .sp-tab-darts,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-darts {
-    background-image: url(../assets/image/sp-tab-darts.242989fa.png)
+    background-image: url(/assets/sp-tab-darts.242989fa.png)
 }
 
 .webp .sp-tab-darts,
 .webp ul.tab-type li a .tab-logo.sp-tab-darts {
-    background-image: url(../assets/image/sp-tab-darts.a6fdc0ea.webp)
+    background-image: url(/assets/sp-tab-darts.a6fdc0ea.webp)
 }
 
 .no-webp .sp-tab-cycling,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-cycling {
-    background-image: url(../assets/image/sp-tab-cycling.db79e32e.png)
+    background-image: url(/assets/sp-tab-cycling.db79e32e.png)
 }
 
 .webp .sp-tab-cycling,
 .webp ul.tab-type li a .tab-logo.sp-tab-cycling {
-    background-image: url(../assets/image/sp-tab-cycling.762e6de7.webp)
+    background-image: url(/assets/sp-tab-cycling.762e6de7.webp)
 }
 
 .no-webp .sp-tab-formula1,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-formula1 {
-    background-image: url(../assets/image/sp-tab-formula1.c4b89876.png)
+    background-image: url(/assets/sp-tab-formula1.c4b89876.png)
 }
 
 .webp .sp-tab-formula1,
 .webp ul.tab-type li a .tab-logo.sp-tab-formula1 {
-    background-image: url(../assets/image/sp-tab-formula1.c23cd99b.webp)
+    background-image: url(/assets/sp-tab-formula1.c23cd99b.webp)
 }
 
 .no-webp .sp-tab-golf,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-golf {
-    background-image: url(../assets/image/sp-tab-golf.98fded36.png)
+    background-image: url(/assets/sp-tab-golf.98fded36.png)
 }
 
 .webp .sp-tab-golf,
 .webp ul.tab-type li a .tab-logo.sp-tab-golf {
-    background-image: url(../assets/image/sp-tab-golf.c4073943.webp)
+    background-image: url(/assets/sp-tab-golf.c4073943.webp)
 }
 
 .no-webp .sp-tab-handball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-handball {
-    background-image: url(../assets/image/sp-tab-handball.4d3c96e4.png)
+    background-image: url(/assets/sp-tab-handball.4d3c96e4.png)
 }
 
 .webp .sp-tab-handball,
 .webp ul.tab-type li a .tab-logo.sp-tab-handball {
-    background-image: url(../assets/image/sp-tab-handball.ea24fbb7.webp)
+    background-image: url(/assets/sp-tab-handball.ea24fbb7.webp)
 }
 
 .no-webp .sp-tab-hockey,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-hockey {
-    background-image: url(../assets/image/sp-tab-hockey.1fc83c16.png)
+    background-image: url(/assets/sp-tab-hockey.1fc83c16.png)
 }
 
 .webp .sp-tab-hockey,
 .webp ul.tab-type li a .tab-logo.sp-tab-hockey {
-    background-image: url(../assets/image/sp-tab-hockey.643548a0.webp)
+    background-image: url(/assets/sp-tab-hockey.643548a0.webp)
 }
 
 .no-webp .sp-tab-pool,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-pool {
-    background-image: url(../assets/image/sp-tab-pool.cdaaa0b9.png)
+    background-image: url(/assets/sp-tab-pool.cdaaa0b9.png)
 }
 
 .webp .sp-tab-pool,
 .webp ul.tab-type li a .tab-logo.sp-tab-pool {
-    background-image: url(../assets/image/sp-tab-pool.7074bfe6.webp)
+    background-image: url(/assets/sp-tab-pool.7074bfe6.webp)
 }
 
 .no-webp .sp-tab-motorsport,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-motorsport {
-    background-image: url(../assets/image/sp-tab-motorsport.1ddd785c.png)
+    background-image: url(/assets/sp-tab-motorsport.1ddd785c.png)
 }
 
 .webp .sp-tab-motorsport,
 .webp ul.tab-type li a .tab-logo.sp-tab-motorsport {
-    background-image: url(../assets/image/sp-tab-motorsport.c056c4d6.webp)
+    background-image: url(/assets/sp-tab-motorsport.c056c4d6.webp)
 }
 
 .no-webp .sp-tab-nascar,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-nascar {
-    background-image: url(../assets/image/sp-tab-nascar.ef5716ba.png)
+    background-image: url(/assets/sp-tab-nascar.ef5716ba.png)
 }
 
 .webp .sp-tab-nascar,
 .webp ul.tab-type li a .tab-logo.sp-tab-nascar {
-    background-image: url(../assets/image/sp-tab-nascar.c82c7b48.webp)
+    background-image: url(/assets/sp-tab-nascar.c82c7b48.webp)
 }
 
 .no-webp .sp-tab-rally,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rally {
-    background-image: url(../assets/image/sp-tab-rally.7ca9c8f7.png)
+    background-image: url(/assets/sp-tab-rally.7ca9c8f7.png)
 }
 
 .webp .sp-tab-rally,
 .webp ul.tab-type li a .tab-logo.sp-tab-rally {
-    background-image: url(../assets/image/sp-tab-rally.ec7d2e11.webp)
+    background-image: url(/assets/sp-tab-rally.ec7d2e11.webp)
 }
 
 .no-webp .sp-tab-rallyugbyleague,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rallyugbyleague {
-    background-image: url(../assets/image/sp-tab-rallyugbyleague.a8f473bd.png)
+    background-image: url(/assets/sp-tab-rallyugbyleague.a8f473bd.png)
 }
 
 .webp .sp-tab-rallyugbyleague,
 .webp ul.tab-type li a .tab-logo.sp-tab-rallyugbyleague {
-    background-image: url(../assets/image/sp-tab-rallyugbyleague.8313c9e6.webp)
+    background-image: url(/assets/sp-tab-rallyugbyleague.8313c9e6.webp)
 }
 
 .no-webp .sp-tab-rugbyunion,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rugbyunion {
-    background-image: url(../assets/image/sp-tab-rugbyunion.6d10c6da.png)
+    background-image: url(/assets/sp-tab-rugbyunion.6d10c6da.png)
 }
 
 .webp .sp-tab-rugbyunion,
 .webp ul.tab-type li a .tab-logo.sp-tab-rugbyunion {
-    background-image: url(../assets/image/sp-tab-rugbyunion.6c131715.webp)
+    background-image: url(/assets/sp-tab-rugbyunion.6c131715.webp)
 }
 
 .no-webp .sp-tab-floorball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-floorball {
-    background-image: url(../assets/image/sp-tab-floorball.0f73f032.png)
+    background-image: url(/assets/sp-tab-floorball.0f73f032.png)
 }
 
 .webp .sp-tab-floorball,
 .webp ul.tab-type li a .tab-logo.sp-tab-floorball {
-    background-image: url(../assets/image/sp-tab-floorball.ec4fc0ac.webp)
+    background-image: url(/assets/sp-tab-floorball.ec4fc0ac.webp)
 }
 
 .no-webp .sp-tab-gaelicfootball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-gaelicfootball {
-    background-image: url(../assets/image/sp-tab-gaelicfootball.60399619.png)
+    background-image: url(/assets/sp-tab-gaelicfootball.60399619.png)
 }
 
 .webp .sp-tab-gaelicfootball,
 .webp ul.tab-type li a .tab-logo.sp-tab-gaelicfootball {
-    background-image: url(../assets/image/sp-tab-gaelicfootball.7a1f766d.webp)
+    background-image: url(/assets/sp-tab-gaelicfootball.7a1f766d.webp)
 }
 
 .no-webp .sp-tab-hurling,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-hurling {
-    background-image: url(../assets/image/sp-tab-hurling.c855d4fa.png)
+    background-image: url(/assets/sp-tab-hurling.c855d4fa.png)
 }
 
 .webp .sp-tab-hurling,
 .webp ul.tab-type li a .tab-logo.sp-tab-hurling {
-    background-image: url(../assets/image/sp-tab-hurling.d63be653.webp)
+    background-image: url(/assets/sp-tab-hurling.d63be653.webp)
 }
 
 .no-webp .sp-tab-surfing,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-surfing {
-    background-image: url(../assets/image/sp-tab-surfing.e4faddb0.png)
+    background-image: url(/assets/sp-tab-surfing.e4faddb0.png)
 }
 
 .webp .sp-tab-surfing,
 .webp ul.tab-type li a .tab-logo.sp-tab-surfing {
-    background-image: url(../assets/image/sp-tab-surfing.546901ff.webp)
+    background-image: url(/assets/sp-tab-surfing.546901ff.webp)
 }
 
 .no-webp .sp-tab-speedway,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-speedway {
-    background-image: url(../assets/image/sp-tab-speedway.26138108.png)
+    background-image: url(/assets/sp-tab-speedway.26138108.png)
 }
 
 .webp .sp-tab-speedway,
 .webp ul.tab-type li a .tab-logo.sp-tab-speedway {
-    background-image: url(../assets/image/sp-tab-speedway.f7e4cbe7.webp)
+    background-image: url(/assets/sp-tab-speedway.f7e4cbe7.webp)
 }
 
 .no-webp .sp-tab-squash,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-squash {
-    background-image: url(../assets/image/sp-tab-squash.492af4d3.png)
+    background-image: url(/assets/sp-tab-squash.492af4d3.png)
 }
 
 .webp .sp-tab-squash,
 .webp ul.tab-type li a .tab-logo.sp-tab-squash {
-    background-image: url(../assets/image/sp-tab-squash.d6e0cf10.webp)
+    background-image: url(/assets/sp-tab-squash.d6e0cf10.webp)
 }
 
 .no-webp .sp-tab-politics,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-politics {
-    background-image: url(../assets/image/sp-tab-politics.00169156.png)
+    background-image: url(/assets/sp-tab-politics.00169156.png)
 }
 
 .webp .sp-tab-politics,
 .webp ul.tab-type li a .tab-logo.sp-tab-politics {
-    background-image: url(../assets/image/sp-tab-politics.aae6ba38.webp)
+    background-image: url(/assets/sp-tab-politics.aae6ba38.webp)
 }
 
 .no-webp .sp-tab-specialbets,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-specialbets {
-    background-image: url(../assets/image/sp-tab-specialbets.1cf9de01.png)
+    background-image: url(/assets/sp-tab-specialbets.1cf9de01.png)
 }
 
 .webp .sp-tab-specialbets,
 .webp ul.tab-type li a .tab-logo.sp-tab-specialbets {
-    background-image: url(../assets/image/sp-tab-specialbets.151e9a95.webp)
+    background-image: url(/assets/sp-tab-specialbets.151e9a95.webp)
 }
 
 .no-webp .sp-tab-oscar,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-oscar {
-    background-image: url(../assets/image/sp-tab-oscar.115c47f6.png)
+    background-image: url(/assets/sp-tab-oscar.115c47f6.png)
 }
 
 .webp .sp-tab-oscar,
 .webp ul.tab-type li a .tab-logo.sp-tab-oscar {
-    background-image: url(../assets/image/sp-tab-oscar.2b078703.webp)
+    background-image: url(/assets/sp-tab-oscar.2b078703.webp)
 }
 
 .no-webp .sp-tab-rugbysevens,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rugbysevens {
-    background-image: url(../assets/image/sp-tab-rugbysevens.94c818af.png)
+    background-image: url(/assets/sp-tab-rugbysevens.94c818af.png)
 }
 
 .webp .sp-tab-rugbysevens,
 .webp ul.tab-type li a .tab-logo.sp-tab-rugbysevens {
-    background-image: url(../assets/image/sp-tab-rugbysevens.55efc603.webp)
+    background-image: url(/assets/sp-tab-rugbysevens.55efc603.webp)
 }
 
 .no-webp .sp-tab-autoracing,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-autoracing {
-    background-image: url(../assets/image/sp-tab-autoracing.ac3458e2.png)
+    background-image: url(/assets/sp-tab-autoracing.ac3458e2.png)
 }
 
 .webp .sp-tab-autoracing,
 .webp ul.tab-type li a .tab-logo.sp-tab-autoracing {
-    background-image: url(../assets/image/sp-tab-autoracing.5afd3f62.webp)
+    background-image: url(/assets/sp-tab-autoracing.5afd3f62.webp)
 }
 
 .no-webp .sp-tab-alpineskiing,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-alpineskiing {
-    background-image: url(../assets/image/sp-tab-alpineskiing.24b45422.png)
+    background-image: url(/assets/sp-tab-alpineskiing.24b45422.png)
 }
 
 .webp .sp-tab-alpineskiing,
 .webp ul.tab-type li a .tab-logo.sp-tab-alpineskiing {
-    background-image: url(../assets/image/sp-tab-alpineskiing.4d0d37bd.webp)
+    background-image: url(/assets/sp-tab-alpineskiing.4d0d37bd.webp)
 }
 
 .no-webp .sp-tab-pesapallo,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-pesapallo {
-    background-image: url(../assets/image/sp-tab-pesapallo.7d735948.png)
+    background-image: url(/assets/sp-tab-pesapallo.7d735948.png)
 }
 
 .webp .sp-tab-pesapallo,
 .webp ul.tab-type li a .tab-logo.sp-tab-pesapallo {
-    background-image: url(../assets/image/sp-tab-pesapallo.426059cc.webp)
+    background-image: url(/assets/sp-tab-pesapallo.426059cc.webp)
 }
 
 .no-webp .sp-tab-skijumping,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-skijumping {
-    background-image: url(../assets/image/sp-tab-skijumping.58322a21.png)
+    background-image: url(/assets/sp-tab-skijumping.58322a21.png)
 }
 
 .webp .sp-tab-skijumping,
 .webp ul.tab-type li a .tab-logo.sp-tab-skijumping {
-    background-image: url(../assets/image/sp-tab-skijumping.1bf440f1.webp)
+    background-image: url(/assets/sp-tab-skijumping.1bf440f1.webp)
 }
 
 .no-webp .sp-tab-netball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-netball {
-    background-image: url(../assets/image/sp-tab-netball.b0ccb076.png)
+    background-image: url(/assets/sp-tab-netball.b0ccb076.png)
 }
 
 .webp .sp-tab-netball,
 .webp ul.tab-type li a .tab-logo.sp-tab-netball {
-    background-image: url(../assets/image/sp-tab-netball.d87f28cf.webp)
+    background-image: url(/assets/sp-tab-netball.d87f28cf.webp)
 }
 
 .no-webp .sp-tab-lacross,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-lacross {
-    background-image: url(../assets/image/sp-tab-lacross.0fd71e0b.png)
+    background-image: url(/assets/sp-tab-lacross.0fd71e0b.png)
 }
 
 .webp .sp-tab-lacross,
 .webp ul.tab-type li a .tab-logo.sp-tab-lacross {
-    background-image: url(../assets/image/sp-tab-lacross.d6198de7.webp)
+    background-image: url(/assets/sp-tab-lacross.d6198de7.webp)
 }
 
 .no-webp .sp-tab-freestylewrestling,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-freestylewrestling {
-    background-image: url(../assets/image/sp-tab-freestylewrestling.c6fb31d5.png)
+    background-image: url(/assets/sp-tab-freestylewrestling.c6fb31d5.png)
 }
 
 .webp .sp-tab-freestylewrestling,
 .webp ul.tab-type li a .tab-logo.sp-tab-freestylewrestling {
-    background-image: url(../assets/image/sp-tab-freestylewrestling.653f5de8.webp)
+    background-image: url(/assets/sp-tab-freestylewrestling.653f5de8.webp)
 }
 
 .no-webp .sp-tab-rinkhockey,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rinkhockey {
-    background-image: url(../assets/image/sp-tab-rinkhockey.07008bb7.png)
+    background-image: url(/assets/sp-tab-rinkhockey.07008bb7.png)
 }
 
 .webp .sp-tab-rinkhockey,
 .webp ul.tab-type li a .tab-logo.sp-tab-rinkhockey {
-    background-image: url(../assets/image/sp-tab-rinkhockey.0d6f363e.webp)
+    background-image: url(/assets/sp-tab-rinkhockey.0d6f363e.webp)
 }
 
 .no-webp .sp-tab-archeryh2h,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-archeryh2h {
-    background-image: url(../assets/image/sp-tab-archeryh2h.d04405af.png)
+    background-image: url(/assets/sp-tab-archeryh2h.d04405af.png)
 }
 
 .webp .sp-tab-archeryh2h,
 .webp ul.tab-type li a .tab-logo.sp-tab-archeryh2h {
-    background-image: url(../assets/image/sp-tab-archeryh2h.9207c079.webp)
+    background-image: url(/assets/sp-tab-archeryh2h.9207c079.webp)
 }
 
 .no-webp .sp-tab-tvshowsandmovies,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-tvshowsandmovies {
-    background-image: url(../assets/image/sp-tab-tvshowsandmovies.18c18df6.png)
+    background-image: url(/assets/sp-tab-tvshowsandmovies.18c18df6.png)
 }
 
 .webp .sp-tab-tvshowsandmovies,
 .webp ul.tab-type li a .tab-logo.sp-tab-tvshowsandmovies {
-    background-image: url(../assets/image/sp-tab-tvshowsandmovies.0365744f.webp)
+    background-image: url(/assets/sp-tab-tvshowsandmovies.0365744f.webp)
 }
 
 .no-webp .sp-tab-horseracingspecials,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-horseracingspecials {
-    background-image: url(../assets/image/sp-tab-horseracingspecials.490ecda9.png)
+    background-image: url(/assets/sp-tab-horseracingspecials.490ecda9.png)
 }
 
 .webp .sp-tab-horseracingspecials,
 .webp ul.tab-type li a .tab-logo.sp-tab-horseracingspecials {
-    background-image: url(../assets/image/sp-tab-horseracingspecials.99395434.webp)
+    background-image: url(/assets/sp-tab-horseracingspecials.99395434.webp)
 }
 
 .no-webp .sp-tab-futurehorseracing,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-futurehorseracing {
-    background-image: url(../assets/image/sp-tab-futurehorseracing.6feb488e.png)
+    background-image: url(/assets/sp-tab-futurehorseracing.6feb488e.png)
 }
 
 .webp .sp-tab-futurehorseracing,
 .webp ul.tab-type li a .tab-logo.sp-tab-futurehorseracing {
-    background-image: url(../assets/image/sp-tab-futurehorseracing.d26b7dc1.webp)
+    background-image: url(/assets/sp-tab-futurehorseracing.d26b7dc1.webp)
 }
 
 .no-webp .sp-tab-3x3basketball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-3x3basketball {
-    background-image: url(../assets/image/sp-tab-3x3basketball.97c2397d.png)
+    background-image: url(/assets/sp-tab-3x3basketball.97c2397d.png)
 }
 
 .webp .sp-tab-3x3basketball,
 .webp ul.tab-type li a .tab-logo.sp-tab-3x3basketball {
-    background-image: url(../assets/image/sp-tab-3x3basketball.1433b227.webp)
+    background-image: url(/assets/sp-tab-3x3basketball.1433b227.webp)
 }
 
 .no-webp .sp-tab-basketballshots,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-basketballshots {
-    background-image: url(../assets/image/sp-tab-basketballshots.f4da25f4.png)
+    background-image: url(/assets/sp-tab-basketballshots.f4da25f4.png)
 }
 
 .webp .sp-tab-basketballshots,
 .webp ul.tab-type li a .tab-logo.sp-tab-basketballshots {
-    background-image: url(../assets/image/sp-tab-basketballshots.c5d6a53a.webp)
+    background-image: url(/assets/sp-tab-basketballshots.c5d6a53a.webp)
 }
 
 .no-webp .sp-tab-tabletennis,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-tabletennis {
-    background-image: url(../assets/image/sp-tab-tabletennis.75ac48c2.png)
+    background-image: url(/assets/sp-tab-tabletennis.75ac48c2.png)
 }
 
 .webp .sp-tab-tabletennis,
 .webp ul.tab-type li a .tab-logo.sp-tab-tabletennis {
-    background-image: url(../assets/image/sp-tab-tabletennis.79e33aef.webp)
+    background-image: url(/assets/sp-tab-tabletennis.79e33aef.webp)
 }
 
 .no-webp .sp-tab-futsal,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-futsal {
-    background-image: url(../assets/image/sp-tab-futsal.2c984002.png)
+    background-image: url(/assets/sp-tab-futsal.2c984002.png)
 }
 
 .webp .sp-tab-futsal,
 .webp ul.tab-type li a .tab-logo.sp-tab-futsal {
-    background-image: url(../assets/image/sp-tab-futsal.7c6a1960.webp)
+    background-image: url(/assets/sp-tab-futsal.7c6a1960.webp)
 }
 
 .no-webp .sp-tab-archery,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-archery {
-    background-image: url(../assets/image/sp-tab-archery.06fe958c.png)
+    background-image: url(/assets/sp-tab-archery.06fe958c.png)
 }
 
 .webp .sp-tab-archery,
 .webp ul.tab-type li a .tab-logo.sp-tab-archery {
-    background-image: url(../assets/image/sp-tab-archery.a394ebc4.webp)
+    background-image: url(/assets/sp-tab-archery.a394ebc4.webp)
 }
 
 .no-webp .sp-tab-teqball,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-teqball {
-    background-image: url(../assets/image/sp-tab-teqball.f7428105.png)
+    background-image: url(/assets/sp-tab-teqball.f7428105.png)
 }
 
 .webp .sp-tab-teqball,
 .webp ul.tab-type li a .tab-logo.sp-tab-teqball {
-    background-image: url(../assets/image/sp-tab-teqball.4c33aa08.webp)
+    background-image: url(/assets/sp-tab-teqball.4c33aa08.webp)
 }
 
 .no-webp .sp-tab-badminton,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-badminton {
-    background-image: url(../assets/image/sp-tab-badminton.a2d66397.png)
+    background-image: url(/assets/sp-tab-badminton.a2d66397.png)
 }
 
 .webp .sp-tab-badminton,
 .webp ul.tab-type li a .tab-logo.sp-tab-badminton {
-    background-image: url(../assets/image/sp-tab-badminton.62b5e720.webp)
+    background-image: url(/assets/sp-tab-badminton.62b5e720.webp)
 }
 
 .no-webp .sp-tab-waterpolo,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-waterpolo {
-    background-image: url(../assets/image/sp-tab-waterpolo.2e4dea09.png)
+    background-image: url(/assets/sp-tab-waterpolo.2e4dea09.png)
 }
 
 .webp .sp-tab-waterpolo,
 .webp ul.tab-type li a .tab-logo.sp-tab-waterpolo {
-    background-image: url(../assets/image/sp-tab-waterpolo.f5f9967f.webp)
+    background-image: url(/assets/sp-tab-waterpolo.f5f9967f.webp)
 }
 
 .no-webp .sp-tab-snooker,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-snooker {
-    background-image: url(../assets/image/sp-tab-snooker.3735315c.png)
+    background-image: url(/assets/sp-tab-snooker.3735315c.png)
 }
 
 .webp .sp-tab-snooker,
 .webp ul.tab-type li a .tab-logo.sp-tab-snooker {
-    background-image: url(../assets/image/sp-tab-snooker.3ded77dc.webp)
+    background-image: url(/assets/sp-tab-snooker.3ded77dc.webp)
 }
 
 .no-webp .sp-tab-esport,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-esport {
-    background-image: url(../assets/image/sp-tab-esport.77862d01.png)
+    background-image: url(/assets/sp-tab-esport.77862d01.png)
 }
 
 .webp .sp-tab-esport,
 .webp ul.tab-type li a .tab-logo.sp-tab-esport {
-    background-image: url(../assets/image/sp-tab-esport.e40162ad.webp)
+    background-image: url(/assets/sp-tab-esport.e40162ad.webp)
 }
 
 .no-webp .sp-tab-callofduty,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-callofduty {
-    background-image: url(../assets/image/74_CallOfDuty.0405fafa.png)
+    background-image: url(/assets/74_CallOfDuty.0405fafa.png)
 }
 
 .webp .sp-tab-callofduty,
 .webp ul.tab-type li a .tab-logo.sp-tab-callofduty {
-    background-image: url(../assets/image/sp-tab-callofduty.28c9e303.webp)
+    background-image: url(/assets/sp-tab-callofduty.28c9e303.webp)
 }
 
 .no-webp .sp-tab-counterstrikego,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-counterstrikego {
-    background-image: url(../assets/image/75_CounterStrikeGo.f9418ea3.png)
+    background-image: url(/assets/75_CounterStrikeGo.f9418ea3.png)
 }
 
 .webp .sp-tab-counterstrikego,
 .webp ul.tab-type li a .tab-logo.sp-tab-counterstrikego {
-    background-image: url(../assets/image/sp-tab-counterstrikego.d0af96fd.webp)
+    background-image: url(/assets/sp-tab-counterstrikego.d0af96fd.webp)
 }
 
 .no-webp .sp-tab-dota2,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-dota2 {
-    background-image: url(../assets/image/76_Dota2.ad0b8524.png)
+    background-image: url(/assets/76_Dota2.ad0b8524.png)
 }
 
 .webp .sp-tab-dota2,
 .webp ul.tab-type li a .tab-logo.sp-tab-dota2 {
-    background-image: url(../assets/image/sp-tab-dota2.74026697.webp)
+    background-image: url(/assets/sp-tab-dota2.74026697.webp)
 }
 
 .no-webp .sp-tab-leagueoflegends,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-leagueoflegends {
-    background-image: url(../assets/image/77_LeagueOfLegends.687e7182.png)
+    background-image: url(/assets/77_LeagueOfLegends.687e7182.png)
 }
 
 .webp .sp-tab-leagueoflegends,
 .webp ul.tab-type li a .tab-logo.sp-tab-leagueoflegends {
-    background-image: url(../assets/image/sp-tab-leagueoflegends.81e596f1.webp)
+    background-image: url(/assets/sp-tab-leagueoflegends.81e596f1.webp)
 }
 
 .no-webp .sp-tab-hearthstone,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-hearthstone {
-    background-image: url(../assets/image/78_HearthStone.2df95d68.png)
+    background-image: url(/assets/78_HearthStone.2df95d68.png)
 }
 
 .webp .sp-tab-hearthstone,
 .webp ul.tab-type li a .tab-logo.sp-tab-hearthstone {
-    background-image: url(../assets/image/sp-tab-hearthstone.eb43da7f.webp)
+    background-image: url(/assets/sp-tab-hearthstone.eb43da7f.webp)
 }
 
 .no-webp .sp-tab-heroesofthestorm,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-heroesofthestorm {
-    background-image: url(../assets/image/79_HeroesOfTheStorm.c0677f98.png)
+    background-image: url(/assets/79_HeroesOfTheStorm.c0677f98.png)
 }
 
 .webp .sp-tab-heroesofthestorm,
 .webp ul.tab-type li a .tab-logo.sp-tab-heroesofthestorm {
-    background-image: url(../assets/image/sp-tab-heroesofthestorm.d023ab77.webp)
+    background-image: url(/assets/sp-tab-heroesofthestorm.d023ab77.webp)
 }
 
 .no-webp .sp-tab-overwatch,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-overwatch {
-    background-image: url(../assets/image/80_Overwatch.025b6fca.png)
+    background-image: url(/assets/80_Overwatch.025b6fca.png)
 }
 
 .webp .sp-tab-overwatch,
 .webp ul.tab-type li a .tab-logo.sp-tab-overwatch {
-    background-image: url(../assets/image/sp-tab-overwatch.333a033d.webp)
+    background-image: url(/assets/sp-tab-overwatch.333a033d.webp)
 }
 
 .no-webp .sp-tab-smite,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-smite {
-    background-image: url(../assets/image/81_Smite.ce0462f7.png)
+    background-image: url(/assets/81_Smite.ce0462f7.png)
 }
 
 .webp .sp-tab-smite,
 .webp ul.tab-type li a .tab-logo.sp-tab-smite {
-    background-image: url(../assets/image/sp-tab-smite.005bba41.webp)
+    background-image: url(/assets/sp-tab-smite.005bba41.webp)
 }
 
 .no-webp .sp-tab-starcraft,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-starcraft {
-    background-image: url(../assets/image/82_StarCraft.9e0b9521.png)
+    background-image: url(/assets/82_StarCraft.9e0b9521.png)
 }
 
 .webp .sp-tab-starcraft,
 .webp ul.tab-type li a .tab-logo.sp-tab-starcraft {
-    background-image: url(../assets/image/sp-tab-starcraft.e03046ac.webp)
+    background-image: url(/assets/sp-tab-starcraft.e03046ac.webp)
 }
 
 .no-webp .sp-tab-starcraft2,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-starcraft2 {
-    background-image: url(../assets/image/83_StarCraft2.26117931.png)
+    background-image: url(/assets/83_StarCraft2.26117931.png)
 }
 
 .webp .sp-tab-starcraft2,
 .webp ul.tab-type li a .tab-logo.sp-tab-starcraft2 {
-    background-image: url(../assets/image/sp-tab-starcraft2.f220ff20.webp)
+    background-image: url(/assets/sp-tab-starcraft2.f220ff20.webp)
 }
 
 .no-webp .sp-tab-worldofwarcraft,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-worldofwarcraft {
-    background-image: url(../assets/image/84_WorldOfWarcraft.60ee0804.png)
+    background-image: url(/assets/84_WorldOfWarcraft.60ee0804.png)
 }
 
 .webp .sp-tab-worldofwarcraft,
 .webp ul.tab-type li a .tab-logo.sp-tab-worldofwarcraft {
-    background-image: url(../assets/image/sp-tab-worldofwarcraft.e8587fcd.webp)
+    background-image: url(/assets/sp-tab-worldofwarcraft.e8587fcd.webp)
 }
 
 .no-webp .sp-tab-worldoftanks,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-worldoftanks {
-    background-image: url(../assets/image/85_WorldOfTanks.87dd4429.png)
+    background-image: url(/assets/85_WorldOfTanks.87dd4429.png)
 }
 
 .webp .sp-tab-worldoftanks,
 .webp ul.tab-type li a .tab-logo.sp-tab-worldoftanks {
-    background-image: url(../assets/image/sp-tab-worldoftanks.a2463585.webp)
+    background-image: url(/assets/sp-tab-worldoftanks.a2463585.webp)
 }
 
 .no-webp .sp-tab-crossfire,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-crossfire {
-    background-image: url(../assets/image/140_CrossFire.066df1e0.png)
+    background-image: url(/assets/140_CrossFire.066df1e0.png)
 }
 
 .webp .sp-tab-crossfire,
 .webp ul.tab-type li a .tab-logo.sp-tab-crossfire {
-    background-image: url(../assets/image/sp-tab-crossfire.c31226d5.webp)
+    background-image: url(/assets/sp-tab-crossfire.c31226d5.webp)
 }
 
 .no-webp .sp-tab-halo,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-halo {
-    background-image: url(../assets/image/141_Halo.940276a3.png)
+    background-image: url(/assets/141_Halo.940276a3.png)
 }
 
 .webp .sp-tab-halo,
 .webp ul.tab-type li a .tab-logo.sp-tab-halo {
-    background-image: url(../assets/image/sp-tab-halo.b044b8a4.webp)
+    background-image: url(/assets/sp-tab-halo.b044b8a4.webp)
 }
 
 .no-webp .sp-tab-fifa,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-fifa {
-    background-image: url(../assets/image/142_FIFA.91f346aa.png)
+    background-image: url(/assets/142_FIFA.91f346aa.png)
 }
 
 .webp .sp-tab-fifa,
 .webp ul.tab-type li a .tab-logo.sp-tab-fifa {
-    background-image: url(../assets/image/sp-tab-fifa.7dd16fd6.webp)
+    background-image: url(/assets/sp-tab-fifa.7dd16fd6.webp)
 }
 
 .no-webp .sp-tab-clashroyale,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-clashroyale {
-    background-image: url(../assets/image/146_ClashRoyale.fba25f43.png)
+    background-image: url(/assets/146_ClashRoyale.fba25f43.png)
 }
 
 .webp .sp-tab-clashroyale,
 .webp ul.tab-type li a .tab-logo.sp-tab-clashroyale {
-    background-image: url(../assets/image/sp-tab-clashroyale.b1ed2337.webp)
+    background-image: url(/assets/sp-tab-clashroyale.b1ed2337.webp)
 }
 
 .no-webp .sp-tab-rocketleague,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rocketleague {
-    background-image: url(../assets/image/157_RocketLeague.1a3e1700.png)
+    background-image: url(/assets/157_RocketLeague.1a3e1700.png)
 }
 
 .webp .sp-tab-rocketleague,
 .webp ul.tab-type li a .tab-logo.sp-tab-rocketleague {
-    background-image: url(../assets/image/sp-tab-rocketleague.dc9b630b.webp)
+    background-image: url(/assets/sp-tab-rocketleague.dc9b630b.webp)
 }
 
 .no-webp .sp-tab-kingofglory,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-kingofglory {
-    background-image: url(../assets/image/158_KingOfGlory.fded3e2a.png)
+    background-image: url(/assets/158_KingOfGlory.fded3e2a.png)
 }
 
 .webp .sp-tab-kingofglory,
 .webp ul.tab-type li a .tab-logo.sp-tab-kingofglory {
-    background-image: url(../assets/image/sp-tab-kingofglory.d9e19ceb.webp)
+    background-image: url(/assets/sp-tab-kingofglory.d9e19ceb.webp)
 }
 
 .no-webp .sp-tab-quake,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-quake {
-    background-image: url(../assets/image/163_Quake.2ee66e50.png)
+    background-image: url(/assets/163_Quake.2ee66e50.png)
 }
 
 .webp .sp-tab-quake,
 .webp ul.tab-type li a .tab-logo.sp-tab-quake {
-    background-image: url(../assets/image/sp-tab-quake.2424a5b0.webp)
+    background-image: url(/assets/sp-tab-quake.2424a5b0.webp)
 }
 
 .no-webp .sp-tab-pubg,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-pubg {
-    background-image: url(../assets/image/164_PUBG.f8f9e00c.png)
+    background-image: url(/assets/164_PUBG.f8f9e00c.png)
 }
 
 .webp .sp-tab-pubg,
 .webp ul.tab-type li a .tab-logo.sp-tab-pubg {
-    background-image: url(../assets/image/sp-tab-pubg.d7227b35.webp)
+    background-image: url(/assets/sp-tab-pubg.d7227b35.webp)
 }
 
 .no-webp .sp-tab-warcraftIII,
 .no-webp .sp-tab-warcraftiii,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-warcraftIII {
-    background-image: url(../assets/image/169_WarcraftIII.6c29f77b.png)
+    background-image: url(/assets/169_WarcraftIII.6c29f77b.png)
 }
 
 .webp .sp-tab-warcraftIII,
 .webp .sp-tab-warcraftiii,
 .webp ul.tab-type li a .tab-logo.sp-tab-warcraftIII {
-    background-image: url(../assets/image/sp-tab-warcraftiii.ce10585b.webp)
+    background-image: url(/assets/sp-tab-warcraftiii.ce10585b.webp)
 }
 
 .no-webp .sp-tab-rainbowsix,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-rainbowsix {
-    background-image: url(../assets/image/185_RainbowSix.08b541d8.png)
+    background-image: url(/assets/185_RainbowSix.08b541d8.png)
 }
 
 .webp .sp-tab-rainbowsix,
 .webp ul.tab-type li a .tab-logo.sp-tab-rainbowsix {
-    background-image: url(../assets/image/sp-tab-rainbowsix.41dd13bf.webp)
+    background-image: url(/assets/sp-tab-rainbowsix.41dd13bf.webp)
 }
 
 .no-webp .sp-tab-arenaofvalor,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-arenaofvalor {
-    background-image: url(../assets/image/187_ArenaOfValor.a85e43ee.png)
+    background-image: url(/assets/187_ArenaOfValor.a85e43ee.png)
 }
 
 .webp .sp-tab-arenaofvalor,
 .webp ul.tab-type li a .tab-logo.sp-tab-arenaofvalor {
-    background-image: url(../assets/image/sp-tab-arenaofvalor.e16d9341.webp)
+    background-image: url(/assets/sp-tab-arenaofvalor.e16d9341.webp)
 }
 
 .no-webp .sp-tab-nba2k,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-nba2k {
-    background-image: url(../assets/image/189_NBA2K.5849b58f.png)
+    background-image: url(/assets/189_NBA2K.5849b58f.png)
 }
 
 .webp .sp-tab-nba2k,
 .webp ul.tab-type li a .tab-logo.sp-tab-nba2k {
-    background-image: url(../assets/image/sp-tab-nba2k.83b2af6f.webp)
+    background-image: url(/assets/sp-tab-nba2k.83b2af6f.webp)
 }
 
 .no-webp .sp-tab-valorant,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-valorant {
-    background-image: url(../assets/image/208_Valorant.f97c301c.png)
+    background-image: url(/assets/208_Valorant.f97c301c.png)
 }
 
 .webp .sp-tab-valorant,
 .webp ul.tab-type li a .tab-logo.sp-tab-valorant {
-    background-image: url(../assets/image/sp-tab-valorant.70a8f978.webp)
+    background-image: url(/assets/sp-tab-valorant.70a8f978.webp)
 }
 
 .no-webp .sp-tab-mobilelegends,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-mobilelegends {
-    background-image: url(../assets/image/215_MobileLegends.5a19d9f6.png)
+    background-image: url(/assets/215_MobileLegends.5a19d9f6.png)
 }
 
 .webp .sp-tab-mobilelegends,
 .webp ul.tab-type li a .tab-logo.sp-tab-mobilelegends {
-    background-image: url(../assets/image/sp-tab-mobilelegends.7c4e3d78.webp)
+    background-image: url(/assets/sp-tab-mobilelegends.7c4e3d78.webp)
 }
 
 .no-webp .sp-tab-leagueoflegendswildrift,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-leagueoflegendswildrift {
-    background-image: url(../assets/image/240_LeagueOfLegendsWildRift.4c71a7f1.png)
+    background-image: url(/assets/240_LeagueOfLegendsWildRift.4c71a7f1.png)
 }
 
 .webp .sp-tab-leagueoflegendswildrift,
 .webp ul.tab-type li a .tab-logo.sp-tab-leagueoflegendswildrift {
-    background-image: url(../assets/image/sp-tab-leagueoflegendswildrift.4b4b873d.webp)
+    background-image: url(/assets/sp-tab-leagueoflegendswildrift.4b4b873d.webp)
 }
 
 .no-webp .sp-tab-ageofempires,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-ageofempires {
-    background-image: url(../assets/image/260_AgeOfEmpires.31db826f.png)
+    background-image: url(/assets/260_AgeOfEmpires.31db826f.png)
 }
 
 .webp .sp-tab-ageofempires,
 .webp ul.tab-type li a .tab-logo.sp-tab-ageofempires {
-    background-image: url(../assets/image/sp-tab-ageofempires.a6c407ff.webp)
+    background-image: url(/assets/sp-tab-ageofempires.a6c407ff.webp)
 }
 
 .no-webp .sp-tab-apexlegends,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-apexlegends {
-    background-image: url(../assets/image/261_ApexLegends.fd7ccfdb.png)
+    background-image: url(/assets/261_ApexLegends.fd7ccfdb.png)
 }
 
 .webp .sp-tab-apexlegends,
 .webp ul.tab-type li a .tab-logo.sp-tab-apexlegends {
-    background-image: url(../assets/image/sp-tab-apexlegends.ce5f3c8e.webp)
+    background-image: url(/assets/sp-tab-apexlegends.ce5f3c8e.webp)
 }
 
 .no-webp .sp-tab-brawlstars,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-brawlstars {
-    background-image: url(../assets/image/262_BrawlStars.ecda6811.png)
+    background-image: url(/assets/262_BrawlStars.ecda6811.png)
 }
 
 .webp .sp-tab-brawlstars,
 .webp ul.tab-type li a .tab-logo.sp-tab-brawlstars {
-    background-image: url(../assets/image/sp-tab-brawlstars.35b0f535.webp)
+    background-image: url(/assets/sp-tab-brawlstars.35b0f535.webp)
 }
 
 .no-webp .sp-tab-worldcup,
 .no-webp ul.tab-type li a .tab-logo.sp-tab-worldcup {
-    background-image: url(../assets/image/sp-tab-worldcup.e7d7556a.png)
+    background-image: url(/assets/sp-tab-worldcup.e7d7556a.png)
 }
 
 .webp .sp-tab-worldcup,
 .webp ul.tab-type li a .tab-logo.sp-tab-worldcup {
-    background-image: url(../assets/image/sp-tab-worldcup.ccab9c42.webp)
+    background-image: url(/assets/sp-tab-worldcup.ccab9c42.webp)
 }
 
 :root {
@@ -23972,14 +24793,4 @@ section#content.euMode[data-v-1e0c81da] {
 .scroll-hide[data-v-1e0c81da] {
     transition: padding .4s ease-in-out;
     padding: 3.5vw 0vw!important
-}
-
-#live-sports-tab {
-    height: 837px;
-    overflow-y: auto;
-}
-
-#live-sports-tab .sports-live-wrapper {
-    width: 100%;
-    padding-bottom: 15rem;
 }

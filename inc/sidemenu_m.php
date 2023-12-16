@@ -1,16 +1,32 @@
 <?php
-    $logged_in = '0';
+$logged_in = '0';
 ?>
 
 <nav class="slide-content-left"><!----><!---->
     <?php if ($logged_in === '1') { ?>
-        <div class="point-list"><div class="p-amount"><span class="icon-p-point"></span><span>0</span></div><button>전환</button></div>
-        <div class="vip-box"><div class="vip-icon"><img src="assets/image/vipicon1.png" alt=""></div><h4>일반</h4></div>
+        <div class="point-list">
+            <div class="p-amount"><span class="icon-p-point"></span><span>0</span></div><button>전환</button>
+        </div>
+        <div class="vip-box">
+            <div class="vip-icon"><img src="assets/image/vipicon1.png" alt=""></div>
+            <h4>일반</h4>
+        </div>
     <?php } else { ?>
 
     <?php } ?>
     <ul class="main-menu">
-        
+    <!-- <li>
+            <a href="live_sports.php" aria-label="LiveSport">
+                <div class="icon"><img src="assets/image/Sport.png" alt=""></div>
+                <div class="txt">스포츠실시간</div>
+            </a>
+        </li>
+        <li>
+            <a href="sports.php" aria-label="EuropeanSport">
+                <div class="icon"><img src="assets/image/Sport.png" alt=""></div>
+                <div class="txt">스포츠</div>
+            </a>
+        </li> -->
         <li>
             <a href="live_casino.php" aria-label="LiveCasino">
                 <div class="icon"><img src="assets/image/Live.png" alt=""></div>
@@ -29,7 +45,12 @@
                 <div class="txt">미니게임</div>
             </a>
         </li>
-        
+        <!-- <li>
+            <a href="virtual_sports.php" aria-label="VirtualSports">
+                <div class="icon"><img src="assets/image/VSport.png" alt=""></div>
+                <div class="txt">가상게임</div>
+            </a>
+        </li> -->
         <li>
             <a href="event.php" aria-label="promotion">
                 <div class="icon"><img src="assets/image/Event.png" alt=""></div>
@@ -74,7 +95,7 @@
                 <div>출석부</div>
             </a>
         </li>
-        <li>
+        <li hidden>
             <a href="javascript: void(0)" aria-label="쿠폰함"><!----><span class="icon-roulette"></span>
                 <div>룰렛 쿠폰 (<span>0</span>) </div>
             </a>
@@ -92,22 +113,23 @@
         <li>
             <a href="bet_history.php" aria-label="베팅내역"><!----><span class="icon-betlist"></span>
                 <div>베팅내역</div>
-            </a></li>
+            </a>
+        </li>
         <li><a href="point.php" aria-label="포인트 내역"><!----><span class="icon-point"></span>
                 <div>포인트 내역</div>
             </a>
         </li>
         <li>
-            <a href="javascript: void(0)" aria-label="잔액내역"><!----><span class="icon-balance"></span>
+            <a href="balance_history.php" aria-label="잔액내역"><!----><span class="icon-balance"></span>
                 <div>잔액내역</div>
             </a>
         </li>
-        <li>
+        <li hidden>
             <a href="javascript: void(0)" aria-label="고객센터"><!----><span class="icon-customer"></span>
                 <div>고객센터</div>
             </a>
         </li>
-        <li>
+        <li hidden>
             <a href="javascript: void(0)" aria-label="공식채널 텔레그램"><!----><span class="icon-tg"></span>
                 <div>공식채널 텔레그램</div>
             </a>
@@ -117,8 +139,8 @@
                 <div></div>
             </a>
         </li><!---->
-        
-        <?php if ($logged_in === '1') {?>
+
+        <?php if ($logged_in === '1') { ?>
             <li class="logout"><a aria-label="로그아웃">로그아웃</a></li>
         <?php } ?>
     </ul>

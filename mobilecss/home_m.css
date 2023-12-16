@@ -1069,42 +1069,42 @@ section.pot .wrapper .mem-btn button span.hint {
     }
 }
 
-[data-v-3aa23f77] .marquee {
+.marquee {
     width: auto;
     white-space: nowrap
 }
 
-[data-v-3aa23f77] .marquee>span {
+.marquee>span {
     width: auto;
     margin-left: 51px;
     line-height: initial
 }
 
-[data-v-3aa23f77] .marquee span {
+.marquee span {
     float: none !important
 }
 
-[data-v-3aa23f77] .marquee strong,
-[data-v-3aa23f77] .marquee strong span {
+.marquee strong,
+.marquee strong span {
     font-weight: 700
 }
 
-[data-v-3aa23f77] .marquee u,
-[data-v-3aa23f77] .marquee u span {
+.marquee u,
+.marquee u span {
     text-decoration: underline
 }
 
-[data-v-3aa23f77] .marquee em,
-[data-v-3aa23f77] .marquee em span {
+.marquee em,
+.marquee em span {
     font-style: italic
 }
 
-[data-v-3aa23f77] .marquee span {
+.marquee span {
     width: 50%;
     color: unset
 }
 
-.calcDuration[data-v-3aa23f77] {
+.calcDuration {
     visibility: hidden;
     width: auto;
     white-space: nowrap;

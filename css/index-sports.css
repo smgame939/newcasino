@@ -16051,9 +16051,9 @@ span.icon-iconARup01:before {
     text-align: center
 }
 
-/* .M-Slider .digital {
+.M-Slider .digital {
     color: var(--txtColor_037) !important
-} */
+}
 
 .M-Slider.up.go {
     transform: translateY(-36px);

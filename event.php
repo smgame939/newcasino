@@ -26,52 +26,52 @@
 
 <body>
 
-    <div id="app" data-v-app="" class="webp">
+    <div id="app" class="webp">
         <div>
-            <div data-v-79613b41="" class="allContent">
+            <div class="allContent">
                 <?php include('inc/sidemenu.php'); ?>
 
-                <div data-v-79613b41="" class="rightContent homePage">
-                    <div data-v-79613b41="" class="contents">
-                        <div data-v-79613b41="" class="main_content_continer">
+                <div class="rightContent homePage">
+                    <div class="contents">
+                        <div class="main_content_continer">
                             <?php include('inc/header.php'); ?>
 
-                            <div data-v-f788cc95="" data-v-6e4ca0c7="">
-                                <div data-v-7f3aef84="" data-v-f788cc95="" class="main-content">
-                                    <div data-v-7f3aef84="" class="">
-                                        <div data-v-7f3aef84="" class="titlePic">
-                                            <div data-v-7f3aef84="" class="titlePwrapper">
-                                                <div data-v-7f3aef84="" class="leftZone"><span data-v-f788cc95="" class="icon-iiconLogoB"></span><span data-v-f788cc95="">이벤트</span></div>
-                                                <div data-v-7f3aef84="" class="line"></div>
+                            <div>
+                                <div class="main-content">
+                                    <div class="">
+                                        <div class="titlePic">
+                                            <div class="titlePwrapper">
+                                                <div class="leftZone"><span class="icon-iiconLogoB"></span><span>이벤트</span></div>
+                                                <div class="line"></div>
                                             </div>
                                         </div>
-                                        <div data-v-7f3aef84="" class="main_content">
-                                            <div data-v-f788cc95="" class="v_deep_promotion">
-                                                <div data-v-f788cc95="" class="main_content_wrap main_content_wrap_notice main_content_wrap_promotion">
-                                                    <div data-v-f788cc95="" id="un-lobby" class="gameZoneA">
-                                                        <div data-v-c619f736="" data-v-f788cc95="" class="tabZone">
-                                                            <ul data-v-c619f736="">
-                                                                <li data-v-c619f736="" class="active"><!---->
-                                                                    <h4 data-v-c619f736="">전체 (9) </h4>
+                                        <div class="main_content">
+                                            <div class="v_deep_promotion">
+                                                <div class="main_content_wrap main_content_wrap_notice main_content_wrap_promotion">
+                                                    <div id="un-lobby" class="gameZoneA">
+                                                        <div class="tabZone">
+                                                            <ul>
+                                                                <li class="active"><!---->
+                                                                    <h4>전체 (9) </h4>
                                                                 </li>
-                                                                <li data-v-c619f736="" class=""><!---->
-                                                                    <h4 data-v-c619f736="">멤버십 (6) </h4>
+                                                                <li class=""><!---->
+                                                                    <h4>멤버십 (6) </h4>
                                                                 </li>
-                                                                <li data-v-c619f736="" class=""><!---->
-                                                                    <h4 data-v-c619f736="">스포츠 (1) </h4>
+                                                                <li class=""><!---->
+                                                                    <h4>스포츠 (1) </h4>
                                                                 </li>
-                                                                <li data-v-c619f736="" class=""><!---->
-                                                                    <h4 data-v-c619f736="">카지노 (1) </h4>
+                                                                <li class=""><!---->
+                                                                    <h4>카지노 (1) </h4>
                                                                 </li>
-                                                                <li data-v-c619f736="" class=""><!---->
-                                                                    <h4 data-v-c619f736="">슬롯 (1) </h4>
+                                                                <li class=""><!---->
+                                                                    <h4>슬롯 (1) </h4>
                                                                 </li>
-                                                                <li data-v-c619f736="" class=""><!---->
-                                                                    <h4 data-v-c619f736="">종료된 이벤트 (2) </h4>
+                                                                <li class=""><!---->
+                                                                    <h4>종료된 이벤트 (2) </h4>
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                        <div data-v-f788cc95="" class="slotZone" loading="false">
+                                                        <div class="slotZone" loading="false">
                                                             <ul>
                                                                 <li class="slotLobby">
                                                                     <ul>
@@ -164,7 +164,7 @@
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                        <div data-v-f788cc95="" class="pager_block">
+                                                        <div class="pager_block">
                                                             <div class="page-list">
                                                                 <ul class="pagination">
                                                                     <li class="first"><a href="javascript: void(0)"><span>처음</span></a></li>
@@ -188,13 +188,13 @@
                     </div>
                 </div>
                 <!---->
-                <div data-v-2836fdb5="" data-v-79613b41="" class="vfm vfm--inset vfm--fixed" style="z-index: 1000; display: none;">
+                <div class="vfm vfm--inset vfm--fixed" style="z-index: 1000; display: none;">
                     <!--v-if-->
-                    <div data-v-2836fdb5="" class="vfm__container vfm--absolute vfm--inset vfm--outline-none NAV_ad" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">
-                        <div data-v-2836fdb5="" class="vfm__content">
-                            <div data-v-2836fdb5-s="" class="contentFrame">
-                                <div data-v-2836fdb5-s="" class="">
-                                    <div data-v-2836fdb5-s="" class="pupop_content pupop_registered modalOpen" style="top: 50px; left: 650px;">
+                    <div class="vfm__container vfm--absolute vfm--inset vfm--outline-none NAV_ad" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">
+                        <div class="vfm__content">
+                            <div class="contentFrame">
+                                <div class="">
+                                    <div class="pupop_content pupop_registered modalOpen" style="top: 50px; left: 650px;">
                                         <h5 class="XX"><span class="icon-iconCross"></span></h5>
                                         <div class="reg">
                                             <div class="top"><img src="./virtual_sports_files/logo-6995bb1c.svg" alt="" /></div>
@@ -207,8 +207,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div data-v-2836fdb5-s="" class="">
-                                    <div data-v-2836fdb5-s="" class="pupop_content pupop_registered modalOpen" style="top: 50px; left: 1200px;">
+                                <div class="">
+                                    <div class="pupop_content pupop_registered modalOpen" style="top: 50px; left: 1200px;">
                                         <h5 class="XX"><span class="icon-iconCross"></span></h5>
                                         <div class="reg">
                                             <div class="top"><img src="./virtual_sports_files/logo-6995bb1c.svg" alt="" /></div>
@@ -219,8 +219,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div data-v-2836fdb5-s="" class="">
-                                    <div data-v-2836fdb5-s="" class="pupop_content pupop_registered modalOpen" style="top: 50px; left: 100px;">
+                                <div class="">
+                                    <div class="pupop_content pupop_registered modalOpen" style="top: 50px; left: 100px;">
                                         <h5 class="XX"><span class="icon-iconCross"></span></h5>
                                         <div class="reg">
                                             <div class="top"><img src="./virtual_sports_files/logo-6995bb1c.svg" alt="" /></div>
@@ -241,46 +241,46 @@
         </div>
         <div class="modals-container"></div>
         <!----><!---->
-        <div data-v-2836fdb5="" data-v-5645eacc="" class="vfm vfm--inset vfm--fixed" style="z-index: 1000; display: none;">
+        <div class="vfm vfm--inset vfm--fixed" style="z-index: 1000; display: none;">
             <!--v-if-->
-            <div data-v-2836fdb5="" class="vfm__container vfm--absolute vfm--inset vfm--outline-none model-main model-open NAV_nonmember" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">
-                <div data-v-2836fdb5="" class="vfm__content pupop_content fadeIn animated">
-                    <div data-v-2836fdb5-s="" class="popWrapper">
-                        <h5 data-v-2836fdb5-s="" class="XX"><span data-v-2836fdb5-s="" class="icon-iconCross"></span></h5>
-                        <div data-v-2836fdb5-s="" class="titlePic">
-                            <div data-v-2836fdb5-s="" class="titlePwrapper">
-                                <div data-v-2836fdb5-s="" class="leftZone">
-                                    <span data-v-2836fdb5-s="" class="icon-iiconLogoB"></span>
-                                    <h4 data-v-2836fdb5-s=""><?=$site_name?></h4>
-                                    <span data-v-2836fdb5-s="">비회원 문의</span>
+            <div class="vfm__container vfm--absolute vfm--inset vfm--outline-none model-main model-open NAV_nonmember" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">
+                <div class="vfm__content pupop_content fadeIn animated">
+                    <div class="popWrapper">
+                        <h5 class="XX"><span class="icon-iconCross"></span></h5>
+                        <div class="titlePic">
+                            <div class="titlePwrapper">
+                                <div class="leftZone">
+                                    <span class="icon-iiconLogoB"></span>
+                                    <h4><?=$site_name?></h4>
+                                    <span>비회원 문의</span>
                                 </div>
-                                <div data-v-2836fdb5-s="" class="line"></div>
+                                <div class="line"></div>
                             </div>
                         </div>
-                        <div data-v-2836fdb5-s="" class="contentZone">
-                            <div data-v-2836fdb5-s="" class="leftZone">
-                                <div data-v-2836fdb5-s="" class="pic"><img data-v-2836fdb5-s="" src="./virtual_sports_files/popLogPic01-c8126568.png" alt="" /></div>
+                        <div class="contentZone">
+                            <div class="leftZone">
+                                <div class="pic"><img src="./virtual_sports_files/popLogPic01-c8126568.png" alt="" /></div>
                             </div>
-                            <div data-v-2836fdb5-s="" class="rightZone">
-                                <div data-v-2836fdb5-s="" class="up">
-                                    <div data-v-2836fdb5-s="" class="input_zone">
-                                        <div data-v-2836fdb5-s="" class="inputFrame">
-                                            <div data-v-2836fdb5-s="" class="txtT">성명</div>
-                                            <div data-v-2836fdb5-s="" class="input_content"><input data-v-2836fdb5-s="" name="Name" class="account txtColor010 bgColor09 bdColor03" placeholder="이름을 입력해주세요." /></div>
+                            <div class="rightZone">
+                                <div class="up">
+                                    <div class="input_zone">
+                                        <div class="inputFrame">
+                                            <div class="txtT">성명</div>
+                                            <div class="input_content"><input name="Name" class="account txtColor010 bgColor09 bdColor03" placeholder="이름을 입력해주세요." /></div>
                                         </div>
-                                        <div data-v-2836fdb5-s="" class="inputFrame">
-                                            <div data-v-2836fdb5-s="" class="txtT">연락처</div>
-                                            <div data-v-2836fdb5-s="" class="input_content"><input data-v-2836fdb5-s="" name="Mobile" class="pw txtColor010 bgColor09 bdColor03" placeholder="전화 번호를 남겨주세요." /></div>
+                                        <div class="inputFrame">
+                                            <div class="txtT">연락처</div>
+                                            <div class="input_content"><input name="Mobile" class="pw txtColor010 bgColor09 bdColor03" placeholder="전화 번호를 남겨주세요." /></div>
                                         </div>
-                                        <div data-v-2836fdb5-s="" class="inputFrame">
-                                            <div data-v-2836fdb5-s="" class="txtT">내용</div>
-                                            <div data-v-2836fdb5-s="" class="areaFrame">
-                                                <textarea data-v-2836fdb5-s="" name="Content" class="Content txtColor010 bgColor09 bdColor03" placeholder="문의 내용과 가입하신 아이디를 남겨주시면, 등록 된 휴대폰번호로 SMS 문자 혹은 전화를 통해 안내드리겠습니다."></textarea>
+                                        <div class="inputFrame">
+                                            <div class="txtT">내용</div>
+                                            <div class="areaFrame">
+                                                <textarea name="Content" class="Content txtColor010 bgColor09 bdColor03" placeholder="문의 내용과 가입하신 아이디를 남겨주시면, 등록 된 휴대폰번호로 SMS 문자 혹은 전화를 통해 안내드리겠습니다."></textarea>
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-v-2836fdb5-s="" class="btnZone">
-                                        <div data-v-2836fdb5-s="" class="btnFrame"><button data-v-2836fdb5-s="" class="btn_p goAlertMem greyBtn">문의요청</button></div>
+                                    <div class="btnZone">
+                                        <div class="btnFrame"><button class="btn_p goAlertMem greyBtn">문의요청</button></div>
                                     </div>
                                 </div>
                             </div>

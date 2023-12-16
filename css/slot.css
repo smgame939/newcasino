@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
-.logoFrame[data-v-650f0610] {
+.logoFrame {
     margin: -1px
 }
 
-[data-v-c293754c] .v_deep_slot .banner {
+.v_deep_slot .banner {
     margin-top: 96px
 }
 
-[data-v-c293754c] .v_deep_slot .aniModel {
+.v_deep_slot .aniModel {
     -webkit-animation: aniModel-c293754c 1s infinite;
     animation: aniModel-c293754c 1s infinite
 }
@@ -28,64 +28,64 @@
 }
 
 @media (max-width: 1572px) {
-    [data-v-c293754c] .v_deep_slot .main_content_wrap {
+    .v_deep_slot .main_content_wrap {
         width: 87%;
         margin-left: 6%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .modelA {
         top: 6%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .modelA {
         top: 7%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .modelA,
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .modelA,
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .modelA {
         top: 5%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .modelA {
         top: 6%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .modelA {
         top: 7%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .modelA {
         top: 6%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .modelA {
         top: 5%
     }
 }
 
 @media (max-width: 1552px) {
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .leftZone .pic {
+    .v_deep_slot .rightContent .contents .slotZone .leftZone .pic {
         padding-bottom: 52%
     }
 }
 
 @media (max-width: 1480px) {
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .leftZone .pic {
+    .v_deep_slot .rightContent .contents .slotZone .leftZone .pic {
         padding-bottom: 54%
     }
 }
 
 @media (max-width: 1420px) {
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul {
         justify-content: space-between
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li {
         width: 49%;
         height: 180px
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li .logo {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li .logo {
         background-size: cover;
         position: absolute;
         right: 24%;
@@ -93,147 +93,147 @@
         z-index: 2
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .logoA {
         width: 8.9%;
         padding-bottom: 8.9%;
         right: 27%;
         top: 21%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .logoA {
         width: 13%;
         padding-bottom: 7.1%;
         right: 25%;
         top: 24%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .logoA {
         width: 13.2%;
         padding-bottom: 7.8%;
         top: 23%;
         right: 26%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .logoA {
         width: 8.2%;
         right: 27%;
         top: 23%;
         padding-bottom: 8.1%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .logoA {
         width: 8.3%;
         padding-bottom: 11.9%;
         right: 28%;
         top: 12%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .logoA {
         width: 19%;
         padding-bottom: 7.5%;
         top: 24%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .logoA {
         width: 11%;
         padding-bottom: 9.1%;
         top: 20%;
         right: 27%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .logoA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .logoA {
         width: 17%;
         padding-bottom: 8.1%;
         right: 23%;
         top: 21%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino01 .modelA {
         padding-bottom: 31%;
         width: 54%;
         top: 6%;
         left: -4%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino02 .modelA {
         padding-bottom: 34%;
         width: 43%;
         left: 6%;
         top: 4%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino03 .modelA {
         padding-bottom: 33.7%;
         width: 57%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino04 .modelA {
         padding-bottom: 36%;
         width: 60%;
         left: -5%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino05 .modelA {
         padding-bottom: 36%;
         width: 48%;
         left: 2%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino06 .modelA {
         padding-bottom: 36%;
         width: 54%;
         left: 4%;
         top: 4%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino07 .modelA {
         padding-bottom: 36%;
         width: 61%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .modelA {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li.casino08 .modelA {
         padding-bottom: 36%;
         width: 49%;
         top: 2%;
         left: 2%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone .content ul li .txt {
+    .v_deep_slot .rightContent .contents .casinoZone .content ul li .txt {
         left: 50%;
         top: 54%;
         transform: translate(-32%, -17%)
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .casinoZone {
+    .v_deep_slot .rightContent .contents .casinoZone {
         width: 85%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone {
+    .v_deep_slot .rightContent .contents .slotZone {
         flex-direction: column-reverse
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .rightZone ul li {
+    .v_deep_slot .rightContent .contents .slotZone .rightZone ul li {
         width: 32.8%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .slotLeft {
+    .v_deep_slot .rightContent .contents .slotZone .slotLeft {
         width: 100%
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .rightZone ul {
+    .v_deep_slot .rightContent .contents .slotZone .rightZone ul {
         display: flex;
         justify-content: space-between
     }
 
-    [data-v-c293754c] .v_deep_slot .rightContent .contents .slotZone .rightZone {
+    .v_deep_slot .rightContent .contents .slotZone .rightZone {
         width: 100%
     }
 
-    [data-v-c293754c] .v_deep_slot .main_content .main_content_wrap .infoZone {
+    .v_deep_slot .main_content .main_content_wrap .infoZone {
         width: 85%
     }
 
-    [data-v-c293754c] .v_deep_slot .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
+    .v_deep_slot .main_content .main_content_wrap .infoZone .info01 .list .listA .message {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -241,15 +241,15 @@
     }
 }
 
-[data-v-c293754c] .v_deep_slot .main_content_wrap_slotGame {
+.v_deep_slot .main_content_wrap_slotGame {
     width: 95%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA {
+.v_deep_slot .gameZoneA {
     margin-top: 20px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone {
+.v_deep_slot .gameZoneA .tabZone {
     animation: leftIn-c293754c .4s;
     animation-fill-mode: forwards;
     opacity: 0;
@@ -260,11 +260,11 @@
     margin-left: 3%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party {
+.v_deep_slot .gameZoneA .all-3party {
     width: 85%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more {
+.v_deep_slot .gameZoneA .all-3party .more {
     width: 100%;
     height: 47px;
     margin-top: 18px;
@@ -274,7 +274,7 @@
     justify-content: center
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more:before {
+.v_deep_slot .gameZoneA .all-3party .more:before {
     content: "";
     width: 100%;
     height: 2px;
@@ -285,7 +285,7 @@
     transform: translate(-50%, -50%)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone {
+.v_deep_slot .gameZoneA .all-3party .more .arrow-zone {
     height: 47px;
     display: flex;
     align-items: center;
@@ -296,13 +296,13 @@
     cursor: pointer
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone .arrow-g {
+.v_deep_slot .gameZoneA .all-3party .more .arrow-zone .arrow-g {
     position: relative;
     height: 47px;
     width: 20px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone .arrow-g span {
+.v_deep_slot .gameZoneA .all-3party .more .arrow-zone .arrow-g span {
     color: #6a7391;
     font-size: 20px;
     position: absolute;
@@ -312,24 +312,24 @@
     transform: translate(-50%, -50%) rotate(180deg)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrowGO .arrow-g span {
+.v_deep_slot .gameZoneA .all-3party .more .arrowGO .arrow-g span {
     transform: translate(-50%, -50%) rotate(0)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .more .arrow-zone .txt {
+.v_deep_slot .gameZoneA .all-3party .more .arrow-zone .txt {
     color: #6a7391;
     font-size: 18px;
     padding: 0 9px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: baseline
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame {
     height: 92px;
     background-color: var(--main);
     display: flex;
@@ -342,7 +342,7 @@
     margin-right: 2.3%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame span {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame span {
     font-size: 2.5vw;
     background: rgb(161, 170, 195);
     background: linear-gradient(360deg, rgb(161, 170, 195) 0%, rgb(216, 219, 239) 100%);
@@ -352,7 +352,7 @@
     transition: .4s ease-out
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame h4 {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame h4 {
     color: var(--txtColor66);
     font-size: 14px;
     transition: .4s ease-out;
@@ -363,26 +363,26 @@
     word-wrap: break-word
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame:hover span {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame:hover span {
     background: rgb(215, 175, 138);
     background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame.active h4,
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame:hover h4 {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame.active h4,
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame:hover h4 {
     color: #d7af8a
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul {
+.v_deep_slot .gameZoneA .tabZone ul {
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
     align-items: baseline
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li {
+.v_deep_slot .gameZoneA .tabZone ul li {
     height: 92px;
     display: flex;
     flex-direction: column;
@@ -395,7 +395,7 @@
     width: 8.5%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span {
+.v_deep_slot .gameZoneA .tabZone ul li span {
     font-size: 46px;
     background: rgb(161, 170, 195);
     background: linear-gradient(360deg, rgb(161, 170, 195) 0%, rgb(216, 219, 239) 100%);
@@ -408,66 +408,66 @@
     justify-content: center
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconFavor {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconFavor {
     font-size: 46px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconFavor,
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconALL {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconFavor,
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconALL {
     font-size: 2.4vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconMGP {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconMGP {
     font-size: 2.3vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconAG {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconAG {
     font-size: 3.3vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconHABA,
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPRG {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconHABA,
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPRG {
     font-size: 2.9vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPG1 {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPG1 {
     font-size: 3.8vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPT3 {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconPT3 {
     font-size: 3.4vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconIDN {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconIDN {
     font-size: 2.4vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconSG {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconSG {
     font-size: 2.6vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconJILI {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconJILI {
     font-size: 3.6vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconEVO {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconEVO {
     font-size: 2.2vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconBBIN {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconBBIN {
     font-size: 1.5vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconJDB {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconJDB {
     font-size: 1.7vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconTPG,
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li span.icon-icconAMEBA {
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconTPG,
+.v_deep_slot .gameZoneA .tabZone ul li span.icon-icconAMEBA {
     font-size: 2vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li h4 {
+.v_deep_slot .gameZoneA .tabZone ul li h4 {
     color: var(--txtColor66);
     font-size: 14px;
     transition: .4s ease-out;
@@ -477,21 +477,21 @@
     word-wrap: break-word
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li:hover h4,
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li.active h4 {
+.v_deep_slot .gameZoneA .tabZone ul li:hover h4,
+.v_deep_slot .gameZoneA .tabZone ul li.active h4 {
     color: var(--txtColor75)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li.active span,
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li:hover span {
+.v_deep_slot .gameZoneA .tabZone ul li.active span,
+.v_deep_slot .gameZoneA .tabZone ul li:hover span {
     background: rgb(215, 175, 138);
     background: linear-gradient(360deg, rgb(215, 175, 138) 0%, rgb(215, 175, 138) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .event-tip,
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .event-tip {
+.v_deep_slot .gameZoneA .tabZone ul li .event-tip,
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .event-tip {
     background-color: #dc1919;
     color: #fff;
     padding: 4px;
@@ -504,8 +504,8 @@
     margin: 7px 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .event-tip:before,
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .event-tip:before {
+.v_deep_slot .gameZoneA .tabZone ul li .event-tip:before,
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .event-tip:before {
     content: "";
     width: 0;
     height: 0;
@@ -517,7 +517,7 @@
     top: 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .pic {
+.v_deep_slot .gameZoneA .tabZone ul li .pic {
     width: 3.5vw;
     margin-bottom: 7px;
     display: flex;
@@ -525,14 +525,14 @@
     justify-content: center
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .innerPic {
+.v_deep_slot .gameZoneA .tabZone ul li .innerPic {
     width: 100%;
     padding-bottom: 66.3%;
     background-size: cover;
     transition: .4s ease-out
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,7 +545,7 @@
     margin-bottom: 1%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .pic {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .pic {
     width: 3.5vw;
     margin-bottom: 7px;
     display: flex;
@@ -553,18 +553,18 @@
     justify-content: center
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .innerPic {
+.v_deep_slot .gameZoneA .all-3party .all-game .all-game-frame .game-frame .innerPic {
     width: 100%;
     padding-bottom: 66.3%;
     background-size: cover;
     transition: .4s ease-out
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li.maintainGo .maintain {
+.v_deep_slot .gameZoneA .tabZone ul li.maintainGo .maintain {
     display: flex
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .maintain {
+.v_deep_slot .gameZoneA .tabZone ul li .maintain {
     display: none;
     background-color: var(--bgColor084);
     border: 1px solid var(--bdColor052);
@@ -580,27 +580,27 @@
     cursor: none
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .maintain span,
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul .active .maintain span {
+.v_deep_slot .gameZoneA .tabZone ul li .maintain span,
+.v_deep_slot .gameZoneA .tabZone ul .active .maintain span {
     font-size: 46px;
     background: var(--txtColor85);
     -webkit-background-clip: text
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone ul li .maintain h4 {
+.v_deep_slot .gameZoneA .tabZone ul li .maintain h4 {
     color: var(--txtColor85);
     font-size: 12px;
     font-weight: 700;
     transform: scale(.8)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone {
+.v_deep_slot .gameZoneA .tabZone .searchZone {
     position: relative;
     width: 12%;
     margin-top: 32px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone input {
+.v_deep_slot .gameZoneA .tabZone .searchZone input {
     border-bottom: 1px solid var(--bdColor03) !important;
     color: var(--txtColor66);
     font-size: 16px;
@@ -610,23 +610,23 @@
     margin-bottom: 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone input::placeholder {
+.v_deep_slot .gameZoneA .tabZone .searchZone input::placeholder {
     color: var(--txtColor36);
     font-size: 14px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone .searchIcon {
+.v_deep_slot .gameZoneA .tabZone .searchZone .searchIcon {
     position: absolute;
     right: 0;
     top: 9px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .tabZone .searchZone .searchIcon span {
+.v_deep_slot .gameZoneA .tabZone .searchZone .searchIcon span {
     color: var(--txtColor66);
     font-size: 1.2vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone {
+.v_deep_slot .gameZoneA .slotZone {
     background-color: var(--bgColor017);
     overflow: hidden;
     height: auto;
@@ -637,21 +637,21 @@
     opacity: 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone.off {
+.v_deep_slot .gameZoneA .slotZone.off {
     animation-name: none
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby {
     padding: 28px 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: start
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li {
     margin-bottom: 29px;
     width: 12.5%;
     margin-right: 12px;
@@ -659,11 +659,11 @@
     position: relative
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a {
     text-decoration: none
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic {
     width: 100%;
     height: auto;
     position: relative;
@@ -677,12 +677,12 @@
     border-radius: 30px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .logoFrame img {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .logoFrame img {
     height: 23px;
     width: auto
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .logoFrame {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .logoFrame {
     clip-path: polygon(41% 0%, 100% 0%, 100% 100%, 55% 100%);
     background-color: #000;
     width: 115%;
@@ -697,18 +697,18 @@
     padding-left: 57%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .ppPro {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .ppPro {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .ppPro img {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic .ppPro img {
     width: 4.5vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic img {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic img {
     z-index: 1;
     position: relative;
     transition: .3s ease-out;
@@ -716,7 +716,7 @@
     height: auto
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic:before {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .pic:before {
     content: "";
     position: absolute;
     width: 177px;
@@ -727,7 +727,7 @@
     transform: translate(-50%, -50%)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .name {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .name {
     position: relative;
     width: 95%;
     height: 35px;
@@ -737,7 +737,7 @@
     margin: 0 auto
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .name span {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li a .name span {
     z-index: 1;
     color: var(--txtColor66);
     font-weight: bolder;
@@ -749,7 +749,7 @@
     margin-left: 26%
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask {
     width: 100%;
     height: 100%;
     background-color: var(--bgColor013_op);
@@ -761,7 +761,7 @@
     cursor: pointer
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .imgFrame {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .imgFrame {
     height: 24%;
     width: 100% !important;
     position: absolute;
@@ -773,24 +773,24 @@
     justify-content: center
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .imgFrame img {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .imgFrame img {
     height: auto !important;
     width: 42% !important
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .cubeLogo .imgFrame img {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .cubeLogo .imgFrame img {
     width: 26% !important
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .cubeLogo .imgFrame {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .cubeLogo .imgFrame {
     transform: translate(-50%, -138%) !important
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li:hover .pic>img {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li:hover .pic>img {
     transform: rotate(10deg) scale(1.1)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .gogo {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .gogo {
     width: 75%;
     height: 44px;
     position: relative;
@@ -809,23 +809,23 @@
     justify-content: center
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .gogo span {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .mask .gogo span {
     color: var(--txtColor02);
     font-size: .8vw
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li:hover .mask {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li:hover .mask {
     display: block
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart01 {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart01 {
     position: absolute;
     top: 4px;
     left: -4px;
     cursor: pointer
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart01 span {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart01 span {
     transition: all .2s linear;
     font-size: 25px !important;
     font-weight: 400 !important;
@@ -833,31 +833,31 @@
     position: absolute
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart:before {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart:before {
     display: none !important
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart {
     position: absolute;
     top: -7px;
     left: -15px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart label:before {
+.v_deep_slot .gameZoneA .slotZone ul li.slotLobby ul li .heart label:before {
     display: none
 }
 
-[data-v-c293754c] .v_deep_slot [class^=fa] {
+.v_deep_slot [class^=fa] {
     font-style: normal
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like],
-[data-v-c293754c] .v_deep_slot input[name^=favourite] {
+.v_deep_slot input[name^=like],
+.v_deep_slot input[name^=favourite] {
     display: none
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for],
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] {
+.v_deep_slot input[name^=like]+label[for],
+.v_deep_slot input[name^=favourite]+label[for] {
     background-color: var(--bgColor020);
     -webkit-border-radius: .25em;
     -moz-border-radius: .25em;
@@ -871,94 +871,94 @@
     transition: all .2s linear
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] {
+.v_deep_slot input[name^=favourite]+label[for] {
     background-color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for]:hover,
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for]:focus,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:hover,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:focus {
+.v_deep_slot input[name^=like]+label[for]:hover,
+.v_deep_slot input[name^=like]+label[for]:focus,
+.v_deep_slot input[name^=favourite]+label[for]:hover,
+.v_deep_slot input[name^=favourite]+label[for]:focus {
     background-color: var(--txtColor21);
     outline: 0
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:hover,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for]:focus {
+.v_deep_slot input[name^=favourite]+label[for]:hover,
+.v_deep_slot input[name^=favourite]+label[for]:focus {
     background-color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent {
+.v_deep_slot input[name^=like]+label[for].transparent {
     background-color: transparent;
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent {
+.v_deep_slot input[name^=favourite]+label[for].transparent {
     background-color: transparent;
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:hover,
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:focus,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:hover,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:focus {
+.v_deep_slot input[name^=like]+label[for].transparent:hover,
+.v_deep_slot input[name^=like]+label[for].transparent:focus,
+.v_deep_slot input[name^=favourite]+label[for].transparent:hover,
+.v_deep_slot input[name^=favourite]+label[for].transparent:focus {
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:hover,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:focus {
+.v_deep_slot input[name^=favourite]+label[for].transparent:hover,
+.v_deep_slot input[name^=favourite]+label[for].transparent:focus {
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:hover .icon-icconFavorFull,
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for].transparent:focus .icon-icconFavorFull,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:hover .icon-icconFavorFull,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent:focus .icon-icconFavorFull {
+.v_deep_slot input[name^=like]+label[for].transparent:hover .icon-icconFavorFull,
+.v_deep_slot input[name^=like]+label[for].transparent:focus .icon-icconFavorFull,
+.v_deep_slot input[name^=favourite]+label[for].transparent:hover .icon-icconFavorFull,
+.v_deep_slot input[name^=favourite]+label[for].transparent:focus .icon-icconFavorFull {
     opacity: .25
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent :hover,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for].transparent :focus {
+.v_deep_slot input[name^=favourite]+label[for].transparent :hover,
+.v_deep_slot input[name^=favourite]+label[for].transparent :focus {
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .do,
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .done,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .do,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .done {
+.v_deep_slot input[name^=like]+label[for] .do,
+.v_deep_slot input[name^=like]+label[for] .done,
+.v_deep_slot input[name^=favourite]+label[for] .do,
+.v_deep_slot input[name^=favourite]+label[for] .done {
     margin-left: .35em
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .done,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .done,
-[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .do,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .do {
+.v_deep_slot input[name^=like]+label[for] .done,
+.v_deep_slot input[name^=favourite]+label[for] .done,
+.v_deep_slot input[name^=like]:checked+label[for] .do,
+.v_deep_slot input[name^=favourite]:checked+label[for] .do {
     display: none
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .do,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .do,
-[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .done,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .done {
+.v_deep_slot input[name^=like]+label[for] .do,
+.v_deep_slot input[name^=favourite]+label[for] .do,
+.v_deep_slot input[name^=like]:checked+label[for] .done,
+.v_deep_slot input[name^=favourite]:checked+label[for] .done {
     display: inline-block
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa {
+.v_deep_slot input[name^=like]+label[for] .fa,
+.v_deep_slot input[name^=favourite]+label[for] .fa {
     display: inline-block;
     position: relative
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavor,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavor {
+.v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavor,
+.v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavor {
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
     font-size: 25px;
     color: var(--txtColor76)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavorFull,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavorFull {
+.v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavorFull,
+.v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavorFull {
     position: absolute;
     left: 0;
     opacity: 0;
@@ -969,26 +969,26 @@
     color: var(--txtColor76)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavorFull.fx {
+.v_deep_slot input[name^=like]+label[for] .fa .icon-icconFavorFull.fx {
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavorFull.fx {
+.v_deep_slot input[name^=favourite]+label[for] .fa .icon-icconFavorFull.fx {
     color: var(--txtColor21)
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavor,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavor {
+.v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavor,
+.v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavor {
     opacity: 0
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavorFull,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavorFull {
+.v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavorFull,
+.v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavorFull {
     opacity: 1
 }
 
-[data-v-c293754c] .v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavorFull.fx,
-[data-v-c293754c] .v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavorFull.fx {
+.v_deep_slot input[name^=like]:checked+label[for] .fa .icon-icconFavorFull.fx,
+.v_deep_slot input[name^=favourite]:checked+label[for] .fa .icon-icconFavorFull.fx {
     -moz-animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
     -o-animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
     -webkit-animation: expand-c293754c .65s cubic-bezier(.43, .475, 1, .08);
@@ -1021,26 +1021,26 @@
     }
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block {
+.v_deep_slot .gameZoneA .slotZone .pager_block {
     float: left;
     width: 100%;
     display: flex;
     margin-top: 10px
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block .page-list {
+.v_deep_slot .gameZoneA .slotZone .pager_block .page-list {
     text-align: center;
     display: flex;
     margin: 0 auto
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul {
+.v_deep_slot .gameZoneA .slotZone .pager_block ul {
     width: auto;
     display: inline-block !important;
     padding: 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li {
+.v_deep_slot .gameZoneA .slotZone .pager_block ul li {
     background: none;
     padding: 0;
     margin: 0;
@@ -1050,11 +1050,11 @@
     margin-right: 2px !important
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul .prev {
+.v_deep_slot .gameZoneA .slotZone .pager_block ul .prev {
     margin-left: 0
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li a {
+.v_deep_slot .gameZoneA .slotZone .pager_block ul li a {
     font-size: 12px;
     color: var(--txtColor88);
     border: 1px solid var(--bdColor058);
@@ -1064,23 +1064,23 @@
     text-decoration: none
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li a:hover {
+.v_deep_slot .gameZoneA .slotZone .pager_block ul li a:hover {
     border: 1px solid var(--bdColor018)
 }
 
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul .on,
-[data-v-c293754c] .v_deep_slot .gameZoneA .slotZone .pager_block ul li:hover a {
+.v_deep_slot .gameZoneA .slotZone .pager_block ul .on,
+.v_deep_slot .gameZoneA .slotZone .pager_block ul li:hover a {
     color: var(--txtColor02);
     background: var(--bgColor121);
     border: 1px solid var(--bdColor057)
 }
 
-[data-v-c293754c] .v_deep_slot .pager_block ul .first span,
-[data-v-c293754c] .v_deep_slot .pager_block ul .last span {
+.v_deep_slot .pager_block ul .first span,
+.v_deep_slot .pager_block ul .last span {
     position: relative
 }
 
-[data-v-c293754c] .v_deep_slot .pager_block ul .first span:after {
+.v_deep_slot .pager_block ul .first span:after {
     content: "";
     width: 1px;
     height: 10px;
@@ -1091,7 +1091,7 @@
     transform: translate(25px, -50%)
 }
 
-[data-v-c293754c] .v_deep_slot .pager_block ul .last span:after {
+.v_deep_slot .pager_block ul .last span:after {
     content: "";
     width: 1px;
     height: 10px;
@@ -1102,16 +1102,16 @@
     transform: translate(-22px, -50%)
 }
 
-[data-v-c293754c] .v_deep_slot .pager_block ul li.first:hover a,
-[data-v-c293754c] .v_deep_slot .pager_block ul li.prev:hover a,
-[data-v-c293754c] .v_deep_slot .pager_block ul li.next:hover a,
-[data-v-c293754c] .v_deep_slot .pager_block ul li.last:hover a {
+.v_deep_slot .pager_block ul li.first:hover a,
+.v_deep_slot .pager_block ul li.prev:hover a,
+.v_deep_slot .pager_block ul li.next:hover a,
+.v_deep_slot .pager_block ul li.last:hover a {
     color: var(--txtColor89) !important;
     background: var(--bgColor092) !important;
     border: 1px solid var(--bdColor058) !important
 }
 
-[data-v-c293754c] .v_deep_slot .activePlay {
+.v_deep_slot .activePlay {
     -webkit-animation: activePlay-c293754c 1s infinite;
     animation: activePlay-c293754c 1s infinite
 }
@@ -1130,7 +1130,7 @@
     }
 }
 
-[data-v-c293754c] .v_deep_slot .aniTab {
+.v_deep_slot .aniTab {
     -webkit-animation: aniTab-c293754c 1s infinite;
     animation: aniTab-c293754c 1s infinite
 }
@@ -1215,15 +1215,15 @@
     }
 }
 
-[data-v-c293754c] .v_deep_slot input::-webkit-calendar-picker-indicator {
+.v_deep_slot input::-webkit-calendar-picker-indicator {
     opacity: 0
 }
 
-[data-v-c293754c] .v_deep_slot input[type=text]:not(.browser-default):focus:not([readonly]) {
+.v_deep_slot input[type=text]:not(.browser-default):focus:not([readonly]) {
     box-shadow: none
 }
 
-.fixHeight[data-v-c293754c] {
+.fixHeight {
     min-height: 100vh
 }
 

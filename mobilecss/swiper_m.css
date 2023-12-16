@@ -300,14 +300,14 @@
     height: 12px
 }
 
-.banner[data-v-e4162f67] {
+.banner {
     transition: opacity 1s
 }
 
-.banner .swiper-slide[data-v-e4162f67] {
+.banner .swiper-slide {
     padding: 0 3.4vw
 }
 
-.banner .third-image[data-v-e4162f67] {
+.banner .third-image {
     display: inline-block
 }

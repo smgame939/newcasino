@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
-section .wrapcasino[data-v-80df159d] {
+section .wrapcasino {
     position: relative
 }
 
-section .wrapcasino .wrapper[data-v-80df159d] {
+section .wrapcasino .wrapper {
     padding: 3vw 2vw;
     background: var(--bgColor01)
 }
 
-section .wrapcasino .casino-box[data-v-80df159d] {
+section .wrapcasino .casino-box {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
@@ -27,7 +27,7 @@ section .wrapcasino .casino-box[data-v-80df159d] {
     flex-wrap: wrap
 }
 
-section .wrapcasino .item-box[data-v-80df159d] {
+section .wrapcasino .item-box {
     position: relative;
     width: 45vw;
     height: 47.6vw;
@@ -55,7 +55,7 @@ section .wrapcasino .item-box[data-v-80df159d] {
     -o-border-radius: 2px
 }
 
-section .wrapcasino .item-box .game-logo[data-v-80df159d] {
+section .wrapcasino .item-box .game-logo {
     position: absolute;
     top: 1.6vw;
     right: 2.6vw;
@@ -68,197 +68,197 @@ section .wrapcasino .item-box .game-logo[data-v-80df159d] {
     z-index: 2
 }
 
-section .wrapcasino .EvoReal .game-logo[data-v-80df159d] {
+section .wrapcasino .EvoReal .game-logo {
     width: 15vw;
     background-image: url(../assets/image/game-logoEV-78c20aeb.svg)
 }
 
-.no-webp section .wrapcasino .EvoReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .EvoReal .itme-image {
     background-image: url(../assets/image/EvoReal-6dbf4b57.png)
 }
 
-.webp section .wrapcasino .EvoReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .EvoReal .itme-image {
     background-image: url(../assets/image/EvoReal-a816b721.webp)
 }
 
-section .wrapcasino .AgBr .game-logo[data-v-80df159d] {
+section .wrapcasino .AgBr .game-logo {
     background-image: url(../assets/image/game-logoAG-896d917e.svg)
 }
 
-.no-webp section .wrapcasino .AgBr .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .AgBr .itme-image {
     background-image: url(../assets/image/AgBr-3deee3be.png)
 }
 
-.webp section .wrapcasino .AgBr .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .AgBr .itme-image {
     background-image: url(../assets/image/AgBr-e315da1c.webp)
 }
 
-section .wrapcasino .MgpReal .game-logo[data-v-80df159d] {
+section .wrapcasino .MgpReal .game-logo {
     background-image: url(../assets/image/game-logoMG-2627113f.svg)
 }
 
-.no-webp section .wrapcasino .MgpReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .MgpReal .itme-image {
     background-image: url(../assets/image/MgpReal-49498d0a.png)
 }
 
-.webp section .wrapcasino .MgpReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .MgpReal .itme-image {
     background-image: url(../assets/image/MgpReal-8527f13e.webp)
 }
 
-section .wrapcasino .WmReal .game-logo[data-v-80df159d] {
+section .wrapcasino .WmReal .game-logo {
     background-image: url(../assets/image/game-logoWM-36a809dd.svg)
 }
 
-.no-webp section .wrapcasino .WmReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .WmReal .itme-image {
     background-image: url(../assets/image/WmReal-3d914552.png)
 }
 
-.webp section .wrapcasino .WmReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .WmReal .itme-image {
     background-image: url(../assets/image/WmReal-a3f71cea.webp)
 }
 
-section .wrapcasino .AllBetReal .game-logo[data-v-80df159d] {
+section .wrapcasino .AllBetReal .game-logo {
     background-image: url(../assets/image/game-logoALLBET-835ce8f4.svg)
 }
 
-.no-webp section .wrapcasino .AllBetReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .AllBetReal .itme-image {
     background-image: url(../assets/image/AllBetReal-64494821.png)
 }
 
-.webp section .wrapcasino .AllBetReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .AllBetReal .itme-image {
     background-image: url(../assets/image/AllBetReal-1350b772.webp)
 }
 
-section .wrapcasino .OgReal .game-logo[data-v-80df159d] {
+section .wrapcasino .OgReal .game-logo {
     background-image: url(../assets/image/game-logoOG-a1e72637.svg)
 }
 
-.no-webp section .wrapcasino .OgReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .OgReal .itme-image {
     background-image: url(../assets/image/OgReal-2eba2c2c.png)
 }
 
-.webp section .wrapcasino .OgReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .OgReal .itme-image {
     background-image: url(../assets/image/OgReal-9b4d332d.webp)
 }
 
-section .wrapcasino .PrgReal .game-logo[data-v-80df159d] {
+section .wrapcasino .PrgReal .game-logo {
     height: 8vw;
     background-image: url(../assets/image/game-logoPP-6c9b548e.svg)
 }
 
-.no-webp section .wrapcasino .PrgReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .PrgReal .itme-image {
     background-image: url(../assets/image/PrgReal-368f5fa6.png)
 }
 
-.webp section .wrapcasino .PrgReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .PrgReal .itme-image {
     background-image: url(../assets/image/PrgReal-beab88d3.webp)
 }
 
-section .wrapcasino .DgReal .game-logo[data-v-80df159d] {
+section .wrapcasino .DgReal .game-logo {
     background-image: url(../assets/image/game-logoDG-0a77f0ce.svg)
 }
 
-.no-webp section .wrapcasino .DgReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .DgReal .itme-image {
     background-image: url(../assets/image/DgReal-cc531c3d.png)
 }
 
-.webp section .wrapcasino .DgReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .DgReal .itme-image {
     background-image: url(../assets/image/DgReal-5a51aaf2.webp)
 }
 
-section .wrapcasino .GpiLive .game-logo[data-v-80df159d] {
+section .wrapcasino .GpiLive .game-logo {
     background-image: url(../assets/image/game-logoGPI-66f8bc10.png)
 }
 
-.no-webp section .wrapcasino .GpiLive .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .GpiLive .itme-image {
     background-image: url(../assets/image/GpiLive-2f6344b5.png)
 }
 
-.webp section .wrapcasino .GpiLive .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .GpiLive .itme-image {
     background-image: url(../assets/image/GpiLive-60492fae.webp)
 }
 
-section .wrapcasino .BgReal .game-logo[data-v-80df159d] {
+section .wrapcasino .BgReal .game-logo {
     background-image: url(../assets/image/game-logoBG-85ecf359.png)
 }
 
-.no-webp section .wrapcasino .BgReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .BgReal .itme-image {
     background-image: url(../assets/image/BgReal-85d36c28.png)
 }
 
-.webp section .wrapcasino .BgReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .BgReal .itme-image {
     background-image: url(../assets/image/BgReal-83de60b4.webp)
 }
 
-section .wrapcasino .Ae2Real .game-logo[data-v-80df159d] {
+section .wrapcasino .Ae2Real .game-logo {
     background-image: url(../assets/image/game-logoAE-f0f0ae00.png)
 }
 
-.no-webp section .wrapcasino .Ae2Real .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .Ae2Real .itme-image {
     background-image: url(../assets/image/Ae2Real-ed8aac05.png)
 }
 
-.webp section .wrapcasino .Ae2Real .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .Ae2Real .itme-image {
     background-image: url(../assets/image/Ae2Real-efc96dcd.webp)
 }
 
-section .wrapcasino .BbinReal .game-logo[data-v-80df159d] {
+section .wrapcasino .BbinReal .game-logo {
     background-image: url(../assets/image/game-logoBbin-2342ef2c.png)
 }
 
-.no-webp section .wrapcasino .BbinReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .BbinReal .itme-image {
     background-image: url(../assets/image/BbinReal-88a24b73.png)
 }
 
-.webp section .wrapcasino .BbinReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .BbinReal .itme-image {
     background-image: url(../assets/image/BbinReal-be9edc03.webp)
 }
 
-section .wrapcasino .YxReal .game-logo[data-v-80df159d] {
+section .wrapcasino .YxReal .game-logo {
     background-image: url(../assets/image/game-logoYx-36659f06.png)
 }
 
-.no-webp section .wrapcasino .YxReal .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .YxReal .itme-image {
     background-image: url(../assets/image/YxReal-00ee5542.png)
 }
 
-.webp section .wrapcasino .YxReal .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .YxReal .itme-image {
     background-image: url(../assets/image/YxReal-9f184fe9.webp)
 }
 
-section .wrapcasino .VivoVideo .game-logo[data-v-80df159d] {
+section .wrapcasino .VivoVideo .game-logo {
     background-image: url(../assets/image/game-logoVivoVideo-e56d5d44.png)
 }
 
-.no-webp section .wrapcasino .VivoVideo .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .VivoVideo .itme-image {
     background-image: url(../assets/image/VivoVideo-c66163d5.png)
 }
 
-.webp section .wrapcasino .VivoVideo .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .VivoVideo .itme-image {
     background-image: url(../assets/image/VivoVideo-4b77d570.webp)
 }
 
-section .wrapcasino .TvBetLive .game-logo[data-v-80df159d] {
+section .wrapcasino .TvBetLive .game-logo {
     background-image: url(../assets/image/images/lobby/live/game-logoTvBetLive.png)
 }
 
-.no-webp section .wrapcasino .TvBetLive .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .TvBetLive .itme-image {
     background-image: url(../assets/image/images/lobby/live/TvBetLive.png)
 }
 
-.webp section .wrapcasino .TvBetLive .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .TvBetLive .itme-image {
     background-image: url(../assets/image/images/lobby/live/TvBetLive.webp)
 }
 
-.no-webp section .wrapcasino .ComingSoon .itme-image[data-v-80df159d] {
+.no-webp section .wrapcasino .ComingSoon .itme-image {
     background-image: url(../assets/image/ComingSoon-43a06bf8.png)
 }
 
-.webp section .wrapcasino .ComingSoon .itme-image[data-v-80df159d] {
+.webp section .wrapcasino .ComingSoon .itme-image {
     background-image: url(../assets/image/ComingSoon-c4790604.webp)
 }
 
-section .wrapcasino .event[data-v-80df159d]:before {
+section .wrapcasino .event:before {
     content: "";
     position: absolute;
     left: 0;
@@ -272,7 +272,7 @@ section .wrapcasino .event[data-v-80df159d]:before {
     background-image: url(../assets/image/tag-dailywins-855bd875.png)
 }
 
-section .wrapcasino .promotion[data-v-80df159d]:before {
+section .wrapcasino .promotion:before {
     content: "";
     position: absolute;
     left: 0;
@@ -286,7 +286,7 @@ section .wrapcasino .promotion[data-v-80df159d]:before {
     background-image: url(../assets/image/tag-promotion-d22144d2.png)
 }
 
-section .wrapcasino .item-box[data-v-80df159d]:after {
+section .wrapcasino .item-box:after {
     content: "";
     width: 45vw;
     height: 2vw;
@@ -299,7 +299,7 @@ section .wrapcasino .item-box[data-v-80df159d]:after {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAAALCAMAAAAeCCVrAAAAP1BMVEUAAAA1NTU0NDQzMzMzMzMyMjIyMjIzMzM0NDQzMzM0NDQzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM/28D8AAAAFXRSTlMABAsXEwcmMh44DiJZVSxeSGxATWWo4jUVAAABl0lEQVRIx+2Ui27CMAxFk7LQlQ220f3/ty7xoze2xyIkJJjEUVsVGprrg5OUUi5T5UC8NHbMa+ON2VdOzEwszFn5FFbmKLx3fFxCBxwVfLqM/8F4Cj/NKmh0LWVhZuLE7CuigrSIItLF5qZKyamRSSdcQiU8GokwCHt9Qd8bX2N0aF/4dnek+jcF8gXGmEmvmjJOCsfQa+TCrHp1VqdJhBYSSkq91NidahZq1S9YA/3Ts7IIs2+GenJuQFnAnkKNgw1SxVgIFru0QVkIkYkmRYdGoVEpsiO+rQIh5DJTHpcJqRhKBbCCmFJquHY05GZisEcBzo0FxoTUi0aM4R0nE9ws+SgUHar5kMtIhdd6/IU0k2enWGVCcWRA+drF3XQUx2R0x3oA6hpVBZOmHHSC30MlxkEx/zniBOiZPjauAr/rojPdFHlpB1wDbx3SBxX71aRwkSo0mwnHYBF6MkB9RLo7GkSTgdID/VcJIbaqDdASQajO2wPIuhW5F59hBgxcpR68Ivkd7BE67O7khPbp+io97Tz5T/wAE2xGt0FibzMAAAAASUVORK5CYII=)
 }
 
-section .wrapcasino .item-box .itme-image[data-v-80df159d] {
+section .wrapcasino .item-box .itme-image {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -314,7 +314,7 @@ section .wrapcasino .item-box .itme-image[data-v-80df159d] {
     border: 1px solid var(--borderColor20)
 }
 
-section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
+section .wrapcasino .item-box .itme-image .name {
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -329,7 +329,7 @@ section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
     font-weight: 700
 }
 
-section .wrapcasino .item-box .btm-info[data-v-80df159d] {
+section .wrapcasino .item-box .btm-info {
     position: absolute;
     bottom: .4vw;
     display: -webkit-flex;
@@ -357,7 +357,7 @@ section .wrapcasino .item-box .btm-info[data-v-80df159d] {
     -o-border-radius: 0px 0px .5vw .5vw
 }
 
-section .wrapcasino .item-box .btm-info .name[data-v-80df159d] {
+section .wrapcasino .item-box .btm-info .name {
     width: 63vw;
     max-width: 63vw;
     white-space: nowrap;
@@ -367,7 +367,7 @@ section .wrapcasino .item-box .btm-info .name[data-v-80df159d] {
     text-align: left
 }
 
-section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
+section .wrapcasino .item-box .btm-info button {
     width: 42vw;
     font-size: .65rem;
     background: var(--btnColor11);
@@ -381,29 +381,29 @@ section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-    section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
+    section .wrapcasino .item-box .btm-info button {
         font-size: 1.25rem
     }
 
-    section .wrapcasino .item-box .btm-info[data-v-80df159d] {
+    section .wrapcasino .item-box .btm-info {
         font-size: 1.4rem
     }
 
-    section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
+    section .wrapcasino .item-box .itme-image .name {
         font-size: 2.2rem
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    section .wrapcasino .item-box .btm-info button[data-v-80df159d] {
+    section .wrapcasino .item-box .btm-info button {
         font-size: 1.6rem
     }
 
-    section .wrapcasino .item-box .btm-info[data-v-80df159d] {
+    section .wrapcasino .item-box .btm-info {
         font-size: 1.8rem
     }
 
-    section .wrapcasino .item-box .itme-image .name[data-v-80df159d] {
+    section .wrapcasino .item-box .itme-image .name {
         font-size: 2.8rem
     }
 }

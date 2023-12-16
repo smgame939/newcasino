@@ -1,6 +1,6 @@
 <div id="app" data-v-app="" class="webp">
     <div><!---->
-        <?php include('inc/sidemenu_m.php'); ?>
+        <?php include('inc/header_m.php'); ?>
         <section data-v-c6087bcb="" id="out-wrapper" class=""><!---->
         <?php include('inc/header_m.php'); ?>
             <section data-v-c6087bcb="" id="content" class="">
@@ -138,8 +138,7 @@
                     </div><!--v-if-->
                 </div>
             </div>
-        </div>
-        <div id="login-container"></div>
+        </div><img data-v-c6087bcb="" src="./virtual_sports_mobile_files/saved_resource" style="display: none;"><!----><!---->
     </div>
     <div class="modals-container"></div>
 </div>

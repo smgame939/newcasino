@@ -1,5 +1,4 @@
 <?php
     $site_name = 'SMGame';
-    $ver = '024';
-
+    $ver = '057';
 ?>

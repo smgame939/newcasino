@@ -5,13 +5,13 @@
  *
  * Copyright (c) 2020 Animate.css
  */
-[data-v-d58e2dea]:root {
+:root {
     --animate-duration: 1s;
     --animate-delay: 1s;
     --animate-repeat: 1
 }
 
-.animate__animated[data-v-d58e2dea] {
+.animate__animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-duration: var(--animate-duration);
@@ -20,89 +20,89 @@
     animation-fill-mode: both
 }
 
-.animate__animated.animate__infinite[data-v-d58e2dea] {
+.animate__animated.animate__infinite {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite
 }
 
-.animate__animated.animate__repeat-1[data-v-d58e2dea] {
+.animate__animated.animate__repeat-1 {
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     -webkit-animation-iteration-count: var(--animate-repeat);
     animation-iteration-count: var(--animate-repeat)
 }
 
-.animate__animated.animate__repeat-2[data-v-d58e2dea] {
+.animate__animated.animate__repeat-2 {
     -webkit-animation-iteration-count: 2;
     animation-iteration-count: 2;
     -webkit-animation-iteration-count: calc(var(--animate-repeat) * 2);
     animation-iteration-count: calc(var(--animate-repeat) * 2)
 }
 
-.animate__animated.animate__repeat-3[data-v-d58e2dea] {
+.animate__animated.animate__repeat-3 {
     -webkit-animation-iteration-count: 3;
     animation-iteration-count: 3;
     -webkit-animation-iteration-count: calc(var(--animate-repeat) * 3);
     animation-iteration-count: calc(var(--animate-repeat) * 3)
 }
 
-.animate__animated.animate__delay-1s[data-v-d58e2dea] {
+.animate__animated.animate__delay-1s {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
     -webkit-animation-delay: var(--animate-delay);
     animation-delay: var(--animate-delay)
 }
 
-.animate__animated.animate__delay-2s[data-v-d58e2dea] {
+.animate__animated.animate__delay-2s {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
     -webkit-animation-delay: calc(var(--animate-delay) * 2);
     animation-delay: calc(var(--animate-delay) * 2)
 }
 
-.animate__animated.animate__delay-3s[data-v-d58e2dea] {
+.animate__animated.animate__delay-3s {
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
     -webkit-animation-delay: calc(var(--animate-delay) * 3);
     animation-delay: calc(var(--animate-delay) * 3)
 }
 
-.animate__animated.animate__delay-4s[data-v-d58e2dea] {
+.animate__animated.animate__delay-4s {
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
     -webkit-animation-delay: calc(var(--animate-delay) * 4);
     animation-delay: calc(var(--animate-delay) * 4)
 }
 
-.animate__animated.animate__delay-5s[data-v-d58e2dea] {
+.animate__animated.animate__delay-5s {
     -webkit-animation-delay: 5s;
     animation-delay: 5s;
     -webkit-animation-delay: calc(var(--animate-delay) * 5);
     animation-delay: calc(var(--animate-delay) * 5)
 }
 
-.animate__animated.animate__faster[data-v-d58e2dea] {
+.animate__animated.animate__faster {
     -webkit-animation-duration: .5s;
     animation-duration: .5s;
     -webkit-animation-duration: calc(var(--animate-duration) / 2);
     animation-duration: calc(var(--animate-duration) / 2)
 }
 
-.animate__animated.animate__fast[data-v-d58e2dea] {
+.animate__animated.animate__fast {
     -webkit-animation-duration: .8s;
     animation-duration: .8s;
     -webkit-animation-duration: calc(var(--animate-duration) * .8);
     animation-duration: calc(var(--animate-duration) * .8)
 }
 
-.animate__animated.animate__slow[data-v-d58e2dea] {
+.animate__animated.animate__slow {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-duration: calc(var(--animate-duration) * 2);
     animation-duration: calc(var(--animate-duration) * 2)
 }
 
-.animate__animated.animate__slower[data-v-d58e2dea] {
+.animate__animated.animate__slower {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-duration: calc(var(--animate-duration) * 3);
@@ -110,7 +110,7 @@
 }
 
 @media print,(prefers-reduced-motion: reduce) {
-    .animate__animated[data-v-d58e2dea] {
+    .animate__animated {
         -webkit-animation-duration: 1ms!important;
         animation-duration: 1ms!important;
         -webkit-transition-duration: 1ms!important;
@@ -119,7 +119,7 @@
         animation-iteration-count: 1!important
     }
 
-    .animate__animated[class*=Out][data-v-d58e2dea] {
+    .animate__animated[class*=Out] {
         opacity: 0
     }
 }
@@ -194,7 +194,7 @@
     }
 }
 
-.animate__bounce[data-v-d58e2dea] {
+.animate__bounce {
     -webkit-animation-name: bounce-d58e2dea;
     animation-name: bounce-d58e2dea;
     -webkit-transform-origin: center bottom;
@@ -221,7 +221,7 @@
     }
 }
 
-.animate__flash[data-v-d58e2dea] {
+.animate__flash {
     -webkit-animation-name: flash-d58e2dea;
     animation-name: flash-d58e2dea
 }
@@ -260,7 +260,7 @@
     }
 }
 
-.animate__pulse[data-v-d58e2dea] {
+.animate__pulse {
     -webkit-animation-name: pulse-d58e2dea;
     animation-name: pulse-d58e2dea;
     -webkit-animation-timing-function: ease-in-out;
@@ -341,7 +341,7 @@
     }
 }
 
-.animate__rubberBand[data-v-d58e2dea] {
+.animate__rubberBand {
     -webkit-animation-name: rubberBand-d58e2dea;
     animation-name: rubberBand-d58e2dea
 }
@@ -380,7 +380,7 @@
     }
 }
 
-.animate__shakeX[data-v-d58e2dea] {
+.animate__shakeX {
     -webkit-animation-name: shakeX-d58e2dea;
     animation-name: shakeX-d58e2dea
 }
@@ -419,7 +419,7 @@
     }
 }
 
-.animate__shakeY[data-v-d58e2dea] {
+.animate__shakeY {
     -webkit-animation-name: shakeY-d58e2dea;
     animation-name: shakeY-d58e2dea
 }
@@ -488,7 +488,7 @@
     }
 }
 
-.animate__headShake[data-v-d58e2dea] {
+.animate__headShake {
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-name: headShake-d58e2dea;
@@ -549,7 +549,7 @@
     }
 }
 
-.animate__swing[data-v-d58e2dea] {
+.animate__swing {
     -webkit-transform-origin: top center;
     transform-origin: top center;
     -webkit-animation-name: swing-d58e2dea;
@@ -610,7 +610,7 @@
     }
 }
 
-.animate__tada[data-v-d58e2dea] {
+.animate__tada {
     -webkit-animation-name: tada-d58e2dea;
     animation-name: tada-d58e2dea
 }
@@ -689,7 +689,7 @@
     }
 }
 
-.animate__wobble[data-v-d58e2dea] {
+.animate__wobble {
     -webkit-animation-name: wobble-d58e2dea;
     animation-name: wobble-d58e2dea
 }
@@ -778,7 +778,7 @@
     }
 }
 
-.animate__jello[data-v-d58e2dea] {
+.animate__jello {
     -webkit-animation-name: jello-d58e2dea;
     animation-name: jello-d58e2dea;
     -webkit-transform-origin: center;
@@ -839,7 +839,7 @@
     }
 }
 
-.animate__heartBeat[data-v-d58e2dea] {
+.animate__heartBeat {
     -webkit-animation-name: heartBeat-d58e2dea;
     animation-name: heartBeat-d58e2dea;
     -webkit-animation-duration: 1.3s;
@@ -890,7 +890,7 @@
     }
 }
 
-.animate__backInDown[data-v-d58e2dea] {
+.animate__backInDown {
     -webkit-animation-name: backInDown-d58e2dea;
     animation-name: backInDown-d58e2dea
 }
@@ -935,7 +935,7 @@
     }
 }
 
-.animate__backInLeft[data-v-d58e2dea] {
+.animate__backInLeft {
     -webkit-animation-name: backInLeft-d58e2dea;
     animation-name: backInLeft-d58e2dea
 }
@@ -980,7 +980,7 @@
     }
 }
 
-.animate__backInRight[data-v-d58e2dea] {
+.animate__backInRight {
     -webkit-animation-name: backInRight-d58e2dea;
     animation-name: backInRight-d58e2dea
 }
@@ -1025,7 +1025,7 @@
     }
 }
 
-.animate__backInUp[data-v-d58e2dea] {
+.animate__backInUp {
     -webkit-animation-name: backInUp-d58e2dea;
     animation-name: backInUp-d58e2dea
 }
@@ -1070,7 +1070,7 @@
     }
 }
 
-.animate__backOutDown[data-v-d58e2dea] {
+.animate__backOutDown {
     -webkit-animation-name: backOutDown-d58e2dea;
     animation-name: backOutDown-d58e2dea
 }
@@ -1115,7 +1115,7 @@
     }
 }
 
-.animate__backOutLeft[data-v-d58e2dea] {
+.animate__backOutLeft {
     -webkit-animation-name: backOutLeft-d58e2dea;
     animation-name: backOutLeft-d58e2dea
 }
@@ -1160,7 +1160,7 @@
     }
 }
 
-.animate__backOutRight[data-v-d58e2dea] {
+.animate__backOutRight {
     -webkit-animation-name: backOutRight-d58e2dea;
     animation-name: backOutRight-d58e2dea
 }
@@ -1205,7 +1205,7 @@
     }
 }
 
-.animate__backOutUp[data-v-d58e2dea] {
+.animate__backOutUp {
     -webkit-animation-name: backOutUp-d58e2dea;
     animation-name: backOutUp-d58e2dea
 }
@@ -1290,7 +1290,7 @@
     }
 }
 
-.animate__bounceIn[data-v-d58e2dea] {
+.animate__bounceIn {
     -webkit-animation-duration: .75s;
     animation-duration: .75s;
     -webkit-animation-duration: calc(var(--animate-duration) * .75);
@@ -1367,7 +1367,7 @@
     }
 }
 
-.animate__bounceInDown[data-v-d58e2dea] {
+.animate__bounceInDown {
     -webkit-animation-name: bounceInDown-d58e2dea;
     animation-name: bounceInDown-d58e2dea
 }
@@ -1440,7 +1440,7 @@
     }
 }
 
-.animate__bounceInLeft[data-v-d58e2dea] {
+.animate__bounceInLeft {
     -webkit-animation-name: bounceInLeft-d58e2dea;
     animation-name: bounceInLeft-d58e2dea
 }
@@ -1513,7 +1513,7 @@
     }
 }
 
-.animate__bounceInRight[data-v-d58e2dea] {
+.animate__bounceInRight {
     -webkit-animation-name: bounceInRight-d58e2dea;
     animation-name: bounceInRight-d58e2dea
 }
@@ -1586,7 +1586,7 @@
     }
 }
 
-.animate__bounceInUp[data-v-d58e2dea] {
+.animate__bounceInUp {
     -webkit-animation-name: bounceInUp-d58e2dea;
     animation-name: bounceInUp-d58e2dea
 }
@@ -1629,7 +1629,7 @@
     }
 }
 
-.animate__bounceOut[data-v-d58e2dea] {
+.animate__bounceOut {
     -webkit-animation-duration: .75s;
     animation-duration: .75s;
     -webkit-animation-duration: calc(var(--animate-duration) * .75);
@@ -1676,7 +1676,7 @@
     }
 }
 
-.animate__bounceOutDown[data-v-d58e2dea] {
+.animate__bounceOutDown {
     -webkit-animation-name: bounceOutDown-d58e2dea;
     animation-name: bounceOutDown-d58e2dea
 }
@@ -1709,7 +1709,7 @@
     }
 }
 
-.animate__bounceOutLeft[data-v-d58e2dea] {
+.animate__bounceOutLeft {
     -webkit-animation-name: bounceOutLeft-d58e2dea;
     animation-name: bounceOutLeft-d58e2dea
 }
@@ -1742,7 +1742,7 @@
     }
 }
 
-.animate__bounceOutRight[data-v-d58e2dea] {
+.animate__bounceOutRight {
     -webkit-animation-name: bounceOutRight-d58e2dea;
     animation-name: bounceOutRight-d58e2dea
 }
@@ -1785,7 +1785,7 @@
     }
 }
 
-.animate__bounceOutUp[data-v-d58e2dea] {
+.animate__bounceOutUp {
     -webkit-animation-name: bounceOutUp-d58e2dea;
     animation-name: bounceOutUp-d58e2dea
 }
@@ -1810,7 +1810,7 @@
     }
 }
 
-.animate__fadeIn[data-v-d58e2dea] {
+.animate__fadeIn {
     -webkit-animation-name: fadeIn-d58e2dea;
     animation-name: fadeIn-d58e2dea
 }
@@ -1843,7 +1843,7 @@
     }
 }
 
-.animate__fadeInDown[data-v-d58e2dea] {
+.animate__fadeInDown {
     -webkit-animation-name: fadeInDown-d58e2dea;
     animation-name: fadeInDown-d58e2dea
 }
@@ -1876,7 +1876,7 @@
     }
 }
 
-.animate__fadeInDownBig[data-v-d58e2dea] {
+.animate__fadeInDownBig {
     -webkit-animation-name: fadeInDownBig-d58e2dea;
     animation-name: fadeInDownBig-d58e2dea
 }
@@ -1909,7 +1909,7 @@
     }
 }
 
-.animate__fadeInLeft[data-v-d58e2dea] {
+.animate__fadeInLeft {
     -webkit-animation-name: fadeInLeft-d58e2dea;
     animation-name: fadeInLeft-d58e2dea
 }
@@ -1942,7 +1942,7 @@
     }
 }
 
-.animate__fadeInLeftBig[data-v-d58e2dea] {
+.animate__fadeInLeftBig {
     -webkit-animation-name: fadeInLeftBig-d58e2dea;
     animation-name: fadeInLeftBig-d58e2dea
 }
@@ -1975,7 +1975,7 @@
     }
 }
 
-.animate__fadeInRight[data-v-d58e2dea] {
+.animate__fadeInRight {
     -webkit-animation-name: fadeInRight-d58e2dea;
     animation-name: fadeInRight-d58e2dea
 }
@@ -2008,7 +2008,7 @@
     }
 }
 
-.animate__fadeInRightBig[data-v-d58e2dea] {
+.animate__fadeInRightBig {
     -webkit-animation-name: fadeInRightBig-d58e2dea;
     animation-name: fadeInRightBig-d58e2dea
 }
@@ -2041,7 +2041,7 @@
     }
 }
 
-.animate__fadeInUp[data-v-d58e2dea] {
+.animate__fadeInUp {
     -webkit-animation-name: fadeInUp-d58e2dea;
     animation-name: fadeInUp-d58e2dea
 }
@@ -2074,7 +2074,7 @@
     }
 }
 
-.animate__fadeInUpBig[data-v-d58e2dea] {
+.animate__fadeInUpBig {
     -webkit-animation-name: fadeInUpBig-d58e2dea;
     animation-name: fadeInUpBig-d58e2dea
 }
@@ -2107,7 +2107,7 @@
     }
 }
 
-.animate__fadeInTopLeft[data-v-d58e2dea] {
+.animate__fadeInTopLeft {
     -webkit-animation-name: fadeInTopLeft-d58e2dea;
     animation-name: fadeInTopLeft-d58e2dea
 }
@@ -2140,7 +2140,7 @@
     }
 }
 
-.animate__fadeInTopRight[data-v-d58e2dea] {
+.animate__fadeInTopRight {
     -webkit-animation-name: fadeInTopRight-d58e2dea;
     animation-name: fadeInTopRight-d58e2dea
 }
@@ -2173,7 +2173,7 @@
     }
 }
 
-.animate__fadeInBottomLeft[data-v-d58e2dea] {
+.animate__fadeInBottomLeft {
     -webkit-animation-name: fadeInBottomLeft-d58e2dea;
     animation-name: fadeInBottomLeft-d58e2dea
 }
@@ -2206,7 +2206,7 @@
     }
 }
 
-.animate__fadeInBottomRight[data-v-d58e2dea] {
+.animate__fadeInBottomRight {
     -webkit-animation-name: fadeInBottomRight-d58e2dea;
     animation-name: fadeInBottomRight-d58e2dea
 }
@@ -2231,7 +2231,7 @@
     }
 }
 
-.animate__fadeOut[data-v-d58e2dea] {
+.animate__fadeOut {
     -webkit-animation-name: fadeOut-d58e2dea;
     animation-name: fadeOut-d58e2dea
 }
@@ -2260,7 +2260,7 @@
     }
 }
 
-.animate__fadeOutDown[data-v-d58e2dea] {
+.animate__fadeOutDown {
     -webkit-animation-name: fadeOutDown-d58e2dea;
     animation-name: fadeOutDown-d58e2dea
 }
@@ -2289,7 +2289,7 @@
     }
 }
 
-.animate__fadeOutDownBig[data-v-d58e2dea] {
+.animate__fadeOutDownBig {
     -webkit-animation-name: fadeOutDownBig-d58e2dea;
     animation-name: fadeOutDownBig-d58e2dea
 }
@@ -2318,7 +2318,7 @@
     }
 }
 
-.animate__fadeOutLeft[data-v-d58e2dea] {
+.animate__fadeOutLeft {
     -webkit-animation-name: fadeOutLeft-d58e2dea;
     animation-name: fadeOutLeft-d58e2dea
 }
@@ -2347,7 +2347,7 @@
     }
 }
 
-.animate__fadeOutLeftBig[data-v-d58e2dea] {
+.animate__fadeOutLeftBig {
     -webkit-animation-name: fadeOutLeftBig-d58e2dea;
     animation-name: fadeOutLeftBig-d58e2dea
 }
@@ -2376,7 +2376,7 @@
     }
 }
 
-.animate__fadeOutRight[data-v-d58e2dea] {
+.animate__fadeOutRight {
     -webkit-animation-name: fadeOutRight-d58e2dea;
     animation-name: fadeOutRight-d58e2dea
 }
@@ -2405,7 +2405,7 @@
     }
 }
 
-.animate__fadeOutRightBig[data-v-d58e2dea] {
+.animate__fadeOutRightBig {
     -webkit-animation-name: fadeOutRightBig-d58e2dea;
     animation-name: fadeOutRightBig-d58e2dea
 }
@@ -2434,7 +2434,7 @@
     }
 }
 
-.animate__fadeOutUp[data-v-d58e2dea] {
+.animate__fadeOutUp {
     -webkit-animation-name: fadeOutUp-d58e2dea;
     animation-name: fadeOutUp-d58e2dea
 }
@@ -2463,7 +2463,7 @@
     }
 }
 
-.animate__fadeOutUpBig[data-v-d58e2dea] {
+.animate__fadeOutUpBig {
     -webkit-animation-name: fadeOutUpBig-d58e2dea;
     animation-name: fadeOutUpBig-d58e2dea
 }
@@ -2496,7 +2496,7 @@
     }
 }
 
-.animate__fadeOutTopLeft[data-v-d58e2dea] {
+.animate__fadeOutTopLeft {
     -webkit-animation-name: fadeOutTopLeft-d58e2dea;
     animation-name: fadeOutTopLeft-d58e2dea
 }
@@ -2529,7 +2529,7 @@
     }
 }
 
-.animate__fadeOutTopRight[data-v-d58e2dea] {
+.animate__fadeOutTopRight {
     -webkit-animation-name: fadeOutTopRight-d58e2dea;
     animation-name: fadeOutTopRight-d58e2dea
 }
@@ -2562,7 +2562,7 @@
     }
 }
 
-.animate__fadeOutBottomRight[data-v-d58e2dea] {
+.animate__fadeOutBottomRight {
     -webkit-animation-name: fadeOutBottomRight-d58e2dea;
     animation-name: fadeOutBottomRight-d58e2dea
 }
@@ -2595,7 +2595,7 @@
     }
 }
 
-.animate__fadeOutBottomLeft[data-v-d58e2dea] {
+.animate__fadeOutBottomLeft {
     -webkit-animation-name: fadeOutBottomLeft-d58e2dea;
     animation-name: fadeOutBottomLeft-d58e2dea
 }
@@ -2674,7 +2674,7 @@
     }
 }
 
-.animate__animated.animate__flip[data-v-d58e2dea] {
+.animate__animated.animate__flip {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
     -webkit-animation-name: flip-d58e2dea;
@@ -2747,7 +2747,7 @@
     }
 }
 
-.animate__flipInX[data-v-d58e2dea] {
+.animate__flipInX {
     -webkit-backface-visibility: visible!important;
     backface-visibility: visible!important;
     -webkit-animation-name: flipInX-d58e2dea;
@@ -2820,7 +2820,7 @@
     }
 }
 
-.animate__flipInY[data-v-d58e2dea] {
+.animate__flipInY {
     -webkit-backface-visibility: visible!important;
     backface-visibility: visible!important;
     -webkit-animation-name: flipInY-d58e2dea;
@@ -2865,7 +2865,7 @@
     }
 }
 
-.animate__flipOutX[data-v-d58e2dea] {
+.animate__flipOutX {
     -webkit-animation-duration: .75s;
     animation-duration: .75s;
     -webkit-animation-duration: calc(var(--animate-duration) * .75);
@@ -2914,7 +2914,7 @@
     }
 }
 
-.animate__flipOutY[data-v-d58e2dea] {
+.animate__flipOutY {
     -webkit-animation-duration: .75s;
     animation-duration: .75s;
     -webkit-animation-duration: calc(var(--animate-duration) * .75);
@@ -2973,7 +2973,7 @@
     }
 }
 
-.animate__lightSpeedInRight[data-v-d58e2dea] {
+.animate__lightSpeedInRight {
     -webkit-animation-name: lightSpeedInRight-d58e2dea;
     animation-name: lightSpeedInRight-d58e2dea;
     -webkit-animation-timing-function: ease-out;
@@ -3028,7 +3028,7 @@
     }
 }
 
-.animate__lightSpeedInLeft[data-v-d58e2dea] {
+.animate__lightSpeedInLeft {
     -webkit-animation-name: lightSpeedInLeft-d58e2dea;
     animation-name: lightSpeedInLeft-d58e2dea;
     -webkit-animation-timing-function: ease-out;
@@ -3059,7 +3059,7 @@
     }
 }
 
-.animate__lightSpeedOutRight[data-v-d58e2dea] {
+.animate__lightSpeedOutRight {
     -webkit-animation-name: lightSpeedOutRight-d58e2dea;
     animation-name: lightSpeedOutRight-d58e2dea;
     -webkit-animation-timing-function: ease-in;
@@ -3090,7 +3090,7 @@
     }
 }
 
-.animate__lightSpeedOutLeft[data-v-d58e2dea] {
+.animate__lightSpeedOutLeft {
     -webkit-animation-name: lightSpeedOutLeft-d58e2dea;
     animation-name: lightSpeedOutLeft-d58e2dea;
     -webkit-animation-timing-function: ease-in;
@@ -3125,7 +3125,7 @@
     }
 }
 
-.animate__rotateIn[data-v-d58e2dea] {
+.animate__rotateIn {
     -webkit-animation-name: rotateIn-d58e2dea;
     animation-name: rotateIn-d58e2dea;
     -webkit-transform-origin: center;
@@ -3160,7 +3160,7 @@
     }
 }
 
-.animate__rotateInDownLeft[data-v-d58e2dea] {
+.animate__rotateInDownLeft {
     -webkit-animation-name: rotateInDownLeft-d58e2dea;
     animation-name: rotateInDownLeft-d58e2dea;
     -webkit-transform-origin: left bottom;
@@ -3195,7 +3195,7 @@
     }
 }
 
-.animate__rotateInDownRight[data-v-d58e2dea] {
+.animate__rotateInDownRight {
     -webkit-animation-name: rotateInDownRight-d58e2dea;
     animation-name: rotateInDownRight-d58e2dea;
     -webkit-transform-origin: right bottom;
@@ -3230,7 +3230,7 @@
     }
 }
 
-.animate__rotateInUpLeft[data-v-d58e2dea] {
+.animate__rotateInUpLeft {
     -webkit-animation-name: rotateInUpLeft-d58e2dea;
     animation-name: rotateInUpLeft-d58e2dea;
     -webkit-transform-origin: left bottom;
@@ -3265,7 +3265,7 @@
     }
 }
 
-.animate__rotateInUpRight[data-v-d58e2dea] {
+.animate__rotateInUpRight {
     -webkit-animation-name: rotateInUpRight-d58e2dea;
     animation-name: rotateInUpRight-d58e2dea;
     -webkit-transform-origin: right bottom;
@@ -3296,7 +3296,7 @@
     }
 }
 
-.animate__rotateOut[data-v-d58e2dea] {
+.animate__rotateOut {
     -webkit-animation-name: rotateOut-d58e2dea;
     animation-name: rotateOut-d58e2dea;
     -webkit-transform-origin: center;
@@ -3327,7 +3327,7 @@
     }
 }
 
-.animate__rotateOutDownLeft[data-v-d58e2dea] {
+.animate__rotateOutDownLeft {
     -webkit-animation-name: rotateOutDownLeft-d58e2dea;
     animation-name: rotateOutDownLeft-d58e2dea;
     -webkit-transform-origin: left bottom;
@@ -3358,7 +3358,7 @@
     }
 }
 
-.animate__rotateOutDownRight[data-v-d58e2dea] {
+.animate__rotateOutDownRight {
     -webkit-animation-name: rotateOutDownRight-d58e2dea;
     animation-name: rotateOutDownRight-d58e2dea;
     -webkit-transform-origin: right bottom;
@@ -3389,7 +3389,7 @@
     }
 }
 
-.animate__rotateOutUpLeft[data-v-d58e2dea] {
+.animate__rotateOutUpLeft {
     -webkit-animation-name: rotateOutUpLeft-d58e2dea;
     animation-name: rotateOutUpLeft-d58e2dea;
     -webkit-transform-origin: left bottom;
@@ -3420,7 +3420,7 @@
     }
 }
 
-.animate__rotateOutUpRight[data-v-d58e2dea] {
+.animate__rotateOutUpRight {
     -webkit-animation-name: rotateOutUpRight-d58e2dea;
     animation-name: rotateOutUpRight-d58e2dea;
     -webkit-transform-origin: right bottom;
@@ -3483,7 +3483,7 @@
     }
 }
 
-.animate__hinge[data-v-d58e2dea] {
+.animate__hinge {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-duration: calc(var(--animate-duration) * 2);
@@ -3546,7 +3546,7 @@
     }
 }
 
-.animate__jackInTheBox[data-v-d58e2dea] {
+.animate__jackInTheBox {
     -webkit-animation-name: jackInTheBox-d58e2dea;
     animation-name: jackInTheBox-d58e2dea
 }
@@ -3579,7 +3579,7 @@
     }
 }
 
-.animate__rollIn[data-v-d58e2dea] {
+.animate__rollIn {
     -webkit-animation-name: rollIn-d58e2dea;
     animation-name: rollIn-d58e2dea
 }
@@ -3608,7 +3608,7 @@
     }
 }
 
-.animate__rollOut[data-v-d58e2dea] {
+.animate__rollOut {
     -webkit-animation-name: rollOut-d58e2dea;
     animation-name: rollOut-d58e2dea
 }
@@ -3637,7 +3637,7 @@
     }
 }
 
-.animate__zoomIn[data-v-d58e2dea] {
+.animate__zoomIn {
     -webkit-animation-name: zoomIn-d58e2dea;
     animation-name: zoomIn-d58e2dea
 }
@@ -3678,7 +3678,7 @@
     }
 }
 
-.animate__zoomInDown[data-v-d58e2dea] {
+.animate__zoomInDown {
     -webkit-animation-name: zoomInDown-d58e2dea;
     animation-name: zoomInDown-d58e2dea
 }
@@ -3719,7 +3719,7 @@
     }
 }
 
-.animate__zoomInLeft[data-v-d58e2dea] {
+.animate__zoomInLeft {
     -webkit-animation-name: zoomInLeft-d58e2dea;
     animation-name: zoomInLeft-d58e2dea
 }
@@ -3760,7 +3760,7 @@
     }
 }
 
-.animate__zoomInRight[data-v-d58e2dea] {
+.animate__zoomInRight {
     -webkit-animation-name: zoomInRight-d58e2dea;
     animation-name: zoomInRight-d58e2dea
 }
@@ -3801,7 +3801,7 @@
     }
 }
 
-.animate__zoomInUp[data-v-d58e2dea] {
+.animate__zoomInUp {
     -webkit-animation-name: zoomInUp-d58e2dea;
     animation-name: zoomInUp-d58e2dea
 }
@@ -3838,7 +3838,7 @@
     }
 }
 
-.animate__zoomOut[data-v-d58e2dea] {
+.animate__zoomOut {
     -webkit-animation-name: zoomOut-d58e2dea;
     animation-name: zoomOut-d58e2dea
 }
@@ -3879,7 +3879,7 @@
     }
 }
 
-.animate__zoomOutDown[data-v-d58e2dea] {
+.animate__zoomOutDown {
     -webkit-animation-name: zoomOutDown-d58e2dea;
     animation-name: zoomOutDown-d58e2dea;
     -webkit-transform-origin: center bottom;
@@ -3914,7 +3914,7 @@
     }
 }
 
-.animate__zoomOutLeft[data-v-d58e2dea] {
+.animate__zoomOutLeft {
     -webkit-animation-name: zoomOutLeft-d58e2dea;
     animation-name: zoomOutLeft-d58e2dea;
     -webkit-transform-origin: left center;
@@ -3949,7 +3949,7 @@
     }
 }
 
-.animate__zoomOutRight[data-v-d58e2dea] {
+.animate__zoomOutRight {
     -webkit-animation-name: zoomOutRight-d58e2dea;
     animation-name: zoomOutRight-d58e2dea;
     -webkit-transform-origin: right center;
@@ -3992,7 +3992,7 @@
     }
 }
 
-.animate__zoomOutUp[data-v-d58e2dea] {
+.animate__zoomOutUp {
     -webkit-animation-name: zoomOutUp-d58e2dea;
     animation-name: zoomOutUp-d58e2dea;
     -webkit-transform-origin: center bottom;
@@ -4025,7 +4025,7 @@
     }
 }
 
-.animate__slideInDown[data-v-d58e2dea] {
+.animate__slideInDown {
     -webkit-animation-name: slideInDown-d58e2dea;
     animation-name: slideInDown-d58e2dea
 }
@@ -4056,7 +4056,7 @@
     }
 }
 
-.animate__slideInLeft[data-v-d58e2dea] {
+.animate__slideInLeft {
     -webkit-animation-name: slideInLeft-d58e2dea;
     animation-name: slideInLeft-d58e2dea
 }
@@ -4087,7 +4087,7 @@
     }
 }
 
-.animate__slideInRight[data-v-d58e2dea] {
+.animate__slideInRight {
     -webkit-animation-name: slideInRight-d58e2dea;
     animation-name: slideInRight-d58e2dea
 }
@@ -4118,7 +4118,7 @@
     }
 }
 
-.animate__slideInUp[data-v-d58e2dea] {
+.animate__slideInUp {
     -webkit-animation-name: slideInUp-d58e2dea;
     animation-name: slideInUp-d58e2dea
 }
@@ -4149,7 +4149,7 @@
     }
 }
 
-.animate__slideOutDown[data-v-d58e2dea] {
+.animate__slideOutDown {
     -webkit-animation-name: slideOutDown-d58e2dea;
     animation-name: slideOutDown-d58e2dea
 }
@@ -4180,7 +4180,7 @@
     }
 }
 
-.animate__slideOutLeft[data-v-d58e2dea] {
+.animate__slideOutLeft {
     -webkit-animation-name: slideOutLeft-d58e2dea;
     animation-name: slideOutLeft-d58e2dea
 }
@@ -4211,7 +4211,7 @@
     }
 }
 
-.animate__slideOutRight[data-v-d58e2dea] {
+.animate__slideOutRight {
     -webkit-animation-name: slideOutRight-d58e2dea;
     animation-name: slideOutRight-d58e2dea
 }
@@ -4242,39 +4242,39 @@
     }
 }
 
-.animate__slideOutUp[data-v-d58e2dea] {
+.animate__slideOutUp {
     -webkit-animation-name: slideOutUp-d58e2dea;
     animation-name: slideOutUp-d58e2dea
 }
 
-[data-v-d58e2dea] .banner {
+.banner {
     margin-bottom: -1.4vw
 }
 
-[data-v-d58e2dea] .tab-content-box .tab-content {
+.tab-content-box .tab-content {
     -moz-animation: unset;
     -o-animation: unset;
     animation: unset;
     -webkit-animation: unset
 }
 
-[data-v-d58e2dea] .wrapslotgame .wrapper {
+.wrapslotgame .wrapper {
     padding: 0;
     background: var(--bgColor08)
 }
 
-[data-v-d58e2dea] .slotgame-box {
+.slotgame-box {
     padding: 1.4vw
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .item-box {
+.slotgame-box .tab-content .item-box {
     position: relative;
     width: 29.6vw;
     height: 37vw;
     margin: 1.4vw
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .item-box:after {
+.slotgame-box .tab-content .item-box:after {
     content: "";
     position: absolute;
     width: 29.6vw;
@@ -4287,7 +4287,7 @@
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAAALCAMAAAAeCCVrAAAAP1BMVEUAAAA1NTU0NDQzMzMzMzMyMjIyMjIzMzM0NDQzMzM0NDQzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM/28D8AAAAFXRSTlMABAsXEwcmMh44DiJZVSxeSGxATWWo4jUVAAABl0lEQVRIx+2Ui27CMAxFk7LQlQ220f3/ty7xoze2xyIkJJjEUVsVGprrg5OUUi5T5UC8NHbMa+ON2VdOzEwszFn5FFbmKLx3fFxCBxwVfLqM/8F4Cj/NKmh0LWVhZuLE7CuigrSIItLF5qZKyamRSSdcQiU8GokwCHt9Qd8bX2N0aF/4dnek+jcF8gXGmEmvmjJOCsfQa+TCrHp1VqdJhBYSSkq91NidahZq1S9YA/3Ts7IIs2+GenJuQFnAnkKNgw1SxVgIFru0QVkIkYkmRYdGoVEpsiO+rQIh5DJTHpcJqRhKBbCCmFJquHY05GZisEcBzo0FxoTUi0aM4R0nE9ws+SgUHar5kMtIhdd6/IU0k2enWGVCcWRA+drF3XQUx2R0x3oA6hpVBZOmHHSC30MlxkEx/zniBOiZPjauAr/rojPdFHlpB1wDbx3SBxX71aRwkSo0mwnHYBF6MkB9RLo7GkSTgdID/VcJIbaqDdASQajO2wPIuhW5F59hBgxcpR68Ivkd7BE67O7khPbp+io97Tz5T/wAE2xGt0FibzMAAAAASUVORK5CYII=)
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .item-box .itme-image,[data-v-d58e2dea] .slotgame-box .tab-content .item-box .item-image {
+.slotgame-box .tab-content .item-box .itme-image,.slotgame-box .tab-content .item-box .item-image {
     width: 29.6vw;
     height: 29.6vw;
     position: relative;
@@ -4304,7 +4304,7 @@
     -o-border-radius: 4px 4px 0 0
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .item-box .itme-bg {
+.slotgame-box .tab-content .item-box .itme-bg {
     position: absolute;
     left: 0;
     top: 0;
@@ -4321,7 +4321,7 @@
     border-bottom: 0px
 }
 
-[data-v-d58e2dea] #tabs-slotgame li a {
+#tabs-slotgame li a {
     position: relative;
     max-width: 25vw;
     overflow-y: hidden;
@@ -4330,7 +4330,7 @@
     white-space: nowrap
 }
 
-[data-v-d58e2dea] #tabs-slotgame li:first-child a {
+#tabs-slotgame li:first-child a {
     -webkit-animation: rainbow-d58e2dea 4s ease infinite;
     -moz-animation: rainbow-d58e2dea 4s ease infinite;
     -o-animation: rainbow-d58e2dea 4s ease infinite;
@@ -4343,7 +4343,7 @@
     background-size: 600% 600%
 }
 
-[data-v-d58e2dea] #tabs-slotgame li:first-child.active a {
+#tabs-slotgame li:first-child.active a {
     -webkit-animation: rainbow-d58e2dea 4s ease infinite;
     -moz-animation: rainbow-d58e2dea 4s ease infinite;
     -o-animation: rainbow-d58e2dea 4s ease infinite;
@@ -4412,16 +4412,16 @@
     }
 }
 
-[data-v-d58e2dea] ul.tab-type {
+ul.tab-type {
     -ms-overflow-style: none;
     scrollbar-width: none
 }
 
-[data-v-d58e2dea] ul.tab-type::-webkit-scrollbar {
+ul.tab-type::-webkit-scrollbar {
     display: none
 }
 
-[data-v-d58e2dea] ul.tab-type li a .tab-logo.slot-tab-favorite {
+ul.tab-type li a .tab-logo.slot-tab-favorite {
     background-image: url(../assets/image/slot-tab-favorite-936ce55a.png);
     -moz-animation: pulse-d58e2dea 1s infinite;
     -o-animation: pulse-d58e2dea 1s infinite;
@@ -4429,15 +4429,15 @@
     -webkit-animation: pulse-d58e2dea 1s infinite
 }
 
-[data-v-d58e2dea] ul.tab-type li a .tab-logo.slot-tab-all-game {
+ul.tab-type li a .tab-logo.slot-tab-all-game {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAABCCAMAAADudo3sAAAC7lBMVEUAAADpoC1/RxqEXTQAAABmDAqpYBvtvUy3fDtAMh/FmlHo0YXkyHHblCuHcEU1ERG2XhqlaDbjqlvdolmkXiHqozrfrHXLqV6ccTi+YV3eljSyWFbwrUbVjDd8XDEAAACiekLQdzBwCQkAAAAAAAAAAACgby1/Ux6KWh6qf0N4Wy7uyF25uLjjuVGedT+8j0r59b7EZx+YZSH5+fnPz9CacjygoKC+jTqVbjmKZzaxXQ/e3dzFkTyke0H80T+PXiVgQh305XbSmDyXZixjRB2pqan52nDfqSpnRx7QfhPi4d+Xl5fzT1HjsETWnj7hmyqHXCjz8fH/sVGFZDV9XzPtx2usgETfqkGRazmlcC2SYimwDQrm5ua0fzOCYDLHVAj/5WfjvGHUqFHry0zotkb9xjyrdS7CRgfq6+vMzMykpKSxhEaNaTamJROVEQ2sopD/7mvdt13WpkXapEBsSR63OALw4Zb//3rJjjXzMi3aMSe5ax69Pwb22mS4ikfgjijWgh2oV1vKSk3On0n0BweIhoZ8dXb/ujftsjNKLi/8ny3EciKEVx+1Zhzw137PgHn+4nHfnU3SlUzMlT3pqy6CVyQ0BgXJAgG1AgH8+Lj78pX/+HJmVlj/rTHmMyqlZiKoTBv8GxpfMhfNVgrIx8fz6aaEgHvbrlPhqUzLfUZUQkPlSz+8Vj3nuzzMQynBeyi5RyXAIRbrfhX0zsi/v7+enZ7sv2T0p1DDkUynaTr9RDinPzjPXjQcGxfRYhaBFRKpMAl/BwYfAgJGAgHZAQBXAQCSkJCmnIyelIb/7XSHWV21bz59OTutejXhPiiWMCdvUCZ4TR2nOB3VbhHiEA7jmY11bWfpoFnu0VisSUjBekL/40F+WSp0VCrQJiKnBgX24uDtv7rng3T//FNjTU3Ah0fQljfdgTereTa/RS+AIyOimIi4cG1wX2PZcV7/4VL+jkLsiD1fNzmbWzGGQiDIZBj9LiZ0OSXFWRumczWM5Pi8AAAAJnRSTlMA/hVV/v2Y/Bz+/Pv69v7564VjSELfLfrg3M/Dr5N+Y1TJw6+DTW6+nX8AAAeySURBVGje7ZlnVFJhGIA/2nvvPUWIsCwSAsQiGlKpgYSklJY4QEoqKzO0XNjWrCwzTa2srNSyYWa2d1m2995796/3w/TCqXMaP746nZ4/vvf53nN8DudejveI/vOf//xhGrZu2bJ1ZfS30qa6r6PjuC3ArfOOjr6+TRuhv4rGTWmx0JUYUXr+zoJnCxYs+GTa6AjCROvYDP0NNGqaaLp4y81tS1jY5DC/22cf52R/LCx2oZnGXrx1y20LzURrVQP9QdrWdaElmkyJ4eaPL2gyjgw6mzci7XEQHAw7D/Z89kCTyURzqduqMSIPJLoAEaWlpRmjX5zOKTx9ujxydlqOHiLj74C9vGvZ6vndNibCal1Enhou4eHho/1GY16czQvJKYvUBxUXB+3agyPBzs/etWx5v0sbBw2C5T9Q2QaejNFh5ki/BfriMD2OLD6/R793794nVSNoiQnZQcVhu8oiXSJMsI6IU2f58uWTyyKLs/fob+r1cFOey70RCuTm5haVBgXpgT0hZZEusE7+Sa+9bNkyc2RGxrTQUwUFpzYV5uW9fvj61atXrx8+fJiXt2FTQcG00FyXMebICFgn/+w0KCp6D5FF4Sm+viNGjHnpGxvrCzjevZt89+5V/C0Z6/jyZezsFN8UWqJLxPuioqImiDQN/Pz8Jn+C54E2OyXW8epVx9iU2UAKTsUjZWnh4RGl72EdR1Zq374rIkaDjIyMcTOAMWPGTJiQnDxhwgSY8GyeLC3eioB1iOxSBVMJEaGdTJyWltbz55kH6/VkqEqV/Xr9/s6IBHIvB0sEZhYB/b+C5zJrtfioypIbG0Jz6yMS+AykWIg5evRocvIUK5KTQZoPqd0Zu6ve2HIntyoiwY5uv0f1mgdzb9wY1QmRwNj99xjWbt/NUaNuknlwGAYDm2mJ3GgwcKyNwGDQWRl1pGF4B1Qp/SMiA1sgUDs5OQ0YMBgYMMDJaRJHIGBaG6FAUAKCMiUMgUMHhJg8RAadl5d2gBP8+kkALri+w8tL6GRp1GC4lmaw2s5LUxkhDgORgafRaF3XHDk8HnP46ZELbCOYaxamnlCr0SgszTWGQuOBIxWIDDKNhiHM5Ds7e3o6Ozvz+SwGA5sAyvRRCDUaIbs3ZYRgbEhGqj08OFzPXhVkcjkeHlyOG2VYXDY2/pRhg0klGmljw5P7u/m7efaGMH+3ALXOxoMnd6MMS8YtN869e2EjA2NP8p6ESDnT8/nMFTNnzTx2bGZMAFOGjRtlWEydtYmWMwlHXhOL1UznFUMvD8XMis5kysRiOdOfMhAptgFzr9zkQ6RYRDRSpVIz+euHzjqxa9abDSectzJ5Ksj2pIxErqswl7Fxk8u5KqKR10UimZwfF5run7/+yco4/61ynkglkztTRqJWfjVx/ofinoSu95epuaK5DRs14jAak3nZue7qypP1XnMvxjNmz6qqmZ4smQ4bPmUkMqXZxNyL9lwBhu/Jk3Fd6bbDs7iMrKxIRICSxYt1vEw+n39hb9S5OPie5Cmx6U2ZPpRZoY9aup7PV/K4i8/gSGFWlgARQPfopFLJCgiQHIyKOrg1ICBQyT0JZitlpGAemc2hqmAyAwLqKTknPegOPK6Qt8gLEcDOx4fDCWSx6i89cGAJi8WSctjYSCgTXWZgWnLgwIH68JPDEfpEnrFRX1erP6sQAezc3YVsqUSyf+nSm3ESiSSaLcQmnzIxbAY2fcxGvx4MW6h130Y3ymrWlNVSIAIY3d21wmipdH9S0t4VUqk0hqHF5hBlLmCjABN9MCmpagwYIcPo7i3y4e3ezQuuhQig9fY2KqSBffYtWbJvTWBgYLTCCIYhDcwvNzFao3ewkZEfuAabPmAYWjvvtapgHOnugwggXLt2ByOQVYFUuwOMUEKZaK3d2rV2QhaFEIzBNlK3e7fOxwERgBMZaVSyelcQyLWLjNQqt1JGygGj0GVWiAAumEV0B2XNmkrBSUQArkDA5UX3qeACD14olLxDlKnHg9cHnYXJ14FxmGTDcXLiPBIjAvDg1YBtCYf7jeF8x2icXMVcrlhFRwSAP3oZCgYFXHxjFN/ZsU9f7Io5gwjAVKmMCQnx27ePwGy/GJ/gZa+6nxAfD6LcaOztdyTEXyw38QkJHirbdJEYsxgR4DqdPtdWZJ86b/qcOXOmp6aKbOcC2GAxZ16qPRg6GPtUMLCCzdy59DMkI0vovwVEuoowRO7JEtvfg55OJ3dPlthj3gaNwgTZwpz2dRbZWyM+a3kgSndVYVogAoj6YvxWTgNWhobBfOrrDKM1Ky0PpjepUaNSpUqICNXqRgwZElG46lzBh6ilSTkwf4haVbDqXNKo40Os2bzqHBxEJSVdgQuXOQT6qMjp8E+ukQmFjzec2vQ4+/7UQVnrCjfBnJN9f5A18es2VRxsfDCPbOTUbpfGrruyc92V4zt3vvMaW33d8eNwufPtO8NYK7IqDobNMGwmHelTe/X8bd7u27yDg7379eu3zRvm4OBg935WUAchIYap5CPrhPT4FeYH/6nI1bW9Jz7ojxluZiIw0swwM+Mw1WfMD1kd8kcjh/+1kQ2/+0lO/HEkIkgNiGzevJbdL1CrVuTUzQ0QSWq0sPkNGqL//Oef4QtBBb+HLQ6DUQAAAABJRU5ErkJggg==)
 }
 
-[data-v-d58e2dea] #tabs-slotgame li a {
+#tabs-slotgame li a {
     position: relative
 }
 
-[data-v-d58e2dea] #tabs-slotgame li.event a:before {
+#tabs-slotgame li.event a:before {
     content: "";
     position: absolute;
     left: 0;
@@ -4451,7 +4451,7 @@
     background-image: url(../assets/image/tag-dailywins-855bd875.png)
 }
 
-[data-v-d58e2dea] #tabs-slotgame li.promotion a:before {
+#tabs-slotgame li.promotion a:before {
     content: "";
     position: absolute;
     left: 0;
@@ -4465,7 +4465,7 @@
     background-image: url(../assets/image/tag-promotion-d22144d2.png)
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .item-box .btm-info .name {
+.slotgame-box .tab-content .item-box .btm-info .name {
     width: 29.6vw;
     max-width: 29.6vw;
     height: 7.4vw;
@@ -4488,13 +4488,13 @@
     -o-border-radius: 0 0 4px 4px
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .wrapper {
+section .slotgame-lobby .wrapper {
     padding: 3vw 2vw;
     margin-top: 0vw;
     background: var(--bgColor01)
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .slotgame-box {
+section .slotgame-lobby .slotgame-box {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
@@ -4513,7 +4513,7 @@
     padding: 0
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box {
+section .slotgame-lobby .item-box {
     position: relative;
     width: 45vw;
     height: 47.6vw;
@@ -4541,7 +4541,7 @@
     -o-border-radius: 2px
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box .game-logo {
+section .slotgame-lobby .item-box .game-logo {
     position: absolute;
     top: 1.6vw;
     right: 2.6vw;
@@ -4554,7 +4554,7 @@
     z-index: 2
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box:after {
+section .slotgame-lobby .item-box:after {
     content: "";
     width: 45vw;
     height: 2vw;
@@ -4567,7 +4567,7 @@
     background-image: url(../../../../KD001-02/assets/images/lobby/slotGame/images/slot-shadow.png)
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box .itme-image {
+section .slotgame-lobby .item-box .itme-image {
     background-position: center;
     background-repeat: no-repeat;
     -o-background-size: cover;
@@ -4581,7 +4581,7 @@
     border: 1px solid var(--borderColor20)
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box .btm-info {
+section .slotgame-lobby .item-box .btm-info {
     position: absolute;
     bottom: .4vw;
     display: -webkit-flex;
@@ -4609,7 +4609,7 @@
     border-right: 1px solid var(--borderColor20)
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box .btm-info .name {
+section .slotgame-lobby .item-box .btm-info .name {
     width: 63vw;
     max-width: 63vw;
     white-space: nowrap;
@@ -4619,7 +4619,7 @@
     text-align: left
 }
 
-[data-v-d58e2dea] section .slotgame-lobby .item-box .btm-info button {
+section .slotgame-lobby .item-box .btm-info button {
     width: 42vw;
     font-size: .65rem;
     background: var(--btnColor11);
@@ -4632,11 +4632,11 @@
     -o-border-radius: .4vw
 }
 
-[data-v-d58e2dea] .search-block {
+.search-block {
     padding: 1.4vw 0vw
 }
 
-[data-v-d58e2dea] .search-input {
+.search-input {
     width: 94.4vw;
     margin: 2vw auto 0vw;
     border: 1px solid var(--borderColor07);
@@ -4656,27 +4656,27 @@
     font-size: .875rem
 }
 
-[data-v-d58e2dea] .search-input input {
+.search-input input {
     width: 78vw
 }
 
-[data-v-d58e2dea] .search-input span {
+.search-input span {
     color: var(--txtColor46)
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-    [data-v-d58e2dea] .slotgame-box .tab-content .item-box .btm-info .name {
+    .slotgame-box .tab-content .item-box .btm-info .name {
         font-size:1.25rem
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    [data-v-d58e2dea] .slotgame-box .tab-content .item-box .btm-info .name {
+    .slotgame-box .tab-content .item-box .btm-info .name {
         font-size:1.6rem
     }
 }
 
-[data-v-d58e2dea] .choose-provider {
+.choose-provider {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
@@ -4694,11 +4694,11 @@
     margin: 0vw auto
 }
 
-[data-v-d58e2dea] .choose-provider.on {
+.choose-provider.on {
     color: var(--txtColor44)
 }
 
-[data-v-d58e2dea] .choose-provider a {
+.choose-provider a {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
@@ -4708,17 +4708,17 @@
     margin-left: 2vw
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .provider-box .itme-image {
+.slotgame-box .tab-content .provider-box .itme-image {
     border-bottom: 0px;
     -o-background-size: 100%;
     background-size: 100%
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .provider-box.slot-tab-favorite .itme-image {
+.slotgame-box .tab-content .provider-box.slot-tab-favorite .itme-image {
     background-image: url(../assets/image/slot-tab-favorite-936ce55a.png)
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .provider-box.event:before {
+.slotgame-box .tab-content .provider-box.event:before {
     content: "";
     position: absolute;
     left: 0;
@@ -4732,7 +4732,7 @@
     background-image: url(../assets/image/tag-dailywins-855bd875.png)
 }
 
-[data-v-d58e2dea] .slotgame-box .tab-content .provider-box.promotion:before {
+.slotgame-box .tab-content .provider-box.promotion:before {
     content: "";
     position: absolute;
     left: 0;
@@ -4746,7 +4746,7 @@
     background-image: url(../assets/image/tag-promotion-d22144d2.png)
 }
 
-[data-v-d58e2dea] .trial-overlay {
+.trial-overlay {
     position: absolute;
     width: 29.6vw;
     height: 29.6vw;
@@ -4756,7 +4756,7 @@
     z-index: 100
 }
 
-[data-v-d58e2dea] .trial-overlay .btns {
+.trial-overlay .btns {
     width: 100%;
     display: -webkit-flex;
     display: -moz-box;
@@ -4782,7 +4782,7 @@
     -o-transform: translate(-50%,-50%)
 }
 
-[data-v-d58e2dea] .trial-overlay .btns button {
+.trial-overlay .btns button {
     font-size: .875rem;
     font-weight: 700;
     padding: 1.4vw;

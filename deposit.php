@@ -27,30 +27,42 @@ include('inc/versions.php');
 
 <body>
 
-    <div id="app" data-v-app="" class="webp">
+    <div id="app" class="webp">
         <div>
-            <div data-v-79613b41="" class="allContent">
+            <div class="allContent">
                 <?php include('inc/sidemenu.php'); ?>
 
-                <div data-v-79613b41="" class="rightContent homePage">
-                    <div data-v-79613b41="" class="contents">
-                        <div data-v-79613b41="" class="main_content_continer">
+                <div class="rightContent homePage">
+                    <div class="contents">
+                        <div class="main_content_continer">
                             <?php include('inc/header.php'); ?>
 
-                            <div data-v-f788cc95="" data-v-6e4ca0c7="">
-                                <div data-v-7f3aef84="" data-v-f788cc95="" class="main-content">
-                                    <div data-v-7f3aef84="" class="">
-                                        <div data-v-7f3aef84="" class="titlePic">
-                                            <div data-v-7f3aef84="" class="titlePwrapper">
-                                                <div data-v-7f3aef84="" class="leftZone"><span data-v-f788cc95="" class="icon-iiconLogoB"></span><span data-v-f788cc95="">입금</span></div>
-                                                <div data-v-7f3aef84="" class="line"></div>
+                            <div>
+                                <div class="main-content">
+                                    <div class="">
+                                        <div class="titlePic">
+                                            <div class="titlePwrapper">
+                                                <div class="leftZone"><span class="icon-iiconLogoB"></span><span>입금</span></div>
+                                                <div class="line"></div>
                                             </div>
                                         </div>
-                                        <div data-v-7f3aef84="" class="main_content">
-                                            <div data-v-f788cc95="" class="v_deep_promotion">
-                                                <div data-v-f788cc95="" class="main_content_wrap main_content_wrap_notice main_content_wrap_promotion">
-                                                    <div data-v-f788cc95="" class="gameZoneA">
-                                                        Deposit
+                                        <div class="main_content">
+                                            <div class="main_content v_deep_deposit">
+                                                <div class="main_content_wrap main_content_wrap_notice deposit">
+                                                    <div>
+                                                        <div class="fundFrame noticeFrame">
+                                                            <div class="tabZone">
+                                                                <ul>
+                                                                    <li class="deposit-view active" id="_req_deposit">
+                                                                        <h4>입금신청</h4>
+                                                                    </li>
+                                                                    <li class="deposit-view" id="_deposit_history">
+                                                                        <h4>입금내역</h4>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="subZone" id="deposit-sub"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -62,12 +74,12 @@ include('inc/versions.php');
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <!----><!---->
         </div>
         <!----><!---->
-        
+
         <div class="modals-container"></div>
         <div id="login-container"></div>
 
