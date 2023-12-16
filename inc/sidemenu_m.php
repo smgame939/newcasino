@@ -1,14 +1,14 @@
 <?php
-$logged_in = '0';
+$logged_in = '1';
 ?>
 
 <nav class="slide-content-left"><!----><!---->
     <?php if ($logged_in === '1') { ?>
         <div class="point-list">
-            <div class="p-amount"><span class="icon-p-point"></span><span>0</span></div><button>전환</button>
+            <div class="p-amount"><span class="icon-p-point"></span><span>0</span></div><button onclick="window.location.href='/point.php'">전환</button>
         </div>
         <div class="vip-box">
-            <div class="vip-icon"><img src="assets/image/vipicon1.png" alt=""></div>
+            <div class="vip-icon"><img src="assets/image/vipicon1.png?v=001" alt=""></div>
             <h4>일반</h4>
         </div>
     <?php } else { ?>

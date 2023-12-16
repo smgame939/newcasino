@@ -352,25 +352,7 @@
                 </div>
             </section>
             <div id="promotion"></div>
-            <footer id="footer" class="touch-none">
-                <ul>
-                    <li class=""><a href="javascript:;" aria-label="입금"><span class="icon-deposit"></span>
-                            <div>입금</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="출금"><span class="icon-withdraw"></span>
-                            <div>출금</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="홈"><span class="icon-home"></span>
-                            <div>홈</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="이벤트"><span class="icon-event"></span>
-                            <div>이벤트</div>
-                        </a></li>
-                    <li class=""><a href="javascript:;" aria-label="고객센터"><span class="icon-customer"></span>
-                            <div>고객센터</div>
-                        </a></li>
-                </ul>
-            </footer><!---->
+            <?php include('inc/footer_m.php'); ?>
         </section><!----><!----><!---->
         <div class="vfm vfm--inset vfm--fixed" show-modal="false" style="z-index: 1000; display: none;"><!--v-if-->
             <div class="vfm__container vfm--absolute vfm--inset vfm--outline-none model-main popup-guestmail model-open" aria-expanded="false" role="dialog" aria-modal="true" tabindex="-1" style="display: none;">

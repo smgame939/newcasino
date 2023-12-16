@@ -45,6 +45,8 @@
       include('pages/main_pc.php'); 
     }
   ?>
+
+
   <!-- END DESKTOP -->
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>

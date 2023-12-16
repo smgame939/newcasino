@@ -302,6 +302,7 @@ include('inc/versions.php');
                 </div>
             </div>
         </div>
+        
         <div class="modals-container"></div>
         <div id="login-container"></div>
 

@@ -1,7 +1,7 @@
 <?php
-    include_once('class/mobiledetect.class.php');
-    include('inc/versions.php');
-    $mdetect = new MobileDetect();
+include_once('class/mobiledetect.class.php');
+include('inc/versions.php');
+$mdetect = new MobileDetect();
 ?>
 <!DOCTYPE html>
 <html lang="ko-KR" style="--font-family: Noto Sans KR; --vh: 9.45px;">
@@ -21,30 +21,31 @@
   <link rel="stylesheet" href="css/live_casino.css?v=<?php echo $ver; ?>" />
   <link rel="stylesheet" href="css/newv3.css?v=<?php echo $ver; ?>">
 
-  <?php if($mdetect->isMobile()) { ?>
+  <?php if ($mdetect->isMobile()) { ?>
     <link rel="stylesheet" href="mobilecss/main.css?v=<?php echo $ver; ?>">
     <link rel="stylesheet" href="mobilecss/live_casino_m.css?v=<?php echo $ver; ?>">
     <link rel="stylesheet" href="mobilecss/swiper_m.css?v=<?php echo $ver; ?>">
   <?php } ?>
 </head>
-	
-    <body>
-        
-         <!-- MOBILE -->
-  <?php 
-    if($mdetect->isMobile()) { 
-      include('pages/live_casino_m.php'); 
-    } else {
+
+<body>
+
+  <!-- MOBILE -->
+  <?php
+  if ($mdetect->isMobile()) {
+    include('pages/live_casino_m.php');
+  } else {
   ?>
-  <!-- END MOBILE -->
-  <!-- DESKTOP -->
-  <?php 
-      include('pages/live_casino_pc.php'); 
-    }
+    <!-- END MOBILE -->
+    <!-- DESKTOP -->
+  <?php
+    include('pages/live_casino_pc.php');
+  }
   ?>
   <!-- END DESKTOP -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/swiper-bundle.js"></script>
-        <script src="js/newv3.js?v=<?php echo $ver; ?>"></script>
-	</body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/swiper-bundle.js"></script>
+  <script src="js/newv3.js?v=<?php echo $ver; ?>"></script>
+</body>
+
 </html>

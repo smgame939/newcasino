@@ -51,18 +51,18 @@
                                     <div class="icon"><img src="assets/image/Slot.png" alt=""></div>
                                     <div class="tab-name">슬롯</div>
                                 </a></li>
-                            <li id="tab-2" class="menu-item"><a aria-label="Sport">
+                            <!-- <li id="tab-2" class="menu-item"><a aria-label="Sport">
                                     <div class="icon"><img src="assets/image/Sport.png" alt=""></div>
                                     <div class="tab-name">스포츠</div>
-                                </a></li>
+                                </a></li> -->
                             <li id="tab-3" class="menu-item"><a aria-label="Lottery">
                                     <div class="icon"><img src="assets/image/Lottery.png" alt=""></div>
                                     <div class="tab-name">미니게임</div>
                                 </a></li>
-                            <li id="tab-4" class="menu-item"><a aria-label="VSport">
+                            <!-- <li id="tab-4" class="menu-item"><a aria-label="VSport">
                                     <div class="icon"><img src="assets/image/VSport.png" alt=""></div>
                                     <div class="tab-name">가상게임</div>
-                                </a></li>
+                                </a></li> -->
                         </ul>
                         <div id="tab-maingame" class="tab-content-box maingame-content-box">
                             <div class="tab-maingame-content">
@@ -157,12 +157,12 @@
                                     <li id="nav-1" class="game-item scroll-stop-element wow-nav navsort-m-FCSlot" gamename="FCSlot"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>FC 슬롯</span>
                                         </a></li><!----><!----><!----><!----><!---->
-                                    <li id="nav-2" class="game-item scroll-stop-element wow-nav snap-stop-always navsort-m-LiveSport" gamename="LiveSport"><a href="javascript:void(0)">
+                                    <!-- <li id="nav-2" class="game-item scroll-stop-element wow-nav snap-stop-always navsort-m-LiveSport" gamename="LiveSport"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>스포츠실시간</span>
                                         </a></li>
                                     <li id="nav-2" class="game-item scroll-stop-element wow-nav navsort-m-EuropeanSport" gamename="EuropeanSport"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>스포츠</span>
-                                        </a></li>
+                                        </a></li> -->
                                     <li id="nav-3" class="game-item scroll-stop-element wow-nav snap-stop-always navsort-m-MiniPowerBall" gamename="MiniPowerBall"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>파워볼</span>
                                         </a></li>
@@ -175,7 +175,7 @@
                                     <li id="nav-3" class="game-item scroll-stop-element wow-nav navsort-m-MiniSpeedKeno" gamename="MiniSpeedKeno"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>스피드키노</span>
                                         </a></li>
-                                    <li id="nav-4" class="game-item scroll-stop-element wow-nav snap-stop-always navsort-m-BetradarVFAS" gamename="BetradarVFAS"><a href="javascript:void(0)">
+                                    <!-- <li id="nav-4" class="game-item scroll-stop-element wow-nav snap-stop-always navsort-m-BetradarVFAS" gamename="BetradarVFAS"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>[축구] 아시안컵</span>
                                         </a></li>
                                     <li id="nav-4" class="game-item scroll-stop-element wow-nav navsort-m-BetradarVFCC" gamename="BetradarVFCC"><a href="javascript:void(0)">
@@ -207,8 +207,8 @@
                                         </a></li>
                                     <li id="nav-4" class="game-item scroll-stop-element wow-nav navsort-m-BetradarVDK" gamename="BetradarVDK"><a href="javascript:void(0)">
                                             <div class="logo"></div><span>개경주</span>
-                                        </a></li>
-                                    <li class="emptySpace"></li><!---->
+                                        </a></li> -->
+                                    
                                 </ul>
                             </div>
                         </div>
